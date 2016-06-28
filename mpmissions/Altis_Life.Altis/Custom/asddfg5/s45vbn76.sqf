@@ -37,14 +37,14 @@ switch (playerSide) do
 				if (((_zone1 distance player < _zone1dis) || (_zone2 distance player < _zone2dis) || (_zone3 distance player < _zone3dis) || (_zone4 distance player < _zone4dis) || (_zone5 distance player < _zone5dis) || (_zone6 distance player < _zone6dis) || (_zone7 distance player < _zone7dis) || (_zone8 distance player < _zone8dis) || (_zone9 distance player < _zone9dis)) && (!_inArea)) then
 				{
 					_inArea = true;
-					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Wchodzisz do SAFEZONE<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
+					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Aviso Zona Segura<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
 					player allowDamage false;
 					safezone = true;
 				};
 				if (((_zone1 distance player > _zone1dis) && (_zone2 distance player > _zone2dis) && (_zone3 distance player > _zone3dis) && (_zone4 distance player > _zone4dis) && (_zone5 distance player > _zone5dis) && (_zone6 distance player > _zone6dis) && (_zone7 distance player > _zone7dis) && (_zone8 distance player > _zone8dis) || (_zone9 distance player < _zone9dis)) && (_inArea)) then
 				{
 					_inArea = false;
-					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Opuszczasz SAFE ZONE<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
+					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Aviso Zona Segura<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
 					player allowDamage true;
 					safezone = false;
 				};
@@ -63,7 +63,7 @@ switch (playerSide) do
 				{
 					_eh1 = player addEventHandler ["fired", {deleteVehicle (_this select 6);}];
 					_inArea = true;
-					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Wchodzisz do SAFEZONE<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
+					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Aviso Zona Segura<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
 					player allowDamage false;
 					safezone = true;
 				};
@@ -71,7 +71,7 @@ switch (playerSide) do
 				{
 					player removeEventHandler ["fired", _eh1];
 					_inArea = false;
-					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Opuszczasz SAFE ZONE<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
+					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Aviso Zona Segura<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
 					player allowDamage true;
 					safezone = false;
 				};
@@ -89,7 +89,7 @@ switch (playerSide) do
 				if (((_zone1 distance player < _zone1dis) || (_zone2 distance player < _zone2dis) || (_zone3 distance player < _zone3dis) || (_zone4 distance player < _zone4dis) || (_zone5 distance player < _zone5dis) || (_zone6 distance player < _zone6dis) || (_zone7 distance player < _zone7dis) || (_zone8 distance player < _zone8dis) || (_zone9 distance player < _zone9dis)) && (!_inArea)) then
 				{
 					_inArea = true;
-					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Wchodzisz do SAFEZONE<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
+					hint parseText format["<t color='#00ff00'><t size='2'><t align='center'>Aviso Zona Segura<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
 					player allowDamage false;
 					safezone = true;
 					imAuto = false;
@@ -97,7 +97,7 @@ switch (playerSide) do
 				if (((_zone1 distance player > _zone1dis) && (_zone2 distance player > _zone2dis) && (_zone3 distance player > _zone3dis) && (_zone4 distance player > _zone4dis) &&(_zone5 distance player > _zone5dis) && (_zone6 distance player > _zone6dis) && (_zone7 distance player > _zone7dis) && (_zone8 distance player > _zone8dis) && (_zone9 distance player > _zone9dis)) && (_inArea)) then
 				{
 					_inArea = false;
-					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Opuszczasz SAFE ZONE<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
+					hint parseText format["<t color='#ffff00'><t size='2'><t align='center'>Aviso Zona Segura<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
 					player allowDamage true;
 					safezone = false;
 					imAuto = true;

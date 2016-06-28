@@ -25,7 +25,7 @@ class SlotMachineGUI
         class RscText_1000: life_RscText
         {
             idc = -1;
-            text = "Wygrana:"; //--- ToDo: Localize;
+            text = "Winnings:"; //--- ToDo: Localize;
             x = 0.355625 * safezoneW + safezoneX;
 			y = 0.709 * safezoneH + safezoneY;
 			w = 0.2475 * safezoneW;
@@ -36,7 +36,7 @@ class SlotMachineGUI
         class RscText_1003: life_RscText
         {
             idc = -1;
-            text = "Obstaw"; //--- ToDo: Localize;
+            text = "Betting"; //--- ToDo: Localize;
             x = 0.298906 * safezoneW + safezoneX;
 			y = 0.577 * safezoneH + safezoneY;
 			w = 0.0567187 * safezoneW;

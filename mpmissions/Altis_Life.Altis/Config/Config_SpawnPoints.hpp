@@ -62,7 +62,7 @@ class CfgSpawnPoints {
         };
 
         class RebelS {
-            displayName = "Rebelia PÓŁNOC";
+            displayName = "Base Rebelde Norte";
             spawnMarker = "Rebelop";
             icon = "icons\civspawn.paa";
             licenses[] = { { "rebel", true } };
@@ -70,7 +70,7 @@ class CfgSpawnPoints {
         };
 
         class RebelN {
-            displayName = "Rebelia POŁUDNIE";
+            displayName = "Base Rebelde Sul";
             spawnMarker = "Rebelop_1";
             icon = "icons\civspawn.paa";
             licenses[] = { { "rebel", true } };
@@ -78,7 +78,7 @@ class CfgSpawnPoints {
         };
 
         class RebelE {
-            displayName = "Rebelia ZADUPIE";
+            displayName = "Base Rebelde Leste";
             spawnMarker = "Rebelop_2";
             icon = "icons\civspawn.paa";
             licenses[] = { { "rebel", true } };
@@ -136,7 +136,7 @@ class CfgSpawnPoints {
         };
 
         class Training {
-            displayName = "Treing HQ";
+            displayName = "Treino HQ";
             spawnMarker = "cop_spawn_7";
             icon = "icons\policespawn.paa";
             licenses[] = { { "", true } };
@@ -146,7 +146,7 @@ class CfgSpawnPoints {
 
     class Medic {
         class Kavala {
-            displayName = "Kavala Szpital";
+            displayName = "Kavala Hospital";
             spawnMarker = "medic_spawn_1";
             icon = "icons\medspawn.paa";
             licenses[] = { { "", true } };
@@ -154,7 +154,7 @@ class CfgSpawnPoints {
         };
 
         class Athira {
-            displayName = "Athira Region";
+            displayName = "Athira Regional";
             spawnMarker = "medic_spawn_2";
             icon = "icons\medspawn.paa";
             licenses[] = { { "", true } };
@@ -162,7 +162,7 @@ class CfgSpawnPoints {
         };
 
         class Pyrgos {
-            displayName = "Pyrgos Szpital";
+            displayName = "Pyrgos Hospital";
             spawnMarker = "medic_spawn_3";
             icon = "icons\medspawn.paa";
             licenses[] = { { "", true } };
