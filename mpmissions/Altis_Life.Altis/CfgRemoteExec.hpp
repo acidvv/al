@@ -48,7 +48,7 @@ class CfgRemoteExec {
         F(life_fnc_revived,CLIENT)
         F(life_fnc_robPerson,CLIENT)
         F(life_fnc_robReceive,CLIENT)
-		    F(life_fnc_lockDown,CLIENT)
+		F(life_fnc_lockDown,CLIENT)
         F(life_fnc_searchClient,CLIENT)
         F(life_fnc_seizeClient,CLIENT)
         F(life_fnc_soundDevice,CLIENT)
@@ -74,7 +74,7 @@ class CfgRemoteExec {
         F(life_fnc_vAH_reciever,CLIENT)
         F(life_fnc_civRestrain,CLIENT)
         F(life_fnc_medicrestrain,CLIENT)
-		    F(life_fnc_hasOrgan,CLIENT)
+		F(life_fnc_hasOrgan,CLIENT)
         F(life_fnc_ticketPromptmedic,CLIENT)
         F(life_fnc_ticketPaidmedic,CLIENT)
         F(life_fnc_teargas,CLIENT)
@@ -117,6 +117,7 @@ class CfgRemoteExec {
         F(TON_fnc_updateHouseContainers,SERVER)
         F(TON_fnc_updateHouseTrunk,SERVER)
         F(TON_fnc_vehicleCreate,SERVER)
+		F(TON_fnc_insureCar,SERVER)
         F(TON_fnc_vehicleDelete,SERVER)
         F(TON_fnc_vehicleStore,SERVER)
         F(TON_fnc_vehicleUpdate,SERVER)
@@ -125,7 +126,6 @@ class CfgRemoteExec {
         F(TON_fnc_vAH_update,SERVER)
 		    F(TON_fnc_vAH_init,SERVER)
         F(TON_fnc_changePrice,SERVER)
-        F(TON_fnc_insureCar,SERVER)
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)

@@ -50,7 +50,7 @@ class WeaponShops {
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 9500, 2500 },
-			{ "hgun_Rook40_FF", "Rook 9mm", 6500, 2500 },
+			{ "hgun_Rook40_F", "Rook 9mm", 6500, 2500 },
             { "hgun_ACPC2_F", "ACP .45", 6250, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 43000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 43000, 2500 },
@@ -96,7 +96,7 @@ class WeaponShops {
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 9000, 2500 },
-			{ "hgun_Rook40_FF", "Rook 9mm", 6000, 2500 },
+			{ "hgun_Rook40_F", "Rook 9mm", 6000, 2500 },
             { "hgun_ACPC2_F", "ACP .45", 6050, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 41000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 41000, 2500 },
@@ -148,7 +148,7 @@ class WeaponShops {
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 8000, 2500 },
-			{ "hgun_Rook40_FF", "Rook 9mm", 5000, 2500 },
+			{ "hgun_Rook40_F", "Rook 9mm", 5000, 2500 },
             { "hgun_ACPC2_F", "ACP .45", 5050, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 38000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 38000, 2500 },
@@ -203,7 +203,7 @@ class WeaponShops {
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 7000, 2500 },
-			{ "hgun_Rook40_FF", "Rook 9mm", 4000, 2500 },
+			{ "hgun_Rook40_F", "Rook 9mm", 4000, 2500 },
             { "hgun_ACPC2_F", "ACP .45", 4050, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 34000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 34000, 2500 },
@@ -259,7 +259,7 @@ class WeaponShops {
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 6000, 2500 },
-			{ "hgun_Rook40_FF", "Rook 9mm", 3000, 2500 },
+			{ "hgun_Rook40_F", "Rook 9mm", 3000, 2500 },
             { "hgun_ACPC2_F", "ACP .45", 3050, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 30000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 30000, 2500 },
@@ -476,8 +476,6 @@ class WeaponShops {
             { "arifle_MX_F", "MX 6.5 mm", 65000, 7500 },
             { "LMG_Mk200_F", "Mk200 6.5 mm", 150000, 7500 },
 			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 75000, 7500 }
-			{ "RPG32_HE_F", "", 225000 }
-			{ "launch_RPG32_F", "", 350000, -1 },
         };
         mags[] = {
 			{ "6Rnd_45ACP_Cylinder", "Munição 9rnd .45", 725 },
@@ -489,7 +487,6 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_green", "Munição 30rnd 6.5mm", 1825 },
             { "30Rnd_556x45_Stanag_Tracer_Yellow", "Munição 30rnd 5.56mm", 1225 },
             { "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 1820 }
-			{ "RPG32_HE_F", "", 125000 }
         };
         accs[] = {
             { "optic_ACO_grn", "Aco", 3500 },

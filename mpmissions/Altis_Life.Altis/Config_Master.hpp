@@ -43,7 +43,7 @@ class Life_Settings {
 
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
-    save_vehicle_damage = true; //Save vehicle damage to the database.
+    save_vehicle_damage = false; //Save vehicle damage to the database.
     save_vehicle_illegal = true; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
 
 
@@ -57,7 +57,7 @@ class Life_Settings {
     donor_level = true; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
     enable_fatigue = false; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWTTP = 30; //Static variable for the maximum weight allowed without having a backpack
-    respawn_timer = 600; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
+    respawn_timer = 240; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
 
     /* Clothing System Configurations */
     civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
@@ -101,9 +101,9 @@ class Life_Settings {
     hospital_heal_fee = 300; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 15000; //Amount of cash in bank for new cops
-    bank_civ = 7500; //Amount of cash in bank for new civillians
-    bank_med = 15000; //Amount of cash in bank for new medics
+    bank_cop = 150000; //Amount of cash in bank for new cops
+    bank_civ = 75000; //Amount of cash in bank for new civillians
+    bank_med = 150000; //Amount of cash in bank for new medics
 
     paycheck_cop = 5000; //Payment for cops
     paycheck_civ = 2000; //Payment for civillians
@@ -167,6 +167,9 @@ class Life_Settings {
         vehicle_sell_multiplier_COP = .5; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
         vehicle_sell_multiplier_MEDIC = .5; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
         vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+		
+		/* Vehicle Assure Prices */
+        vehicle_assure_multiplier_CIVILIAN = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
 
         /* "Other" Vehicle Prices */
         vehicle_chopShop_multiplier = .40; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
