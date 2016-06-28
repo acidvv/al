@@ -40,7 +40,7 @@ class Life_cell_phone {
 		{
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 3001;
-			text = "Undead Brasil Mobile";
+			text = "ALB Mobile";
 			x = 0.1;
 			y = 0.16;
 			w = 0.6;
@@ -89,7 +89,7 @@ class Life_cell_phone {
 
 		class TextCopButton: Life_RscButtonMenu {
 			idc = 3016;
-			text = "Police";
+			text = "Policja";
 			onButtonClick = "[] call TON_fnc_cell_textcop";
 			x = 0.325;
 			y = 0.58;

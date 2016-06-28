@@ -349,7 +349,7 @@ class Clothing {
         uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "life_donorlevel", "SCALAR", 2 } },
 			{ "U_I_CombatUniform", "  VIP II", 8000, { "life_donorlevel", "SCALAR", 2 } },
-			{ "U_C_Poloshirt_blue", "Undead Brasil  ", 1250, { "life_donorlevel", "SCALAR", 2 } },
+			{ "U_C_Poloshirt_blue", "ALB  ", 1250, { "life_donorlevel", "SCALAR", 2 } },
 			{ "U_O_PilotCoveralls", "  VIP II", 8275, { "life_donorlevel", "SCALAR", 2 } },
 			{ "U_O_CombatUniform_oucamo", "  VIP II", 8150, { "life_donorlevel", "SCALAR", 2 } },
 			{ "U_O_CombatUniform_ocamo", "  VIP II", 8175,{ "life_donorlevel", "SCALAR", 2 } },

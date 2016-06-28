@@ -29,5 +29,5 @@ life_action_inUse = false;
 if (_success) then
 {
 	_unit setVariable["nitro",4,true];
-	hint "Nitro injector has been added to this vehicle, you have 4 injections. Press SHIFT + N when driving to activate!";
+	hint "Nitro wtryskiwacz został dodany do tego pojazdu, masz 4 sztuki. Naciśnij SHIFT + N podczas jazdy!";
 };
