@@ -46,7 +46,7 @@ class WeaponShops {
         name = "Bronze Armas Shop";
 		side = "civ";
         license = "gun";
-        level[] = { "life_donorlevel", "SCALAR", 1, "Você precisa ser um nível doador Bronze para acessar a loja, acesse nosso forum ou teamspeak para obter informações." };
+        level[] = { "life_donorlevel", "SCALAR", 1, "Musisz być na poziomie Bronz, aby uzyskać dostęp do sklepu, odwiedź nasze forum lub Teamspeak celach informacyjnych." };
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 9500, 2500 },
@@ -92,7 +92,7 @@ class WeaponShops {
         name = "Silver Armas Shop";
 		side = "civ";
         license = "gun";
-        level[] = { "life_donorlevel", "SCALAR", 2, "Você precisa ser um nível doador Silver para acessar a loja, acesse nosso forum ou teamspeak para obter informações." };
+        level[] = { "life_donorlevel", "SCALAR", 2, "Musisz być na poziomie Silver, aby uzyskać dostęp do sklepu, odwiedź nasze forum lub Teamspeak celach informacyjnych." };
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 9000, 2500 },
@@ -144,7 +144,7 @@ class WeaponShops {
         name = "Gold Armas Shop";
 		side = "civ";
         license = "gun";
-        level[] = { "life_donorlevel", "SCALAR", 3, "Você precisa ser um nível doador Gold para acessar a loja, acesse nosso forum ou teamspeak para obter informações." };
+        level[] = { "life_donorlevel", "SCALAR", 3, "Musisz być na poziomie Gold, aby uzyskać dostęp do sklepu, odwiedź nasze forum lub Teamspeak celach informacyjnych." };
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 8000, 2500 },
@@ -199,7 +199,7 @@ class WeaponShops {
         name = "Platinum Armas Shop";
 		side = "civ";
         license = "gun";
-        level[] = { "life_donorlevel", "SCALAR", 4, "Você precisa ser um nível doador Platinum para acessar a loja, acesse nosso forum ou teamspeak para obter informações." };
+        level[] = { "life_donorlevel", "SCALAR", 4, "Musisz być na poziomie Platinum, aby uzyskać dostęp do sklepu, odwiedź nasze forum lub Teamspeak celach informacyjnych." };
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 7000, 2500 },
@@ -255,7 +255,7 @@ class WeaponShops {
         name = "Diamante Armas Shop";
         side = "civ";
         license = "gun";
-        level[] = { "life_donorlevel", "SCALAR", 5, "Você precisa ser um nível doador Diamante para acessar a loja, acesse nosso forum ou teamspeak para obter informações." };
+        level[] = { "life_donorlevel", "SCALAR", 5, "Musisz być na poziomie Diament, aby uzyskać dostęp do sklepu, odwiedź nasze forum lub Teamspeak celach informacyjnych." };
 		items[] = {
             { "FirstAidKit", "Bolsa de Sangue", 250, 65 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 6000, 2500 },
@@ -601,7 +601,7 @@ class WeaponShops {
         name = "Altis Soldado Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "Voce precisa ser Soldado para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Musisz być żołnierzem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 15000, 750 },
@@ -633,7 +633,7 @@ class WeaponShops {
         name = "Altis Cabo Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "Voce precisa ser Cabo para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Musisz być ? żołnierzem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 9000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 13000, 750 },
@@ -671,7 +671,7 @@ class WeaponShops {
         name = "Altis SWAT Shop";
         side = "cop";
         license = "swat";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be atleast Sergeant rank and SWAT!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Musisz być sierżantem Swat!" };
         items[] = {
             { "srifle_GM6_F", "", 17500, -1 },
             { "LMG_Zafir_F", "", 15000, -1 },
@@ -709,7 +709,7 @@ class WeaponShops {
         name = "Altis Sargento Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "Voce precisa ser Sargento para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 4, "Musisz być Sierżantem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 8000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 12000, 750 },
@@ -753,7 +753,7 @@ class WeaponShops {
         name = "Altis Tenente Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "Voce precisa ser Tenente para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 5, "Musisz być Porucznikiem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 80000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 11000, 750 },
@@ -800,7 +800,7 @@ class WeaponShops {
         name = "Altis Capitão Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "Voce precisa ser Capitão para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 6, "Musisz być Kapitanem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 8000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 10000, 750 },
@@ -847,7 +847,7 @@ class WeaponShops {
         name = "Altis Major Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "Voce precisa ser Major para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 7, "Musisz być Majorem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 7000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 9000, 750 },
@@ -896,7 +896,7 @@ class cop_tenente_coronel {
         name = "Altis Major Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 8, "Voce precisa ser Major para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 8, "Musisz być Majorem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 7000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 9000, 750 },
@@ -946,7 +946,7 @@ class cop_tenente_coronel {
         name = "Altis Major Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 9, "Voce precisa ser Major para acessar essa loja!" };
+        level[] = { "life_coplevel", "SCALAR", 9, "Musisz być Majorem!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 7000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 9000, 750 },
