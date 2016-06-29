@@ -138,13 +138,21 @@ class Life_Client_Core {
 			class slotmachine {};
   };
 
-	class Admin {
+	class Admin
+	{
 		file = "core\admin";
-		class adminid {};
 		class admininfo {};
+		class adminid {};
+		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
+		class adminSpectate {};
 		class adminTeleport {};
+		class adminTpHere {};
+		class adminCompensate {};
+		class adminGodMode {};
+		class adminFreeze {};
+		class adminMarkers {};
 	};
 
 	class Civilian {
