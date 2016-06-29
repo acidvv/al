@@ -22,7 +22,7 @@ class CfgSpawnPoints {
     class Civilian {
 		
 		class AreaVIP {
-            displayName = "Área VIP";
+            displayName = "Fajna strefa";
             spawnMarker = "civ_spawn_vip";
             icon = "icons\civspawn.paa";
             licenses[] = { { "", true } };

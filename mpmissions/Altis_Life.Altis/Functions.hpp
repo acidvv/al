@@ -108,7 +108,13 @@ class Life_Client_Core {
 		class vAH_takeBack;
 		class vAH_select;
 	};
-
+       class Ausweis
+    {
+        file = "core\Ausweis";
+        class Lizenzsehen {};
+        class Lizenzzeigen {};
+		class showLicenses {};
+    };
 	class CellPhone {
 		file = "core\cellphone";
 		class cellPhoneCheck {};

@@ -417,5 +417,4 @@ if (life_barrier_active) then {
     };
     true;
 };
-
 _handled;

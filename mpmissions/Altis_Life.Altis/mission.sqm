@@ -236,7 +236,7 @@ class AddonsMetaData
 randomSeed=2639488;
 class ScenarioData
 {
-	author="Tonic e Undead Brasil DEV Team ";
+	author="Tonic e edit Acid & Gzegzolek ";
 	overViewPicture="textures\armalife.jpg";
 	overViewPictureLocked="textures\armalife.jpg";
 	loadScreen="textures\armalife.jpg";
@@ -50336,7 +50336,7 @@ class Mission
 			dataType="Marker";
 			position[]={9369.4844,-129.77072,26538.4};
 			name="marker_262";
-			text="Bem-vindo ao Undead Brasil Altis Life RPG";
+			text="ALB Altis Life RPG";
 			type="mil_box";
 			colorName="ColorGreen";
 			id=8912;
@@ -50347,7 +50347,7 @@ class Mission
 			dataType="Marker";
 			position[]={9381.8564,-168.23598,26278.072};
 			name="marker_263";
-			text="Nosso site : undeadbrasil.com";
+			text="www.altisland.pl";
 			type="mil_box";
 			colorName="ColorBlue";
 			id=8913;
@@ -50357,7 +50357,7 @@ class Mission
 			dataType="Marker";
 			position[]={9382.3877,-166.9512,26008.859};
 			name="marker_264";
-			text="Teamspeak 3 : ts3.undeadbrasil.com";
+			text="Teamspeak 3 : 51.254.132.75";
 			type="mil_box";
 			colorName="ColorWhite";
 			id=8914;

@@ -72,6 +72,7 @@ class CfgRemoteExec {
         F(life_fnc_setupCellPhone,CLIENT)
         F(TON_fnc_player_query,CLIENT)
         F(life_fnc_vAH_reciever,CLIENT)
+		F(life_fnc_Lizenzsehen,CLIENT)
         F(life_fnc_civRestrain,CLIENT)
         F(life_fnc_medicrestrain,CLIENT)
 		F(life_fnc_hasOrgan,CLIENT)
