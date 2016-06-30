@@ -69,7 +69,7 @@ class Life_cell_phone {
 
 		class TextMsgButton: Life_RscButtonMenu {
 			idc = 3015;
-			text = "Send Message";
+			text = "Wyślij Wiadomość";
 			onButtonClick = "[] call TON_fnc_cell_textmsg";
 			x = 0.1;
 			y = 0.58;
@@ -159,7 +159,7 @@ class Life_cell_phone {
 
 		class MessagesButtonKey: Life_RscButtonMenu {
 			idc = -1;
-			text = "My Messages";
+			text = "Moje Wiadomości";
 			onButtonClick = "[] spawn life_fnc_messagesMenu";
 			x = 0.1;
 			y = 0.64;
