@@ -98,8 +98,7 @@ if(_index isEqualTo 6) exitWith {
 <t align='center' color='#0099ff'>Graj zgodnie z regulaminem</t><br/><br/>
 
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Podziękowania dla</t><br/>
-Castela<br/>
-Arka<br/><br/>
+gżegżolka<br/><br/>
 
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Sugestie</t><br/>
 Masz jakieś pomysły zapraszamy na TS i forum.";

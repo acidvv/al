@@ -84,7 +84,7 @@ round(_maxTime - time) <= 0 || isNull _this};
 };
 life_request_timer = false;
 	_RespawnBtn ctrlEnable true;
-	_Timer ctrlSetText "You can now start your new life";
+	_Timer ctrlSetText "Możesz zacząć nowe życie";
 };
 [] spawn life_fnc_deathScreen;
 
