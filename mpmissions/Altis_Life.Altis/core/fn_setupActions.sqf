@@ -30,9 +30,11 @@ switch (playerSide) do {
 			life_actions = life_actions + [player addAction[localize "STR_pAct_GunnerSeat",life_fnc_copEnter,"gunner",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']];
 			//CopEnter - Exit
 			life_actions = life_actions + [player addAction[localize "STR_pAct_GoOut",life_fnc_copEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
-		//dokument
-		     life_actions = life_actions + [player addAction["Pokaż odznakę",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man"']];
-	    	};
+		    //dokument
+		    life_actions = life_actions + [player addAction["Pokaż odznakę",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man"']];
+	    	// nano EMP Little Bird
+			life_actions  pushBack [player addAction["<t color='#FF0000'>EMP konsola</t>",life_fnc_openEmpMenu,[],8,false,false,"",'[_this] call life_fnc_isEmpOperator']];
+			};
 
 if (playerSide == independent) then {
 	//CopEnter - Driver Seat

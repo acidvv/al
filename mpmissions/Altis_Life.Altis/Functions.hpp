@@ -515,4 +515,15 @@ class Life_Client_Core {
 		class vehTakeItem {};
 		class vInteractionMenu {};
 	};
+class Emp
+	{
+		file = "core\emp";
+		class openEmpMenu {};
+		class isEmpOperator {};
+		class scanVehicles {};
+		class warnVehicle {};
+		class empVehicle {};
+		class vehicleWarned {};
+		class vehicleEmpd {};
+	};
 };
