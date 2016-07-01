@@ -121,7 +121,18 @@ class CfgFunctions {
 			file = "\life_server\Functions\Actions";
 			class pickupAction {};
 		};
-
+        
+		class DynMarket
+        {
+            file = "\life_server\Functions\DynMarket";
+            class calculatePrices {};
+            class config {};
+            class getUpdate {};
+            class HandleDB {};
+            class playerLogged {};
+            class sleeper {};
+        };
+		
 		class PlayTime {
 			file = "\life_server\Functions\PlayTime";
 			class setPlayTime {};

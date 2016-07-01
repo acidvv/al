@@ -24,3 +24,6 @@ StartProgress = true;
 
 if(!isDedicated) exitWith{};
 Tower2 setVariable ["TTP_terror", false, true];
+
+DYNAMICMARKET_boughtItems = [];
+[[getPlayerUID player],"TON_fnc_playerLogged",false,false] spawn life_fnc_MP;
