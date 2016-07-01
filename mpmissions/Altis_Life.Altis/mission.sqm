@@ -8454,7 +8454,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this addAction [""Capture Gang Area"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
+				init="this allowDamage false; this addAction [""Przejeliście kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
 				name="gang_flag_1";
 			};
 			id=664;
@@ -9692,7 +9692,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this addAction [""Capture Gang Area"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
+				init="this allowDamage false; this addAction [""Przejeliście kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
 				name="gang_flag_2";
 			};
 			id=694;
@@ -10929,7 +10929,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this addAction [""Capture Gang Area"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
+				init="this allowDamage false; this addAction [""Przejeliście kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
 				name="gang_flag_3";
 			};
 			id=724;
@@ -31963,7 +31963,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this allowDamage false; this enableSimulation false; this addAction [""UndeadBrasil Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
+						init="this allowDamage false; this enableSimulation false; this addAction [""ALB Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
 					};
 					id=10637;
 					type="C_man_p_beggar_F";
@@ -32057,7 +32057,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this allowDamage false; this enableSimulation false; this addAction [""UndeadBrasil Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
+						init="this allowDamage false; this enableSimulation false; this addAction [""ALB Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
 					};
 					id=1679;
 					type="C_man_1";
@@ -32132,7 +32132,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this allowDamage false; this enableSimulation false; this addAction [""UndeadBrasil Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
+						init="this allowDamage false; this enableSimulation false; this addAction [""ALB Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
 					};
 					id=10643;
 					type="C_man_p_fugitive_F_euro";
@@ -73346,7 +73346,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this allowDamage false; this enableSimulation false; this addAction [""UndeadBrasil Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
+						init="this allowDamage false; this enableSimulation false; this addAction [""ALB Market"", {[] spawn life_fnc_vAH_load;},"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; ";
 					};
 					id=10815;
 					type="C_man_p_fugitive_F_euro";
