@@ -10717,7 +10717,7 @@
 			<Italian>Veicolo D'assalto</Italian>
 		</Key>
 		<Key ID="STR_Crime_12">
-			<Original>Latanie bez zgody</Original>
+			<Original>Latanie bez zgody nad miastem</Original>
 			<Czech>Létání nad městem bez povolení</Czech>
 			<Spanish>Volar sobre la ciudad sin autorización</Spanish>
 			<Russian></Russian>
@@ -10737,7 +10737,7 @@
 			<Italian>Impedimento del traffico senza permesso</Italian>
 		</Key>
 		<Key ID="STR_Crime_14">
-			<Original>Open carry in city (Legal Weapon)</Original>
+			<Original>Bieganie z bronią (Legalna broń)</Original>
 			<Czech>open carry ve městě (právní Weapon)</Czech>
 			<Spanish>Cargar Arma Abiertamente en la Ciudad (Arma Legal)</Spanish>
 			<Italian>Aprire il trasporto in città (Arma Legale)</Italian>
@@ -10747,7 +10747,7 @@
 			<German>Offenes tragen einer legalen Waffe in der Stadt</German>
 		</Key>
 		<Key ID="STR_Crime_15">
-			<Original>Rebel weapon</Original>
+			<Original>Broń rebelianta</Original>
 			<Czech>Rebel zbraň</Czech>
 			<Spanish>Arma Rebelde</Spanish>
 			<Russian></Russian>
@@ -10757,7 +10757,7 @@
 			<Italian>Arma Ribelle</Italian>
 		</Key>
 		<Key ID="STR_Crime_16">
-			<Original>Illegal clothing</Original>
+			<Original>Nielegalne ubranie</Original>
 			<Czech>Nelegální oblečení</Czech>
 			<Spanish>Ropa Ilegal</Spanish>
 			<Italian>abbigliamento illegale</Italian>
@@ -10767,7 +10767,7 @@
 			<German>Illegale Kleidung</German>
 		</Key>
 		<Key ID="STR_Crime_17">
-			<Original>Hiding face (Mask)</Original>
+			<Original>Używanie maski (Maska)</Original>
 			<Czech>Schovává tvář (Mask)</Czech>
 			<Spanish>Ocultar su Cara (Máscara)</Spanish>
 			<Italian>Nascondere faccia (Mask)</Italian>
@@ -10777,7 +10777,7 @@
 			<German>Verstecken des Gesichts (Maske)</German>
 		</Key>
 		<Key ID="STR_Crime_18">
-			<Original>Refuses to cooperate</Original>
+			<Original>Odmowa wspólpracy</Original>
 			<Czech>Odmítá spolupracovat</Czech>
 			<Spanish>Reusa a Cooperar</Spanish>
 			<Italian>Si rifiuta di collaborare</Italian>
@@ -10787,7 +10787,7 @@
 			<German>Behinderung der Staatsgewalt</German>
 		</Key>
 		<Key ID="STR_Crime_19">
-			<Original>Hit and run</Original>
+			<Original>Ucieczka z miejsca zdażenia</Original>
 			<Czech>Zavinit nehodu a ujet</Czech>
 			<Spanish>Golpea y Corre</Spanish>
 			<Italian>Mordi e fuggi</Italian>
@@ -10797,7 +10797,7 @@
 			<German>Fahrerflucht</German>
 		</Key>
 		<Key ID="STR_Crime_20">
-			<Original>Insulting a civilian</Original>
+			<Original>Znieważenie Cywila</Original>
 			<Czech>Urážky civilní</Czech>
 			<Spanish>Insultar a un Civil</Spanish>
 			<Russian></Russian>
@@ -10807,7 +10807,7 @@
 			<Italian>Insulto a civile</Italian>
 		</Key>
 		<Key ID="STR_Crime_21">
-			<Original>Insulting a soldier</Original>
+			<Original>Znieważenie mundurowego</Original>
 			<Czech>Urážky vojáka</Czech>
 			<Spanish>Insultar a un Soldado</Spanish>
 			<Russian></Russian>
@@ -10817,7 +10817,7 @@
 			<Italian>Insulto a pubblico ufficiale</Italian>
 		</Key>
 		<Key ID="STR_Crime_22">
-			<Original>Drug dealing</Original>
+			<Original>Handel narkotykami</Original>
 			<Czech>Urážky vojáka...</Czech>
 			<Spanish>Venta de Drogas</Spanish>
 			<Russian></Russian>
@@ -10827,7 +10827,7 @@
 			<Italian>Traffico di droga</Italian>
 		</Key>
 		<Key ID="STR_Crime_23">
-			<Original>Federal Reserve breaking</Original>
+			<Original>Wlamanie się do banku</Original>
 			<Czech>Federální rezervní systém lámání</Czech>
 			<Spanish>Entrar a la Reserva Federal</Spanish>
 			<Russian></Russian>
@@ -10837,7 +10837,7 @@
 			<Italian>Rapina alla Riserva Federale</Italian>
 		</Key>
 		<Key ID="STR_Crime_24">
-			<Original>Killing of a civilian</Original>
+			<Original>Zabicie cywila</Original>
 			<Czech>Zabíjení civilní</Czech>
 			<Spanish>Homicidio de un Civil</Spanish>
 			<Italian>Uccisione di un civile</Italian>
@@ -10847,7 +10847,7 @@
 			<German>Das Töten eines Zivilen</German>
 		</Key>
 		<Key ID="STR_Crime_25">
-			<Original>Killing of a soldier</Original>
+			<Original>Zabicie mundurowego</Original>
 			<Czech>Zabití vojáka</Czech>
 			<Spanish>Homicidio de un Soldado</Spanish>
 			<Russian></Russian>
@@ -10859,7 +10859,7 @@
 	</Package>
 	<Package name="FuelTank_Mission">
 		<Key ID="STR_MAR_FuelTank_Storage">
-			<Original>Gas Storage</Original>
+			<Original>CPN Sklep</Original>
 			<Czech>Gas Storage</Czech>
 			<French>Stockage de gaz</French>
 			<Spanish>Almacenamiento de Combustible</Spanish>
@@ -10869,7 +10869,7 @@
 			<Portuguese>Posto de Combustível</Portuguese>
 		</Key>
 			<Key ID="STR_FuelTank_Supply">
-			<Original>Supply</Original>
+			<Original>Dostawa</Original>
 			<Czech>Zásobování</Czech>
 			<French>La fourniture</French>
 			<Spanish>Suministro</Spanish>
@@ -10879,7 +10879,7 @@
 			<Portuguese>Abastecer</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_Store">
-			<Original>Store</Original>
+			<Original>Sklep</Original>
 			<Czech>Obchod</Czech>
 			<French>Deposer</French>
 			<Spanish>Guardar</Spanish>
@@ -10899,7 +10899,7 @@
 			<Portuguese>Parar</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_InUse">
-			<Original>Tanker is already in use.</Original>
+			<Original>Dystrybutor jest w użyciu.</Original>
 			<Czech>Tankery je již používán.</Czech>
 			<French>Tanker est déjà en cours d'utilisation.</French>
 			<Spanish>El tanque ya esta siendo usado.</Spanish>
@@ -10909,7 +10909,7 @@
 			<Portuguese>Os tanques já estão em uso.</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_AnotherInUse">
-			<Original>Gas station is in use.</Original>
+			<Original>Stacja w urzyciu.</Original>
 			<Czech>Čerpací stanice je v provozu.</Czech>
 			<French>Gas station est en cours d'utilisation.</French>
 			<Spanish>La estación ya se esta usando.</Spanish>
@@ -10919,7 +10919,7 @@
 			<Portuguese>O posto já está sendo usado.</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_Empty">
-			<Original>Tanker is empty.</Original>
+			<Original>Zbiornik jest pusty.</Original>
 			<Czech>Tankery je prázdný.</Czech>
 			<French>Tanker est vide.</French>
 			<Spanish>El tanque esta vacío.</Spanish>
@@ -10929,7 +10929,7 @@
 			<Portuguese>Os tanques estão vazios.</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_Full">
-			<Original>Tankers is full.</Original>
+			<Original>Zbiornik jest peny.</Original>
 			<Czech>Tankery je plná.</Czech>
 			<French>Tankers est plein.</French>
 			<Spanish>El Tanque esta lleno.</Spanish>
@@ -10939,7 +10939,7 @@
 			<Portuguese>Os tanques estão cheios.</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_FeedFull">
-			<Original>Gas station has enough fuel.</Original>
+			<Original>Stacja benzynowa ma wystarczająco dużo paliwa.</Original>
 			<Czech>Čerpací stanice má dostatek paliva.</Czech>
 			<French>Gas station a suffisamment de carburant.</French>
 			<Spanish>La estación tiene suficiente gasolina.</Spanish>
@@ -10949,7 +10949,7 @@
 			<Portuguese>O posto tem combustível suficiente.</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_PipeLine">
-			<Original>This gas station is supplied through a pipeline.</Original>
+			<Original>Ta stacja jest zasilana rurociągiem.</Original>
 			<Czech>Tento Čerpací stanice se dodává potrubím.</Czech>
 			<French>Cette station de gaz est fourni par un pipeline</French>
 			<Spanish>Esta estación es suministrada por una tubería.</Spanish>
@@ -10959,7 +10959,7 @@
 			<Portuguese>Esse posto é abastecido através de uma mangueira.</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_Stopped">
-			<Original>Discontinued operation.</Original>
+			<Original>Działalność zaniechana.</Original>
 			<Czech>Ukončená činnost.</Czech>
 			<French>Activité abandonnée.</French>
 			<Spanish>Operación discontinuada.</Spanish>
@@ -10969,7 +10969,7 @@
 			<Portuguese>Operação descontinuada.</Portuguese>
 		</Key>
 		<Key ID="STR_FuelTank_Money">
-			<Original>Your share is $%1.</Original>
+			<Original>Do zapaty $%1.</Original>
 			<Czech>Váš podíl $%1.</Czech>
 			<French>Votre part est de $%1.</French>
 			<Spanish>Tu ganancia es $%1.</Spanish>
@@ -10986,16 +10986,16 @@
 			<French>Mission échouée</French>
 			<Spanish>Misión fallida</Spanish>
 			<Italian>Missione fallita</Italian>
-			<Polish>Misja nie powiodła się</Polish>
+			<Polish>Misja spalona</Polish>
 			<Portuguese>Missão fracassada</Portuguese>
 			<Russian>Миссия провалена</Russian>
 			<German>Mission fehlgeschlagen</German>
 		</Key>
 		<Key ID="STR_NotWhitelisted_SubTitle">
-			<Original>This slot is whitelisted - Read below</Original>
+			<Original>Te sloty są na whitelistę</Original>
 		</Key>
 		<Key ID="STR_NotWhitelisted_Descript">
-			<Original>Donator Slots require a Donation - Police/Medic slots require whitelisting. If you are interested in donating, join our teamspeak and ask an admin for a list of perks, if you want to join police or medic, apply on our forums.</Original>
+			<Original>Sloty zarezerwowane skontaktuj się z Administracją.</Original>
 		</Key>
 	</Package>
 	<Package name="Blacklisted">
@@ -11078,7 +11078,7 @@
 			<French>Livraison emploi Accepté</French>
 			<Spanish>Entrega de trabajo aceptada</Spanish>
 			<Italian>Consegna Job accettate</Italian>
-			<Polish>Dostawa Praca Zaakceptowany</Polish>
+			<Polish>Dostawa zaakceptowana</Polish>
 			<Portuguese>Entrega aceitado Job</Portuguese>
 			<Russian>Доставка Работа Принято</Russian>
 			<German>Lieferung Job angenommen</German>
@@ -11089,7 +11089,7 @@
 			<French>Livraison Job échoué</French>
 			<Spanish>Falló la entrega de empleo</Spanish>
 			<Italian>Consegna di lavoro non riuscito</Italian>
-			<Polish>Dostawa Praca Failed</Polish>
+			<Polish>Przesyka nie dostarczona</Polish>
 			<Portuguese>Falha de entrega Job</Portuguese>
 			<Russian>Доставка Работа Ошибка</Russian>
 			<German>Lieferung Job fehlgeschlagen</German>
