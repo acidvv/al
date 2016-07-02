@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=129;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=11008;
+		nextID=11013;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={26841.361,117.46786,24360.955};
-		dir[]={0.47712609,-0.26335675,-0.83855319};
-		up[]={0.13028145,0.96467417,-0.22897109};
-		aside[]={-0.86922699,-1.3101962e-006,-0.49457434};
+		pos[]={26731.539,31.026096,24594.096};
+		dir[]={-0.11009399,-0.14672366,0.98305422};
+		up[]={-0.016330192,0.98917866,0.1458195};
+		aside[]={0.99380791,-2.4433757e-007,0.11129685};
 	};
 };
 binarizationWanted=0;
@@ -375,7 +375,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2354;
+		items=2358;
 		class Item0
 		{
 			dataType="Marker";
@@ -737,7 +737,7 @@ class Mission
 		class Item37
 		{
 			dataType="Marker";
-			position[]={4345.1636,33.150127,13982.917};
+			position[]={4399.8662,66.189552,12189.72};
 			name="peaches_2";
 			text="@STR_MAR_Peaches_Field";
 			type="loc_Tree";
@@ -881,7 +881,7 @@ class Mission
 		class Item51
 		{
 			dataType="Marker";
-			position[]={3492.7932,19.49818,14145.842};
+			position[]={4803.1875,12.87469,10146.818};
 			name="Dealer_1";
 			text="@STR_MAR_Drug_Dealer";
 			type="mil_dot";
@@ -18440,8 +18440,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3491.4883,19.49831,14146.218};
-						angles[]={6.2818484,3.2644343,0.0013372133};
+						position[]={4801.6357,12.915865,10146.815};
+						angles[]={0.0080009829,3.2644343,6.2578578};
 					};
 					side="Civilian";
 					flags=4;
@@ -18453,7 +18453,6 @@ class Mission
 					};
 					id=958;
 					type="C_man_polo_6_F";
-					atlOffset=-3.8146973e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -76139,6 +76138,71 @@ class Mission
 			};
 			id=11007;
 			type="Land_d_Stone_HouseSmall_V1_F";
+		};
+		class Item2354
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11628.145,23.69906,11970.298};
+				angles[]={0.0026520467,0,6.2498641};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=11008;
+			type="Land_MolonLabe_F";
+		};
+		class Item2355
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={26739.318,23.695583,24548.287};
+				angles[]={0,5.5556998,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=11010;
+			type="Land_Sign_WarningMilitaryArea_F";
+			atlOffset=-2.4795532e-005;
+		};
+		class Item2356
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={26761.723,23.14431,24592.727};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=11011;
+			type="Land_Sign_WarningMilAreaSmall_F";
+		};
+		class Item2357
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={26769.736,23.524296,24593.016};
+				angles[]={0,0.65505195,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=11012;
+			type="Land_Sign_WarningUnexplodedAmmo_F";
+			atlOffset=-0.00018501282;
 		};
 	};
 };
