@@ -658,7 +658,8 @@ class Clothing {
 			{ "V_PlateCarrier1_rgr", "", 9200, { "life_donorlevel", "SCALAR", 5 } },
 			{ "V_PlateCarrier2_rgr", "", 15000, { "life_donorlevel", "SCALAR", 5 } },
 			{ "V_PlateCarrierIA2_dgtl", "", 19000, { "life_donorlevel", "SCALAR", 5 } },
-			{ "V_PlateCarrierIAGL_oli", "", 35000, { "life_donorlevel", "SCALAR", 5 } }
+			{ "V_PlateCarrierIAGL_oli", "", 35000, { "life_donorlevel", "SCALAR", 5 } },
+			{ "V_HarnessOGL_brn", "Allahakbar", 600000, { "life_donorlevel", "SCALAR", 5 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "life_donorlevel", "SCALAR", 5 } },
@@ -754,7 +755,7 @@ class Clothing {
             { "V_HarnessO_brn", "", 7500, { "", "", -1 } },
             { "V_TacVest_khk", "", 12500, { "", "", -1 } },
             { "V_PlateCarrierL_CTRG", "", 20000, { "", "", -1 } },
-            { "V_HarnessOGL_brn", "Allahakbar", 600000, { "", "", -1 } }
+            { "V_HarnessOGL_brn", "Allahakbar", 900000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },

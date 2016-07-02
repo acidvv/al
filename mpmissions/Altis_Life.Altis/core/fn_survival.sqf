@@ -56,7 +56,7 @@ _fnc_water = {
 			{
 				sleep 60;
 				[] spawn life_fnc_addicted;
-				hint "You should find a medical personell, you don't feel too good.";
+				hint "Musisz szybko znaleźć medyka, nie czujesz się zbyt dobrze,.";
 				sleep 240;
 			};
 		};

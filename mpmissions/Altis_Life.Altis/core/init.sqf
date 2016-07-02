@@ -20,7 +20,7 @@ if (life_HC_isActive) then {
 life_firstSpawn = true;
 life_session_completed = false;
 private["_handle","_timeStamp"];
-0 cutText["Setting up client, exit game if taking too long, DO NOT RESPAWN...","BLACK FADED"];
+0 cutText["Setting up client, wyjdź z gry ale nie rób odrodzenia...","BLACK FADED"];
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 diag_log "------------------------------------------------------------------------------------------------------";
