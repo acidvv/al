@@ -20,7 +20,7 @@ class AH_buy
 		class RscText_1001: Life_RscText
 		{
 			idc = -1;
-			text = "Ns sprzedaż"; //--- ToDo: Localize;
+			text = "Na sprzedaż"; //--- ToDo: Localize;
 			x = 0.269276 * safezoneW + safezoneX;
 			y = 0.246958 * safezoneH + safezoneY;
 			w = 0.163935 * safezoneW;
