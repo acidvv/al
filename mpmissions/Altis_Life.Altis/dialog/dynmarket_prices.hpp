@@ -34,7 +34,7 @@ class RscText_1000: Life_RscText
 {
 	idc = -1;
 
-	text = "Prix courant"; //--- ToDo: Localize;
+	text = "Cennik"; //--- ToDo: Localize;
 	x = 0.5 * safezoneW + safezoneX;
 	y = 0.401039 * safezoneH + safezoneY;
 	w = 0.217708 * safezoneW;
@@ -44,7 +44,7 @@ class RscText_1001: Life_RscText
 {
 	idc = 7056;
 
-	text = "Sélectionner un acticle"; //--- ToDo: Localize;
+	text = "Wybierz sekcję"; //--- ToDo: Localize;
 	x = 0.5 * safezoneW + safezoneX;
 	y = 0.420831 * safezoneH + safezoneY;
 	w = 0.20625 * safezoneW;
@@ -55,7 +55,7 @@ class RscText_1002: Life_RscText
 {
 	idc = -1;
 
-	text = "Montant des articles vendus par vous"; //--- ToDo: Localize;
+	text = "Ilość sprzedanych"; //--- ToDo: Localize;
 	x = 0.5 * safezoneW + safezoneX;
 	y = 0.5 * safezoneH + safezoneY;
 	w = 0.217708 * safezoneW;
@@ -77,7 +77,7 @@ class RscButtonMenu_2400: Life_RscButtonMenu
 	onButtonClick = "closeDialog 0;";
 
 	idc = 1006;
-	text = "Quitter"; //--- ToDo: Localize;
+	text = "Wyjście"; //--- ToDo: Localize;
 	x = 0.5 * safezoneW + safezoneX;
 	y = 0.57697 * safezoneH + safezoneY;
 	w = 0.217708 * safezoneW;
