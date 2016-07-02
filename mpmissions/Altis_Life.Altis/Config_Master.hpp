@@ -10,20 +10,17 @@ class Life_Settings {
     spyGlass_toggle = false; //Spyglass On/Off Toggle --> True = On & False = Off
 
     /* Data Logging Settings */
-    battlEye_friendlyLogging = false; //Set to true if you plan to read the data in your BattlEye log files. Otherwise use the SERVER RPT.
-    player_advancedLog = false; //Logs the following: Houses(purchase/sale), Vehicle(Purchase/Sale/Chopping), Cop Arrests and Gang Creations. SEARCH USING: advanced_log
-    player_moneyLog = false; //Logs player and gang bank(deposits/withdrawals/transfers). Logs money picked up off the ground. Logs player robbery. SEARCH USING: money_log
-    player_deathLog = false; //Logs victim and killer when someone dies. SEARCH USING: death_log
+    battlEye_friendlyLogging = true; //Set to true if you plan to read the data in your BattlEye log files. Otherwise use the SERVER RPT.
+    player_advancedLog = true; //Logs the following: Houses(purchase/sale), Vehicle(Purchase/Sale/Chopping), Cop Arrests and Gang Creations. SEARCH USING: advanced_log
+    player_moneyLog = true; //Logs player and gang bank(deposits/withdrawals/transfers). Logs money picked up off the ground. Logs player robbery. SEARCH USING: money_log
+    player_deathLog = true; //Logs victim and killer when someone dies. SEARCH USING: death_log
 
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
 
     saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts",
-    "rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","zipties","knife","pliers","kidney","cocaine_unprocessed",
-    "heroin_processed","heroin_unprocessed","cocaine_processed","cement","rock","diamond_cut","diamond_uncut","glass","sand","salt_refined","salt_unrefined","iron_refined","iron_unrefined","copper_refined",
-    "copper_unrefined","oil_processed","oil_unprocessed","marijuana","cannabis","nitroamine","C4","steel","steelplate","wool","cloth","goldcoin","rubberU","rubber","gunpowder","sulfur","barrel","butt",
-    "sight","trigger","engine","plans","blastingcharge","boltcutter","nitro","beer","whiskey","moonshine","gpstracker","blindfold","wood","plank","woodaxe" }; //Array of virtual items that can be saved on your player.
+    "defibrillator","toolkit","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker",,"woodaxe" }; //Array of virtual items that can be saved on your player.
 
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
@@ -36,14 +33,11 @@ class Life_Settings {
     save_vehicle_virtualItems = true; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
 
     save_vehicle_items[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts",
-    "rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","zipties","knife","pliers","kidney","cocaine_unprocessed",
-    "heroin_processed","heroin_unprocessed","cocaine_processed","cement","rock","diamond_cut","diamond_uncut","glass","sand","salt_refined","salt_unrefined","iron_refined","iron_unrefined","copper_refined",
-    "copper_unrefined","oil_processed","oil_unprocessed","marijuana","cannabis","nitroamine","C4","steel","steelplate","wool","cloth","goldcoin","rubberU","rubber","gunpowder","sulfur","barrel","butt",
-    "sight","trigger","engine","plans","blastingcharge","boltcutter","nitro","beer","whiskey","moonshine","gpstracker","blindfold","wood","plank","woodaxe" };
+    "defibrillator","toolkit","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker",,"woodaxe" }; 
 
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
-    save_vehicle_damage = false; //Save vehicle damage to the database.
+    save_vehicle_damage = true; //Save vehicle damage to the database.
     save_vehicle_illegal = true; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
 
 
@@ -55,9 +49,9 @@ class Life_Settings {
 
     /* Basic System Configurations */
     donor_level = true; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
-    enable_fatigue = false; //Set to false to disable the ARMA 3 fatigue system.
+    enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWTTP = 30; //Static variable for the maximum weight allowed without having a backpack
-    respawn_timer = 240; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
+    respawn_timer = 600; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
 
     /* Clothing System Configurations */
     civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
@@ -73,8 +67,8 @@ class Life_Settings {
     service_chopper = 6000; //Cost to service chopper at chopper service station(Repair/Refuel).
 
     /* Gang System Configurations */
-    gang_price = 150000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 30000; //The base cost for purchasing additional slots in a gang
+    gang_price = 5000000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_upgradeBase = 100000; //The base cost for purchasing additional slots in a gang
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
     /* Housing System Configurations */
@@ -97,19 +91,19 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 8000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
-    hospital_heal_fee = 300; //Fee to heal at a hospital NPC
+    revive_fee = 20000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    hospital_heal_fee = 10000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 150000; //Amount of cash in bank for new cops
-    bank_civ = 75000; //Amount of cash in bank for new civillians
-    bank_med = 150000; //Amount of cash in bank for new medics
+    bank_cop = 20000; //Amount of cash in bank for new cops
+    bank_civ = 5000; //Amount of cash in bank for new civillians
+    bank_med = 20000; //Amount of cash in bank for new medics
 
     paycheck_cop = 5000; //Payment for cops
     paycheck_civ = 2000; //Payment for civillians
     paycheck_med = 4000; //Payment for medics
 
-    paycheck_period = 7; //Scaled in minutes
+    paycheck_period = 10; //Scaled in minutes
     bank_transferTax = .075; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
 
     /* Player Job System Configurations */
@@ -132,16 +126,16 @@ class Life_Settings {
 
     /* Vehicle System Configurations */
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
-    vehicle_infiniteRepair = true; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
+    vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
     vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_Boat_Armed_01_minigun_F", "O_MRAP_02_hmg_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
 
         /* Vehicle Purchase Prices */
         vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_BRONZE   = .5; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_SILVER 	 = .5; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_GOLD   	 = .5; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_PLATINUM = .4; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_DIAMANTE = .3; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_BRONZE   = .8; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_SILVER 	 = .7; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_GOLD   	 = .6; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_PLATINUM = .5; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_DIAMANTE = .4; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_COP = .3; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_MEDIC = .35; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
