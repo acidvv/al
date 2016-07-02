@@ -129,6 +129,8 @@ class CfgRemoteExec {
         F(TON_fnc_vAH_update,SERVER)
 		    F(TON_fnc_vAH_init,SERVER)
         F(TON_fnc_changePrice,SERVER)
+		F(TON_fnc_getUpdate,SERVER)
+		F(TON_fnc_playerLogged,SERVER)
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
