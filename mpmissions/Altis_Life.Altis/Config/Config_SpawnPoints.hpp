@@ -61,7 +61,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class RebelS {
+      /*  class RebelS {
             displayName = "Rebelia PÓŁNOC";
             spawnMarker = "Rebelop";
             icon = "icons\civspawn.paa";
@@ -85,7 +85,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
     };
-
+*/
     class Cop {
         class Kavala {
             displayName = "Kavala HQ";
