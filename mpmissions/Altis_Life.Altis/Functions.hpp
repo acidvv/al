@@ -524,7 +524,8 @@ class Life_Client_Core {
 		class vehTakeItem {};
 		class vInteractionMenu {};
 	};
-class Emp
+	
+	 class Emp
 	{
 		file = "core\emp";
 		class openEmpMenu {};

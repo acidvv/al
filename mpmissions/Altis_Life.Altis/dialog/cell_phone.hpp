@@ -146,7 +146,16 @@ class Life_cell_phone {
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0,0,0,0.6};
 		};
-
+            class TxtPSAButton : life_RscButtonMenu {
+    		    idc = 3023;
+			    text = "$STR_CELL_PSA";
+			    colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+    		    onButtonClick = "[] call TON_fnc_cell_PSA";
+				x = 0.31;
+    		    y = 0.45;
+    		    w = 0.2;
+    		    h = (1 / 25);
+    	    };
 		class CloseButtonKey: Life_RscButtonMenu {
 			idc = -1;
 			text = "$STR_Global_Close";

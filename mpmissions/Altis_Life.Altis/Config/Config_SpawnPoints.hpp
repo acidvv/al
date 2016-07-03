@@ -60,6 +60,7 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
+		};
 
       /*  class RebelS {
             displayName = "Rebelia PÓŁNOC";
