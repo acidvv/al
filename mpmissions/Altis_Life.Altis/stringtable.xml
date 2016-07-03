@@ -10486,7 +10486,7 @@
 			<Italian>Uso di stupefacenti in pubblico</Italian>
 		</Key>
 		<Key ID="STR_Crime_487">
-			<Original>Kradzierz</Original>
+			<Original>Kradzież</Original>
 			<Czech>velká loupež</Czech>
 			<French>Vol de voiture</French>
 			<Spanish>Robo Mayor</Spanish>
@@ -10496,7 +10496,7 @@
 			<German>Auto Diebstahl</German>
 		</Key>
 		<Key ID="STR_Crime_488">
-			<Original>Drobna kradzierz</Original>
+			<Original>Drobna kradzież</Original>
 			<Czech>Petty Theft</Czech>
 			<French>Petit vol</French>
 			<Spanish>Robo Menor</Spanish>
