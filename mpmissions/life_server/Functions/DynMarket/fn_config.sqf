@@ -109,7 +109,7 @@ DYNMARKET_Items_ToTrack        =
 	["oil_processed",2500],
 	["wood",1100],
 	["plank",1600],
-	["wool",1500]
+	["wool",1500],
 	["steel",2500],
 	["steelplate",10000],
 	["copper_refined",1500],
