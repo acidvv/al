@@ -14,7 +14,7 @@ switch (playerSide) do {
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorObject && player distance cursorObject < 3.5 && isPlayer cursorObject && animationState cursorObject == "Incapacitated" && !(cursorObject getVariable["robbed",FALSE]) ']];
 		// Suicide Bomb
-			life_actions = life_actions + [player addAction["<t color='#FF0000'>Wysadż się</t>",life_fnc_suicideBomb,"",0,false,false,"",
+			life_actions = life_actions + [player addAction["<t color='#FF0000'>Wysadż się</t>",life_fnc_suicideBomb,"",0,false,true,"",
 			'vest player isEqualTo "V_HarnessOGL_brn" && alive player && playerSide isEqualTo civilian && !life_istazed && !life_isSuicide && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
 			//dokument
 		     life_actions = life_actions + [player addAction["Pokaż dokument",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man"']];
@@ -33,7 +33,7 @@ switch (playerSide) do {
 		    //dokument
 		    life_actions = life_actions + [player addAction["Pokaż odznakę",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man"']];
 	    	// nano EMP Little Bird
-			life_actions  pushBack [player addAction["<t color='#FF0000'>EMP konsola</t>",life_fnc_openEmpMenu,[],8,false,false,"",'[_this] call life_fnc_isEmpOperator']];
+			life_actions = life_actions + [player addAction["<t color='#FF0000'>EMP konsola</t>",life_fnc_openEmpMenu,[],8,false,false,"",'[_this] call life_fnc_isEmpOperator']];
 			};
 
 if (playerSide == independent) then {
