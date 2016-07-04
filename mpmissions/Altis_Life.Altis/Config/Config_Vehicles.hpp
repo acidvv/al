@@ -292,7 +292,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
-            { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 5 } },
+            { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 7 } },
         };
     };
 
@@ -484,7 +484,7 @@ class LifeCfgVehicles {
     };
 
     class Land_CargoBox_V1_F {
-        vItemSpace = 5000;
+        vItemSpace = 1000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = -1;
         textures[] = {};
@@ -498,7 +498,7 @@ class LifeCfgVehicles {
     };
 
     class B_supplyCrate_F {
-        vItemSpace = 1100;
+        vItemSpace = 900;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = -1;
         textures[] = {};
