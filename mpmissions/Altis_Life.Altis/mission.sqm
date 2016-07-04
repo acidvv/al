@@ -1211,26 +1211,24 @@ class Mission
 		class Item81
 		{
 			dataType="Marker";
-			position[]={14679.851,0,14613.75};
+			position[]={13569.42,14.221638,16359.166};
 			name="oil_field_2";
 			text="@STR_MAR_Oil_Field";
 			type="mil_triangle";
 			colorName="ColorBlack";
 			angle=320.76196;
 			id=92;
-			atlOffset=55.033272;
 		};
 		class Item82
 		{
 			dataType="Marker";
-			position[]={14655.172,0,14601.186};
+			position[]={13499.783,13.767339,16247.987};
 			name="oil_field_1";
 			text="@STR_MAR_Oil_Field";
 			type="mil_triangle";
 			colorName="ColorBlack";
 			angle=320.76196;
 			id=93;
-			atlOffset=55.922749;
 		};
 		class Item83
 		{
@@ -1756,7 +1754,7 @@ class Mission
 			position[]={14199.756,24.243034,18581.707};
 			name="car_g_3";
 			type="Empty";
-			angle=27.386642;
+			angle=27.386641;
 			id=149;
 		};
 		class Item136
@@ -7204,7 +7202,7 @@ class Mission
 			};
 			id=633;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.067400932;
+			atlOffset=0.067394733;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -74316,7 +74314,7 @@ class Mission
 			};
 			id=10889;
 			type="RoadCone_L_F";
-			atlOffset=0.67693138;
+			atlOffset=0.67693233;
 		};
 		class Item2240
 		{
