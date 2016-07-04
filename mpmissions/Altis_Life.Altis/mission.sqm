@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={20051.689,239.02155,6628.6357};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,0};
+		pos[]={15810.711,39.2286,17391.633};
+		dir[]={0.39841083,-0.42316589,0.81375962};
+		up[]={0.18607496,0.90605181,0.38006192};
+		aside[]={0.89813739,5.1222742e-008,-0.43972117};
 	};
 };
 binarizationWanted=0;
@@ -1756,7 +1756,7 @@ class Mission
 			position[]={14199.756,24.243034,18581.707};
 			name="car_g_3";
 			type="Empty";
-			angle=27.386646;
+			angle=27.386644;
 			id=149;
 		};
 		class Item136
@@ -28580,7 +28580,7 @@ class Mission
 			position[]={3642.9434,10.096783,13137.191};
 			name="civ_car_1_2";
 			type="Empty";
-			angle=270.66586;
+			angle=270.66583;
 			id=1380;
 		};
 		class Item555
@@ -43715,7 +43715,7 @@ class Mission
 			dataType="Marker";
 			position[]={15809.997,14.268654,17419.566};
 			name="cp_2";
-			text="Intervençao Policial";
+			text="Punkt Kontrolny Polcji 2";
 			type="loc_WaterTower";
 			colorName="ColorWEST";
 			id=3332;
