@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3587.0088,63.087112,13081.532};
-		dir[]={-0.78215879,-0.435559,-0.4455854};
-		up[]={-0.37846687,0.90015334,-0.21560805};
-		aside[]={-0.49500293,-2.2602762e-007,0.86890596};
+		pos[]={3237.8962,3.2682576,12934.807};
+		dir[]={0.83601594,0.077438734,0.54322737};
+		up[]={-0.064927399,0.99699605,-0.042188536};
+		aside[]={0.544864,1.383014e-007,-0.83853459};
 	};
 };
 binarizationWanted=0;
@@ -74879,13 +74879,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3192.8308,3.5475001,12921.584};
-				angles[]={0,4.7129002,0};
+				position[]={3192.8311,3.5474992,12921.584};
+				angles[]={0,4.7128949,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
+				init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' isNull objectParent player && player distance _target < 4 '];";
 			};
 			id=10924;
 			type="Land_Atm_02_F";
