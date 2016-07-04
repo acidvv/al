@@ -16,7 +16,7 @@ _moves = [
 	["Knee Bends (Normal)","AmovPercMstpSnonWnonDnon_exercisekneeBendA"],
 	["Wystraszony","AmovPercMstpSnonWnonDnon_Scared"],
 	["Siusiu","Acts_AidlPercMstpSlowWrflDnon_pissing"],
-	["Pijak","AcinPercMstpSnonWnonDnon_agony"],
+	//["Pijak","AcinPercMstpSnonWnonDnon_agony"],
 	["Hm","Acts_starterPistol_out"]
 	];
 
