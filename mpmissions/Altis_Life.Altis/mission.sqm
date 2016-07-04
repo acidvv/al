@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15810.711,39.2286,17391.633};
-		dir[]={0.39841083,-0.42316589,0.81375962};
-		up[]={0.18607496,0.90605181,0.38006192};
-		aside[]={0.89813739,5.1222742e-008,-0.43972117};
+		pos[]={3587.0088,63.087112,13081.532};
+		dir[]={-0.78215879,-0.435559,-0.4455854};
+		up[]={-0.37846687,0.90015334,-0.21560805};
+		aside[]={-0.49500293,-2.2602762e-007,0.86890596};
 	};
 };
 binarizationWanted=0;
@@ -1756,7 +1756,7 @@ class Mission
 			position[]={14199.756,24.243034,18581.707};
 			name="car_g_3";
 			type="Empty";
-			angle=27.386644;
+			angle=27.386642;
 			id=149;
 		};
 		class Item136
@@ -32662,7 +32662,7 @@ class Mission
 			dataType="Marker";
 			position[]={7634.853,24.888269,11941.561};
 			name="marker_242";
-			text="Kopalnia Żelaza";
+			text="Żłoże Stali";
 			type="mil_dot";
 			colorName="ColorCIV";
 			id=1703;
@@ -33079,7 +33079,7 @@ class Mission
 			dataType="Marker";
 			position[]={11002.757,85.679199,19046.998};
 			name="marker_249";
-			text="Przetapianie Żelaza";
+			text="Przetapianie Stali";
 			type="mil_dot";
 			colorName="ColorCIV";
 			id=1721;
@@ -74307,7 +74307,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3623.8286,11.076941,13155.672};
+				position[]={3623.7422,11.104692,13157.436};
 			};
 			side="Empty";
 			class Attributes
@@ -74316,7 +74316,7 @@ class Mission
 			};
 			id=10889;
 			type="RoadCone_L_F";
-			atlOffset=0.67693233;
+			atlOffset=0.67693138;
 		};
 		class Item2240
 		{
