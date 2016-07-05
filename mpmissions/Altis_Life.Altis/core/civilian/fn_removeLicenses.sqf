@@ -24,6 +24,10 @@ switch (_state) do {
 		SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
 		SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
 		SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("heroin","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("marijuana","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("cocaine","civ"),false];
+		SVAR_MNS [LICENSE_VARNAME("heba","civ"),false];
 	};
 
 	//Remove motor vehicle licenses

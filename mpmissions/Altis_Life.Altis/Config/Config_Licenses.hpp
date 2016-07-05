@@ -161,7 +161,13 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
-
+    class heba {
+        variable = "heba";
+        displayName = "STR_License_heba";
+        price = 1300000;
+        illegal = true;
+        side = "civ";
+    };
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";

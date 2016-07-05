@@ -100,7 +100,14 @@ class ProcessAction {
         	//ScrollText = "Harvest Marijuana";
         	NoLicenseCost = 55500;
 	};
+       class heba {
 
+        	MaterialsReq[] = {{"cannabis",1},{"nitroamine",1}};
+		MaterialsGive[] = {{"heba",1}};
+        	Text = "STR_Process_heba";
+        	//ScrollText = "Tabsy Diabła";
+        	NoLicenseCost = 255500;
+	};
 	class cement {
 
         	MaterialsReq[] = {{"rock",1}};

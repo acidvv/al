@@ -85,7 +85,7 @@ if(_index isEqualTo 4) exitWith {
 <t color='#FF0000'>Heroina</t> 3100 <br/>
 <t color='#FF0000'>Marichuana</t> 3800 <br/>
 <t color='#FF0000'>Cocaina</t> 4200 <br/>
-<t color='#FF0000'>Krokodilo</t> 1100" ;
+<t color='#FF0000'>Doplacz</t> 1100" ;
 };
 
 if(_index isEqualTo 5) exitWith {

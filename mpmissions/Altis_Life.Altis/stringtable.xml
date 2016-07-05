@@ -5984,8 +5984,11 @@
 			<Portuguese>Maçã</Portuguese>
 			<Polish>Jabłko</Polish>
 		</Key>
+		<Key ID="STR_Item_heba">
+      <Original>Opłatki diabła</Original>
+        </Key>
 		<Key ID="STR_Item_zipties">
-			<Original>Ziptie</Original>
+			<Original>Sznur</Original>
 			<Portuguese>Algema</Portuguese>
 		</Key>
 		<Key ID="STR_Item_kidney">
@@ -6763,7 +6766,7 @@
 			<Original>Starożytne monety</Original>
 		</Key>
 		<Key ID="STR_Item_nitroamine">
-			<Original>Krokodilo</Original>
+			<Original>Dopalacz</Original>
 		</Key>
 		<Key ID="STR_Item_Wood">
 			<Original>Drewno tartaczne</Original>
@@ -6832,6 +6835,9 @@
 			<Portuguese>Licença de Motorista</Portuguese>
 			<Polish>Prawo jazdy</Polish>
 		</Key>
+		<Key ID="STR_License_heba">
+      <Original>Licencja opłatka diabła</Original>
+        </Key>
 		<Key ID="STR_License_Pilot">
 			<Original>Pilot License</Original>
 			<Czech>pilotní licence</Czech>
@@ -7529,6 +7535,9 @@
 			<Portuguese>Processando Petróleo</Portuguese>
 			<Polish>Rafinacja ropy</Polish>
 		</Key>
+		 <Key ID="STR_Process_heba">
+      <Original>Tworzysz opłatki piekielne</Original>
+    </Key>
 		<Key ID="STR_Process_Weight">
 			 <Original>Nie masz miejsca.</Original>
 			</Key>

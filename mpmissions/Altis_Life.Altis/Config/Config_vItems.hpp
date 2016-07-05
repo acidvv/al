@@ -77,7 +77,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "cocaine_processed", "heroin_processed", "marijuana","nitroamine" };
+		items[] = { "cocaine_processed", "heroin_processed", "marijuana", "nitroamine", "heba" };
 	};
 
 	class oil {
@@ -561,14 +561,24 @@ class VirtualItems {
 		variable = "cannabis";
 		displayName = "STR_Item_Cannabis";
 		weight = 8;
-		buyPrice = -600;
+		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_cannabis.paa";
-		processedItem = "marijuana";
-	};
-
+		};
+    
+	class heba {
+		variable = "heba";
+		displayName = "STR_Item_heba";
+		weight = 5;
+		buyPrice = 15000;
+		sellPrice = -1;
+		illegal = true;
+		edible = -1;
+		icon = "icons\lsd.paa";
+		};
+	
 	class marijuana {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
@@ -1005,12 +1015,12 @@ class VirtualItems {
 		variable = "nitroamine";
 		displayName = "STR_Item_nitroamine";
 		weight = 5;
-		buyPrice = 11025;
-		sellPrice = 1100;
+		buyPrice = -1;
+		sellPrice = -1;
 		illegal = true;
 		edible = -1;
 		icon = "icons\nitroamine.paa";
-	};
+		};
 
 	class C4 {
 		variable = "C4";

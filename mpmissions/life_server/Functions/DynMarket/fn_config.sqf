@@ -80,6 +80,7 @@ DYNMARKET_Items_Groups =
 			["cocaine_processed",-1,5000,9000],
 			["heroin_processed",-1,4500,8500],
 			["cannabis",-1,400,600],
+			["heba",-1,10000,15000],
 			["marijuana",-1,3000,7000]
 		],
 		0.5
@@ -125,6 +126,7 @@ DYNMARKET_Items_ToTrack        =
 		
     ["heroin_processed",6100],
 	["cannabis",500],
+	["heba",12000],
 	["marijuana",4000],
 	["cocaine_processed",6200]
 	
