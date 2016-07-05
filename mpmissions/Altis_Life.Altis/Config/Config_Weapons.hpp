@@ -598,7 +598,8 @@ class WeaponShops {
             { "Binocular", "", 150, -1 },
             { "FirstAidKit", "", 50, 65 },
             { "Medikit", "", 55, 35 },
-            { "NVGoggles", "", 120, 80 }
+            { "NVGoggles", "", 120, 80 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
     };
 
@@ -618,7 +619,8 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Tazer", 200, 60 },
             { "hgun_P07_F", "P07 9mm", 750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "NVGoggles", "Nokto", 200, 90 }
+            { "NVGoggles", "Nokto", 200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
         mags[] = {
             { "30Rnd_65x39_caseless_mag_Tracer", "Stun Magazine 30rnd", 45 },
@@ -653,7 +655,8 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Pistola Tazer", 2500, 60 },
             { "hgun_P07_F", "P07 9mm", 4750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "NVGoggles", "Nokto", 200, 90 }
+            { "NVGoggles", "Nokto", 200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 },
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -731,7 +734,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "Rangefinder", "Rangefinder", 12200, 90 }
+            { "Rangefinder", "Rangefinder", 12200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 }
+			
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -776,7 +781,8 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "Rangefinder", "Rangefinder", 12200, 90 }
+            { "Rangefinder", "Rangefinder", 12200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -823,7 +829,8 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "Rangefinder", "Rangefinder", 12200, 90 }
+            { "Rangefinder", "Rangefinder", 12200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -871,7 +878,8 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "Rangefinder", "Rangefinder", 12200, 90 }
+            { "Rangefinder", "Rangefinder", 12200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -921,7 +929,8 @@ class cop_tenente_coronel {
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "Rangefinder", "Rangefinder", 12200, 90 }
+            { "Rangefinder", "Rangefinder", 12200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -972,7 +981,8 @@ class cop_tenente_coronel {
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
-            { "Rangefinder", "Rangefinder", 12200, 90 }
+            { "Rangefinder", "Rangefinder", 12200, 90 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -1009,7 +1019,8 @@ class cop_tenente_coronel {
             { "Binocular", "", 150, -1 },
             { "FirstAidKit", "", 50, 65 },
             { "Medikit", "", 55, 35 },
-            { "NVGoggles", "", 120, 80 }
+            { "NVGoggles", "", 120, 80 },
+			{ "ItemMap", "Mapa", 50, 35 }
         };
         mags[] = {};
         accs[] = {};

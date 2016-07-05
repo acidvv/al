@@ -51,7 +51,7 @@ class Life_Settings {
     donor_level = true; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
     enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWTTP = 30; //Static variable for the maximum weight allowed without having a backpack
-    respawn_timer = 600; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
+    respawn_timer = 800; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
 
     /* Clothing System Configurations */
     civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
@@ -63,7 +63,7 @@ class Life_Settings {
 
     /* Fuel System Configurations */
     pump_service = true; //Allow users to use pump service on the map. Default = false
-    fuel_cost = 200; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
+    fuel_cost = 2000; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
     service_chopper = 6000; //Cost to service chopper at chopper service station(Repair/Refuel).
 
     /* Gang System Configurations */
@@ -96,7 +96,7 @@ class Life_Settings {
 
     /* Paycheck & Bank System Configurations */
     bank_cop = 20000; //Amount of cash in bank for new cops
-    bank_civ = 5000; //Amount of cash in bank for new civillians
+    bank_civ = 10000; //Amount of cash in bank for new civillians
     bank_med = 20000; //Amount of cash in bank for new medics
 
     paycheck_cop = 5000; //Payment for cops
@@ -122,7 +122,7 @@ class Life_Settings {
     "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "H_RacingHelmet_1_black_F",
     "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" }; //Any hats or helmets you want seized from players
     seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players
-	  crush_minimum_rank = 3; //Required minimum CopLevel to be able to seize items from players
+	crush_minimum_rank = 3; //Required minimum CopLevel to be able to seize items from players
 
     /* Vehicle System Configurations */
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
