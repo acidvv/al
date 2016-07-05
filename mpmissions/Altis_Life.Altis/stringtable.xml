@@ -3812,7 +3812,7 @@
 			<German>Sie haben nicht genug Artikel!</German>
 		</Key>
 		<Key ID="STR_NOTF_ItemProcess">
-			<Original>Przetwarzasz!</Original>
+			<Original>Przetworzyłeś!</Original>
 			<Czech>Jste zpracujeme vaši položku (y)!</Czech>
 			<Spanish>Has procesado tus objeto(s)</Spanish>
 			<Russian></Russian>
