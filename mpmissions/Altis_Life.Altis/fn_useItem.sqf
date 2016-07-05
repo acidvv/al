@@ -114,7 +114,7 @@ switch (true) do {
 	};
         case (_item == "heba"): {
 
-		if(playerSide in [west,independent]) exitWith {hint localize "STR_MISC_WestIndNoNo1";};
+		if(playerSide in [west,independent]) exitWith {hint localize "STR_MISC_WestIndNoNo";};
 
 		if (([false,_item, 1] call life_fnc_handleInv)) then {
 
