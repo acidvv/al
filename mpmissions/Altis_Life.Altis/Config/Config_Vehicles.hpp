@@ -335,8 +335,8 @@ class LifeCfgVehicles {
     class I_Truck_02_medical_F {
         vItemSpace = 250;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 25000;
-		assurPrice = 3500;
+        price = 55000;
+		assurPrice = 25000;
         textures[] = {
 			{ "EMS", "med", {
                 "textures\Med\Vehicles\medic_front.jpg",
@@ -348,8 +348,8 @@ class LifeCfgVehicles {
     class O_Truck_03_medical_F {
         vItemSpace = 300;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 45000;
-		assurPrice = 3500;
+        price = 55000;
+		assurPrice = 25000;
         textures[] = {};
     };
 
@@ -380,8 +380,8 @@ class LifeCfgVehicles {
     class C_Rubberboat {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 5000;
-		assurPrice = 1000;
+        price = 15000;
+		assurPrice = 7000;
         textures[] = { };
     };
 
@@ -444,8 +444,8 @@ class LifeCfgVehicles {
     class B_Boat_Transport_01_F {
         vItemSpace = 45;
         licenses[] = { {""}, {"cg"}, {""}, {""} };
-        price = 10000;
-		assurPrice = 3000;
+        price = 55000;
+		assurPrice = 15000;
         textures[] = { };
     };
 
@@ -588,7 +588,7 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         //assurPrice[] = { 1000, 1000, 1000, 1000 };
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 45000;
+        price = 55000;
 		assurPrice = 13500;
         textures[] = {
             { "Red", "civ", {
@@ -656,7 +656,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Hatchback_01_sport_F {
         vItemSpace = 54;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 90000;
+        price = 290000;
 		assurPrice = 27000;
         textures[] = {
             { "Red", "civ", {
@@ -710,7 +710,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Quadbike_01_F {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 4500;
+        price = 8500;
 		assurPrice = 1350;
         textures[] = {
             { "Brown", "cop", {
