@@ -388,7 +388,7 @@ class LifeCfgVehicles {
     class I_Heli_light_03_unarmed_F {
         vItemSpace = 325;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 1250000;
+        price = 4250000;
 		assurPrice = 475000;
         textures[] = {  };
     };
@@ -939,15 +939,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Heli_Transport_02_F {
        vItemSpace = 425;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 1575000;
-	   assurPrice = 598500;
+       price = 6575000;
+	   assurPrice = 198500;
        textures[] = {};
    };
    
    class B_Heli_Transport_03_unarmed_F {
        vItemSpace = 565;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 2135000;
+       price = 5135000;
 	   assurPrice = 811300;
        textures[] = {};
    };
@@ -955,7 +955,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class O_Heli_Transport_04_black_F {
        vItemSpace = 115;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 935000;
+       price = 1235000;
 	   assurPrice = 355300;
        textures[] = {};
    };
@@ -979,7 +979,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
    class O_Heli_Transport_04_Box_F {
       vItemSpace = 525;
       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-      price = 1805000;
+      price = 2805000;
 	  assurPrice = 541500;
       textures[] = {};
     };
@@ -987,8 +987,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Light_01_F {
         vItemSpace = 90;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-        price = 250000;
-		assurPrice = 95000;
+        price = 1250000;
+		assurPrice = 145000;
         textures[] = {
             { "Police", "cop", {
                 "textures\Cop\Vehicles\policeheli.jpg"
@@ -1041,14 +1041,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {
         vItemSpace = 75;
 		licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 250000;
-		assurPrice = 95000;
+        price = 1500000;
+		assurPrice = 125000;
     };
 
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 240;
         licenses[] = { {"pilot" }, {""}, {""}, {""} };
-        price = 900000;
+        price = 2900000;
 		assurPrice = 342000;
         textures[] = {
             { "Black", "cop", {
