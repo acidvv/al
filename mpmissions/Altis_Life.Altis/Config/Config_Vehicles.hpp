@@ -388,7 +388,7 @@ class LifeCfgVehicles {
     };
 
     class C_Rubberboat {
-        vItemSpace = 45;
+        vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 5000;
 		assurPrice = 1000;
@@ -407,7 +407,7 @@ class LifeCfgVehicles {
         vItemSpace = 20;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 350000;
-		assurPrice = 15000;
+		assurPrice = 150000;
         textures[] = {
             { "Police", "cop", {
               "textures\Cop\Vehicles\police_heli2.paa"
@@ -419,7 +419,7 @@ class LifeCfgVehicles {
         vItemSpace = 25;
         licenses[] = { {""}, {"swat"}, {""}, {""} };
         price = 550000;
-		assurPrice = 3000;
+		assurPrice = 25000;
         textures[] = {
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
@@ -534,7 +534,7 @@ class LifeCfgVehicles {
     };
 
     class C_Boat_Civil_01_F {
-        vItemSpace = 85;
+        vItemSpace = 120;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 25000;
 		assurPrice = 8000;
@@ -1088,7 +1088,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
         class C_Van_01_fuel_F {
-        vItemSpace = 50;
+        vItemSpace = 130;
         vFuelSpace = 9999999;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 75000;
@@ -1106,7 +1106,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_Truck_02_fuel_F {
-        vItemSpace = 40;
+        vItemSpace = 260;
         vFuelSpace = 9999999;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 250000;
@@ -1120,7 +1120,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class B_Truck_01_fuel_F {
-        vItemSpace = 50;
+        vItemSpace = 390;
         vFuelSpace = 9999999;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 300000;
