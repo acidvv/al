@@ -112,7 +112,15 @@ switch (true) do {
 			[player,"drink"] remoteExec ["life_fnc_say3D",RANY];
 		};
 	};
+        case (_item == "heba"): {
 
+		if(playerSide in [west,independent]) exitWith {hint localize "STR_MISC_WestIndNoNo1";};
+
+		if (([false,_item, 1] call life_fnc_handleInv)) then {
+
+			[] spawn life_fnc_useheba;
+		};
+	};
 	case (EQUAL(_item,"whiskey")): {
 		if(playerSide in [west,independent]) exitWith {hint localize "STR_MISC_WestIndNoNo";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint localize "STR_MISC_AlreadyDrinking";};
