@@ -201,6 +201,7 @@ class Life_Client_Core {
 		class drinkmoonshine {};
 		class weed {};
 		class addicted {};
+		class useheba {};
 	};
 
 	class gas
