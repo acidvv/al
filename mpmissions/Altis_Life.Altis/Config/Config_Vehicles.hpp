@@ -134,10 +134,7 @@ class CarShops {
 	class civ_vip_air_bronze {
         side = "civ_vip";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Heli_Light_01_F", { "life_donorlevel", "SCALAR", 1 } },
             { "O_Heli_Light_02_unarmed_F", { "life_donorlevel", "SCALAR", 1 } },
-            { "O_Heli_Transport_04_Box_F", { "life_donorlevel", "SCALAR", 1 } },
 			{ "B_Heli_Light_01_stripped_F", { "life_donorlevel", "SCALAR", 1 } },
             { "I_Heli_Transport_02_F", { "life_donorlevel", "SCALAR", 1 } }
         };
@@ -146,10 +143,9 @@ class CarShops {
 	class civ_vip_air_silver {
         side = "civ_vip";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", { "life_donorlevel", "SCALAR", 2 } },
-            { "B_Heli_Light_01_F", { "life_donorlevel", "SCALAR", 2 } },
             { "O_Heli_Light_02_unarmed_F", { "life_donorlevel", "SCALAR", 2 } },
 			{ "B_Heli_Light_01_stripped_F", { "life_donorlevel", "SCALAR", 2 } },
+			{ "O_Heli_Transport_04_Box_F", { "life_donorlevel", "SCALAR", 2 } },
             { "I_Heli_Transport_02_F", { "life_donorlevel", "SCALAR", 2 } }
         };
     };
@@ -157,8 +153,6 @@ class CarShops {
 	class civ_vip_air_gold {
         side = "civ_vip";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", { "life_donorlevel", "SCALAR", 3 } },
-            { "B_Heli_Light_01_F", { "life_donorlevel", "SCALAR", 3 } },
             { "O_Heli_Light_02_unarmed_F", { "life_donorlevel", "SCALAR", 3 } },
             { "O_Heli_Transport_04_Box_F", { "life_donorlevel", "SCALAR", 3 } },
 			{ "I_Heli_light_03_unarmed_F", { "life_donorlevel", "SCALAR", 3 } },
@@ -171,8 +165,6 @@ class CarShops {
 	class civ_vip_air_platinum {
         side = "civ_vip";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", { "life_donorlevel", "SCALAR", 4 } },
-            { "B_Heli_Light_01_F", { "life_donorlevel", "SCALAR", 4 } },
             { "O_Heli_Light_02_unarmed_F", { "life_donorlevel", "SCALAR", 4 } },
             { "O_Heli_Transport_04_Box_F", { "life_donorlevel", "SCALAR", 4 } },
 			{ "B_Heli_Light_01_stripped_F", { "life_donorlevel", "SCALAR", 4 } },
@@ -185,8 +177,6 @@ class CarShops {
 	class civ_vip_air_diamante {
         side = "civ_vip";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", { "life_donorlevel", "SCALAR", 5 } },
-            { "B_Heli_Light_01_F", { "life_donorlevel", "SCALAR", 5 } },
             { "O_Heli_Light_02_unarmed_F", { "life_donorlevel", "SCALAR", 5 } },
             { "O_Heli_Transport_04_Box_F", { "life_donorlevel", "SCALAR", 5 } },
 			{ "B_Heli_Light_01_stripped_F", { "life_donorlevel", "SCALAR", 5 } },
