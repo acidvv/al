@@ -349,7 +349,7 @@ class VirtualItems {
 	class oil_unprocessed {
 		variable = "oilUnprocessed";
 		displayName = "STR_Item_OilU";
-		weight = 7;
+		weight = 8;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -371,7 +371,7 @@ class VirtualItems {
 	class copper_unrefined {
 		variable = "copperUnrefined";
 		displayName = "STR_Item_CopperOre";
-		weight = 4;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -382,7 +382,7 @@ class VirtualItems {
 	class copper_refined {
 		variable = "copperRefined";
 		displayName = "STR_Item_CopperIngot";
-		weight = 3;
+		weight = 5;
 		buyPrice = 2200;
 		sellPrice = -1;
 		illegal = false;
@@ -393,7 +393,7 @@ class VirtualItems {
 	class iron_unrefined {
 		variable = "ironUnrefined";
 		displayName = "STR_Item_IronOre";
-		weight = 6;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -481,7 +481,7 @@ class VirtualItems {
 	class glass {
 		variable = "glass";
 		displayName = "STR_Item_Glass";
-		weight = 3;
+		weight = 5;
 		buyPrice = 3000;
 		sellPrice = -1;
 		illegal = false;
@@ -514,7 +514,7 @@ class VirtualItems {
 	class rock {
 		variable = "rock";
 		displayName = "STR_Item_Rock";
-		weight = 6;
+		weight = 8;
 		buyPrice = 500;
 		sellPrice = -1;
 		illegal = false;
@@ -525,8 +525,8 @@ class VirtualItems {
 	class cement {
 		variable = "cement";
 		displayName = "STR_Item_CementBag";
-		weight = 5;
-		buyPrice = -4000;
+		weight = 7;
+		buyPrice = 2000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -537,7 +537,7 @@ class VirtualItems {
 	class heroin_unprocessed {
 		variable = "heroinUnprocessed";
 		displayName = "STR_Item_HeroinU";
-		weight = 9;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -549,7 +549,7 @@ class VirtualItems {
 	class heroin_processed {
 		variable = "heroinProcessed";
 		displayName = "STR_Item_HeroinP";
-		weight = 8;
+		weight = 6;
 		buyPrice = 9000;
 		sellPrice = -1;
 		illegal = true;
@@ -571,7 +571,7 @@ class VirtualItems {
 	class heba {
 		variable = "heba";
 		displayName = "STR_Item_heba";
-		weight = 11;
+		weight = 8;
 		buyPrice = 9000;
 		sellPrice = -1;
 		illegal = true;
@@ -582,7 +582,7 @@ class VirtualItems {
 	class marijuana {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
-		weight = 8;
+		weight = 7;
 		buyPrice = 7000;
 		sellPrice = -1;
 		illegal = true;
@@ -1014,7 +1014,7 @@ class VirtualItems {
 	class nitroamine {
 		variable = "nitroamine";
 		displayName = "STR_Item_nitroamine";
-		weight = 5;
+		weight = 8;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -1025,7 +1025,7 @@ class VirtualItems {
 	class C4 {
 		variable = "C4";
 		displayName = "STR_Item_C4";
-		weight = 11;
+		weight = 15;
 		buyPrice = 72025;
 		sellPrice = 2500;
 		illegal = true;
@@ -1036,7 +1036,7 @@ class VirtualItems {
 	class steel {
 		variable = "steel";
 		displayName = "STR_Item_steel";
-		weight = 4;
+		weight = 8;
 		buyPrice = 1900;
 		sellPrice = -1;
 		illegal = false;
@@ -1058,7 +1058,7 @@ class VirtualItems {
 	class wool {
 		variable = "wool";
 		displayName = "STR_Item_wool";
-		weight = 3;
+		weight = 6;
 		buyPrice = 1200;
 		sellPrice = -1;
 		illegal = false;
@@ -1080,7 +1080,7 @@ class VirtualItems {
 	class sulfur {
 		variable = "sulfur";
 		displayName = "STR_Item_sulfur";
-		weight = 3;
+		weight = 6;
 		buyPrice = 3025;
 		sellPrice = 1100;
 		illegal = false;
@@ -1091,7 +1091,7 @@ class VirtualItems {
 	class gunpowder {
 		variable = "gunpowder";
 		displayName = "STR_Item_gunpowder";
-		weight = 3;
+		weight = 5;
 		buyPrice = 8025;
 		sellPrice = 1000;
 		illegal = true;
@@ -1135,7 +1135,7 @@ class VirtualItems {
 	class nitro {
         variable = "nitro";
         displayName = "STR_Item_Nitro";
-        weight = 10;
+        weight = 15;
         buyPrice = 275000;
         sellPrice = 20000;
         illegal = true;

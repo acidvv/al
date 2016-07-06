@@ -59,7 +59,7 @@ DYNMARKET_Items_Groups =
 			["oil_processed",-1,1500,4000],
 			["wood",-1,700,2000],
 			["plank",-1,1100,2500],
-			["wool",-1,700,1200],
+			["wool",-1,200,1200],
 			["steel",-1,1700,3000],
 			["steelplate",-1,8200,12500],
 			["copper_refined",-1,1000,2200],
@@ -69,7 +69,7 @@ DYNMARKET_Items_Groups =
 			["glass",-1,1000,3000],
 			["diamond_cut",-1,3000,7000],
 			["rock",-1,200,500],
-			["cement",-1,2000,4000]
+			["cement",-1,1000,2000]
 			],		
 		0.5
 	],
@@ -110,7 +110,7 @@ DYNMARKET_Items_ToTrack        =
 	["oil_processed",2500],
 	["wood",1100],
 	["plank",1600],
-	["wool",1000],
+	["wool",500],
 	["steel",2500],
 	["steelplate",10000],
 	["copper_refined",1500],
@@ -120,7 +120,7 @@ DYNMARKET_Items_ToTrack        =
 	["glass",2045],
 	["diamond_cut",5000],
 	["rock",350],	
-	["cement",3000],
+	["cement",1000],
 	
 	
 		
