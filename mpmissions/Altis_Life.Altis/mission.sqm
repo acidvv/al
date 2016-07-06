@@ -19,7 +19,7 @@ class EditorData
 		pos[]={2972.3958,26.097712,12156.369};
 		dir[]={0,-0.70710683,0.70710683};
 		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		aside[]={0.99999994,0,0};
 	};
 };
 binarizationWanted=0;
@@ -1744,7 +1744,7 @@ class Mission
 			position[]={14199.756,24.243034,18581.707};
 			name="car_g_3";
 			type="Empty";
-			angle=27.386625;
+			angle=27.386623;
 			id=149;
 		};
 		class Item135
@@ -7192,7 +7192,7 @@ class Mission
 			};
 			id=633;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.067400932;
+			atlOffset=0.067394733;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18763,7 +18763,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false;  this allowDamage false;   " \n "this addAction[localize""STR_Process_heba"",life_fnc_processAction,""heba"",0,false,false,"""", " \n "' life_inv_cannabis > 0 && !life_is_processing'];   " \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""heba"" >> ""displayName"")),  " \n "[(getNumber(missionConfigFile >> ""Licenses"" >> ""heba"" >> ""price""))]  " \n "call life_fnc_numberText],life_fnc_buyLicense,""heba"",0,false,false,"""",' !license_civ_marijuana && playerSide == civilian '];";
+						init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Marijuana"",life_fnc_processAction,""marijuana"",0,false,false,"""",' life_inv_cannabis > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""marijuana"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""marijuana"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""marijuana"",0,false,false,"""",' !license_civ_marijuana && playerSide == civilian '];";
 					};
 					id=963;
 					type="C_man_polo_3_F";
