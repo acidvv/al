@@ -63,7 +63,7 @@ class Life_Settings {
 
     /* Fuel System Configurations */
     pump_service = true; //Allow users to use pump service on the map. Default = false
-    fuel_cost = 2000; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
+    fuel_cost = 200; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
     service_chopper = 6000; //Cost to service chopper at chopper service station(Repair/Refuel).
 
     /* Gang System Configurations */
