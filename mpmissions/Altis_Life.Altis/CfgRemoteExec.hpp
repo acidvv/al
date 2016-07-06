@@ -127,6 +127,7 @@ class CfgRemoteExec {
         F(DB_fnc_cellPhoneRequest,SERVER)
 		    F(DB_fnc_saveCellPhone,SERVER)
         F(TON_fnc_vAH_update,SERVER)
+		F(TON_fnc_getupdate,SERVER)
 		    F(TON_fnc_vAH_init,SERVER)
         
 		
