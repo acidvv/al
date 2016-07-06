@@ -572,7 +572,7 @@ class VirtualItems {
 		variable = "heba";
 		displayName = "STR_Item_heba";
 		weight = 11;
-		buyPrice = 13000;
+		buyPrice = 9000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -1059,7 +1059,7 @@ class VirtualItems {
 		variable = "wool";
 		displayName = "STR_Item_wool";
 		weight = 3;
-		buyPrice = 2200;
+		buyPrice = 1200;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;

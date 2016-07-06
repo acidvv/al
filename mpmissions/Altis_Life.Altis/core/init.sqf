@@ -190,5 +190,8 @@ if (_total > 0) then
 	[0,format[localize "STR_AH_LogInRec",[_total]call life_fnc_numberText]] remoteExecCall ["life_fnc_broadcast",player];
 	ADD(TTPBANK,_total);
 };
+DYNAMICMARKET_boughtItems = [];
+[[getPlayerUID player],"TON_fnc_playerLogged",false,false] spawn life_fnc_MP;
+
 [] call life_fnc_cellPhoneCheck;
 [1] call SOCK_fnc_updatePartial;
