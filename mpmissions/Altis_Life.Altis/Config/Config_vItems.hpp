@@ -1037,7 +1037,7 @@ class VirtualItems {
 		variable = "steel";
 		displayName = "STR_Item_steel";
 		weight = 8;
-		buyPrice = 1900;
+		buyPrice = 4900;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
