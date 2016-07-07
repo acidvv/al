@@ -13,7 +13,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "steel", "wool", "rubberU", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "nitro" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "wool", "rubberU", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "nitro" };
 	};
 
 	class plank {
