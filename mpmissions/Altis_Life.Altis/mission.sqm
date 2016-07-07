@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2972.3958,26.097712,12156.369};
+		pos[]={2967.0735,54.314919,12141.091};
 		dir[]={0,-0.70710683,0.70710683};
 		up[]={0,0.70710677,0.70710677};
 		aside[]={0.99999994,0,0};
@@ -264,7 +264,6 @@ class ScenarioData
 	respawnDialog=0;
 	disabledAI=1;
 	respawn=3;
-	respawnDelay=300;
 	class Header
 	{
 		gameType="RPG";
@@ -1744,7 +1743,7 @@ class Mission
 			position[]={14199.756,24.243034,18581.707};
 			name="car_g_3";
 			type="Empty";
-			angle=27.386623;
+			angle=27.386621;
 			id=149;
 		};
 		class Item135
@@ -7192,7 +7191,7 @@ class Mission
 			};
 			id=633;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.067394733;
+			atlOffset=0.067400932;
 			class CustomAttributes
 			{
 				class Attribute0
