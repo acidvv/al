@@ -136,7 +136,13 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
+   class Woodcutting {
+        variable = "Woodcutting";
+        displayName = "STR_License_Woodcutting";
+        price = 50000;
+        illegal = false;
+        side = "civ";
+    };
     //Illegal Licenses
     class cocaine {
         variable = "cocaine";
@@ -240,15 +246,7 @@ class Licenses {
         illegal = false;
         side = "cop";
     };
-
-    class Woodcutting {
-        variable = "Woodcutting";
-        displayName = "STR_License_Woodcutting";
-        price = 25000;
-        illegal = false;
-        side = "civ";
-    };
-
+    
     //Medic Licenses
     class mAir {
         variable = "mAir";
