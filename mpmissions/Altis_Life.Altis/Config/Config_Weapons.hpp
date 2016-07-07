@@ -1020,7 +1020,7 @@ class cop_tenente_coronel {
             { "FirstAidKit", "", 50, 65 },
             { "Medikit", "", 55, 35 },
             { "NVGoggles", "", 120, 80 },
-			{ "ItemMap", "Mapa", "toolkit", "fuelFull" 50, 35 }
+			{ "ItemMap", "Mapa", "toolkit", "fuelFull","", 50, 35 }
         };
         mags[] = {};
         accs[] = {};
