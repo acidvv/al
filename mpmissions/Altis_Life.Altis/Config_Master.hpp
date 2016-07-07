@@ -10,10 +10,10 @@ class Life_Settings {
     spyGlass_toggle = false; //Spyglass On/Off Toggle --> True = On & False = Off
 
     /* Data Logging Settings */
-    battlEye_friendlyLogging = false; //Set to true if you plan to read the data in your BattlEye log files. Otherwise use the SERVER RPT.
-    player_advancedLog = false; //Logs the following: Houses(purchase/sale), Vehicle(Purchase/Sale/Chopping), Cop Arrests and Gang Creations. SEARCH USING: advanced_log
-    player_moneyLog = false; //Logs player and gang bank(deposits/withdrawals/transfers). Logs money picked up off the ground. Logs player robbery. SEARCH USING: money_log
-    player_deathLog = false; //Logs victim and killer when someone dies. SEARCH USING: death_log
+    battlEye_friendlyLogging = true; //Set to true if you plan to read the data in your BattlEye log files. Otherwise use the SERVER RPT.
+    player_advancedLog = true; //Logs the following: Houses(purchase/sale), Vehicle(Purchase/Sale/Chopping), Cop Arrests and Gang Creations. SEARCH USING: advanced_log
+    player_moneyLog = true; //Logs player and gang bank(deposits/withdrawals/transfers). Logs money picked up off the ground. Logs player robbery. SEARCH USING: money_log
+    player_deathLog = true; //Logs victim and killer when someone dies. SEARCH USING: death_log
 
 /* Database Related Settings */
     /* Player Data Saving */
@@ -95,9 +95,9 @@ class Life_Settings {
     hospital_heal_fee = 10000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 20000; //Amount of cash in bank for new cops
+    bank_cop = 50000; //Amount of cash in bank for new cops
     bank_civ = 10000; //Amount of cash in bank for new civillians
-    bank_med = 20000; //Amount of cash in bank for new medics
+    bank_med = 50000; //Amount of cash in bank for new medics
 
     paycheck_cop = 5000; //Payment for cops
     paycheck_civ = 2000; //Payment for civillians

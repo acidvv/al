@@ -577,8 +577,7 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
-			{ "SMG_02_F", "Sting 9 mm", 15000, 750 },
+            { "SMG_02_F", "Sting 9 mm", 15000, 750 },
 			{ "PDW2000 9 mm", "Submachine 9x21 mm", 13000, 750 },
             { "hgun_P07_snds_F", "Pistola Tazer", 200, 60 },
             { "hgun_P07_F", "P07 9mm", 750, 150 },
@@ -681,7 +680,8 @@ class WeaponShops {
         license = "swat";
         level[] = { "life_coplevel", "SCALAR", 3, "Musisz być sierżantem Swat!" };
         items[] = {
-            { "srifle_GM6_F", "", 17500, -1 },
+            { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
+			{ "srifle_GM6_F", "", 17500, -1 },
             { "LMG_Zafir_F", "", 15000, -1 },
             { "arifle_MX_GL_Black_F", "", 5000, -1 },
             { "launch_RPG32_F", "", 150000, -1 },
@@ -1020,7 +1020,7 @@ class cop_tenente_coronel {
             { "FirstAidKit", "", 50, 65 },
             { "Medikit", "", 55, 35 },
             { "NVGoggles", "", 120, 80 },
-			{ "ItemMap", "Mapa", 50, 35 }
+			{ "ItemMap", "Mapa", "toolkit", "fuelFull" 50, 35 }
         };
         mags[] = {};
         accs[] = {};

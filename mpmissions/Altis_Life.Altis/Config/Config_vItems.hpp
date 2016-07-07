@@ -13,7 +13,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "beer", "whiskey", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "steel", "wool", "rubberU", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "nitro" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "steel", "wool", "rubberU", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "nitro" };
 	};
 
 	class plank {
@@ -77,7 +77,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "cocaine_processed", "heroin_processed", "marijuana", "nitroamine", "heba" };
+		items[] = { "cocaine_processed", "heroin_processed", "marijuana", "nitroamine", "heba", "whiskey","beer" };
 	};
 
 	class oil {
@@ -206,7 +206,7 @@ class VirtualItems {
 		variable = "toolkit";
 		displayName = "STR_Item_Toolkit";
 		weight = 6;
-		buyPrice = 500;
+		buyPrice = 3500;
 		sellPrice = 200;
 		illegal = false;
 		edible = -1;
@@ -228,7 +228,7 @@ class VirtualItems {
 		variable = "fuelFull";
 		displayName = "STR_Item_FuelF";
 		weight = 8;
-		buyPrice = 2850;
+		buyPrice = 5850;
 		sellPrice = 1500;
 		illegal = false;
 		edible = -1;
@@ -250,7 +250,7 @@ class VirtualItems {
 		variable = "lockpick";
 		displayName = "STR_Item_Lockpick";
 		weight = 3;
-		buyPrice = 8500;
+		buyPrice = 18500;
 		sellPrice = 2500;
 		illegal = true;
 		edible = -1;
@@ -261,7 +261,7 @@ class VirtualItems {
 		variable = "gpstracker";
 		displayName = "STR_Item_gpstracker";
 		weight = 2;
-		buyPrice = 9500;
+		buyPrice = 39500;
 		sellPrice = 2500;
 		illegal = true;
 		edible = -1;
@@ -305,7 +305,7 @@ class VirtualItems {
 		variable = "defuseKit";
 		displayName = "STR_Item_DefuseKit";
 		weight = 2;
-		buyPrice = 2500;
+		buyPrice = 22500;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -327,8 +327,8 @@ class VirtualItems {
 		variable = "zipties";
 		displayName = "STR_Item_zipties";
 		weight = 4;
-		buyPrice = 10000;
-		sellPrice = -1;
+		buyPrice = 100000;
+		sellPrice = 100;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ziptie.paa";
@@ -550,7 +550,7 @@ class VirtualItems {
 		variable = "heroinProcessed";
 		displayName = "STR_Item_HeroinP";
 		weight = 6;
-		buyPrice = 9000;
+		buyPrice = 90000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -572,7 +572,7 @@ class VirtualItems {
 		variable = "heba";
 		displayName = "STR_Item_heba";
 		weight = 7;
-		buyPrice = 9000;
+		buyPrice = 90000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -583,7 +583,7 @@ class VirtualItems {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
 		weight = 7;
-		buyPrice = 7000;
+		buyPrice = 70000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -606,7 +606,7 @@ class VirtualItems {
 		variable = "cocaineProcessed";
 		displayName = "STR_Item_CocaineP";
 		weight = 7;
-		buyPrice = 8000;
+		buyPrice = 50000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -1103,7 +1103,7 @@ class VirtualItems {
 		variable = "beer";
 		displayName = "STR_Item_beer";
 		weight = 3;
-		buyPrice = 2025;
+		buyPrice = 20025;
 		sellPrice = 1200;
 		illegal = false;
 		edible = 100;
@@ -1136,7 +1136,7 @@ class VirtualItems {
         variable = "nitro";
         displayName = "STR_Item_Nitro";
         weight = 15;
-        buyPrice = 275000;
+        buyPrice = 475000;
         sellPrice = 20000;
         illegal = true;
         edible = -1;
@@ -1147,7 +1147,7 @@ class VirtualItems {
         variable = "blindfold";
         displayName = "STR_Item_Blindfold";
         weight = 4;
-        buyPrice = 5000;
+        buyPrice = 7000;
         sellPrice = 1600;
         illegal = true;
         edible = -1;
