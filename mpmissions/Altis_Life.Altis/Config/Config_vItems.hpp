@@ -346,6 +346,39 @@ class VirtualItems {
 	//Virtual Items
 
 	//Misc
+	class storagebig {
+		variable = "storageBig";
+		displayName = "STR_Item_StorageBL";
+		weight = 16;
+		buyPrice = 1150000;
+		sellPrice = 50000;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_storageBig.paa";
+	
+	};
+	class storagesmall {
+		variable = "storageSmall";
+		displayName = "STR_Item_StorageBS";
+		weight = 10;
+		buyPrice = 575000;
+		sellPrice = 25000;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_storageSmall.paa";
+	
+	};
+	class fuelFull {
+		variable = "fuelFull";
+		displayName = "STR_Item_FuelF";
+		weight = 8;
+		buyPrice = 4850;
+		sellPrice = 1500;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_fuel.paa";
+	
+	};
 	class pickaxe {
 		variable = "pickaxe";
 		displayName = "STR_Item_Pickaxe";
