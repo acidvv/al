@@ -19,12 +19,12 @@ _illegalValue = 0;
 {
 	_var = SEL(_x,0);
 	_val = SEL(_x,1);
-	_isIllegalItem = M_CONFIG(getNumber,"VirtualItems",_var,"illegal");
+	_isIllegalItem = M_CONFIG(getNumber,"VirtualItemsc",_var,"illegal");
 	if(_isIllegalItem isEqualTo 1 ) then{
-		_illegalPrice = M_CONFIG(getNumber,"VirtualItems",_var,"sellPrice");
-		if(!isNull (missionConfigFile >> "VirtualItems" >> _var >> "processedItem")) then {
-			_illegalItemProcessed = M_CONFIG(getText,"VirtualItems",_var,"processedItem");
-			_illegalPrice = M_CONFIG(getNumber,"VirtualItems",_illegalItemProcessed,"sellPrice");
+		_illegalPrice = M_CONFIG(getNumber,"VirtualItemsc",_var,"sellPrice");
+		if(!isNull (missionConfigFile >> "VirtualItemsc" >> _var >> "processedItem")) then {
+			_illegalItemProcessed = M_CONFIG(getText,"VirtualItemsc",_var,"processedItem");
+			_illegalPrice = M_CONFIG(getNumber,"VirtualItemsc",_illegalItemProcessed,"sellPrice");
 		};
 
 		_illegalValue = _illegalValue + (round(_val * _illegalPrice / 2));
