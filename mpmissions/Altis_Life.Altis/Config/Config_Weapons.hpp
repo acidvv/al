@@ -22,7 +22,7 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "FirstAidKit", "Apteczka", 250, 65 },
+            { "FirstAidKit", "Apteczka", 5250, 65 },
             { "hgun_Rook40_F", "Rook 9mm", 6500, 500 },
             { "hgun_Pistol_heavy_02_F", "Zubr .45ACP", 9850, -1 },
             { "hgun_ACPC2_F", "ACP .45ACP", 11500, -1 },
@@ -533,12 +533,12 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "Binoculos", 150, -1 },
-            { "ItemGPS", "GPS", 100, 45 },
+            { "ItemGPS", "GPS", 1500, 45 },
             { "ItemMap", "Mapa", 50, 35 },
             { "ItemCompass", "Kompas", 50, 25 },
             { "ItemWatch", "Zegaros", 50, -1 },
-            { "FirstAidKit", "Apteczka", 150, 65 },
-            { "NVGoggles", "Nokto", 2000, 980 },
+            { "FirstAidKit", "Apteczka", 5550, 650 },
+            { "NVGoggles", "Nokto", 6000, 980 },
             { "Chemlight_red", "", 300, -1 },
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
@@ -554,12 +554,12 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "Binoculos", 750, -1 },
-            { "ItemGPS", "GPS", 500, 45 },
+            { "Binocular", "Binoculos", 5750, -1 },
+            { "ItemGPS", "GPS", 11500, 45 },
             { "ItemMap", "Mapa", 250, 35 },
             { "ItemCompass", "Kompas", 250, 25 },
             { "ItemWatch", "Zegarek", 250, -1 },
-            { "FirstAidKit", "Apteczka", 750, 65 },
+            { "FirstAidKit", "Apteczka", 5750, 65 },
             { "NVGoggles", "Nokto", 10000, 980 },
             { "Chemlight_red", "", 1500, -1 },
             { "Chemlight_yellow", "", 1500, 50 },

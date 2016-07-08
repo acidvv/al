@@ -94,7 +94,7 @@ class Life_Client_Core {
 		class unmask {};
 		class robShops {};
 		class ZipTieAction {};
-	};
+		};
 
 	class vAH
 	{
@@ -431,6 +431,7 @@ class Life_Client_Core {
 		class ticketPaymedic {};
 		class ticketPromptmedic {};
 		class ticketPaidmedic {};
+		class medEnter {};
 	};
 
 	class Network {
