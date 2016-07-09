@@ -81,8 +81,9 @@ DYNMARKET_Items_Groups =
 			["heroin_processed",-1,4500,7500],
 			["cannabis",-1,400,600],
 			["heba",-1,7000,10000],
-			["marijuana",-1,3000,6000]
+			["marijuana",-1,3000,6000],
 			["turtle_raw",-1,5000,7000]
+			],
 		0.5
 	]
 ];
