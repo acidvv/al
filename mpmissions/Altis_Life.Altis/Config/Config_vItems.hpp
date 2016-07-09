@@ -171,7 +171,7 @@ class turtle_raw {
 		variable = "turtleRaw";
 		displayName = "STR_Item_TurtleRaw";
 		weight = 9;
-		buyPrice = -1;
+		buyPrice = 22000;
 		sellPrice = 6000;
 		illegal = true;
 		edible = -1;
@@ -303,7 +303,7 @@ class turtle_raw {
 		displayName = "STR_Item_GoldBar";
 		weight = 15;
 		buyPrice = -1;
-		sellPrice = 325000;
+		sellPrice = 6000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_goldBar.paa";
@@ -314,7 +314,7 @@ class turtle_raw {
 		displayName = "STR_Item_BCharge";
 		weight = 15;
 		buyPrice = -1;
-		sellPrice = 20000;
+		sellPrice = 66000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_blastingCharge.paa";
@@ -336,7 +336,7 @@ class turtle_raw {
 		displayName = "STR_Item_DefuseKit";
 		weight = 6;
 		buyPrice = 52500;
-		sellPrice = -1;
+		sellPrice = 6000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_defuseKit.paa";
@@ -360,7 +360,7 @@ class VirtualItems {
 		variable = "storageBig";
 		displayName = "STR_Item_StorageBL";
 		weight = 16;
-		buyPrice = 1150000;
+		buyPrice = 1250000;
 		sellPrice = 50000;
 		illegal = false;
 		edible = -1;
@@ -371,7 +371,7 @@ class VirtualItems {
 		variable = "storageSmall";
 		displayName = "STR_Item_StorageBS";
 		weight = 10;
-		buyPrice = 575000;
+		buyPrice = 715000;
 		sellPrice = 25000;
 		illegal = false;
 		edible = -1;
@@ -750,7 +750,7 @@ class VirtualItems {
 		variable = "heroinProcessed";
 		displayName = "STR_Item_HeroinP";
 		weight = 7;
-		buyPrice = 90000;
+		buyPrice = 13000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -772,7 +772,7 @@ class VirtualItems {
 		variable = "heba";
 		displayName = "STR_Item_heba";
 		weight = 8;
-		buyPrice = 90000;
+		buyPrice = 15000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -783,7 +783,7 @@ class VirtualItems {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
 		weight = 8;
-		buyPrice = 70000;
+		buyPrice = 13000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -806,7 +806,7 @@ class VirtualItems {
 		variable = "cocaineProcessed";
 		displayName = "STR_Item_CocaineP";
 		weight = 9;
-		buyPrice = 80000;
+		buyPrice = 14000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -818,7 +818,7 @@ class VirtualItems {
 		variable = "redgull";
 		displayName = "STR_Item_RedGull";
 		weight = 3;
-		buyPrice = 5150;
+		buyPrice = 3150;
 		sellPrice = 100;
 		illegal = false;
 		edible = 100;
@@ -840,7 +840,7 @@ class VirtualItems {
 		variable = "waterBottle";
 		displayName = "STR_Item_WaterBottle";
 		weight = 4;
-		buyPrice = 120;
+		buyPrice = 1200;
 		sellPrice = 5;
 		illegal = false;
 		edible = 100;
@@ -874,7 +874,7 @@ class VirtualItems {
 		variable = "tbacon";
 		displayName = "STR_Item_TBacon";
 		weight = 4;
-		buyPrice = 75;
+		buyPrice = 750;
 		sellPrice = 25;
 		illegal = false;
 		edible = 40;
@@ -1050,8 +1050,8 @@ class VirtualItems {
 		variable = "turtleRaw";
 		displayName = "STR_Item_TurtleRaw";
 		weight = 10;
-		buyPrice = -1;
-		sellPrice = 9700;
+		buyPrice = 13000;
+		sellPrice = -1;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_turtleRaw.paa";
@@ -1303,7 +1303,7 @@ class VirtualItems {
 		variable = "beer";
 		displayName = "STR_Item_beer";
 		weight = 5;
-		buyPrice = 20025;
+		buyPrice = 7025;
 		sellPrice = 1200;
 		illegal = false;
 		edible = 100;
@@ -1314,7 +1314,7 @@ class VirtualItems {
 		variable = "whiskey";
 		displayName = "STR_Item_whiskey";
 		weight = 10;
-		buyPrice = 30025;
+		buyPrice = 10025;
 		sellPrice = 1275;
 		illegal = false;
 		edible = 100;
@@ -1347,7 +1347,7 @@ class VirtualItems {
         variable = "blindfold";
         displayName = "STR_Item_Blindfold";
         weight = 6;
-        buyPrice = 7000;
+        buyPrice = 70000;
         sellPrice = 1600;
         illegal = true;
         edible = -1;

@@ -10442,7 +10442,7 @@
 			<German>Ausbruch</German>
 		</Key>
 		<Key ID="STR_Crime_215">
-			<Original>Kradzierz pojazdu</Original>
+			<Original>Kradzież pojazdu</Original>
 			<Czech>Pokusili Theft Auto</Czech>
 			<French>Tentative de vol d'automobiles</French>
 			<Spanish>Atentado: Robo de Vehículo</Spanish>
@@ -10462,7 +10462,7 @@
 			<German>Verwendung von illegalen Sprengstoff</German>
 		</Key>
 		<Key ID="STR_Crime_211">
-			<Original>Kradzierz</Original>
+			<Original>Kradzież</Original>
 			<Czech>Loupež</Czech>
 			<French>Vol</French>
 			<Spanish>Robo</Spanish>
@@ -10702,7 +10702,7 @@
 			<Italian>Veicolo blindato(Non armato)</Italian>
 		</Key>
 		<Key ID="STR_Crime_9">
-			<Original>Kradzierz (Cywilny pojazd)</Original>
+			<Original>Kradzież (Cywilny pojazd)</Original>
 			<Czech>Grand Theft (Civilian Vehicle)</Czech>
 			<Spanish>Robo Mayor (Vehículo Civil)</Spanish>
 			<Russian></Russian>
@@ -10713,7 +10713,7 @@
 
 		</Key>
 		<Key ID="STR_Crime_10">
-			<Original>Kradzierz (Militarny pojazd)</Original>
+			<Original>Kradzież (Militarny pojazd)</Original>
 			<Czech>Grand Theft (Military Vehicle)</Czech>
 			<Spanish>Robo Mayor (Vehículo Militar)</Spanish>
 			<Russian></Russian>
@@ -10803,7 +10803,7 @@
 			<German>Behinderung der Staatsgewalt</German>
 		</Key>
 		<Key ID="STR_Crime_19">
-			<Original>Ucieczka z miejsca zdażenia</Original>
+			<Original>Ucieczka z miejsca zdarzenia</Original>
 			<Czech>Zavinit nehodu a ujet</Czech>
 			<Spanish>Golpea y Corre</Spanish>
 			<Italian>Mordi e fuggi</Italian>
