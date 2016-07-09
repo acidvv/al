@@ -155,12 +155,12 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _ki
 			[3] remoteExecCall ["life_fnc_removeLicenses",_killer];
 		};
 	};
-    [0,"STR_NHS_Killed",true,[profileName,_killer GVAR ["realname",name _killer]]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+    [0,"",true,[profileName,_killer GVAR ["realname",name _killer]]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 } else {
     if(side _killer isEqualTo west && playerSide != west) then {
-            [0,"STR_NHS_Killed",true,[profileName,_killer GVAR ["realname",name _killer]]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+            [0,"",true,[profileName,_killer GVAR ["realname",name _killer]]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
     } else {
-            [0,"STR_NHS_Suicide",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+            [0,"",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
     };
 };
 

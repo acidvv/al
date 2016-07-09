@@ -156,7 +156,6 @@ class Life_Client_Core {
 		class adminTeleport {};
 		class adminTpHere {};
 		class adminCompensate {};
-		class adminGodMode {};
 		class adminFreeze {};
 		class adminMarkers {};
 	};

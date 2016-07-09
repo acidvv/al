@@ -20,7 +20,7 @@ class Life_Settings {
     save_virtualItems = true; //Save Virtual items (all sides)?
 
     saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts",
-    "defibrillator","toolkit","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker",,"woodaxe" }; //Array of virtual items that can be saved on your player.
+    "defibrillator","toolkit","toolkit2","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker",,"woodaxe" }; //Array of virtual items that can be saved on your player.
 
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
