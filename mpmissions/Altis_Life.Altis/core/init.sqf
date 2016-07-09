@@ -157,16 +157,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigu
 if(EQUAL(LIFE_SETTINGS(getNumber,"pump_service"),1)) then{
 	[] execVM "core\fn_setupStationService.sqf";
 };
-/*
-while {true} do
-{
-  _veh = vehicle player;
-  if (player action ["getOut", _veh]) then
-  {
-    life_seatbelt = false;
-  };
-};
-*/
+
 if(life_HC_isActive) then {
 	[getPlayerUID player,player getVariable["realname",name player]] remoteExec ["HC_fnc_wantedProfUpdate",HC_Life];
 } else {

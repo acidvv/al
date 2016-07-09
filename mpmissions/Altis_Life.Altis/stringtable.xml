@@ -9317,7 +9317,7 @@
 			<Russian></Russian>
 			<German>Eisenmine</German>
 			<Portuguese>Mina de Ferro</Portuguese>
-			<Polish>Kopalnia miedzi</Polish>
+			<Polish>Kopalnia żelaza</Polish>
 			<Italian>Miniera di ferro</Italian>
 		</Key>
 		<Key ID="STR_MAR_Salt_Mine">
@@ -9870,8 +9870,8 @@
 			<Portuguese>Processador de Heroína</Portuguese>
 			<Polish>Oczyszczanie heroiny</Polish>
 		</Key>
-		<Key ID="STR_MAR_Garage">
-			<Original>Garage</Original>
+		<Key ID="STR_MAR_ helico">
+			<Original>Schowaj helikopter</Original>
 			<Czech>Garáž</Czech>
 			<French>Garage</French>
 			<Spanish>Garaje</Spanish>
@@ -9879,7 +9879,7 @@
 			<Russian></Russian>
 			<German>Garage</German>
 			<Portuguese>Garagem</Portuguese>
-			<Polish>Garaż</Polish>
+			<Polish>Schowaj Helikopter</Polish>
 		</Key>
 		<Key ID="STR_MAR_Federal_Reserve">
 			<Original>Federal Reserve</Original>
@@ -10211,13 +10211,16 @@
 			<Original>Broń kapitana</Original>
 		</Key>
 		<Key ID="STR_MAR_SWAT_Weapon_Shop">
-			<Original>Broń majora</Original>
+			<Original>SWAT Sklep</Original>
 		</Key>
 		<Key ID="STR_MAR_tencoronel_Weapon_Shop">
-			<Original>Broń młod. por.</Original>
+			<Original>Broń Majora</Original>
 		</Key>
 		<Key ID="STR_MAR_coronel_Weapon_Shop">
-			<Original>Broń porucznika</Original>
+			<Original>Broń Komendata</Original>
+			<Key ID="STR_MAR_specpojazdy">
+			<Original>Broń Komendata</Original>
+			</Key>
 		</Key>
 		<Key ID="STR_MAR_W_E_Vehicle Shop">
 			<Original>Vehicle Shop</Original>

@@ -555,7 +555,7 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "Binoculos", 5750, -1 },
-            { "ItemGPS", "GPS", 11500, 45 },
+            { "ItemGPS", "GPS", 1500, 45 },
             { "ItemMap", "Mapa", 250, 35 },
             { "ItemCompass", "Kompas", 250, 25 },
             { "ItemWatch", "Zegarek", 250, -1 },

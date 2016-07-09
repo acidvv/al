@@ -99,7 +99,6 @@ CASH = 0;
 
 life_istazed = false;
 life_isknocked = false;
-life_seatbelt = false;
 life_vehicles = [];
 
 life_skydive = false;

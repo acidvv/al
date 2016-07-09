@@ -270,19 +270,20 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
-            { "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
+            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_G_Offroad_01_armed_F", { "life_coplevel", "SCALAR", 3 } },
-            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } }
+            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } },
+			{ "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
+            { "I_MRAP_03_gmg_F", { "life_coplevel", "SCALAR", 7 } }
         };
     };
-
+	
     class cop_air {
         side = "cop";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
-            { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 7 } },
+            { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 7 } }
         };
     };
 
@@ -419,11 +420,24 @@ class LifeCfgVehicles {
         };
     };
 
+	class I_MRAP_03_gmg_F {
+        vItemSpace = 10;
+        licenses[] = { {""}, {"swat"}, {""}, {""} };
+        price = 550000;
+		assurPrice = 33000;
+        textures[] = {
+            { "Black", "cop", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
+        };
+    };
     class I_MRAP_03_F {
         vItemSpace = 10;
         licenses[] = { {""}, {"swat"}, {""}, {""} };
         price = 250000;
-		assurPrice = 3000;
+		assurPrice = 33000;
         textures[] = {
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",

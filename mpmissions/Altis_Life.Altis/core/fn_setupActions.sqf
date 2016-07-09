@@ -46,5 +46,3 @@ case independent:
 //remove mask
 //life_actions = life_actions + [player addAction["<t color='#FFB124'>Zdejmij worek</t>",life_fnc_unmask,"",1,false,true,"",' playerSide isEqualTo west OR playerSide isEqualTo civilian && !isNull cursorTarget && cursorTarget getVariable "masked" && player distance cursorTarget < 3 && cursorTarget isKindOf "Man" ']];
 //pasy
-	  life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>Zapnij pas</t>", {life_seatbelt=true}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && !life_seatbelt && vehicle player != player ']);
-      life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>Odepnij pas</t>", {life_seatbelt=false}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && life_seatbelt && vehicle player != player ']);
