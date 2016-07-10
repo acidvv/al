@@ -137,7 +137,7 @@ class Life_Settings {
 		vehicle_purchase_multiplier_DONATOR_PLATINUM = .5; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
 		vehicle_purchase_multiplier_DONATOR_DIAMANTE = .4; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_COP = .3; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_MEDIC = .35; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_MEDIC = .25; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* Vehicle Rental Prices */
@@ -158,8 +158,8 @@ class Life_Settings {
 	    vehicle_sell_multiplier_DONATOR_GOLD = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
 		vehicle_sell_multiplier_DONATOR_PLATINUM = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
 		vehicle_sell_multiplier_DONATOR_DIAMANTE = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier		
-        vehicle_sell_multiplier_COP = .5; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-        vehicle_sell_multiplier_MEDIC = .5; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+        vehicle_sell_multiplier_COP = .3; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+        vehicle_sell_multiplier_MEDIC = .3; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
         vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 		
 		/* Vehicle Assure Prices */

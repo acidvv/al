@@ -68,7 +68,7 @@ switch(_craft) do
 			["trigger",["iron_refined",2,"goldcoin",10]],
 			["fuelFull",["iron_refined",1,"oil_processed",3,"goldcoin",10]],
 			["blastingcharge",["cloth",4,"C4",5,"trigger",1,"goldcoin",10]],
-			["storagesmall",["steel",10,"iron_refined",8,"goldcoin",10]]
+			["storagesmall",["steel",100,"iron_refined",8,"goldcoin",10]]
       ];
 	};
 
