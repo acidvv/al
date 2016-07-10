@@ -829,7 +829,7 @@ class VirtualItems {
 		variable = "coffee";
 		displayName = "STR_Item_Coffee";
 		weight = 2;
-		buyPrice = 1120;
+		buyPrice = 620;
 		sellPrice = 5;
 		illegal = false;
 		edible = 100;
@@ -840,7 +840,7 @@ class VirtualItems {
 		variable = "waterBottle";
 		displayName = "STR_Item_WaterBottle";
 		weight = 4;
-		buyPrice = 1200;
+		buyPrice = 200;
 		sellPrice = 5;
 		illegal = false;
 		edible = 100;

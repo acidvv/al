@@ -87,7 +87,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 5000, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 3000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 5000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 9000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 9000, { "", "", -1 } },
@@ -331,7 +331,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 5000, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 3000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 5000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 9000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 9000, { "", "", -1 } },
@@ -433,7 +433,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 5000, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 3000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 5000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 9000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 9000, { "", "", -1 } },
@@ -535,7 +535,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 5000, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 3000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 5000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 9000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 9000, { "", "", -1 } },
@@ -637,7 +637,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 5000, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 3000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 5000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 9000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 9000, { "", "", -1 } },
@@ -727,7 +727,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 5000, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 3000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 5000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 9000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 9000, { "", "", -1 } },
@@ -839,7 +839,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 5000, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 3000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 5000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 9000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 9000, { "", "", -1 } },
