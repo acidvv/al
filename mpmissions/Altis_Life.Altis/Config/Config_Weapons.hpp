@@ -1030,6 +1030,7 @@ class cop_tenente_coronel {
             { "Binocular", "", 150, -1 },
             { "FirstAidKit", "", 50, 65 },
             { "Medikit", "", 55, 35 },
+			{ "toolkit", "", 55, 35 },
             { "NVGoggles", "", 120, 80 },
 			{ "ItemMap", "Mapa", "toolkit", "fuelFull","", 50, 35 }
         };
