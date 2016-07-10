@@ -474,7 +474,7 @@ class WeaponShops {
             { "arifle_MXC_F", "MXC 6.5 mm", 165000, 7500 },
             { "arifle_MX_F", "MX 6.5 mm", 190000, 7500 },
 			{ "srifle_EBR_F", "7.62 mm", 465000, 7500 },
-            { "LMG_Mk200_F", "Mk200 6.5 mm", 4150000, 7500 },
+            { "LMG_Mk200_F", "Mk200 6.5 mm", 415000, 7500 },
 			{ "LMG_Zafir_pointer_F", "Zafur 7.62 mm", 550000, 7500 },
 			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 475000, 7500 },
 			{ "	launch_RPG32_F", "RPG-42 Alamut", 1075000, 7500 }
