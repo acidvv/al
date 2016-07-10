@@ -68,7 +68,49 @@ if (!isNil {(_this select 0)}) then {
 {(vestContainer player) addItemCargoGlobal [_x,1];} forEach (_vMags);
 {player addItemToBackpack _x;} forEach (_bItems);
 {(backpackContainer player) addItemCargoGlobal [_x,1];} forEach (_bMags);
-life_maxWeight = 100;
+life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight");
+
+/* Réglage de la capacité en fonction des sac à dos */
+[] spawn
+{
+    while{true} do
+    {
+        waitUntil {!(EQUAL(backpack player,""))};
+        _bp = backpack player;
+        _cfg = FETCH_CONFIG2(getNumber,CONFIG_VEHICLES,_bp,"maximumload");
+        _load = round(_cfg / 4);
+        if(EQUAL(backpack player,"B_OutdoorPack_blk")) then { _load = 20; };
+		if(EQUAL(backpack player,"B_AssaultPack_khk")) then { _load = 20; };
+        if(EQUAL(backpack player,"B_AssaultPack_dgtl")) then { _load = 30; };   		
+        if(EQUAL(backpack player,"B_AssaultPack_rgr")) then { _load = 30; };
+        if(EQUAL(backpack player,"B_AssaultPack_blk")) then { _load = 30; };
+        if(EQUAL(backpack player,"B_AssaultPack_cbr")) then { _load = 30; };            
+        if(EQUAL(backpack player,"B_AssaultPack_sgg")) then { _load = 40; };
+		if(EQUAL(backpack player,"B_AssaultPack_mcamo")) then { _load = 40; };
+		if(EQUAL(backpack player,"B_Kitbag_mcamo")) then { _load = 50; };
+		if(EQUAL(backpack player,"B_FieldPack_blk")) then { _load = 50; };
+		if(EQUAL(backpack player,"B_FieldPack_ocamo")) then { _load = 50; };
+		if(EQUAL(backpack player,"B_FieldPack_oucamo")) then { _load = 50; };
+        if(EQUAL(backpack player,"B_Bergen_blk")) then { _load = 60; };
+        if(EQUAL(backpack player,"B_TacticalPack_oli")) then { _load = 60; };
+        if(EQUAL(backpack player,"B_Bergen_sgg")) then { _load = 60; };
+        if(EQUAL(backpack player,"B_Bergen_rgr")) then { _load = 60; }; 
+        if(EQUAL(backpack player,"B_Bergen_mcamo")) then { _load = 70; };		
+        if(EQUAL(backpack player,"B_Kitbag_cbr")) then { _load = 70; };
+        if(EQUAL(backpack player,"B_Kitbag_sgg")) then { _load = 70; };            
+        if(EQUAL(backpack player,"B_Carryall_khk")) then { _load = 80; };
+		if(EQUAL(backpack player,"B_Carryall_ocamo")) then { _load = 80; };
+		if(EQUAL(backpack player,"B_Carryall_oucamo")) then { _load = 80; };
+		if(EQUAL(backpack player,"B_Carryall_mcamo")) then { _load = 100; };
+        if(EQUAL(backpack player,"B_Carryall_oli")) then { _load = 100; };    
+        if(EQUAL(backpack player,"B_Carryall_cbr")) then { _load = 200; };
+        life_maxWeight = life_minWeight + _load;
+        waitUntil {!(EQUAL(backpack player,_bp))};
+        if(EQUAL(backpack player,"")) then {
+            life_maxWeight = life_minWeight;
+        };
+    };
+};    
 
 {
     [true,(_x select 0),(_x select 1)] call life_fnc_handleInv;
