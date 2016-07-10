@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=11024;
+		nextID=11040;
 	};
 	class MarkerIDProvider
 	{
@@ -394,7 +394,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2355;
+		items=2370;
 		class Item0
 		{
 			dataType="Marker";
@@ -2396,7 +2396,7 @@ class Mission
 			type="Empty";
 			colorName="ColorRed";
 			fillName="Grid";
-			a=30;
+			a=34.815258;
 			b=30;
 			id=217;
 		};
@@ -27758,7 +27758,7 @@ class Mission
 			};
 			id=1226;
 			type="MapBoard_altis_F";
-			atlOffset=-9.5367432e-007;
+			atlOffset=9.4413757e-005;
 		};
 		class Item538
 		{
@@ -32325,14 +32325,13 @@ class Mission
 				angles[]={0,0.91540778,6.2826962};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false;  this addAction[""Sky Dive (30.000$)"",life_fnc_skyDive];";
 			};
 			id=1692;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.0002412796;
+			atlOffset=0.37200069;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71885,8 +71884,8 @@ class Mission
 			type="ellipse";
 			colorName="ColorRed";
 			fillName="Grid";
-			a=20;
-			b=20;
+			a=238.7271;
+			b=248.52098;
 			id=10695;
 		};
 		class Item2090
@@ -71898,8 +71897,8 @@ class Mission
 			type="ellipse";
 			colorName="ColorRed";
 			fillName="Grid";
-			a=20;
-			b=20;
+			a=358.20505;
+			b=354.1073;
 			id=10696;
 		};
 		class Item2091
@@ -76382,6 +76381,214 @@ class Mission
 			colorName="Color1_FD_F";
 			id=11019;
 			atlOffset=-0.071380615;
+		};
+		class Item2355
+		{
+			dataType="Marker";
+			position[]={4804.5205,12.274902,10149.88};
+			name="marker_300da";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=231.59879;
+			b=213.34396;
+			id=11024;
+			atlOffset=-0.57326412;
+		};
+		class Item2356
+		{
+			dataType="Marker";
+			position[]={5244.5669,82.190674,11516.576};
+			name="marker_300da_2";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=262.03101;
+			b=235.092;
+			id=11025;
+			atlOffset=2.8547363;
+		};
+		class Item2357
+		{
+			dataType="Marker";
+			position[]={10266.733,2.9147949,11272.142};
+			name="marker_300da_3";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=262.03101;
+			b=235.092;
+			id=11026;
+			atlOffset=-2.9193301;
+		};
+		class Item2358
+		{
+			dataType="Marker";
+			position[]={11548.595,47.776367,7046.2793};
+			name="marker_300da_5";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=548.67188;
+			b=542.7771;
+			id=11027;
+			atlOffset=-30.211571;
+		};
+		class Item2359
+		{
+			dataType="Marker";
+			position[]={3319.594,10.040283,14173.958};
+			name="marker_300da_7";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=262.03101;
+			b=235.092;
+			id=11029;
+			atlOffset=-8.9295483;
+		};
+		class Item2360
+		{
+			dataType="Marker";
+			position[]={4311.4756,58.118164,17069.5};
+			name="marker_300da_8";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=262.03101;
+			b=235.092;
+			id=11030;
+			atlOffset=25.152599;
+		};
+		class Item2361
+		{
+			dataType="Marker";
+			position[]={5164.2715,219.20264,20834.008};
+			name="marker_300da_10";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=432.02792;
+			b=381.94318;
+			id=11031;
+			atlOffset=1.5258789e-005;
+		};
+		class Item2362
+		{
+			dataType="Marker";
+			position[]={12482.501,99.970947,21505.506};
+			name="marker_300da_11";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=383.5975;
+			b=317.22501;
+			id=11032;
+			atlOffset=20.418724;
+		};
+		class Item2363
+		{
+			dataType="Marker";
+			position[]={19889.092,28.892456,16995.746};
+			name="marker_300da_12";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=434.1749;
+			b=358.36691;
+			id=11033;
+			atlOffset=-1.0057678;
+		};
+		class Item2364
+		{
+			dataType="Marker";
+			position[]={16571.49,2.7763672,15601.624};
+			name="marker_300da_14";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=262.03101;
+			b=235.092;
+			id=11034;
+			atlOffset=-0.63124037;
+		};
+		class Item2365
+		{
+			dataType="Marker";
+			position[]={19059.309,32.57666,14485.722};
+			name="marker_300da_15";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=262.03101;
+			b=235.092;
+			id=11035;
+			atlOffset=5.4956932;
+		};
+		class Item2366
+		{
+			dataType="Marker";
+			position[]={23670.217,11.917236,16277.351};
+			name="marker_300da_16";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=1895.53;
+			b=1604.068;
+			id=11036;
+			atlOffset=6.6497755;
+		};
+		class Item2367
+		{
+			dataType="Marker";
+			position[]={20909.984,1.2199707,14606.807};
+			name="marker_300da_17";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=405.08401;
+			b=387.48401;
+			id=11037;
+			atlOffset=-1.1610901;
+		};
+		class Item2368
+		{
+			dataType="Marker";
+			position[]={23641.795,53.254436,21774.355};
+			name="marker_300da_19";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=327.94028;
+			b=311.45251;
+			id=11038;
+		};
+		class Item2369
+		{
+			dataType="Marker";
+			position[]={24701.711,16.938328,23156.426};
+			name="marker_300da_20";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=328.76801;
+			b=333.17001;
+			id=11039;
 		};
 	};
 };

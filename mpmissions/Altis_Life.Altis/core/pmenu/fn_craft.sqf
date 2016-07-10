@@ -21,21 +21,21 @@ _inv = _dialog displayCtrl 669; //find the listbox of items can be created
 lbClear _inv; //clear the listbox
 
 _filter = _dialog displayCtrl 673;
-_filter lbAdd "Armas";
+_filter lbAdd "Bronie";
 _filter lbSetData[(lbSize _filter)-1,"weapon"];
-_filter lbAdd "Roupas";
+_filter lbAdd "Ciuchy";
 _filter lbSetData[(lbSize _filter)-1,"uniform"];
-_filter lbAdd "Mochilas";
+_filter lbAdd "Plecaki";
 _filter lbSetData[(lbSize _filter)-1,"backpack"];
-_filter lbAdd "Itens";
+_filter lbAdd "Części";
 _filter lbSetData[(lbSize _filter)-1,"item"];
-_filter lbAdd "Coletes";
+_filter lbAdd "Kamizelki";
 _filter lbSetData[(lbSize _filter)-1,"vest"];
-_filter lbAdd "Munição";
+_filter lbAdd "Amunicja";
 _filter lbSetData[(lbSize _filter)-1,"ammo"];
-_filter lbAdd "Veh TBA";
+_filter lbAdd "Auta";
 _filter lbSetData[(lbSize _filter)-1,"vehicle"];
-_filter lbAdd "Tools & Attachments";
+_filter lbAdd "Dodatki do broni";
 _filter lbSetData[(lbSize _filter)-1,"attach"];
 
 _filter lbSetCurSel 0;

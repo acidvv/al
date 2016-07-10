@@ -62,20 +62,20 @@ if(_itemFilter isEqualTo "uniform" && uniform player != "") exitWith{
 };
 
 if(_itemFilter isEqualTo "ammo" && !(player canadd _item)) exitwith{
-        hint "Invetario cheio";
+        hint "Kompletny asortyment";
 };
 
 if(_itemFilter isEqualTo "attach" && !(player canadd _item)) exitwith{
-        hint "Invetario cheio";
+        hint "Kompletny asortyment";
 };
 
 if(_itemFilter isEqualTo "vest" && vest player != "") exitwith {
-        hint "Voce esta usando um colete. Voce nao pode usar dois coletes ao mesmo tempo. Guarde seu colete atual.";
+        hint "Nosisz kamizelkę. NIe można mieć 2.";
 };
 
 if(_itemFilter isEqualTo "vehicle") then {
     if(count nearestObjects[getmarkerpos _site,["Car","Air","Ship"],10] > 0) exitwith {
-        hint "Tem um veículo muito perto do spawn (the map marker)";
+        hint "Poszukaj na mapie";
     };
 };
 
@@ -123,7 +123,7 @@ for [{_i=0},{_i<_invSize-1},{_i=_i+2}] do {
         _nearCar setvariable ["Trunk",[_trunk,(_oldItem select (_i+1)) - _weight],true];
     };
 };
-if(!_removeItemSuccess) exitWith {hint "Falha ao remover itens"; life_is_processing = false;};
+if(!_removeItemSuccess) exitWith {hint "Nie udało się usunąć elementu"; life_is_processing = false;};
 [] call life_fnc_p_updateMenu;
 life_is_processing = true;
 while{true} do
@@ -147,7 +147,7 @@ if(_itemFilter isEqualTo "vest") then{
     if(vest player isEqualTo "") then{
         player addVest _newItem;
     }else {
-        hint "Voce esta usando um colete. Voce nao pode usar 2 coletes ao mesmo tempo";
+        hint "Nosisz kamizelkę. NIe można mieć 2.";
         life_is_processing = false;
     };
 };
@@ -156,7 +156,7 @@ if(_itemFilter isEqualTo "ammo") then{
     if(player canAdd _newItem) then{
         player addMagazine _newitem;
     }else{
-        hint "Invetario cheio";
+        hint "Kompletny asortyment";
     };
 };
 
@@ -164,7 +164,7 @@ if(_itemFilter isEqualTo "attach") then{
     if(player canAdd _newItem) then{
         player addItem _newitem;
     }else{
-        hint "Invetario cheio";
+        hint "Kompletny asortyment";
     };
 };
 
@@ -214,7 +214,7 @@ if(_itemFilter isEqualTo "weapon") then{
 			player addWeapon _newItem;
 		}else{
 			5 cutText ["","PLAIN"];
-			hint "O craft foi cancelado se você não tiver armazenado a arma";
+			hint "Zostało anulowane ...";
 			for [{_i=0},{_i<_invSize-1},{_i=_i+2}] do {
 				_handledItem = M_CONFIG(getText,"VirtualItems",_oldItem select _i,"variable");
 				[true,_handledItem,_oldItem select _i+1] call life_fnc_handleInv;

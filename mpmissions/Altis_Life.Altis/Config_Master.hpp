@@ -20,7 +20,7 @@ class Life_Settings {
     save_virtualItems = true; //Save Virtual items (all sides)?
 
     saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts",
-    "defibrillator","toolkit","toolkit2","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker",,"woodaxe" }; //Array of virtual items that can be saved on your player.
+    "defibrillator","toolkit","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker",,"woodaxe" }; //Array of virtual items that can be saved on your player.
 
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
@@ -80,7 +80,7 @@ class Life_Settings {
 
     /* Item-related Restrictions */
     restrict_medic_weapons = true; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
-    restrict_clothingPickup = true; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
+    restrict_clothingPickup = false; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
     restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = { "U_Rangemaster", "U_B_CombatUniform_mcam_tshirt", "U_B_CombatUniform_mcam_worn", "U_B_survival_uniform" };
     restricted_weapons[] = { "hgun_P07_snds_F", "arifle_MX_F", "arifle_MXC_F" };
@@ -92,16 +92,16 @@ class Life_Settings {
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
     revive_fee = 30000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
-    hospital_heal_fee = 20000; //Fee to heal at a hospital NPC
+    hospital_heal_fee = 30000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
     bank_cop = 50000; //Amount of cash in bank for new cops
-    bank_civ = 10000; //Amount of cash in bank for new civillians
+    bank_civ = 15000; //Amount of cash in bank for new civillians
     bank_med = 50000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 5000; //Payment for cops
-    paycheck_civ = 2000; //Payment for civillians
-    paycheck_med = 4000; //Payment for medics
+    paycheck_cop = 6000; //Payment for cops
+    paycheck_civ = 4000; //Payment for civillians
+    paycheck_med = 6000; //Payment for medics
 
     paycheck_period = 10; //Scaled in minutes
     bank_transferTax = .1; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
@@ -173,50 +173,50 @@ class Life_Settings {
 /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */
     crimes[] = {
-        {"STR_Crime_187V","69000","187V"},
-        {"STR_Crime_187","500000","187"},
-        {"STR_Crime_901","330000","901"},
-        {"STR_Crime_215","30000","215"},
-        {"STR_Crime_213","160000","213"},
-        {"STR_Crime_211","54000","211"},
-        {"STR_Crime_207","240000","207"},
-        {"STR_Crime_207A","70000","207A"},
-        {"STR_Crime_390","5500","390"},
-        {"STR_Crime_487","9500","487"},
-        {"STR_Crime_488","4000","488"},
-        {"STR_Crime_480","7000","480"},
-        {"STR_Crime_481","27500","481"},
-        {"STR_Crime_482","32000","482"},
-        {"STR_Crime_483","11500","483"},
-        {"STR_Crime_459","10000","459"},
-        {"STR_Crime_666","5000","666"},
-        {"STR_Crime_667","300000","667"},
-        {"STR_Crime_668","20500","668"},
-        {"STR_Crime_1","3500","1"},
-        {"STR_Crime_2","2000","2"},
-        {"STR_Crime_3","1500","3"},
-        {"STR_Crime_4","2500","4"},
-        {"STR_Crime_5","1000","5"},
-        {"STR_Crime_6","800","6"},
-        {"STR_Crime_7","1500","7"},
-        {"STR_Crime_8","19000","8"},
-        {"STR_Crime_9","13000","9"},
-        {"STR_Crime_10","25000","10"},
-        {"STR_Crime_11","30000","11"},
-        {"STR_Crime_12","7500","12"},
-        {"STR_Crime_13","9500","13"},
-        {"STR_Crime_14","4500","14"},
-        {"STR_Crime_15","9500","15"},
-        {"STR_Crime_16","5500","16"},
-        {"STR_Crime_17","2000","17"},
-        {"STR_Crime_18","6500","18"},
-        {"STR_Crime_19","8500","19"},
-        {"STR_Crime_20","3500","20"},
-        {"STR_Crime_21","4500","21"},
-        {"STR_Crime_22","18000","22"},
-        {"STR_Crime_23","350000","23"},
-        {"STR_Crime_24","38000","24"},
-        {"STR_Crime_25","50000","25"}
+        {"STR_Crime_187V","16500","187V"},
+        {"STR_Crime_187","250000","187"},
+        {"STR_Crime_901","155450","901"},
+        {"STR_Crime_215","55200","215"},
+        {"STR_Crime_213","251000","213"},
+        {"STR_Crime_211","111100","211"},
+        {"STR_Crime_207","175350","207"},
+        {"STR_Crime_207A","88200","207A"},
+        {"STR_Crime_390","551500","390"},
+        {"STR_Crime_487","60150","487"},
+        {"STR_Crime_488","22070","488"},
+        {"STR_Crime_480","30100","480"},
+        {"STR_Crime_481","170000","481"},
+        {"STR_Crime_482","80500","482"},
+        {"STR_Crime_483","200950","483"},
+        {"STR_Crime_459","150650","459"},
+        {"STR_Crime_666","55200","666"},
+        {"STR_Crime_667","504500","667"},
+        {"STR_Crime_668","71500","668"},
+        {"STR_Crime_1","22250","1"},
+        {"STR_Crime_2","22100","2"},
+        {"STR_Crime_3","23375","3"},
+        {"STR_Crime_4","33125","4"},
+        {"STR_Crime_5","21250","5"},
+        {"STR_Crime_6","11140","6"},
+        {"STR_Crime_7","8875","7"},
+        {"STR_Crime_8","72500","8"},
+        {"STR_Crime_9","82500","9"},
+        {"STR_Crime_10","87500","10"},
+        {"STR_Crime_11","75000","11"},
+        {"STR_Crime_12","21250","12"},
+        {"STR_Crime_13","22750","13"},
+        {"STR_Crime_14","82250","14"},
+        {"STR_Crime_15","111250","15"},
+        {"STR_Crime_16","80750","16"},
+        {"STR_Crime_17","20050","17"},
+        {"STR_Crime_18","11750","18"},
+        {"STR_Crime_19","11250","19"},
+        {"STR_Crime_20","7250","20"},
+        {"STR_Crime_21","5250","21"},
+        {"STR_Crime_22","211000","22"},
+        {"STR_Crime_23","532500","23"},
+        {"STR_Crime_24","200000","24"},
+        {"STR_Crime_25","510000","25"}
     };
 };
 

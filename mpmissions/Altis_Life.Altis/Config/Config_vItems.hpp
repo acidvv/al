@@ -29,7 +29,7 @@ class VirtualShops {
 		side = "med";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit2", "fuelFull", "peach", "defibrillator" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach", "toolkit","defibrillator" };
 	};
 
 	class rebel {
@@ -77,7 +77,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "cocaine_processed", "heroin_processed", "marijuana", "nitroamine", "heba", "whiskey","beer" };
+		items[] = { "cocaine_processed", "heroin_processed", "marijuana", "nitroamine", "heba", "whiskey","beer","cloth"};
 	};
 
 	class oil {
@@ -432,17 +432,7 @@ class VirtualItems {
 		edible = -1;
 		icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";
 	};
-		class toolkit2 {
-		variable = "toolkit1";
-		displayName = "STR_Item_Toolkit";
-		weight = 6;
-		buyPrice = 200;
-		sellPrice = 200;
-		illegal = false;
-		edible = -1;
-		icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";
-	};
-
+		
 	class fuelEmpty {
 		variable = "fuelEmpty";
 		displayName = "STR_Item_FuelE";
@@ -840,7 +830,7 @@ class VirtualItems {
 		variable = "waterBottle";
 		displayName = "STR_Item_WaterBottle";
 		weight = 4;
-		buyPrice = 200;
+		buyPrice = 600;
 		sellPrice = 5;
 		illegal = false;
 		edible = 100;
