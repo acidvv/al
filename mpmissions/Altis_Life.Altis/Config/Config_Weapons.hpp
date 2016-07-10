@@ -57,13 +57,13 @@ class WeaponShops {
             { "arifle_Katiba_F", "Katiba 6.5mm", 56000, 5000 },
             { "arifle_Katiba_C_F", "Katiba 6.5mm", 56000, 5000 },
             { "arifle_SDAR_F", "SDAR 5.56mm", 22000, 7500 },
-            { "SMG_01_F", "Vermin SMG .45ACP", 30000, 7500 },
-            { "arifle_Mk20_F", "Mk20 5.56mm", 40000, 7500 },
-            { "arifle_Mk20C_F", "Mk20 5.56mm", 40000, 7500 },
-            { "arifle_MXC_F", "MXC 6.5 mm", 63000, 7500 },
-            { "arifle_MX_F", "MX 6.5 mm", 63000, 7500 },
-            { "LMG_Mk200_F", "Mk200 6.5 mm", 130000, 7500 },
-			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 73000, 7500 }
+            { "SMG_01_F", "Vermin SMG .45ACP", 50000, 7500 },
+            { "arifle_Mk20_F", "Mk20 5.56mm", 90000, 7500 },
+            { "arifle_Mk20C_F", "Mk20 5.56mm", 90000, 7500 },
+            { "arifle_MXC_F", "MXC 6.5 mm", 1703000, 7500 },
+            { "arifle_MX_F", "MX 6.5 mm", 1703000, 7500 },
+            { "LMG_Mk200_F", "Mk200 6.5 mm", 230000, 7500 },
+			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 473000, 7500 }
         };
         mags[] = {
             { "6Rnd_45ACP_Cylinder", "", 725 },
@@ -100,18 +100,18 @@ class WeaponShops {
             { "hgun_ACPC2_F", "ACP .45", 6050, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 41000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 41000, 2500 },
-            { "arifle_Katiba_F", "Katiba 6.5mm", 53000, 5000 },
-            { "arifle_Katiba_C_F", "Katiba 6.5mm", 53000, 5000 },
-            { "arifle_SDAR_F", "SDAR 5.56mm", 20000, 7500 },
-            { "SMG_01_F", "Vermin SMG .45ACP", 27000, 7500 },
-            { "arifle_Mk20_F", "Mk20 5.56mm", 37000, 7500 },
-            { "arifle_Mk20C_F", "Mk20 5.56mm", 37000, 7500 },
+            { "arifle_Katiba_F", "Katiba 6.5mm", 83000, 5000 },
+            { "arifle_Katiba_C_F", "Katiba 6.5mm", 83000, 5000 },
+            { "arifle_SDAR_F", "SDAR 5.56mm", 120000, 7500 },
+            { "SMG_01_F", "Vermin SMG .45ACP", 127000, 7500 },
+            { "arifle_Mk20_F", "Mk20 5.56mm", 137000, 7500 },
+            { "arifle_Mk20C_F", "Mk20 5.56mm", 137000, 7500 },
             { "arifle_MXC_F", "MXC 6.5 mm", 60000, 7500 },
-            { "arifle_MX_F", "MX 6.5 mm", 60000, 7500 },
-            { "LMG_Mk200_F", "Mk200 6.5 mm", 115000, 7500 },
-			{ "arifle_MX_SW_F", "MX SW 6.5 mm", 100000, 7500 },
-			{ "arifle_MXM_F", "MXM 6.5 mm", 50000, 7500 },
-			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 65000, 7500 }
+            { "arifle_MX_F", "MX 6.5 mm", 160000, 7500 },
+            { "LMG_Mk200_F", "Mk200 6.5 mm", 415000, 7500 },
+			{ "arifle_MX_SW_F", "MX SW 6.5 mm", 400000, 7500 },
+			{ "arifle_MXM_F", "MXM 6.5 mm", 250000, 7500 },
+			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 365000, 7500 }
         };
         mags[] = {
             { "6Rnd_45ACP_Cylinder", "9rnd .45", 725 },
@@ -152,20 +152,20 @@ class WeaponShops {
             { "hgun_ACPC2_F", "ACP .45", 5050, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 38000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 38000, 2500 },
-            { "arifle_Katiba_F", "Katiba 6.5mm", 50000, 5000 },
-            { "arifle_Katiba_C_F", "Katiba 6.5mm", 50000, 5000 },
-            { "arifle_SDAR_F", "SDAR 5.56mm", 18000, 7500 },
-            { "SMG_01_F", "Vermin SMG .45ACP", 24000, 7500 },
-            { "arifle_Mk20_F", "Mk20 5.56mm", 35000, 7500 },
-            { "arifle_Mk20C_F", "Mk20 5.56mm", 35000, 7500 },
-            { "arifle_MXC_F", "MXC 6.5 mm", 56000, 7500 },
-            { "arifle_MX_F", "MX 6.5 mm", 56000, 7500 },
-            { "LMG_Mk200_F", "Mk200 6.5 mm", 100000, 7500 },
-			{ "arifle_MX_SW_F", "MX SW 6.5 mm", 90000, 7500 },
-			{ "arifle_MXM_F", "MXM 6.5 mm", 45000, 7500 },
-			{ "srifle_EBR_F", "Mk18 ABR 7.62 mm", 95000, 7500 },
-			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 85000, 7500 },
-			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 62000, 7500 }
+            { "arifle_Katiba_F", "Katiba 6.5mm", 90000, 5000 },
+            { "arifle_Katiba_C_F", "Katiba 6.5mm", 90000, 5000 },
+            { "arifle_SDAR_F", "SDAR 5.56mm", 118000, 7500 },
+            { "SMG_01_F", "Vermin SMG .45ACP", 174000, 7500 },
+            { "arifle_Mk20_F", "Mk20 5.56mm", 185000, 7500 },
+            { "arifle_Mk20C_F", "Mk20 5.56mm", 175000, 7500 },
+            { "arifle_MXC_F", "MXC 6.5 mm", 176000, 7500 },
+            { "arifle_MX_F", "MX 6.5 mm", 176000, 7500 },
+            { "LMG_Mk200_F", "Mk200 6.5 mm", 200000, 7500 },
+			{ "arifle_MX_SW_F", "MX SW 6.5 mm", 290000, 7500 },
+			{ "arifle_MXM_F", "MXM 6.5 mm", 245000, 7500 },
+			{ "srifle_EBR_F", "Mk18 ABR 7.62 mm", 395000, 7500 },
+			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 385000, 7500 },
+			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 362000, 7500 }
         };
         mags[] = {
             { "6Rnd_45ACP_Cylinder", "9rnd .45", 725 },
@@ -211,16 +211,16 @@ class WeaponShops {
             { "arifle_Katiba_C_F", "Katiba 6.5mm", 46000, 5000 },
             { "arifle_SDAR_F", "SDAR 5.56mm", 16000, 7500 },
             { "SMG_01_F", "Vermin SMG .45ACP", 20000, 7500 },
-            { "arifle_Mk20_F", "Mk20 5.56mm", 31000, 7500 },
-            { "arifle_Mk20C_F", "Mk20 5.56mm", 31000, 7500 },
-            { "arifle_MXC_F", "MXC 6.5 mm", 50000, 7500 },
-            { "arifle_MX_F", "MX 6.5 mm", 50000, 7500 },
-            { "LMG_Mk200_F", "Mk200 6.5 mm", 90000, 7500 },
-			{ "arifle_MX_SW_F", "MX SW 6.5 mm", 80000, 7500 },
-			{ "arifle_MXM_F", "MXM 6.5 mm", 41000, 7500 },
-			{ "srifle_EBR_F", "Mk18 ABR 7.62 mm", 91000, 7500 },
-			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 81000, 7500 },
-			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 58000, 7500 }
+            { "arifle_Mk20_F", "Mk20 5.56mm", 81000, 7500 },
+            { "arifle_Mk20C_F", "Mk20 5.56mm", 131000, 7500 },
+            { "arifle_MXC_F", "MXC 6.5 mm", 150000, 7500 },
+            { "arifle_MX_F", "MX 6.5 mm", 150000, 7500 },
+            { "LMG_Mk200_F", "Mk200 6.5 mm", 110000, 7500 },
+			{ "arifle_MX_SW_F", "MX SW 6.5 mm", 180000, 7500 },
+			{ "arifle_MXM_F", "MXM 6.5 mm", 141000, 7500 },
+			{ "srifle_EBR_F", "Mk18 ABR 7.62 mm", 291000, 7500 },
+			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 281000, 7500 },
+			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 258000, 7500 }
         };
         mags[] = {
             { "6Rnd_45ACP_Cylinder", "  9rnd .45", 725 },
@@ -275,16 +275,15 @@ class WeaponShops {
 			{ "arifle_MX_SW_F", "MX SW 6.5 mm", 74000, 7500 },
 			{ "arifle_MXM_F", "MXM 6.5 mm", 37000, 7500 },
 			{ "srifle_EBR_F", "Mk18 ABR 7.62 mm", 85000, 7500 },
-			{ "LMG_Zafir_F", "Zafir 7.62 mm", 271000, 7500 },
-			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 76000, 7500 },
-			{ "srifle_DMR_03_khaki_F", "Mk-I EMR 7.62mm", 165000, 7500 },
-			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 54000, 7500 },
-			{ "srifle_LRR_F", "M320 LRR .408", 958000, 7500 }
+			{ "LMG_Zafir_F", "Zafir 7.62 mm", 471000, 7500 },
+			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 376000, 7500 },
+			{ "srifle_DMR_03_khaki_F", "Mk-I EMR 7.62mm", 365000, 7500 },
+			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 254000, 7500 }
+			
         };
         mags[] = {
             { "6Rnd_45ACP_Cylinder", "  9rnd .45", 725 },
 			{ "30Rnd_9x21_Mag", "  30rnd 9mm", 725 },
-			{ "7Rnd_408_Mag", "  7rnd 408mm", 12725 },
 			{ "11Rnd_45ACP_Mag", "  11rnd .45", 725 },
 			{ "10Rnd_762x54_Mag", "  10rnd 7.62mm", 1225 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 1225 },
@@ -461,42 +460,52 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			{ "FirstAidKit", "Apteczka", 250, 65 },
-            { "hgun_Pistol_heavy_02_F", "ACP .45", 10500, 2500 },
-			{ "hgun_Rook40_FF", "Rook 9mm", 7500, 2500 },
-            { "hgun_ACPC2_F", "ACP .45", 7250, 65 },
-            { "arifle_TRG20_F", "TRG 5.56mm", 45000, 2500 },
-			{ "arifle_TRG21_F", "TRG 5.56mm", 45000, 2500 },
-            { "arifle_Katiba_F", "Katiba 6.5mm", 58000, 5000 },
-            { "arifle_Katiba_C_F", "Katiba 6.5mm", 58000, 5000 },
-            { "arifle_SDAR_F", "SDAR 5.56mm", 25000, 7500 },
+            { "hgun_Pistol_heavy_02_F", "ACP .45", 30500, 2500 },
+			{ "hgun_Rook40_FF", "Rook 9mm", 27500, 2500 },
+            { "hgun_ACPC2_F", "ACP .45", 27250, 65 },
+            { "arifle_TRG20_F", "TRG 5.56mm", 145000, 2500 },
+			{ "arifle_TRG21_F", "TRG 5.56mm", 145000, 2500 },
+            { "arifle_Katiba_F", "Katiba 6.5mm", 158000, 5000 },
+            { "arifle_Katiba_C_F", "Katiba 6.5mm", 158000, 5000 },
+            { "arifle_SDAR_F", "SDAR 5.56mm", 55000, 7500 },
             { "SMG_01_F", "Vermin SMG .45ACP", 32000, 7500 },
-            { "arifle_Mk20_F", "Mk20 5.56mm", 42000, 7500 },
-            { "arifle_Mk20C_F", "Mk20 5.56mm", 42000, 7500 },
-            { "arifle_MXC_F", "MXC 6.5 mm", 65000, 7500 },
-            { "arifle_MX_F", "MX 6.5 mm", 65000, 7500 },
-            { "LMG_Mk200_F", "Mk200 6.5 mm", 150000, 7500 },
-			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 75000, 7500 }
+            { "arifle_Mk20_F", "Mk20 5.56mm", 70000, 7500 },
+            { "arifle_Mk20C_F", "Mk20 5.56mm", 72000, 7500 },
+            { "arifle_MXC_F", "MXC 6.5 mm", 165000, 7500 },
+            { "arifle_MX_F", "MX 6.5 mm", 190000, 7500 },
+			{ "srifle_EBR_F", "7.62 mm", 465000, 7500 },
+            { "LMG_Mk200_F", "Mk200 6.5 mm", 4150000, 7500 },
+			{ "LMG_Zafir_pointer_F", "Zafur 7.62 mm", 550000, 7500 },
+			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 475000, 7500 },
+			{ "	launch_RPG32_F", "RPG-42 Alamut", 1075000, 7500 }
         };
         mags[] = {
-			{ "6Rnd_45ACP_Cylinder", "  9rnd .45", 725 },
-			{ "30Rnd_9x21_Mag", "  30rnd 9mm", 725 },
-			{ "11Rnd_45ACP_Mag", "  11rnd .45", 725 },
-			{ "10Rnd_762x54_Mag", "  10rnd 7.62mm", 1725 },
-            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "  30rnd .45", 750 },
+			{ "6Rnd_45ACP_Cylinder", "  9rnd .45", 1725 },
+			{ "30Rnd_9x21_Mag", "  30rnd 9mm", 1725 },
+			{ "11Rnd_45ACP_Mag", "  11rnd .45", 1725 },
+			{ "10Rnd_762x54_Mag", "  10rnd 7.62mm", 5725 },
+            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "  30rnd .45", 2750 },
             { "200Rnd_65x39_cased_Box_Tracer", "  200rnd 6.5mm", 5950 },
-            { "30Rnd_65x39_caseless_green", "  30rnd 6.5mm", 1825 },
-            { "30Rnd_556x45_Stanag_Tracer_Yellow", "  30rnd 5.56mm", 1225 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 1820 }
+            { "30Rnd_65x39_caseless_green", "  30rnd 6.5mm", 14825 },
+            { "30Rnd_556x45_Stanag_Tracer_Yellow", "  30rnd 5.56mm", 3225 },
+			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 11225 },
+			{ "150Rnd_762x54_Box_Tracer", "  150rnd 7.62mm", 11225 },
+            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 5820 },
+			{ "RPG32_F", " RPG-42 Alamut", 100820 }
         };
         accs[] = {
-            { "optic_ACO_grn", "Aco", 3500 },
-            { "optic_Holosight", "Holosight", 3600 },
-            { "optic_Hamr", "Hamr", 10500 },
-            { "optic_Holosight_smg", "Holosight Smg", 2500 },
-            { "optic_MRCO", "Mrco", 14500 },
-            { "optic_Arco", "Arco", 10500 },
-            { "acc_pointer_IR", "Laser", 1500 },
-            { "acc_flashlight", "Latarka", 1000 }
+            { "optic_ACO_grn", "Aco", 23500 },
+            { "optic_Holosight", "Holosight", 23600 },
+            { "optic_Hamr", "Hamr", 30500 },
+            { "optic_Holosight_smg", "Holosight Smg", 32500 },
+            { "optic_MRCO", "Mrco", 44500 },
+            { "optic_Arco", "Arco", 40500 },
+			{ "optic_LRPS", "LPRS", 40500 },
+			{ "muzzle_snds_M", " 5.56mm", 110750 },
+			{ "muzzle_snds_H", " 6.5mm", 115050 },
+			{ "muzzle_snds_B", "  7.62mm", 118750 },
+            { "acc_pointer_IR", "Laser", 11500 },
+            { "acc_flashlight", "Latarka", 11000 }
         };
     };
 
@@ -681,30 +690,32 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "Musisz być sierżantem Swat!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
-			{ "srifle_GM6_F", "", 17500, -1 },
-            { "LMG_Zafir_F", "", 15000, -1 },
-            { "arifle_MX_GL_Black_F", "", 5000, -1 },
+			{ "srifle_GM6_F", "", 335500, -1 },
+            { "LMG_Zafir_F", "", 55000, -1 },
+			{ "srifle_EBR_ACO_F", "", 65000, -1 },
+            { "srifle_DMR_01_SOS_F", "", 85000, -1 },
             { "launch_RPG32_F", "", 150000, -1 },
             { "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "optic_MRCO", "", 1450 },
             { "optic_Arco", "", 1050 },
             { "optic_KHS_blk", "", 2250 },
-            { "optic_AMS", "", 2350 },
-            { "optic_DMS", "", 1750 },
-            { "optic_SOS", "", 2250 },
-            { "optic_NVS", "", 2850 },
-            { "optic_LRPS", "", 3350 },
-            { "muzzle_snds_B", "", 275 },
-            { "bipod_01_F_blk", "", 1250 },
-            { "bipod_02_F_blk", "", 1200 },
-            { "bipod_03_F_blk", "", 1250 },
+            { "optic_AMS", "", 12350 },
+            { "optic_DMS", "", 11750 },
+            { "optic_SOS", "", 12250 },
+            { "optic_NVS", "", 12850 },
+            { "muzzle_snds_B", "", 1275 },
+            { "bipod_01_F_blk", "", 11250 },
+            { "bipod_02_F_blk", "", 11200 },
+            { "bipod_03_F_blk", "", 11250 },
             { "1Rnd_SmokeGreen_Grenade_shell", "Tear Gas", 150 },
             { "RPG32_HE_F", "", 15000 }
         };
         mags[] = {
             { "5Rnd_127x108_Mag", "", 100 },
             { "150Rnd_762x54_Box_Tracer", "", 40 },
-            { "5Rnd_127x108_APDS_Mag", "", 300 }
+			{ "10Rnd_762x54_Mag", "", 2140 },
+			{ "20Rnd_762x51_Mag", "", 1140 },
+            { "10Rnd_762x54_Mag", "", 5300 }
         };
         accs[] = {
             { "optic_Arco", "", 250 },

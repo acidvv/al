@@ -110,7 +110,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 40000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 50000, { "", "", -1 } },
             { "B_Carryall_oli", "", 50000, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 250000, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 850000, { "", "", -1 } }
         };
     };
 
@@ -354,7 +354,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 40000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 50000, { "", "", -1 } },
             { "B_Carryall_oli", "", 50000, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 250000, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 850000, { "", "", -1 } }
         };
     };
 
@@ -456,7 +456,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 40000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 50000, { "", "", -1 } },
             { "B_Carryall_oli", "", 50000, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 250000, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 850000, { "", "", -1 } }
         };
     };
 
@@ -558,7 +558,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 40000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 50000, { "", "", -1 } },
             { "B_Carryall_oli", "", 50000, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 250000, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 850000, { "", "", -1 } }
         };
     };
 
@@ -660,7 +660,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 40000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 50000, { "", "", -1 } },
             { "B_Carryall_oli", "", 50000, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 250000, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 850000, { "", "", -1 } }
         };
     };
 
@@ -750,7 +750,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 40000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 50000, { "", "", -1 } },
             { "B_Carryall_oli", "", 50000, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 250000, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 850000, { "", "", -1 } }
         };
     };
 
@@ -862,7 +862,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 40000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 50000, { "", "", -1 } },
             { "B_Carryall_oli", "", 50000, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 250000, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 850000, { "", "", -1 } }
         };
     };
 

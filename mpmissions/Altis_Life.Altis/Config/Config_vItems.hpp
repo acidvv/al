@@ -1203,7 +1203,7 @@ class VirtualItems {
 	class goldcoin {
 		variable = "goldcoin";
 		displayName = "STR_Item_goldcoin";
-		weight = 7;
+		weight = 6;
 		buyPrice = 18025;
 		sellPrice = 1800;
 		illegal = false;
@@ -1269,7 +1269,7 @@ class VirtualItems {
 	class cloth {
 		variable = "cloth";
 		displayName = "STR_Item_cloth";
-		weight = 5;
+		weight = 6;
 		buyPrice = 6025;
 		sellPrice = 1400;
 		illegal = false;

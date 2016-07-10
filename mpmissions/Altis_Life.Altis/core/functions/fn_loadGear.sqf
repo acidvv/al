@@ -103,7 +103,7 @@ life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight");
 		if(EQUAL(backpack player,"B_Carryall_oucamo")) then { _load = 80; };
 		if(EQUAL(backpack player,"B_Carryall_mcamo")) then { _load = 100; };
         if(EQUAL(backpack player,"B_Carryall_oli")) then { _load = 100; };    
-        if(EQUAL(backpack player,"B_Carryall_cbr")) then { _load = 200; };
+        if(EQUAL(backpack player,"B_Carryall_cbr")) then { _load = 220; };
         life_maxWeight = life_minWeight + _load;
         waitUntil {!(EQUAL(backpack player,_bp))};
         if(EQUAL(backpack player,"")) then {
