@@ -537,4 +537,11 @@ class Life_Client_Core {
 		class vehicleWarned {};
 		class vehicleEmpd {};
 	};
+	
+	class armageddon
+	{
+		file = "scripts\events\restart";
+		class armageddon {};
+		class earthquake {};
+	};
 };
