@@ -18,5 +18,5 @@ Case "BIS_Earthquake": {
       sleep (60 + Random 180);
    };
 };
-Default {HintC "Wird nicht so gehen PEEET :)";};
+Default {HintC "Hehehe :)";};
 };

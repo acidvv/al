@@ -115,15 +115,15 @@ _lightnings = {
 0 fadesound 0;
 5 fadeSound 1;
 playSound "restart";
-hintsilent parsetext"<t size='1.5'>ACHTUNG! Weltuntergang (Serverrestart)</t><br/><br/><t size='1.3'>Bis gleich euer Island of Liberty Team</t>";
+hintsilent parsetext"<t size='1.5'>Uwaga restart</t><br/><br/><t size='1.3'>Zapraszamy za chwilę</t>";
 uisleep 14;
-hintsilent parsetext"<t size='1.5'>ACHTUNG! Weltuntergang in</t><br/><br/><t size='2'>3</t>";
+hintsilent parsetext"<t size='1.5'>Uwaga restart za</t><br/><br/><t size='2'>3</t>";
 playsound "alarm";
 uisleep 1;
-hintsilent parsetext"<t size='1.5'>ACHTUNG! Weltuntergang in</t><br/><br/><t size='2'>2</t>";
+hintsilent parsetext"<t size='1.5'>Uwaga restart za</t><br/><br/><t size='2'>2</t>";
 playsound "alarm";
 uisleep 1;
-hintsilent parsetext"<t size='1.5'>ACHTUNG! Weltuntergang in</t><br/><br/><t size='2'>1</t>";
+hintsilent parsetext"<t size='1.5'>Uwaga restart za</t><br/><br/><t size='2'>1</t>";
 playsound "alarm";
 uisleep 1;
 hintsilent "";
@@ -131,7 +131,7 @@ hintsilent "";
 (uiNamespace getVariable ["playerHUD",displayNull]) closeDisplay 0;
 
 uisleep 1;
-cutText ["Was passiert jetzt?","Black OUT"];
+cutText ["Co się dzieje?","Black OUT"];
 uisleep 1;
 [] spawn _makeNearObjectsInvulnerable;
 [] Spawn {
