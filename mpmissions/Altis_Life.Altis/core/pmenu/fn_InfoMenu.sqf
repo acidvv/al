@@ -34,19 +34,18 @@ _infoText = call {
 //Server
 if(_index isEqualTo 1) exitWith {
 "AltisLand Best Server<br/>
-<t color='#0099ff'>Nome:</t> [PL] Altisland BEST<br/>
+<t color='#0099ff'>Nazwa:</t> [PL] Altisland BEST<br/>
 <t color='#0099ff'>IP:</t> 149.202.65.190<br/>
 <t color='#0099ff'>Port:</t>2352<br/><br/>
 <t color='#0099ff'>Linki</t><br/>
 <a href=''>Teamspeak 3: 51.254.132.75</a><br/>
 <a href='http://www.altisland.pl'>Forum: altisland.pl</a><br/><br/>
 Restart<br/>
-<t color='#0099ff'>0:00, 3:00, 6:00, 9:00, 12:00</t>
+<t color='#0099ff'>0:00, 06:00, 12:00, 18:00</t>
 ";
 };
 
 //Regeln
-if(_index isEqualTo 2) exitWith {"Admini Acid, Castel<br/><a color='#0099ff' href='www.altisland.pl'>Wejdż na forum</a>"};
 
 //Steuerung
 if(_index isEqualTo 3) exitWith {
@@ -94,11 +93,11 @@ if(_index isEqualTo 5) exitWith {
 };
 
 if(_index isEqualTo 6) exitWith {
-"<t size='1.2px' align='center' color='#0099ff'>Życzymy miłej zabawy</t><br/>
-<t align='center' color='#0099ff'>Graj zgodnie z regulaminem</t><br/><br/>
+"<t size='1.2px' align='center' color='#0099ff'>Ważne!!!</t><br/>
+<t align='center' color='#0099ff'>Zginiesz poszukiwany tracisz licencje: gun, drive</t><br/><br/>
 
-<t align='center'><t size='1.7px' align='center' color='#FF0000'>Podziękowania dla</t><br/>
-gżegżolka<br/><br/>
+<t align='center'><t size='1.7px' align='center' color='#FF0000'>Idąc do więzienia tracisz licencje:</t><br/>
+gun, driver, nielegalki, REBELKĘ!!!<br/><br/>
 
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Sugestie</t><br/>
 Masz jakieś pomysły zapraszamy na TS i forum.";
