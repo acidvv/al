@@ -46,6 +46,7 @@ Restart<br/>
 };
 
 //Regeln
+if(_index isEqualTo 2) exitWith {"Admini Acid, Arek, Veyron Castle<br/><a color='#0099ff' href='www.altisland.pl'>Wejdż na forum</a>"};
 
 //Steuerung
 if(_index isEqualTo 3) exitWith {
