@@ -27,7 +27,6 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "Zubr .45ACP", 9850, -1 },
             { "hgun_ACPC2_F", "ACP .45ACP", 11500, -1 },
             { "hgun_Pistol_01_F", "P07 9mm", 20000, -1 },
-			{ "SMG_05_F", "Protect 9mm", 20000, -1 },
 			{ "hgun_P07_khk_F", "PM9 9mm", 25000, -1 },
 			{ "hgun_PDW2000_F", "PDW 9mm", 25000, -1 },
 			{ "SMG_02_F", "Sting 9 mm", 30500, -1 }
@@ -246,13 +245,12 @@ class WeaponShops {
 			{ "arifle_AK12_GL_F", "AK12 GL 7.62", 240000, 7500 },
 			{ "arifle_AKM_F", "AKM 7.62", 280000, 7500 },
 			{ "arifle_AKS_F", "AKS-74U 5.45", 180000, 7500 },
-			{ "arifle_ARX_ghex_F", "Type 115 6.5 mm (Green Hex) mm", 210000, 7500 },
+			{ "arifle_ARX_blk_F", "Type 115 6.5 mm (Green Hex) mm", 210000, 7500 },
 			{ "arifle_CTAR_blk_F", "CAR-95 5.8 mm (Black)", 200000, 7500 },
 			{ "arifle_CTAR_GL_blk_F", "CAR-95 GL 5.8 mm (Black)", 200000, 7500 },
 			{ "arifle_CTARS_blk_F", "CAR-95-1 5.8mm (Black)", 180000, 7500 },
-			{ "arifle_SPAR_01_khk_F", "SPAR-16 5.56 mm (Khaki)", 170000, 7500 },
-			{ "arifle_SPAR_01_GL_khk_F", "SPAR-16 GL 5.56 mm (Khaki)", 180000, 7500 },
-			{ "arifle_SPAR_03_khk_F", "SPAR-17 7.62 mm (Khaki)", 330000, 7500 },
+			{ "arifle_SPAR_01_blk_F", "SPAR-16 5.56 mm (Khaki)", 170000, 7500 },
+			{ "arifle_SPAR_01_GL_blk_F", "SPAR-16 GL 5.56 mm (Khaki)", 180000, 7500 },
 			{ "srifle_EBR_F", "Mk18 ABR 7.62 mm", 291000, 7500 },
 			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 281000, 7500 },
 			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 258000, 7500 }
@@ -524,13 +522,12 @@ class WeaponShops {
 			{ "arifle_AK12_GL_F", "AK12 GL 7.62", 400000, 7500 },
 			{ "arifle_AKM_F", "AKM 7.62", 380000, 7500 },
 			{ "arifle_AKS_F", "AKS-74U 5.45", 280000, 7500 },
-			{ "arifle_ARX_ghex_F", "Type 115 6.5 mm (Green Hex) mm", 220000, 7500 },
+			{ "arifle_ARX_blk_F", "Type 115 6.5 mm (Green Hex) mm", 220000, 7500 },
 			{ "arifle_CTAR_blk_F", "CAR-95 5.8 mm (Black)", 220000, 7500 },
 			{ "arifle_CTAR_GL_blk_F", "CAR-95 GL 5.8 mm (Black)", 280000, 7500 },
 			{ "arifle_CTARS_blk_F", "CAR-95-1 5.8mm (Black)", 280000, 7500 },
-			{ "arifle_SPAR_01_khk_F", "SPAR-16 5.56 mm (Khaki)", 200000, 7500 },
-			{ "arifle_SPAR_01_GL_khk_F", "SPAR-16 GL 5.56 mm (Khaki)", 280000, 7500 },
-			{ "arifle_SPAR_03_khk_F", "SPAR-17 7.62 mm (Khaki)", 530000, 7500 },
+			{ "arifle_SPAR_01_blk_F", "SPAR-16 5.56 mm (Khaki)", 200000, 7500 },
+			{ "arifle_SPAR_01_GL_blk_F", "SPAR-16 GL 5.56 mm (Khaki)", 280000, 7500 },
 			{ "LMG_Zafir_pointer_F", "Zafur 7.62 mm", 550000, 7500 },
 			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 475000, 7500 },
 			{ "	launch_RPG32_F", "RPG-42 Alamut", 1075000, 7500 }
@@ -682,12 +679,13 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "Musisz być żołnierzem!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
+            
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 15000, 750 },
+			{ "SMG_05_F", "TRG-21 5.56 mm", 15000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 15000, 750 },
 			{ "arifle_Mk20_F", "Mk20 5.56 mm", 15000, 750 },
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 15000, 750 },
-			{ "arifle_AKS_F", "AKS-74U 5.45", 15000, 750 },
+			{ "arifle_SPAR_01_khk_F", "AKS-74U 5.45", 15000, 750 },
             { "SMG_02_F", "Sting 9 mm", 14000, 750 },
 			{ "PDW2000 9 mm", "Submachine 9x21 mm", 12000, 750 },
             { "hgun_P07_snds_F", "Tazer", 200, 60 },
@@ -700,7 +698,8 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag_Tracer", "Stun Magazine 30rnd", 45 },
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
 			{ "30Rnd_9x21_Mag", "  30rnd 9mm", 25 },
-			{ "30Rnd_545x39_Mag_F", "  30rnd 5.45mm", 25 },
+			{ "30Rnd_9x21_Mag_SMG_02", "  30rnd 9mm", 25 },
+			{ "150Rnd_556x45_Drum_Mag_F", "  150rnd 5.56mm", 25 },
 			{ "30Rnd_556x45_Stanag_Tracer_Green", "  30rnd 5.56mm", 25 }
         };
         accs[] = {
@@ -717,7 +716,7 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "Musisz być ? żołnierzem!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 9000, 750 },
+           
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 13000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 13000, 750 },
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 50000, 750 },
@@ -773,6 +772,9 @@ class WeaponShops {
             { "optic_SOS", "", 12250 },
             { "optic_NVS", "", 12850 },
             { "muzzle_snds_B", "", 1275 },
+			{ "muzzle_snds_H_MG_khk_F", "", 1275 },
+			{ "muzzle_snds_65_TI_ghex_F", "", 1275 },
+			{ "muzzle_snds_B_snd_F", "", 1275 },
             { "bipod_01_F_blk", "", 11250 },
             { "bipod_02_F_blk", "", 11200 },
             { "bipod_03_F_blk", "", 11250 },
@@ -783,6 +785,9 @@ class WeaponShops {
             { "5Rnd_127x108_Mag", "", 100 },
             { "150Rnd_762x54_Box_Tracer", "", 40 },
 			{ "10Rnd_762x54_Mag", "", 2140 },
+			{ "20Rnd_762x51_Mag", "", 1140 },
+			{ "20Rnd_650x39_Cased_Mag_F", "", 1140 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
 			{ "20Rnd_762x51_Mag", "", 1140 },
             { "10Rnd_762x54_Mag", "", 5300 }
         };

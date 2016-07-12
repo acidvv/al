@@ -38,7 +38,8 @@ case independent:
 	life_actions pushBack [player addAction[localize "STR_pAct_GoOut",life_fnc_medEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player) isEqualTo 2)']];			
 	//dokument  
 	        life_actions = life_actions + [player addAction["Pokaż dokument",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man"']];
-      
+      life_actions pushBack [player addAction  ["Repair Wheel", {[_this select 0] spawn dss_fnc_repair_wheel}]];
+     life_actions pushBack [player addAction  ["Repair Engine", {[_this select 0] spawn dss_fnc_repair_engine}]];
 };
 };
 //life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>Pasy On</t>", {life_imAuto = false;}, "", 3, true, true, "", 'vehicle player isKindOf "Car" && !life_imAuto']);

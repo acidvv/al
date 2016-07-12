@@ -8,6 +8,7 @@ StartProgress = false;
 [] execVM "Custom\gas\teargasGL.sqf";
 [] execVM "Custom\lift\init.sqf";
 
+
 disableRemoteSensors true;
 
 //no fog please
