@@ -26,7 +26,7 @@ class Life_cell_phone {
 
 		class SendTo: Life_RscText {
 			idc = -1;
-			text = "Send To:";
+			text = "Wyślij do:";
 			x = 0.1;
 			y = 0.4;
 			w = 0.6;
