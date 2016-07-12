@@ -109,8 +109,14 @@ life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight");
 		if(EQUAL(backpack player,"B_Carryall_ocamo")) then { _load = 80; };
 		if(EQUAL(backpack player,"B_Carryall_oucamo")) then { _load = 80; };
 		if(EQUAL(backpack player,"B_Carryall_mcamo")) then { _load = 100; };
+		if(EQUAL(backpack player,"B_ViperLightHarness_khk_F")) then { _load = 100; };
+		if(EQUAL(backpack player,"B_ViperLightHarness_blk_F")) then { _load = 100; };
         if(EQUAL(backpack player,"B_Carryall_oli")) then { _load = 100; };    
-        if(EQUAL(backpack player,"B_Carryall_cbr")) then { _load = 220; };
+        if(EQUAL(backpack player,"B_Carryall_cbr")) then { _load = 120; };
+		if(EQUAL(backpack player,"B_AssaultPack_tna_F")) then { _load = 130; };
+		if(EQUAL(backpack player,"B_FieldPack_ghex_F")) then { _load = 150; };
+		if(EQUAL(backpack player,"B_ViperHarness_blk_F")) then { _load = 160; };
+		if(EQUAL(backpack player,"B_Bergen_dgtl_F")) then { _load = 240; };
         life_maxWeight = life_minWeight + _load;
         waitUntil {!(EQUAL(backpack player,_bp))};
         if(EQUAL(backpack player,"")) then {
