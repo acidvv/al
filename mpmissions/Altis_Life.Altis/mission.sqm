@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3650.5801,61.131096,13085.239};
-		dir[]={-0.97580612,-0.11738861,-0.18457456};
-		up[]={-0.11536898,0.99308282,-0.021821614};
-		aside[]={-0.18585981,-1.7537968e-007,0.98259622};
+		pos[]={3014.8259,6.9096627,12626.393};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,0};
 	};
 };
 binarizationWanted=0;
@@ -23004,7 +23004,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_1"";  }];   this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Helicopter_Shop"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_1"";  }];   this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 					};
 					id=1029;
 					type="C_man_1";
@@ -26244,7 +26244,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15608.088,18.800365,17220.947};
+						position[]={14548.215,18.800266,16730.34};
 						angles[]={0,3.9228544,0};
 					};
 					side="Civilian";
@@ -26255,7 +26255,7 @@ class Mission
 					};
 					id=1172;
 					type="C_man_polo_3_F";
-					atlOffset=0.25000191;
+					atlOffset=0.88882828;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26632,7 +26632,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this addAction[""Sklep lotniczy Bronze"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_vip_air_aac_2""],""civ"",""civ_vip_air_bronze""]];  " \n "this addAction[""Sklep lotniczy Silver"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_vip_air_aac_2""],""civ"",""civ_vip_air_silver""]]; " \n "this addAction[""Sklep lotniczy Gold"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_vip_air_aac_2""],""civ"",""civ_vip_air_gold""]]; " \n "this addAction[""Sklep lotniczy Platinum"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_vip_air_aac_2""],""civ"",""civ_vip_air_platinum""]]; " \n "this addAction[""Sklep lotniczy Diamante"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_vip_air_aac_2""],""civ"",""civ_vip_air_diamante""]];  " \n "this addAction[localize""STR_MAR_Helicopter_Garage"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player]  " \n "remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  " \n " life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Szukam pojazdu....""];    " \n " life_garage_sp = ""civ_vip_air_aac_1"";  }];   this addAction[localize""STR_MAR_ helico"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+						init="this enableSimulation false; this allowDamage false; this addAction " \n "[""Sklep lotniczy Bronze"",life_fnc_vehicleShopMenu,[""civ_vip_air_bronze"",civilian,[""civ_vip_air_aac_1"",""civ_vip_air_aac_2""],""civ_vip"",""Sklep lotniczy Bronze""]];  " \n "this addAction[""Sklep lotniczy Silver"",life_fnc_vehicleShopMenu,[""civ_vip_air_silver"",civilian,[""civ_vip_air_aac_1"",""civ_vip_air_aac_2""],""civ_vip"",""Sklep lotniczy Silver""]]; " \n "this addAction[""Sklep lotniczy Gold"",life_fnc_vehicleShopMenu,[""civ_vip_air_gold"",civilian,[""civ_vip_air_aac_1"",""civ_vip_air_aac_2""],""civ_vip"",""Sklep lotniczy Gold""]]; " \n "this addAction[""Sklep lotniczy Platinum"",life_fnc_vehicleShopMenu,[""civ_vip_air_platinum"",civilian,[""civ_vip_air_aac_1"",""civ_vip_air_aac_2""],""civ_vip"",""Sklep lotniczy Platinum""]]; " \n "this addAction[""Sklep lotniczy Diamante"",life_fnc_vehicleShopMenu,[""civ_vip_air_diamante"",civilian,[""civ_vip_air_aac_1"",""civ_vip_air_aac_2""],""civ_vip"",""Sklep lotniczy Diamante""]]; " \n "this addAction[localize""STR_MAR_Helicopter_Shop"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_vip_air_aac_2"";  }];   this addAction[localize""STR_MAR_ helico"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 						name="vip_6";
 					};
 					id=10542;
@@ -69515,7 +69515,7 @@ class Mission
 		class Item2003
 		{
 			dataType="Marker";
-			position[]={11598.277,23.709764,11940.087};
+			position[]={11596.525,23.644077,11956.457};
 			name="civ_vip_air_aac_2";
 			type="Empty";
 			angle=122.77098;
@@ -69524,7 +69524,7 @@ class Mission
 		class Item2004
 		{
 			dataType="Marker";
-			position[]={11612.28,23.605368,11958.117};
+			position[]={11600.837,23.621181,11963.276};
 			name="civ_vip_air_aac_1";
 			type="Empty";
 			angle=124.73597;
@@ -72526,31 +72526,28 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3628.002,10.346052,13129.244};
-				angles[]={0,0.06169739,0};
+				position[]={3628.0024,10.346058,13129.244};
+				angles[]={0,0.061704826,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
-				init="this allowDamage false;";
 			};
 			id=10730;
 			type="Land_Ancient_Wall_4m_F";
-			atlOffset=-9.5367432e-007;
 		};
 		class Item2119
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3630.7849,10.373625,13129.247};
+				position[]={3630.7847,10.373623,13129.247};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
-				init="this allowDamage false;";
 			};
 			id=10731;
 			type="Land_Ancient_Wall_4m_F";
@@ -74338,8 +74335,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3626.6074,10.465647,13156.754};
-				angles[]={0,0.60986501,0};
+				position[]={3626.5159,10.502883,13159.32};
+				angles[]={0,5.8026633,0};
 			};
 			side="Empty";
 			flags=5;
@@ -74354,8 +74351,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3628.7871,10.463108,13155.868};
-				angles[]={0,0.21191402,0};
+				position[]={3628.3572,10.514775,13160.107};
+				angles[]={0,5.9561205,0};
 			};
 			side="Empty";
 			flags=5;
@@ -74402,8 +74399,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3624.7642,10.480396,13158.29};
-				angles[]={0,0.82445252,0};
+				position[]={3624.6287,10.476055,13158.063};
+				angles[]={0,5.6553106,0};
 			};
 			side="Empty";
 			flags=5;
@@ -74449,7 +74446,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3630.5088,14.041297,13154.229};
+				position[]={3629.7205,13.974133,13148.326};
 			};
 			side="Empty";
 			flags=5;
@@ -74541,7 +74538,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3624.0596,11.104692,13159.07};
+				position[]={3623.7422,11.104692,13157.436};
 			};
 			side="Empty";
 			class Attributes
@@ -74550,7 +74547,7 @@ class Mission
 			};
 			id=10889;
 			type="RoadCone_L_F";
-			atlOffset=0.64907837;
+			atlOffset=0.67693233;
 		};
 		class Item2236
 		{
@@ -74995,7 +74992,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3629.8284,10.467123,13155.973};
+				position[]={3630.3323,10.521823,13160.401};
 			};
 			side="Empty";
 			flags=5;
@@ -76350,7 +76347,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11631.688,23.606943,11987.174};
+				position[]={11628.145,23.69906,11970.298};
 				angles[]={0.0026520467,0,6.2498641};
 			};
 			side="Empty";
@@ -76360,7 +76357,6 @@ class Mission
 			};
 			id=11008;
 			type="Land_MolonLabe_F";
-			atlOffset=1.5258789e-005;
 		};
 		class Item2347
 		{
@@ -77394,7 +77390,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_51"";  }];   this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Helicopter_Shop"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_51"";  }];   this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 					};
 					id=11072;
 					type="C_man_pilot_F";

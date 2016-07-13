@@ -176,6 +176,7 @@ publicVariable "all_ah_items";
 };
 
 if(EQUAL(EXTDB_SETTING(getNumber,"HC_Enabled"),0)) then {
+fn_whoDoneit = compile preprocessFileLineNumbers "\life_server\Functions\system\fn_whoDunnit.sqf";	
 	/* Initialize hunting zone(s) */
 	["hunting_zone",30] spawn TON_fnc_huntingZone;
 };
@@ -186,5 +187,6 @@ life_attachment_point setPosASL [0,0,0];
 life_attachment_point setVectorDirAndUp [[0,1,0], [0,0,1]];
 //market
 [] execVM "\life_server\Functions\DynMarket\fn_config.sqf";
+fn_whoDoneit = compile preprocessFileLineNumbers "\life_server\Functions\Systems\fn_whoDunnit.sqf";
 // Sharing the point of attachment with all players.
 publicVariable "life_attachment_point";

@@ -41,7 +41,7 @@ DYNMARKET_Items_Groups =
 			["tuna_raw",-1,1300,1800],
 			["mullet_raw",-1,800,1200]
 			],
-		1
+		1.5
 	],
 	
 	["foods",
@@ -51,40 +51,40 @@ DYNMARKET_Items_Groups =
 			["sheep_raw",-1,900,1700],
 			["goat_raw",-1,1300,2500]
 			],
-		1
+		1.5
 	],
 	
 	["Ressources",
 		[
-			["oil_processed",-1,1500,4000],
-			["wood",-1,700,2000],
-			["plank",-1,1100,2500],
+			["oil_processed",-1,1500,5000],
+			["wood",-1,700,4000],
+			["plank",-1,1100,4500],
 			["wool",-1,200,1200],
-			["steel",-1,1700,3000],
+			["steel",-1,1700,5000],
 			["steelplate",-1,8200,12500],
-			["copper_refined",-1,1000,2200],
-			["iron_refined",-1,1250,3250],
-			["salt_refined",-1,750,2050],
+			["copper_refined",-1,1000,4200],
+			["iron_refined",-1,1250,4250],
+			["salt_refined",-1,750,3050],
 			["sand",-1,100,300],
-			["glass",-1,1000,3000],
-			["diamond_cut",-1,3000,8000],
+			["glass",-1,1000,4000],
+			["diamond_cut",-1,3000,9000],
 			["rock",-1,200,500],
-			["cement",-1,1000,2000]
+			["cement",-1,1000,4000]
 			],		
-		1
+		1.5
 	],
 	
 	["Illegal", 
 		[
 			
-			["cocaine_processed",-1,6000,10000],
-			["heroin_processed",-1,6500,10500],
-			["cannabis",-1,400,700],
-			["heba",-1,7000,11000],
-			["marijuana",-1,4000,8000],
-			["turtle_raw",-1,5000,8000]
+			["cocaine_processed",-1,5000,10000],
+			["heroin_processed",-1,5500,10500],
+			["cannabis",-1,400,600],
+			["heba",-1,7000,12000],
+			["marijuana",-1,4000,9000],
+			["turtle_raw",-1,5000,7000]
 			],
-		1
+		1.5
 	]
 ];
 

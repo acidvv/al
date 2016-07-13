@@ -36,7 +36,7 @@ _control = CONTROL(39400,39402);
 		_price = M_CONFIG(getNumber,CONFIG_LIFE_VEHICLES,_classNameLife,"price");
 		_chopMultiplier = LIFE_SETTINGS(getNumber,"vehicle_chopShop_multiplier");
 
-		_price = _price * _chopMultiplier;
+		_price = 0;
 		if(!isNil "_price" && EQUAL(count crew _x,0)) then {
 			_control lbAdd _displayName;
 			_control lbSetData [(lbSize _control)-1,str(_forEachIndex)];
