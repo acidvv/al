@@ -130,9 +130,9 @@ class Life_Settings {
     vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_Boat_Armed_01_minigun_F", "O_MRAP_02_hmg_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
 
         /* Vehicle Purchase Prices */
-        vehicle_purchase_multiplier_CIVILIAN = 1.5; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_BRONZE   = 1.2; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_SILVER 	 = 1.1; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_CIVILIAN = 1.2; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_BRONZE   = 1.0; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_SILVER 	 = 1.0; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
 		vehicle_purchase_multiplier_DONATOR_GOLD   	 = 1.0; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
 		vehicle_purchase_multiplier_DONATOR_PLATINUM = 0.9; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
 		vehicle_purchase_multiplier_DONATOR_DIAMANTE = 0.8; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
