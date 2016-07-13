@@ -41,7 +41,7 @@ DYNMARKET_Items_Groups =
 			["tuna_raw",-1,1300,1800],
 			["mullet_raw",-1,800,1200]
 			],
-		1.5
+		2
 	],
 	
 	["foods",
@@ -51,7 +51,7 @@ DYNMARKET_Items_Groups =
 			["sheep_raw",-1,900,1700],
 			["goat_raw",-1,1300,2500]
 			],
-		1.5
+		2
 	],
 	
 	["Ressources",
@@ -60,8 +60,7 @@ DYNMARKET_Items_Groups =
 			["wood",-1,700,4000],
 			["plank",-1,1100,4500],
 			["wool",-1,200,1200],
-			["steel",-1,1700,5000],
-			["steelplate",-1,8200,12500],
+			["steelplate",-1,2200,5500],
 			["copper_refined",-1,1000,4200],
 			["iron_refined",-1,1250,4250],
 			["salt_refined",-1,750,3050],
@@ -71,7 +70,7 @@ DYNMARKET_Items_Groups =
 			["rock",-1,200,500],
 			["cement",-1,1000,4000]
 			],		
-		1.5
+		2
 	],
 	
 	["Illegal", 
@@ -84,7 +83,7 @@ DYNMARKET_Items_Groups =
 			["marijuana",-1,4000,9000],
 			["turtle_raw",-1,5000,7000]
 			],
-		1.5
+		2
 	]
 ];
 
@@ -112,8 +111,7 @@ DYNMARKET_Items_ToTrack        =
 	["wood",1100],
 	["plank",1600],
 	["wool",500],
-	["steel",2500],
-	["steelplate",10000],
+	["steelplate",4000],
 	["copper_refined",1500],
 	["salt_refined",1375],
 	["iron_refined",2100],
