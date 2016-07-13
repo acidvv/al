@@ -183,8 +183,7 @@ class CarShops {
 			{ "B_Heli_Light_01_stripped_F", { "life_donorlevel", "SCALAR", 5 } },
 			{ "O_Heli_Transport_04_black_F", { "life_donorlevel", "SCALAR", 5 } },
 			{ "I_Heli_light_03_unarmed_F", { "life_donorlevel", "SCALAR", 5 } },
-			{ "I_Heli_light_03_unarmed_F", { "life_donorlevel", "SCALAR", 5 } },
-            { "B_T_VTOL_01_vehicle_F", { "life_donorlevel", "SCALAR", 5 } }
+			{ "B_T_VTOL_01_vehicle_F", { "life_donorlevel", "SCALAR", 5 } }
         };
     };
 
@@ -232,7 +231,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Rubberboat", { "", "", -1 } },
-			{ "C_Scoooter_Transport_01_F", { "", "", -1 } },
+			{ "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
@@ -296,7 +295,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
-            { "O_T_VTOL_02_vehicle_F", { "life_coplevel", "SCALAR", 5 } },
+            { "O_T_VTOL_02_vehicle_F", { "life_coplevel", "SCALAR", 7 } },
 			{ "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 7 } }
         };
     };
@@ -369,10 +368,10 @@ class C_Offroad_02_unarmed_F {
     };
     
 class B_T_VTOL_01_vehicle_F {
-        vItemSpace = 900;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price=2105000;
-		assurPrice = 35000;
+        vItemSpace = 1200;
+        licenses[] = { {"trucking"}, {"pilot"}, {""}, {""} };
+        price= 24105000;
+		assurPrice = 11035000;
         textures[] = {};
     };
     class O_Truck_03_medical_F {
@@ -459,7 +458,7 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 855;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 4150000;
-		assurPrice = 25000;
+		assurPrice = 2325000;
         textures[] = {};
             
     };
@@ -593,7 +592,7 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 8000;
         textures[] = { };
     };
-	 class C_Scoooter_Transport_01_F {
+	 class C_Scooter_Transport_01_F {
         vItemSpace = 50;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 125000;

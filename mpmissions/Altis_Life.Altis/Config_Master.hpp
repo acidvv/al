@@ -130,25 +130,25 @@ class Life_Settings {
     vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_Boat_Armed_01_minigun_F", "O_MRAP_02_hmg_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
 
         /* Vehicle Purchase Prices */
-        vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_BRONZE   = .8; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_SILVER 	 = .7; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_GOLD   	 = .6; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_PLATINUM = .5; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_DIAMANTE = .4; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_COP = .3; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_MEDIC = .25; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_CIVILIAN = 1.5; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_BRONZE   = 1.2; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_SILVER 	 = 1.1; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_GOLD   	 = 1.0; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_PLATINUM = 0.9; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_DIAMANTE = 0.8; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_COP = 0.5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_MEDIC = 0.5; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* Vehicle Rental Prices */
-        vehicle_rental_multiplier_CIVILIAN = .50; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
-		vehicle_rental_multiplier_DONATOR_BRONZE   = .3;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
-		vehicle_rental_multiplier_DONATOR_SILVER   = .3;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
-		vehicle_rental_multiplier_DONATOR_GOLD     = .3;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
-		vehicle_rental_multiplier_DONATOR_PLATINUM = .2;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
-		vehicle_rental_multiplier_DONATOR_DIAMANTE = .1;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_COP = .2; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_MEDIC = .25; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_CIVILIAN = 1.00; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
+		vehicle_rental_multiplier_DONATOR_BRONZE   = 0.9;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
+		vehicle_rental_multiplier_DONATOR_SILVER   = 0.8;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
+		vehicle_rental_multiplier_DONATOR_GOLD     = 0.7;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
+		vehicle_rental_multiplier_DONATOR_PLATINUM = 0.7;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
+		vehicle_rental_multiplier_DONATOR_DIAMANTE = 0.6;  //Doador Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_COP = 0.2; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_MEDIC = 0.25; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
         vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* Vehicle Sell Prices */
