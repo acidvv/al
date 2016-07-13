@@ -1405,7 +1405,7 @@
 	</Package>
 	<Package name="Chop_Shop">
 		<Key ID="STR_ChopShop_Title">
-			<Original>Local Chop Shop</Original>
+			<Original>Kasacja pojazdów TYLKO</Original>
 			<Czech>Místní Chop Shop</Czech>
 			<Spanish>Desguazadero</Spanish>
 			<Russian></Russian>
@@ -1413,7 +1413,7 @@
 			<French>Concessionnaire de véhicule volé</French>
 			<Italian>Ricettatore</Italian>
 			<Portuguese>Desmanche</Portuguese>
-			<Polish>Dziupla</Polish>
+			<Polish>Kasacja pojazdów TYLKO</Polish>
 		</Key>
 	</Package>
 	<Package name="Gang_Menu">
@@ -8579,7 +8579,7 @@
 			<French>Vente du véhicule, veuillez patienter...</French>
 			<Italian>Vendendo il veicolo, attendere prego...</Italian>
 			<Portuguese>Vendendo o veiculo, aguarde....</Portuguese>
-			<Polish>Sprzedaję pojazd proszę czekać ...</Polish>
+			<Polish>Kasuję pojazd proszę czekać ...</Polish>
 		</Key>
 		<Key ID="STR_Shop_NotaCiv">
 			<Original>You need to be a civilian to use this store!</Original>
@@ -9442,7 +9442,7 @@
 			<Polish>Kopalnia piasku</Polish>
 		</Key>
 		<Key ID="STR_MAR_Chop_Shop">
-			<Original>Chop Shop</Original>
+			<Original>Kasacja pojazdów TYLKO</Original>
 			<Czech>Chop Shop</Czech>
 			<French>Vendeur de voitures</French>
 			<Spanish>Desguace Clandestino</Spanish>
@@ -9450,7 +9450,7 @@
 			<Russian></Russian>
 			<German>Schrotthändler</German>
 			<Portuguese>Desmanche</Portuguese>
-			<Polish>Dziupla</Polish>
+			<Polish>Kasacja pojazdów TYLKO</Polish>
 		</Key>
 		<Key ID="STR_MAR_Cocaine_Processing">
 			<Original>Cocaine Processing</Original>

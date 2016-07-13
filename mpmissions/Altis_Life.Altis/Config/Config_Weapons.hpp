@@ -769,6 +769,7 @@ class WeaponShops {
             { "optic_KHS_blk", "", 2250 },
             { "optic_AMS", "", 12350 },
             { "optic_DMS", "", 11750 },
+			{ "optic_ERCO_khk_F", "", 11750 },
             { "optic_SOS", "", 12250 },
             { "optic_NVS", "", 12850 },
             { "muzzle_snds_B", "", 1275 },
@@ -794,7 +795,7 @@ class WeaponShops {
         accs[] = {
             { "optic_Arco", "", 250 },
             { "optic_MRCO", "", 350, -1 },
-            { "muzzle_snds_B", "", 275 }
+			{ "muzzle_snds_B", "", 275 }
         };
     };
 
