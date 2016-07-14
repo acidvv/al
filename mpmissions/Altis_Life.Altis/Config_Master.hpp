@@ -67,7 +67,7 @@ class Life_Settings {
     service_chopper = 6000; //Cost to service chopper at chopper service station(Repair/Refuel).
 
     /* Gang System Configurations */
-    gang_price = 5000000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_price = 2000000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
     gang_upgradeBase = 1000000; //The base cost for purchasing additional slots in a gang
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
@@ -166,9 +166,9 @@ class Life_Settings {
         vehicle_assure_multiplier_CIVILIAN = .8; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
 
         /* "Other" Vehicle Prices */
-        vehicle_chopShop_multiplier = .40; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
-        vehicle_storage_fee_multiplier = .04; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
-        vehicle_cop_impound_multiplier = .06; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+        vehicle_chopShop_multiplier = .20; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+        vehicle_storage_fee_multiplier = .02; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
+        vehicle_cop_impound_multiplier = .04; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
 
 /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */
