@@ -759,6 +759,7 @@ class WeaponShops {
             { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
 			{ "srifle_GM6_F", "", 335500, -1 },
             { "LMG_Zafir_F", "", 55000, -1 },
+			{ "arifle_CTAR_GL_khk_F", "", 65000, -1 },
 			{ "srifle_EBR_ACO_F", "", 65000, -1 },
 			{ "srifle_DMR_07_ghex_F", "", 65000, -1 },
             { "srifle_DMR_01_SOS_F", "", 85000, -1 },
@@ -785,6 +786,7 @@ class WeaponShops {
         mags[] = {
             { "5Rnd_127x108_Mag", "", 100 },
             { "150Rnd_762x54_Box_Tracer", "", 40 },
+			{ "100Rnd_580x42_Mag_F", "", 40 },
 			{ "10Rnd_762x54_Mag", "", 2140 },
 			{ "20Rnd_762x51_Mag", "", 1140 },
 			{ "20Rnd_650x39_Cased_Mag_F", "", 1140 },
