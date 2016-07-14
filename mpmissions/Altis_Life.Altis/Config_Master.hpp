@@ -63,12 +63,12 @@ class Life_Settings {
 
     /* Fuel System Configurations */
     pump_service = true; //Allow users to use pump service on the map. Default = false
-    fuel_cost = 200; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
+    fuel_cost = 100; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
     service_chopper = 6000; //Cost to service chopper at chopper service station(Repair/Refuel).
 
     /* Gang System Configurations */
-    gang_price = 2000000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 1000000; //The base cost for purchasing additional slots in a gang
+    gang_price = 900000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_upgradeBase = 1500000; //The base cost for purchasing additional slots in a gang
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
     /* Housing System Configurations */
@@ -135,7 +135,7 @@ class Life_Settings {
 		vehicle_purchase_multiplier_DONATOR_SILVER 	 = 1.0; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
 		vehicle_purchase_multiplier_DONATOR_GOLD   	 = 1.0; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
 		vehicle_purchase_multiplier_DONATOR_PLATINUM = 0.9; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
-		vehicle_purchase_multiplier_DONATOR_DIAMANTE = 0.8; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
+		vehicle_purchase_multiplier_DONATOR_DIAMANTE = 0.7; //Doador Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_COP = 0.5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_MEDIC = 0.5; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
