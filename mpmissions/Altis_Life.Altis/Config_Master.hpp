@@ -33,7 +33,7 @@ class Life_Settings {
     save_vehicle_virtualItems = true; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
 
     save_vehicle_items[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts",
-    "defibrillator","toolkit","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker","woodaxe" }; 
+    "defibrillator","toolkit","zipties","knife","pliers","kidney","nitroamine","sight","trigger","boltcutter","nitro","gpstracker","woodaxe","plank","rubber","goldcoin","steelplate","cloth","gunpowder","glass","diamond_cut","Skarb","cement","salt_refined","iron_refined","copper_refined","oil_processed" }; 
 
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
