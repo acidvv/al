@@ -77,7 +77,7 @@ switch(_craft) do
     {
         _return = [
         ["V_PlateCarrierL_CTRG",["cloth",16,"steelplate",2,"goldcoin",10]],
-				["V_HarnessOGL_brn",["cloth",35,"sulfur",25,"C4",12,"trigger",1,"goldcoin",10]]
+				["V_HarnessOGL_brn",["cloth",45,"sulfur",25,"C4",12,"trigger",4,"goldcoin",20]]
         ];
     };
     case "ammo":
