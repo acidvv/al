@@ -58,7 +58,6 @@ DYNMARKET_Items_Groups =
 		[
 			["oil_processed",-1,1500,5000],
 			["plank",-1,3000,7500],
-			["wool",-1,200,1200],
 			["cloth",-1,800,2500],
 			["steelplate",-1,2200,5500],
 			["gunpowder",-1,2000,4500],
@@ -111,7 +110,6 @@ DYNMARKET_Items_ToTrack        =
 	
 	["oil_processed",2500],
 	["plank",3500],
-	["wool",500],
 	["cloth",1200],
 	["steelplate",3000],
 	["gunpowder",2500],
