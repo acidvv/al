@@ -116,7 +116,7 @@ class Licenses {
     class copper {
         variable = "copper";
         displayName = "STR_License_Copper";
-        price = 46000;
+        price = 52000;
         illegal = false;
         side = "civ";
     };
@@ -124,7 +124,7 @@ class Licenses {
     class cement {
         variable = "cement";
         displayName = "STR_License_Cement";
-        price = 35000;
+        price = 61000;
         illegal = false;
         side = "civ";
     };
@@ -132,7 +132,7 @@ class Licenses {
     class medmarijuana {
         variable = "medmarijuana";
         displayName = "STR_License_Medmarijuana";
-        price = 90000;
+        price = 300000;
         illegal = false;
         side = "civ";
     };
@@ -213,11 +213,18 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
+	
+	class Skarb {
+        variable = "Skarb";
+        displayName = "STR_License_Skarb";
+        price = 800000;
+        illegal = false;
+        side = "civ";
+    };
     class gunpowder {
         variable = "gunpowder";
         displayName = "STR_License_gunpowder";
-        price = 680000;
+        price = 380000;
         illegal = true;
         side = "civ";
     };

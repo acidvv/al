@@ -143,18 +143,25 @@ class ProcessAction {
 		MaterialsGive[] = {{"gunpowder",1}};
 					Text = "STR_Process_gunpowder";
 					//ScrollText = "Mix Cement";
-					NoLicenseCost = 16500;
+					NoLicenseCost = 36500;
 	};
 
 	class C4 {
 
-					MaterialsReq[] = {{"nitroamine",1}};
+					MaterialsReq[] = {{"steelplate",1},{"gunpowder",1},{"rubber",1}};
 		MaterialsGive[] = {{"C4",1}};
 					Text = "STR_Process_C4";
 					//ScrollText = "Mix Cement";
 					NoLicenseCost = 111500;
 	};
+    class Skarb {
 
+					MaterialsReq[] = {{"diamond_cut",1},{"goldcoin",2},{"plank",2}};
+		MaterialsGive[] = {{"Skarb",1}};
+					Text = "STR_Process_Skarb";
+					//ScrollText = "Mix Cement";
+					NoLicenseCost = 111500;
+	};
 	class steelplate {
 
 					MaterialsReq[] = {{"steel",1}};

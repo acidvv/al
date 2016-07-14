@@ -65,32 +65,27 @@ if(_index isEqualTo 3) exitWith {
 //Lizensen
 if(_index isEqualTo 4) exitWith {
 "<t color='#00ff00'>Legalne prace:</t><br/>
-<t color='#00ff00'>Olej</t> 100000 <br/>
-<t color='#00ff00'>Miedź</t> 43000 <br/>
-<t color='#00ff00'>Stal</t> 70000 <br/>
-<t color='#00ff00'>Sól</t> 65000 <br/>
+<t color='#00ff00'>Olej</t> 2500 <br/>
+<t color='#00ff00'>Miedź</t> 1150 <br/>
+<t color='#00ff00'>Stal</t> 1000 <br/>
+<t color='#00ff00'>Sól</t> 1075 <br/>
 <t color='#00ff00'>Szkło</t> 1045 <br/>
-<t color='#00ff00'>Diament</t> 600000 <br/>
-<t color='#00ff00'>Deski</t> 50000 <br/>
+<t color='#00ff00'>Nieoszlifowany diament</t> 1000 <br/>
+<t color='#00ff00'>Deski</t> 2000 <br/>
 <t color='#00ff00'>Nieprzetworzona guma</t> 50 <br/>
 <t color='#00ff00'>Guma</t> 1400 <br/>
 <t color='#00ff00'>Starożytne monety</t> 1800 <br/>
 <t color='#00ff00'>Wełna</t> 800 <br/>
 <t color='#00ff00'>Materiał</t> 1400 <br/>
 <t color='#00ff00'>Stal</t> 800 <br/>
-<t color='#00ff00'>Medyczna marysia</t> 90000 <br/>
+<t color='#00ff00'>Przetworzona stal</t> 1800 <br/>
 <t color='#00ff00'>Siarka</t> 1100 <br/>
-<t color='#00ff00'>Cement</t> 35000 <br/>
+<t color='#00ff00'>Cement</t> 2000 <br/>
 <t color='#FF0000'>Nielegalne prace:</t><br/>
-<t color='#FF0000'>Heroina</t> 400000 <br/>
-<t color='#FF0000'>Marichuana</t> 30000 <br/>
-<t color='#FF0000'>Cocaina</t> 420000 <br/>
-<t color='#FF0000'>Doplacz</t> 600000 <br/>
-<t color='#FF0000'>Zaożenie gangu</t> 900000 <br/>
-<t color='#FF0000'>Rebelka</t> 3000000 <br/>
-<t color='#FF0000'>Prawojazdy kat c</t> 10000 <br/>
-<t color='#FF0000'>Łodzie</t> 15500 <br/>
-<t color='#FF0000'>Pilot</t> 150000" ;
+<t color='#FF0000'>Heroina</t> 3100 <br/>
+<t color='#FF0000'>Marichuana</t> 3800 <br/>
+<t color='#FF0000'>Cocaina</t> 4200 <br/>
+<t color='#FF0000'>Doplacz</t> 1100" ;
 };
 
 if(_index isEqualTo 5) exitWith {
@@ -100,10 +95,10 @@ if(_index isEqualTo 5) exitWith {
 
 if(_index isEqualTo 6) exitWith {
 "<t size='1.2px' align='center' color='#0099ff'>Ważne!!!</t><br/>
-<t align='center' color='#0099ff'>Zginiesz poszukiwany tracisz licencje: gun</t><br/><br/>
+<t align='center' color='#0099ff'>Zginiesz poszukiwany tracisz licencje: gun, drive</t><br/><br/>
 
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Idąc do więzienia tracisz licencje:</t><br/>
-gun, nielegalki, REBELKĘ!!!<br/><br/>
+gun, driver, nielegalki, REBELKĘ!!!<br/><br/>
 
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Sugestie</t><br/>
 Masz jakieś pomysły zapraszamy na TS i forum.";

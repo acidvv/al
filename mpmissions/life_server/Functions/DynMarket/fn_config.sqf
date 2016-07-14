@@ -57,17 +57,18 @@ DYNMARKET_Items_Groups =
 	["Ressources",
 		[
 			["oil_processed",-1,1500,5000],
-			["wood",-1,700,4000],
-			["plank",-1,1100,4500],
+			["plank",-1,3000,7500],
 			["wool",-1,200,1200],
+			["cloth",-1,800,2500],
 			["steelplate",-1,2200,5500],
-			["copper_refined",-1,1000,4200],
+			["gunpowder",-1,2000,4500],
+			["rubber",-1,1000,4500],
+			["copper_refined",-1,1000,3200],
 			["iron_refined",-1,1250,4250],
 			["salt_refined",-1,750,3050],
-			["sand",-1,100,300],
 			["glass",-1,1000,4000],
 			["diamond_cut",-1,3000,9000],
-			["rock",-1,200,500],
+			["Skarb",-1,13000,30000],
 			["cement",-1,1000,4000]
 			],		
 		2
@@ -81,6 +82,7 @@ DYNMARKET_Items_Groups =
 			["cannabis",-1,400,600],
 			["heba",-1,7000,12000],
 			["marijuana",-1,4000,9000],
+			["C4",-1,16000,37000],
 			["turtle_raw",-1,5000,7000]
 			],
 		2
@@ -108,18 +110,19 @@ DYNMARKET_Items_ToTrack        =
 	
 	
 	["oil_processed",2500],
-	["wood",1100],
-	["plank",1600],
+	["plank",3500],
 	["wool",500],
-	["steelplate",4000],
-	["copper_refined",1500],
+	["cloth",1200],
+	["steelplate",3000],
+	["gunpowder",2500],
+	["rubber",2000],
+	["copper_refined",1700],
 	["salt_refined",1375],
 	["iron_refined",2100],
-	["sand",200],	
 	["glass",2045],
+	["cement",2000],
 	["diamond_cut",6000],
-	["rock",350],	
-	["cement",1000],
+	["Skarb",22000],
 	
 	
 		
@@ -128,6 +131,7 @@ DYNMARKET_Items_ToTrack        =
 	["heba",8000],
 	["marijuana",5500],
 	["cocaine_processed",7700],
+	["C4",27700],
 	["turtle_raw",6200]
 	
 ];

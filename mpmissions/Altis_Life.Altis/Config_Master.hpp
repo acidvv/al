@@ -67,8 +67,8 @@ class Life_Settings {
     service_chopper = 6000; //Cost to service chopper at chopper service station(Repair/Refuel).
 
     /* Gang System Configurations */
-    gang_price = 900000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 1500000; //The base cost for purchasing additional slots in a gang
+    gang_price = 1500000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_upgradeBase = 1000000; //The base cost for purchasing additional slots in a gang
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
     /* Housing System Configurations */
@@ -91,12 +91,12 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 30000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
-    hospital_heal_fee = 30000; //Fee to heal at a hospital NPC
+    revive_fee = 20000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    hospital_heal_fee = 10000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
     bank_cop = 50000; //Amount of cash in bank for new cops
-    bank_civ = 15000; //Amount of cash in bank for new civillians
+    bank_civ = 35000; //Amount of cash in bank for new civillians
     bank_med = 50000; //Amount of cash in bank for new medics
 
     paycheck_cop = 6000; //Payment for cops

@@ -142,7 +142,7 @@ class Clothing {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", -1 } },
 			{ "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
-            { "H_HelmetB_light_desert", "", 6150, { "life_coplevel", "SCALAR", 5 } },
+            { "H_HelmetB_light_desert", "", 11150, { "life_coplevel", "SCALAR", 5 } },
 			{ "H_Beret_Colonel", "", 150, { "life_coplevel", "SCALAR", 8 } },
 			{ "H_Beret_Colonel", "", 200, { "life_coplevel", "SCALAR", 9 } }
         };
@@ -168,7 +168,7 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
             { "V_PlateCarrier1_blk", "", 3500, { "life_coplevel", "SCALAR", -1 } },
-			{ "V_PlateCarrier2_rgr", "", 13500, { "life_coplevel", "SCALAR", 5 } },
+			{ "V_PlateCarrier2_rgr", "", 73500, { "life_coplevel", "SCALAR", 5 } },
             { "V_PlateCarrierGL_blk", "SWAT Vest", 6500, { "life_coplevel", "SCALAR", 9 } }
         };
         backpacks[] = {

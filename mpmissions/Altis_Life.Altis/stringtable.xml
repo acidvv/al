@@ -6748,7 +6748,10 @@
 			<Polish>Kolczatka drogowa</Polish>
 		</Key>
 		<Key ID="STR_Item_gunpowder">
-			<Original>Proszek</Original>
+			<Original>Proch</Original>
+		</Key>
+		<Key ID="STR_Shops_gunpowder">
+			<Original>Skup prochu</Original>
 		</Key>
 		<Key ID="STR_Item_whiskey">
 			<Original>Whiskey</Original>
@@ -6780,6 +6783,9 @@
 		<Key ID="STR_Item_steelplate">
 			<Original>Żelazo przetopione</Original>
 		</Key>
+		<Key ID="STR_Shops_steelplate">
+			<Original>Skup żelaza</Original>
+		</Key>
 		<Key ID="STR_Item_wool">
 			<Original>Bawełna</Original>
 		</Key>
@@ -6787,10 +6793,25 @@
 			<Original>Materiał</Original>
 		</Key>
 		<Key ID="STR_Item_rubberU">
-			<Original>Guma nieprzetworzona</Original>
+			<Original>Kauczuk nieprzetworzony</Original>
+			</Key>
+		</Key><Key ID="STR_Shops_rubber">
+			<Original>Skup Gumy kauczukowej</Original>
 		</Key>
 		<Key ID="STR_Item_rubber">
 			<Original>Guma</Original>
+		</Key>
+		<Key ID="STR_Item_Skarb">
+			<Original>Skrzynia ozodbna</Original>
+		</Key>
+			<Key ID="STR_Process_Skarb">
+			<Original>Tworzę skrzyznię ozdobną</Original>
+		</Key>
+		<Key ID="STR_Shops_Skarb">
+			<Original>Skup skrzyni ozdobnej</Original>
+		</Key>
+		<Key ID="STR_License_Skarb">
+			<Original>Licencja na tworzenie skrzyni ozdobnej</Original>
 		</Key>
 		<Key ID="STR_Item_sulfur">
 			<Original>Siarka</Original>
@@ -8637,7 +8658,7 @@
 			<Polish>Potrzebujesz %1 by kupować w tym sklepie!</Polish>
 		</Key>
 		<Key ID="STR_Shop_UI_Clothing">
-			<Original>Clothing</Original>
+			<Original>Skup odzieży</Original>
 			<Czech>Oblečení</Czech>
 			<Spanish>Ropa</Spanish>
 			<Russian></Russian>
@@ -8645,7 +8666,7 @@
 			<French>Tenues</French>
 			<Italian>Abiti</Italian>
 			<Portuguese>Roupas</Portuguese>
-			<Polish>Odzież</Polish>
+			<Polish>Skup odzieży</Polish>
 		</Key>
 		<Key ID="STR_Shop_UI_Hats">
 			<Original>Hats</Original>
