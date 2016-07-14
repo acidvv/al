@@ -7079,7 +7079,7 @@
 		<Key ID="STR_License_gunpowder">
 			<Original>Licencja na proch</Original>
 		</Key>
-		<Key ID="STR_License_steelplate">
+		<Key ID="STR_License_steel">
 			<Original>Przetwarzanie żelaza</Original>
 		</Key>
 	</Package>
