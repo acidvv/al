@@ -53,7 +53,7 @@ _config = [_itemFilter] call life_fnc_craftCfg;
 } foreach _config;
 if(!_allMaterial) exitWith {hint localize "STR_PM_NoMaterial";};
 //Some checks
-if((count _matsNeed) isEqualTo 0) exitWith { hint "Voce nao tem os materiais nescessarios.";};
+if((count _matsNeed) isEqualTo 0) exitWith { hint "Nie masz potrzebnych materiałów.";};
 if(_itemFilter isEqualTo "backpack" && backpack player != "") exitWith{
 		hint localize "STR_CRAFT_AR_Backpack";
 };
