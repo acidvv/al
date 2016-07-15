@@ -115,15 +115,15 @@ class Clothing {
 			{ "B_Bergen_blk", "", 16000, { "", "", -1 } },
 			{ "B_Kitbag_sgg", "Plecak SpongeBob", 20000, { "", "", -1 } },
 			{ "B_Bergen_mcamo", "", 20000, { "", "", -1 } },
-            { "B_Carryall_ocamo", "", 25000, { "", "", -1 } },
-            { "B_Carryall_oucamo", "", 25000, { "", "", -1 } },
-			{ "B_Carryall_khk", "", 25000, { "", "", -1 } },
-            { "B_Carryall_mcamo", "", 30000, { "", "", -1 } },
-            { "B_Carryall_oli", "", 30000, { "", "", -1 } },
+            { "B_Carryall_ocamo", "", 22000, { "", "", -1 } },
+            { "B_Carryall_oucamo", "", 22000, { "", "", -1 } },
+			{ "B_Carryall_khk", "", 22000, { "", "", -1 } },
+            { "B_Carryall_mcamo", "", 28000, { "", "", -1 } },
+            { "B_Carryall_oli", "", 28000, { "", "", -1 } },
             { "B_Carryall_cbr", "",600000, { "", "", -1 } },
-			{ "B_AssaultPack_tna_F", "", 125000, { "", "", -1 } },
-			{ "B_FieldPack_ghex_F", "", 250000, { "", "", -1 } },
-			{ "B_ViperHarness_blk_F", "", 500000, { "", "", -1 } },
+			{ "B_AssaultPack_tna_F", "", 50000, { "", "", -1 } },
+			{ "B_FieldPack_ghex_F", "", 100000, { "", "", -1 } },
+			{ "B_ViperHarness_blk_F", "", 250000, { "", "", -1 } },
 			{ "B_Bergen_dgtl_F", "", 600000, { "", "", -1 } }
         };
     };

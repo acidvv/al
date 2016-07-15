@@ -184,6 +184,7 @@ class CfgRemoteExec {
         F(life_fnc_simDisable,ANYONE)
         F(SPY_fnc_notifyAdmins,ANYONE)
         F(life_fnc_clientSound,ANYONE)
+		F(life_fnc_armageddon,ANYONE)
     };
 
     class Commands {
