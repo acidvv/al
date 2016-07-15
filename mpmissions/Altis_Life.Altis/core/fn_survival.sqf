@@ -76,10 +76,10 @@ _slotNormal = 115;
 
 for "_i" from 0 to 1 step 0 do {
 	/* Thirst / Hunger adjustment that is time based */
-	if((time - _waterTime) > 650) then {[] call _fnc_water; _waterTime = time;};
-	if((time - _foodTime) > 850) then {[] call _fnc_food; _foodTime = time;};
+	if((time - _waterTime) > 750) then {[] call _fnc_water; _waterTime = time;};
+	if((time - _foodTime) > 950) then {[] call _fnc_food; _foodTime = time;};
 
-	/* Adjustment of carrying capacity based on backpack changes */
+	/* Adjustment of carrying capacity based on backpack changes 
 	if(EQUAL(backpack player,"")) then {
 		life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWTTP");
 		_bp = backpack player;
@@ -97,7 +97,7 @@ for "_i" from 0 to 1 step 0 do {
 		
 		};
 	};
-
+*/
 	/* Check if the player's state changed? */
 	if(vehicle player != _lastState OR {!alive player}) then {
 		[] call life_fnc_updateViewDistance;
