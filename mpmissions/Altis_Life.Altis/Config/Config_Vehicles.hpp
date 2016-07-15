@@ -183,7 +183,8 @@ class CarShops {
 			{ "B_Heli_Light_01_stripped_F", { "life_donorlevel", "SCALAR", 5 } },
 			{ "O_Heli_Transport_04_black_F", { "life_donorlevel", "SCALAR", 5 } },
 			{ "I_Heli_light_03_unarmed_F", { "life_donorlevel", "SCALAR", 5 } },
-			{ "B_T_VTOL_01_vehicle_F", { "life_donorlevel", "SCALAR", 5 } }
+			{ "B_T_VTOL_01_vehicle_F", { "life_donorlevel", "SCALAR", 5 } },
+			{ "C_Plane_Civil_01_F", { "", "", -1 } }
         };
     };
 
