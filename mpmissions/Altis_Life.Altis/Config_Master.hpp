@@ -166,7 +166,7 @@ class Life_Settings {
         vehicle_assure_multiplier_CIVILIAN = .2; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
 
         /* "Other" Vehicle Prices */
-        vehicle_chopShop_multiplier = .20; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+        vehicle_chopShop_multiplier = .40; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
         vehicle_storage_fee_multiplier = .01; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
         vehicle_cop_impound_multiplier = .04; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
 

@@ -393,7 +393,7 @@ class B_T_VTOL_01_vehicle_F {
 	class O_Truck_02_box_F {
         vItemSpace = 300;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 195000;
+        price = 1195000;
 		assurPrice = 75500;
         textures[] = {};
     };
@@ -832,7 +832,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Truck_02_transport_F {
         vItemSpace = 275;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 500000;
+        price = 1500000;
 		assurPrice = 250000;
         textures[] = {
             { "Orange", "civ", {
@@ -1040,7 +1040,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
    class O_Truck_02_covered_F {
        vItemSpace = 275;
        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-       price = 135000;
+       price = 1135000;
 	   assurPrice = 50500;
        textures[] = {};
    };
@@ -1176,7 +1176,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 260;
         vFuelSpace = 9999999;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 650000;
+        price = 1150000;
 		assurPrice = 269500;
         textures[] = {
             { "White", "civ", {
