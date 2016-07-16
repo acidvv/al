@@ -3,7 +3,7 @@ StartProgress = false;
 [] execVM "scripts\nosidechat.sqf"; //Nosidechat Script
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
-//[] execVM "Custom\asddfg5\s45vbn76.sqf";
+[] execVM "Custom\safezone.sqf";
 [] execVM "Custom\gas\gasmask.sqf";
 [] execVM "Custom\gas\teargasGL.sqf";
 [] execVM "Custom\lift\init.sqf";

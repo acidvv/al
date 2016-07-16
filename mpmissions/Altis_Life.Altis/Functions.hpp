@@ -125,12 +125,6 @@ class Life_Client_Core {
 		class replyMessage {};
 	};
 
-	class xzfsad3
-  {
-      file = "Custom\asddfg5";
-      class xzfsad3 {};
-  };
-
 	class statusbar
 	{
 			file = "Custom";
