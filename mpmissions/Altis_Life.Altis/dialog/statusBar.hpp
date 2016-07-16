@@ -25,7 +25,7 @@ class osefStatusBarAdmin {
 			type = 13;
 			style = 2;
 			colorText[] = {1, 1, 1, 1};
-			text="Loading Status Bar Please waite....";
+			text="Ładowanie paska statusu ...";
 			class Attributes {
 				align="center";
 				color = "#ffffff";
