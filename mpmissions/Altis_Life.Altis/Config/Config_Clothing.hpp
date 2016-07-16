@@ -880,7 +880,6 @@ class Clothing {
             { "V_HarnessO_brn", "", 27500, { "", "", -1 } },
             { "V_TacVest_khk", "", 42500, { "", "", -1 } },
             { "V_PlateCarrierL_CTRG", "", 80000, { "", "", -1 } },
-            { "V_HarnessOGL_brn", "Allahakbar", 4900000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
