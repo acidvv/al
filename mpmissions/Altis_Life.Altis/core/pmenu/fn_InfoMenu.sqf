@@ -41,7 +41,7 @@ if(_index isEqualTo 1) exitWith {
 <a href=''>Teamspeak 3: 51.254.132.75</a><br/>
 <a href='http://www.altisland.pl'>Forum: altisland.pl</a><br/><br/>
 Restart<br/>
-<t color='#0099ff'>0:00, 06:00, 12:00, 18:00</t>
+<t color='#0099ff'>0:00, 04:00, 8:00, 12:00, 16:00, 20:00</t>
 ";
 };
 
