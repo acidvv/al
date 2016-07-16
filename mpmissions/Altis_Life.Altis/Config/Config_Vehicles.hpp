@@ -568,7 +568,7 @@ class O_T_LSV_02_armed_F {
     class B_G_Offroad_01_armed_F {
         vItemSpace = 105;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        price = 400000;
+        price = 2400000;
 		assurPrice = 200000;
         textures[] = {
             { "Black", "cop", {
@@ -636,8 +636,8 @@ class O_T_LSV_02_armed_F {
     class O_MRAP_02_F {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 1250000;
-		assurPrice = 575500;
+        price = 4250000;
+		assurPrice = 1575500;
         textures[] = { 
 		    { "Ifrit Chamas VIP", "civ", {
 	                "textures\Vip\Vehicles\ifrit\flame_ifrit_1.jpg",
