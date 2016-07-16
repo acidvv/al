@@ -172,6 +172,7 @@ class Life_Client_Core {
 		class civRestrain {};
 		class hasorgan {};
 		class zipTie {};
+		class throwcar {};
 	};
 
 	class Config {

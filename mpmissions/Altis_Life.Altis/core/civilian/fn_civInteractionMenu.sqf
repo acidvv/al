@@ -68,11 +68,20 @@ if((_curTarget GVAR ["restrained",false])) then
     _Btn2 ctrlEnable false;
 };
 
-/*
+
 //Button 3 - Set put in car button
 _Btn3 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;";
-*/
+
+//Button 4 - Set put in car button
+_Btn4 ctrlSetText "Throw in car";
+_Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_throwcar;";
+if (!isNull life_pInact_curTarget && player distance life_pInact_curTarget < 4 && isPlayer life_pInact_curTarget && (life_pInact_curTarget getVariable ["ziptied", false])) then {
+_Btn4 ctrlEnable true;
+} else {
+_Btn4 ctrlEnable false;
+};
+
 //Button 7 - Rouba
 _Btn3 ctrlSetText localize "STR_pAct_RobPerson";
 _Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_robAction; closeDialog 0;";
