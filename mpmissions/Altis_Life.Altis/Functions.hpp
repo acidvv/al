@@ -173,6 +173,9 @@ class Life_Client_Core {
 		class hasorgan {};
 		class zipTie {};
 		class throwcar {};
+		class removeWeapons {};
+		class seizePlayerWeapon {};
+		class seizePlayerWeaponAction {};
 	};
 
 	class Config {
@@ -255,6 +258,8 @@ class Life_Client_Core {
 		class backupCall {};
 		class copEnter {};
 		class copOpener {};
+		class seizePlayerWeapon {};
+		class seizePlayerWeaponAction {};
 	};
 
 	class Dialog_Controls {

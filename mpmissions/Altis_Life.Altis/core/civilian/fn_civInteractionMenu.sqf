@@ -68,19 +68,10 @@ if((_curTarget GVAR ["restrained",false])) then
     _Btn2 ctrlEnable false;
 };
 
-
+/
 //Button 3 - Set put in car button
 _Btn3 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;";
-
-//Button 4 - Set put in car button
-_Btn4 ctrlSetText "Throw in car";
-_Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_throwcar;";
-if (!isNull life_pInact_curTarget && player distance life_pInact_curTarget < 4 && isPlayer life_pInact_curTarget && (life_pInact_curTarget getVariable ["ziptied", false])) then {
-_Btn4 ctrlEnable true;
-} else {
-_Btn4 ctrlEnable false;
-};
 
 //Button 7 - Rouba
 _Btn3 ctrlSetText localize "STR_pAct_RobPerson";
@@ -98,7 +89,7 @@ if((_curTarget GVAR ["restrained",false]) && (life_inv_lockpick > 0)) then
 };
 
 //Button 5 - undefined
-_Btn5 ctrlSetText "Tortury";
+_Btn5 ctrlSetText "Tortura";
 _Btn5 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_torture; closeDialog 0;";
 
 if (life_inv_pliers > 0) then
@@ -108,7 +99,7 @@ if (life_inv_pliers > 0) then
     _Btn5 ctrlEnable false;
 };
 //Button 6 - undefined
-_Btn6 ctrlSetText "Usuń nerkę";
+_Btn6 ctrlSetText "Usun nerke";
 _Btn6 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_takeOrgans; closeDialog 0;";
 
 if(life_inv_knife > 0) then
@@ -117,7 +108,9 @@ if(life_inv_knife > 0) then
 } else {
     _Btn6 ctrlEnable false;
 };
-
+//SeizeWeapons Button
+_Btn8 ctrlSetText localize "STR_pInAct_Seize";
+_Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction; closeDialog 0;";
 /*
 //Button 7 - Rouba
 _Btn7 ctrlSetText localize "STR_pAct_RobPerson";

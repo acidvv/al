@@ -83,6 +83,7 @@ class CfgRemoteExec {
         F(life_fnc_teargas,CLIENT)
         F(life_fnc_nitro,CLIENT)
         F(life_fnc_masked,CLIENT)
+		F(seizePlayerWeaponAction,CLIENT)
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)

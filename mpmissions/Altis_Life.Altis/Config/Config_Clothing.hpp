@@ -13,6 +13,8 @@
 *   Backpacks/remaining classnames can be found here (TIP: Search page for "pack"): https://community.bistudio.com/wiki/Arma_3_CfgVehicles_EMPTY
 *
 */
+    
+
 class Clothing {
     class bruce {
         title = "STR_Shops_C_Bruce";
@@ -37,16 +39,8 @@ class Clothing {
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
             { "U_C_U_C_Man_casual_1_F", "cywil", 2500, { "", "", -1 } },
 			{ "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
-            { "U_NikosAgedBody", "Suit", 5000, { "", "", -1 } },
-			{ "U_C_Man_casual_2_F", "cywil", 8500, { "", "", -1 } },
-			
-			{ "U_C_Man_casual_4_F", "cywil", 13500, { "", "", -1 } },
-			{ "U_C_Man_casual_5_F", "cywil", 14500, { "", "", -1 } },
-			{ "U_C_Man_casual_6_F", "cywil", 15500, { "", "", -1 } },
-			{ "U_C_man_sport_1_F", "cywil", 16500, { "", "", -1 } },
-			{ "U_C_man_sport_2_F", "cywil", 17500, { "", "", -1 } },
-			{ "U_C_man_sport_3_F", "cywil", 18500, { "", "", -1 } }
-            
+            { "U_NikosAgedBody", "Suit", 5000, { "", "", -1 } }
+			           
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -119,7 +113,39 @@ class Clothing {
             { "B_Carryall_oucamo", "", 22000, { "", "", -1 } },
 			{ "B_Carryall_khk", "", 22000, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 28000, { "", "", -1 } },
-            { "B_Carryall_oli", "", 28000, { "", "", -1 } },
+            { "B_Carryall_oli", "", 28000, { "", "", -1 } }
+            
+        };
+    };
+    class acid {
+        title = "Exclusive-Butik";
+        license = "";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "U_NikosAgedBody", "Suit", 5000, { "", "", -1 } },
+			{ "U_C_Man_casual_2_F", "cywil", 8500, { "", "", -1 } },
+			{ "U_C_Man_casual_4_F", "cywil", 13500, { "", "", -1 } },
+			{ "U_C_Man_casual_5_F", "cywil", 14500, { "", "", -1 } },
+			{ "U_C_Man_casual_6_F", "cywil", 15500, { "", "", -1 } },
+			{ "U_C_man_sport_1_F", "cywil", 16500, { "", "", -1 } },
+			{ "U_C_man_sport_2_F", "cywil", 17500, { "", "", -1 } },
+			{ "U_C_man_sport_3_F", "cywil", 18500, { "", "", -1 } }
+            
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
+            
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+             { "G_Lady_Blue", "", 150, { "", "", -1 } }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, { "", "", -1 } }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_Carryall_cbr", "",600000, { "", "", -1 } },
 			{ "B_AssaultPack_tna_F", "", 50000, { "", "", -1 } },
 			{ "B_FieldPack_ghex_F", "", 100000, { "", "", -1 } },
@@ -127,7 +153,6 @@ class Clothing {
 			{ "B_Bergen_dgtl_F", "", 600000, { "", "", -1 } }
         };
     };
-
     class cop {
         title = "STR_Shops_C_Police";
         license = "";

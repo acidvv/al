@@ -2,7 +2,7 @@
 <Project name="Altis Life RPG">
 	<Package name="Shop_Names">
 		<Key ID="STR_Shops_C_Bruce">
-			<Original>Bruce's Outback Outfits</Original>
+			<Original>sklep odzieżowy</Original>
 			<Czech>Bruceovy Outback Oblečení</Czech>
 			<French>Friperie de Bruce</French>
 			<Spanish>Tienda de Ropa</Spanish>
@@ -11,6 +11,10 @@
 			<Polish>Sklep odzieżowy</Polish>
 			<Italian>Emporio di Bruce</Italian>
 			<German>Bruce Outback Outfits</German>
+		</Key>
+		<Key ID="STR_Shops_butik">
+			<Original>Exclusive Butik</Original>
+			
 		</Key>
 		<Key ID="STR_Shops_C_Police">
 			<Original>Altis Police Department Shop</Original>

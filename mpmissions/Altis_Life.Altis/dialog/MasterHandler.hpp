@@ -42,3 +42,4 @@
 #include "slot_machine.hpp"
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp"
+#include "taxiMenu.hpp"

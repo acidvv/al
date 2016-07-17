@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=11108;
+		nextID=11118;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9971.0195,75.072975,21186.008};
-		dir[]={0.15866388,-0.26716134,0.95050234};
-		up[]={0.043987706,0.9636513,0.26351532};
-		aside[]={0.9863531,-4.3419277e-008,-0.16464843};
+		pos[]={25584.271,23.729927,21377.838};
+		dir[]={0.10759639,-0.47733009,0.87212008};
+		up[]={0.058447953,0.87871689,0.4737491};
+		aside[]={0.99248081,5.1557436e-008,-0.12244514};
 	};
 };
 binarizationWanted=0;
@@ -573,7 +573,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2402;
+		items=2408;
 		class Item0
 		{
 			dataType="Marker";
@@ -887,13 +887,12 @@ class Mission
 		class Item32
 		{
 			dataType="Marker";
-			position[]={3648.7432,10.058044,13077.27};
+			position[]={3648.7583,10.368285,13077.249};
 			name="Gen_3";
 			text="@STR_MAR_Bruce_Outfits";
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=41;
-			atlOffset=-0.30949593;
 		};
 		class Item33
 		{
@@ -78052,7 +78051,7 @@ class Mission
 						angles[]={0,1.9007334,0};
 					};
 					side="Civilian";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -78060,7 +78059,7 @@ class Mission
 					};
 					id=11099;
 					type="C_man_polo_3_F";
-					atlOffset=0.00032615662;
+					atlOffset=4.5209999;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -78147,7 +78146,7 @@ class Mission
 			{
 			};
 			id=11098;
-			atlOffset=0.00032615662;
+			atlOffset=4.5209999;
 		};
 		class Item2399
 		{
@@ -78264,6 +78263,204 @@ class Mission
 			colorName="ColorGreen";
 			id=11107;
 			atlOffset=1.7128295e+025;
+		};
+		class Item2402
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3562.1121,9.6282415,13113.71};
+						angles[]={0,1.3075134,0};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						init="this allowDamage false; this enableSimulation false;  " \n "this addAction[localize""STR_Shops_butik"",life_fnc_clothingMenu,""acid""];";
+					};
+					id=11110;
+					type="C_man_p_fugitive_F";
+					atlOffset=0.00017166138;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11108;
+			atlOffset=0.00017166138;
+		};
+		class Item2403
+		{
+			dataType="Marker";
+			position[]={3563.0491,8.7987014e+027,13113.496};
+			name="Gen_6";
+			text="Exclusive-Butik";
+			type="c_unknown";
+			colorName="ColorGreen";
+			id=11111;
+			atlOffset=8.7987014e+027;
+		};
+		class Item2404
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13953.796,24.761042,18748.453};
+						angles[]={0,3.4435647,0};
+					};
+					side="Civilian";
+					flags=2;
+					class Attributes
+					{
+						init="this allowDamage false; this enableSimulation false;  " \n "this addAction[localize""STR_Shops_butik"",life_fnc_clothingMenu,""acid""];";
+					};
+					id=11113;
+					type="C_man_p_fugitive_F";
+					atlOffset=0.25612831;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11112;
+			atlOffset=0.25612831;
+		};
+		class Item2405
+		{
+			dataType="Marker";
+			position[]={13954.285,8.7987014e+027,18748.742};
+			name="Gen_7";
+			text="Exclusive-Butik";
+			type="c_unknown";
+			colorName="ColorGreen";
+			id=11114;
+			atlOffset=8.7987014e+027;
+		};
+		class Item2406
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={25586.291,21.955612,21381.225};
+						angles[]={0,3.4435647,0};
+					};
+					side="Civilian";
+					flags=2;
+					class Attributes
+					{
+						init="this allowDamage false; this enableSimulation false;  " \n "this addAction[localize""STR_Shops_butik"",life_fnc_clothingMenu,""acid""];";
+					};
+					id=11116;
+					type="C_man_p_fugitive_F";
+					atlOffset=0.4390316;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11115;
+			atlOffset=0.4390316;
+		};
+		class Item2407
+		{
+			dataType="Marker";
+			position[]={25585.613,8.7987014e+027,21380.732};
+			name="Gen_8";
+			text="Exclusive-Butik";
+			type="c_unknown";
+			colorName="ColorGreen";
+			id=11117;
+			atlOffset=8.7987014e+027;
 		};
 	};
 };
