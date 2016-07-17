@@ -6760,8 +6760,35 @@
 		<Key ID="STR_Item_whiskey">
 			<Original>Whiskey</Original>
 		</Key>
+			<Key ID="STR_Item_whiskey_1">
+			<Original>Pszenica</Original>
+		</Key>
+		<Key ID="STR_Item_whiskey_1">
+			<Original>Pszenica</Original>
+		</Key>
+			<Key ID="STR_MAR_pszen_1">
+			<Original>pole pszenicy</Original>
+		</Key>
+			<Key ID="STR_Process_whiskey_1">
+			<Original>Przetwórnia Whiskey</Original>
+		</Key>
 		<Key ID="STR_Item_beer">
 			<Original>Piwo</Original>
+		</Key>
+		<Key ID="STR_Item_beer_1">
+			<Original>chmiel</Original>
+		</Key>
+		<Key ID="STR_License_beer">
+			<Original>Licencja na piwo</Original>
+		</Key>
+		<Key ID="STR_Process_beer">
+			<Original>Przetwórnia Piwa</Original>
+		</Key>
+		<Key ID="STR_Shops_beer">
+			<Original>Skup Piwa</Original>
+		</Key>
+		<Key ID="STR_MAR_beer_1">
+			<Original>Pole chmielu</Original>
 		</Key>
 		<Key ID="STR_Item_moonshine">
 			<Original>Vino</Original>
@@ -6782,13 +6809,13 @@
 			<Original>Deski</Original>
 		</Key>
 		<Key ID="STR_Item_steel">
-			<Original>Żelazo</Original>
+			<Original>stal</Original>
 		</Key>
 		<Key ID="STR_Item_steelplate">
-			<Original>Żelazo przetopione</Original>
+			<Original>Magneza</Original>
 		</Key>
 		<Key ID="STR_Shops_steelplate">
-			<Original>Skup żelaza</Original>
+			<Original>Skup Magnezu</Original>
 		</Key>
 		<Key ID="STR_Item_wool">
 			<Original>Bawełna</Original>
@@ -6803,7 +6830,7 @@
 			<Original>Skup Gumy kauczukowej</Original>
 		</Key>
 		<Key ID="STR_Item_rubber">
-			<Original>Guma</Original>
+			<Original>Guma kauczukowa</Original>
 		</Key>
 		<Key ID="STR_Item_Skarb">
 			<Original>Skrzynia ozodbna</Original>
@@ -7105,7 +7132,7 @@
 			<Original>Licencja na proch</Original>
 		</Key>
 		<Key ID="STR_License_steel">
-			<Original>Przetwarzanie żelaza</Original>
+			<Original>Przetwarzanie magnezu</Original>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
@@ -7684,7 +7711,7 @@
 			<Original>Konstruowanie C4</Original>
 		</Key>
 		<Key ID="STR_Process_steelplate">
-			<Original>Przetwarzanie żelaza</Original>
+			<Original>Przetwarzanie rudy magnezu</Original>
 		</Key>
 		<Key ID="STR_Process_Stay">
 			<Original>You need to stay within 10m to process.</Original>
@@ -10412,7 +10439,7 @@
 			<Portuguese>Garagem Aérea</Portuguese>
 			<Polish>Hangar lotniczy</Polish>
 		</Key>
-		<Key ID="STR_MAR_W_Car_Garage">
+		<Key ID="STR_MAR_Garage">
 			<Original>Car Garage</Original>
 			<Czech>Car Garage</Czech>
 			<French>Garage de voiture</French>
@@ -10420,7 +10447,7 @@
 			<Russian></Russian>
 			<German>Fahrzeug Garage</German>
 			<Portuguese>Garagem de Carros</Portuguese>
-			<Polish>Hangar lotniczy</Polish>
+			<Polish>Garaż samochodowy</Polish>
 			<Italian>Garage Automobili</Italian>
 		</Key>
 		<Key ID="STR_MAR_Pay_Bail">
@@ -10788,7 +10815,7 @@
 			<German>Offenes tragen einer legalen Waffe in der Stadt</German>
 		</Key>
 		<Key ID="STR_Crime_15">
-			<Original>Broń rebelianta</Original>
+			<Original>Napad z bronią na sklep</Original>
 			<Czech>Rebel zbraň</Czech>
 			<Spanish>Arma Rebelde</Spanish>
 			<Russian></Russian>

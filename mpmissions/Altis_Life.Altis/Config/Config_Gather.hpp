@@ -37,7 +37,19 @@ class CfgGather
 			zones[] = { "weed_1" };
 			item = "";
 		};
-
+       
+	   class whiskey_1
+		{
+			amount = 1;
+			zones[] = { "pszen_1" };
+			item = "";
+		};
+		class beer_1
+		{
+			amount = 1;
+			zones[] = { "chmiel_1" };
+			item = "";
+		};
 		//custom
 
 		class rubberU

@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=11118;
+		nextID=11131;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={25584.271,23.729927,21377.838};
-		dir[]={0.10759639,-0.47733009,0.87212008};
-		up[]={0.058447953,0.87871689,0.4737491};
-		aside[]={0.99248081,5.1557436e-008,-0.12244514};
+		pos[]={27773.104,25.163942,22205.83};
+		dir[]={0.53575337,-0.55274469,0.63831407};
+		up[]={0.35535401,0.8333506,0.4233799};
+		aside[]={0.76595938,-4.1574822e-008,-0.6428901};
 	};
 };
 binarizationWanted=0;
@@ -573,7 +573,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2408;
+		items=2416;
 		class Item0
 		{
 			dataType="Marker";
@@ -1834,18 +1834,18 @@ class Mission
 		class Item125
 		{
 			dataType="Marker";
-			position[]={18079.223,29.91333,9472.5195};
+			position[]={18876.717,-1.4121125e-028,6726.6021};
 			name="heroin_1";
 			text="@STR_MAR_Heroin_Field";
 			type="hd_dot";
 			colorName="ColorRed";
 			id=140;
-			atlOffset=-77.300484;
+			atlOffset=-39.842972;
 		};
 		class Item126
 		{
 			dataType="Marker";
-			position[]={18085.195,29.923096,9472.9893};
+			position[]={18882.689,29.923096,6727.0713};
 			name="heroin_area";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -1854,7 +1854,7 @@ class Mission
 			a=30;
 			b=30;
 			id=141;
-			atlOffset=-79.016525;
+			atlOffset=-9.9732895;
 		};
 		class Item127
 		{
@@ -32903,7 +32903,7 @@ class Mission
 		class Item638
 		{
 			dataType="Marker";
-			position[]={6541.2017,24.878113,12766.063};
+			position[]={6541.7529,24.878174,12767.122};
 			name="steel_1";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -32911,7 +32911,7 @@ class Mission
 			a=30;
 			b=30;
 			id=1702;
-			atlOffset=-71.997925;
+			atlOffset=-71.943306;
 		};
 		class Item639
 		{
@@ -76667,7 +76667,7 @@ class Mission
 		class Item2364
 		{
 			dataType="Marker";
-			position[]={18069.652,53.254272,9472.2793};
+			position[]={18867.146,53.254272,6726.3613};
 			name="marker_300da_19";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -76676,7 +76676,7 @@ class Mission
 			a=639.5625;
 			b=573.5896;
 			id=11038;
-			atlOffset=-49.610077;
+			atlOffset=13.646706;
 		};
 		class Item2365
 		{
@@ -77689,31 +77689,31 @@ class Mission
 		class Item2389
 		{
 			dataType="Marker";
-			position[]={6541.7627,0,12767.752};
+			position[]={6541.7632,-0.016350232,12767.752};
 			name="marker_260";
-			text="Ruda żelaza";
+			text="Ruda magnezu";
 			type="mil_dot";
 			colorName="ColorBrown";
 			id=11085;
-			atlOffset=-96.822975;
+			atlOffset=-96.839272;
 		};
 		class Item2390
 		{
 			dataType="Marker";
-			position[]={6541.3545,0,12767.76};
+			position[]={6541.7651,-3151947,12767.76};
 			name="marker_242";
 			type="mil_dot";
-			colorName="ColorCIV";
+			colorName="ColorBrown";
 			angle=4.8509979;
 			id=1703;
-			atlOffset=-96.866508;
+			atlOffset=-3152043.8;
 		};
 		class Item2391
 		{
 			dataType="Marker";
-			position[]={11009.814,9.8339969e-017,19040.289};
+			position[]={11009.814,-8.6242913e-024,19040.289};
 			name="marker_261";
-			text="Przetwórnia rudy żelaza";
+			text="Przetwórnia magnezu";
 			type="mil_dot";
 			colorName="ColorBrown";
 			id=11088;
@@ -77816,13 +77816,13 @@ class Mission
 		class Item2393
 		{
 			dataType="Marker";
-			position[]={10179.177,-2.5279088e-032,16522.063};
+			position[]={10179.177,-0.30909479,16522.063};
 			name="marker_286";
-			text="Skup żelaza";
+			text="Skup magnezu";
 			type="mil_dot";
 			colorName="ColorBrown";
 			id=11091;
-			atlOffset=-60.525345;
+			atlOffset=-60.834438;
 		};
 		class Item2394
 		{
@@ -78461,6 +78461,360 @@ class Mission
 			colorName="ColorGreen";
 			id=11117;
 			atlOffset=8.7987014e+027;
+		};
+		class Item2408
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={21709.232,28.711369,19253.756};
+						angles[]={6.2791882,6.2462363,6.2605309};
+					};
+					side="Civilian";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_whiskey_1"",life_fnc_processAction,""whiskey"",0,false,false,"""",' life_inv_whiskey_1 > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""whiskey"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""whiskey"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""whiskey"",0,false,false,"""",' !license_civ_whiskey && playerSide == civilian '];";
+					};
+					id=11120;
+					type="C_man_1";
+					atlOffset=0.49200058;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11119;
+			atlOffset=0.49200058;
+		};
+		class Item2409
+		{
+			dataType="Marker";
+			position[]={21707.641,-1.1078121e-009,19252.738};
+			name="w1";
+			text="Przetwórnia whisky";
+			type="hd_dot";
+			colorName="ColorYellow";
+			id=11121;
+			atlOffset=-28.155464;
+		};
+		class Item2410
+		{
+			dataType="Marker";
+			position[]={20148.945,-2.1324701e-030,9877.1416};
+			name="pszen_1";
+			text="@STR_MAR_pszen_1";
+			type="loc_Tree";
+			colorName="ColorYellow";
+			id=11122;
+			atlOffset=-59.967587;
+		};
+		class Item2411
+		{
+			dataType="Marker";
+			position[]={17633.607,-8.9951402e-010,10259.052};
+			name="chmiel_1";
+			text="@STR_MAR_beer_1";
+			type="loc_Tree";
+			colorName="ColorOrange";
+			id=11124;
+			atlOffset=-33.284859;
+		};
+		class Item2412
+		{
+			dataType="Marker";
+			position[]={27779.6,3.6628936e+023,22211.004};
+			name="marker_445";
+			text="Browary";
+			type="mil_dot";
+			colorName="ColorOrange";
+			id=11125;
+			atlOffset=3.6628936e+023;
+		};
+		class Item2413
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={27779.82,19.189907,22211.035};
+						angles[]={0,3.44521,0};
+					};
+					side="Civilian";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_beer"",life_fnc_processAction,""beer"",0,false,false,"""",' life_inv_beer_1 > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""beer"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""beer"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""beer"",0,false,false,"""",' !license_civ_beer && playerSide == civilian '];";
+					};
+					id=11127;
+					type="C_man_polo_3_F";
+					atlOffset=0.4470005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="enableStamina";
+							expression="_this enablestamina _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11126;
+			atlOffset=0.4470005;
+		};
+		class Item2414
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20868.844,31.484232,13227.461};
+						angles[]={6.2645893,2.1891484,6.2018499};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_Shops_beer"",life_fnc_virt_menu,""beer""];";
+					};
+					id=11129;
+					type="C_man_1";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11128;
+		};
+		class Item2415
+		{
+			dataType="Marker";
+			position[]={20868.793,0,13227.418};
+			name="marker_257";
+			text="Skup Piwa";
+			type="mil_dot";
+			colorName="ColorOrange";
+			id=11130;
+			atlOffset=-31.24975;
 		};
 	};
 };

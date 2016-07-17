@@ -363,7 +363,7 @@ class LifeCfgVehicles {
 class C_Offroad_02_unarmed_F {
         vItemSpace = 50;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price=105000;
+        price=405000;
 		assurPrice = 25000;
         textures[] = {};
     };
@@ -371,8 +371,8 @@ class C_Offroad_02_unarmed_F {
 class B_T_VTOL_01_vehicle_F {
         vItemSpace = 1200;
         licenses[] = { {"trucking"}, {"pilot"}, {""}, {""} };
-        price= 24105000;
-		assurPrice = 11035000;
+        price= 9105000;
+		assurPrice = 1135000;
         textures[] = {};
     };
     class O_Truck_03_medical_F {
@@ -385,7 +385,7 @@ class B_T_VTOL_01_vehicle_F {
     class O_Truck_03_ammo_F {
         vItemSpace = 695;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 3779000;
+        price = 3209000;
 		assurPrice = 533500;
         textures[] = {};
     };
@@ -401,8 +401,8 @@ class B_T_VTOL_01_vehicle_F {
 	class I_Truck_02_box_F {
         vItemSpace = 445;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 435000;
-		assurPrice = 530500;
+        price = 1935000;
+		assurPrice = 60500;
         textures[] = {};
     };
 
@@ -417,8 +417,8 @@ class B_T_VTOL_01_vehicle_F {
     class I_Heli_light_03_unarmed_F {
         vItemSpace = 325;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 4250000;
-		assurPrice = 975000;
+        price = 3250000;
+		assurPrice = 75000;
         textures[] = {  };
     };
 
@@ -438,7 +438,7 @@ class B_T_VTOL_01_vehicle_F {
         vItemSpace = 25;
         licenses[] = { {""}, {"swat"}, {""}, {""} };
         price = 550000;
-		assurPrice = 125000;
+		assurPrice = 25000;
         textures[] = {
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
@@ -459,7 +459,7 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 855;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 4150000;
-		assurPrice = 2325000;
+		assurPrice = 325000;
         textures[] = {};
             
     };
@@ -515,24 +515,24 @@ class O_T_LSV_02_armed_F {
     class O_Truck_03_transport_F {
         vItemSpace = 400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 1000000;
-		assurPrice = 105000;
+        price = 1200000;
+		assurPrice = 45000;
         textures[] = { };
     };
 
     class O_Truck_03_device_F {
         vItemSpace = 475;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 5250000;
-		assurPrice = 550000;
+        price = 2300000;
+		assurPrice = 50000;
         textures[] = { };
     };
 	
 	class B_Truck_01_covered_F {
         vItemSpace = 585;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 3879000;
-		assurPrice = 203000;
+        price = 2509000;
+		assurPrice = 43000;
         textures[] = { };
     };
 
@@ -612,24 +612,24 @@ class O_T_LSV_02_armed_F {
     class B_Truck_01_box_F {
         vItemSpace = 910;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 8450000;
-		assurPrice = 435500;
+        price = 6450000;
+		assurPrice = 35500;
         textures[] = { };
     };
 	
     class B_Truck_01_transport_F {
         vItemSpace = 530;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 1610000;
-		assurPrice = 258300;
+        price = 2210000;
+		assurPrice = 58300;
         textures[] = { };
     };
 	
 	class B_Truck_01_ammo_F	{
         vItemSpace = 810;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 1250000;
-		assurPrice = 375500;
+        price = 5250000;
+		assurPrice = 75500;
         textures[] = { };
     };
 
@@ -637,7 +637,7 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 4250000;
-		assurPrice = 675500;
+		assurPrice = 75500;
         textures[] = { 
 		    { "Ifrit Chamas VIP", "civ", {
 	                "textures\Vip\Vehicles\ifrit\flame_ifrit_1.jpg",
@@ -816,8 +816,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Truck_02_covered_F {
         vItemSpace = 330;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 750000;
-		assurPrice = 148000;
+        price = 600000;
+		assurPrice = 48000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -832,7 +832,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Truck_02_transport_F {
         vItemSpace = 275;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 1500000;
+        price = 400000;
 		assurPrice = 80000;
         textures[] = {
             { "Orange", "civ", {
@@ -848,8 +848,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class O_Truck_03_covered_F {
         vItemSpace = 475;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 1215000;
-		assurPrice = 224500;
+        price = 1521500;
+		assurPrice = 54500;
         textures[] = {};
     };
 
@@ -952,7 +952,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_box_F {
         vItemSpace = 210;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 110000;
+        price = 210000;
 		assurPrice = 23000;
         textures[] = {
             { "White", "civ", {
@@ -1009,23 +1009,23 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Heli_Transport_02_F {
        vItemSpace = 425;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 6575000;
-	   assurPrice = 1008500;
+       price = 3275000;
+	   assurPrice = 108500;
        textures[] = {};
    };
     class C_Plane_Civil_01_F {
-       vItemSpace = 125;
+       vItemSpace = 25;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 11575000;
-	   assurPrice = 598500;
+       price = 4575000;
+	   assurPrice = 88500;
        textures[] = {};
    };
    
    class B_Heli_Transport_03_unarmed_F {
        vItemSpace = 565;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 5135000;
-	   assurPrice = 511300;
+       price = 3135000;
+	   assurPrice = 61300;
        textures[] = {};
    };
    
@@ -1033,22 +1033,22 @@ will modify the virtual space and the price of the vehicle, but other informatio
        vItemSpace = 115;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
        price = 1235000;
-	   assurPrice = 765300;
+	   assurPrice = 36300;
        textures[] = {};
    };
    
    class O_Truck_02_covered_F {
        vItemSpace = 275;
        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-       price = 1135000;
-	   assurPrice = 50500;
+       price = 535000;
+	   assurPrice = 10500;
        textures[] = {};
    };
    
    class O_Truck_02_transport_F {
        vItemSpace = 255;
        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-       price = 115000;
+       price = 375000;
 	   assurPrice = 14500;
        textures[] = {};
    };
@@ -1056,8 +1056,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
    class O_Heli_Transport_04_Box_F {
       vItemSpace = 525;
       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-      price = 2805000;
-	  assurPrice = 441500;
+      price = 1305000;
+	  assurPrice = 31500;
       textures[] = {};
     };
 
@@ -1065,7 +1065,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 90;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
         price = 1250000;
-		assurPrice = 145000;
+		assurPrice = 45000;
         textures[] = {
             { "Police", "cop", {
                 "textures\Cop\Vehicles\policeheli.jpg"
@@ -1118,15 +1118,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {
         vItemSpace = 75;
 		licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 1500000;
-		assurPrice = 725000;
+        price = 900000;
+		assurPrice = 25000;
     };
 
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 240;
         licenses[] = { {"pilot" }, {""}, {""}, {""} };
-        price = 2900000;
-		assurPrice = 442000;
+        price = 1200000;
+		assurPrice = 42000;
         textures[] = {
             { "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
@@ -1150,7 +1150,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 110;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
         price = 150000;
-		assurPrice = 75000;
+		assurPrice = 15000;
         textures[] = {};
     };
 
@@ -1158,8 +1158,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 130;
         vFuelSpace = 9999999;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 75000;
-		assurPrice = 32500;
+        price = 175000;
+		assurPrice = 12500;
         textures[] = {
             { "White", "civ", {
                 "\A3\soft_f_gamma\Van_01\data\van_01_ext_co.paa",
@@ -1176,8 +1176,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 260;
         vFuelSpace = 9999999;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 1150000;
-		assurPrice = 269500;
+        price = 850000;
+		assurPrice = 26500;
         textures[] = {
             { "White", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -1190,8 +1190,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 390;
         vFuelSpace = 9999999;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 3300000;
-		assurPrice = 95500;
+        price = 1300000;
+		assurPrice = 25500;
         textures[] = {};
     };
 };

@@ -1,4 +1,4 @@
-
+#include "script_macros.hpp"
 waitUntil {!(isNull (findDisplay 46))};
 disableSerialization;
 /*

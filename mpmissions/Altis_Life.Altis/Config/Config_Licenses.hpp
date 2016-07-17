@@ -151,7 +151,21 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
-
+	class whiskey {
+        variable = "whiskey";
+        displayName = "STR_License_whiskey";
+        price = 420000;
+        illegal = true;
+        side = "civ";
+    };
+    class beer {
+        variable = "beer";
+        displayName = "STR_License_beer";
+        price = 380000;
+        illegal = true;
+        side = "civ";
+    };
+	
     class heroin {
         variable = "heroin";
         displayName = "STR_License_Heroin";

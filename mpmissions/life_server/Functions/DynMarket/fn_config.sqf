@@ -14,10 +14,10 @@
 
 DYNMARKET_Serveruptime         = 06;     // La durée de fonctionnement jusqu'au prochain redémarrage du serveur en heures.
 DYNMARKET_UseExternalDatabase  = true;  // Si le script utilise une base de données externe ?
-DYNMARKET_PriceUpdateInterval  = 10;     // Après combien de minutes devrait être mis à jour le prix ?
+DYNMARKET_PriceUpdateInterval  = 01;     // Après combien de minutes devrait être mis à jour le prix ?
 DYNMARKET_CreateBackups        = true;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?
 DYNMARKET_CreateBackupInterval = 03;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
-DYNMARKET_UserNotification     = true;  // Est-ce que les joueurs devraient être informé par un message (hint) à chaque fois que la bourse est mise à jour ?
+DYNMARKET_UserNotification     = false;  // Est-ce que les joueurs devraient être informé par un message (hint) à chaque fois que la bourse est mise à jour ?
 
 // █████████████████ TEXTES DE NOTIFICATION  █████████████████
 
@@ -68,6 +68,7 @@ DYNMARKET_Items_Groups =
 			["glass",-1,1000,4000],
 			["diamond_cut",-1,3000,9000],
 			["Skarb",-1,13000,30000],
+			["beer",-1,3000,6500],
 			["cement",-1,1000,4000]
 			],		
 		2
@@ -78,6 +79,7 @@ DYNMARKET_Items_Groups =
 			
 			["cocaine_processed",-1,5000,10000],
 			["heroin_processed",-1,5500,10500],
+			["whiskey",-1,4500,8000],
 			["cannabis",-1,400,600],
 			["heba",-1,7000,12000],
 			["marijuana",-1,4000,9000],
@@ -121,11 +123,13 @@ DYNMARKET_Items_ToTrack        =
 	["cement",2000],
 	["diamond_cut",6000],
 	["Skarb",22000],
+	["Beer",4500],
 	
 	
 		
     ["heroin_processed",9000],
 	["cannabis",500],
+	["whiskey",5500],
 	["heba",8000],
 	["marijuana",5500],
 	["cocaine_processed",7700],

@@ -77,7 +77,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "cocaine_processed", "heroin_processed", "marijuana", "nitroamine", "heba", "whiskey","beer","C4"};
+		items[] = { "cocaine_processed", "heroin_processed", "marijuana", "nitroamine", "heba", "whiskey","C4"};
 	};
 
 	class oil {
@@ -179,7 +179,13 @@ class VirtualShops {
 		level[] = { "", "", -1, "" };
 		items[] = { "Skarb" };
 	};
-	
+	class Beer {
+		name = "STR_Shops_beer";
+		side = "civ";
+		license = "";
+		level[] = { "", "", -1, "" };
+		items[] = { "beer" };
+	};
 	class cop {
 		name = "STR_Shops_Cop";
 		side = "cop";
@@ -203,10 +209,20 @@ class VirtualShops {
 */
 class VirtualItemsc {
 //Drugs
+class whiskey {
+		variable = "whiskey";
+		displayName = "STR_Item_whiskey";
+		weight = 6;
+		buyPrice = 10025;
+		sellPrice = 1275;
+		illegal = true;
+		edible = 100;
+		icon = "icons\ico_whiskey.paa";
+	};
 class C4 {
 		variable = "C4";
 		displayName = "STR_Item_C4";
-		weight = 20;
+		weight = 5;
 		buyPrice = 72025;
 		sellPrice = 26000;
 		illegal = true;
@@ -249,7 +265,7 @@ class turtle_raw {
 	class cannabis {
 		variable = "cannabis";
 		displayName = "STR_Item_Cannabis";
-		weight = 8;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = 6000;
 		illegal = true;
@@ -260,7 +276,7 @@ class turtle_raw {
 	class heba {
 		variable = "heba";
 		displayName = "STR_Item_heba";
-		weight = 8;
+		weight = 7;
 		buyPrice = 90000;
 		sellPrice = 6000;
 		illegal = true;
@@ -271,7 +287,7 @@ class turtle_raw {
 	class marijuana {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
-		weight = 8;
+		weight = 6;
 		buyPrice = 70000;
 		sellPrice = 6000;
 		illegal = true;
@@ -749,7 +765,7 @@ class VirtualItems {
 class Skarb {
 		variable = "Skarb";
 		displayName = "STR_Item_Skarb";
-		weight = 10;
+		weight = 8;
 		buyPrice = 40000;
 		sellPrice = -1;
 		illegal = false;
@@ -805,7 +821,7 @@ class Skarb {
 	class cannabis {
 		variable = "cannabis";
 		displayName = "STR_Item_Cannabis";
-		weight = 8;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -816,7 +832,7 @@ class Skarb {
 	class heba {
 		variable = "heba";
 		displayName = "STR_Item_heba";
-		weight = 8;
+		weight = 5;
 		buyPrice = 15000;
 		sellPrice = -1;
 		illegal = true;
@@ -827,7 +843,7 @@ class Skarb {
 	class marijuana {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
-		weight = 8;
+		weight = 6;
 		buyPrice = 13000;
 		sellPrice = -1;
 		illegal = true;
@@ -838,7 +854,7 @@ class Skarb {
 	class cocaine_unprocessed {
 		variable = "cocaineUnprocessed";
 		displayName = "STR_Item_CocaineU";
-		weight = 10;
+		weight = 8;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -850,7 +866,7 @@ class Skarb {
 	class cocaine_processed {
 		variable = "cocaineProcessed";
 		displayName = "STR_Item_CocaineP";
-		weight = 9;
+		weight = 7;
 		buyPrice = 14000;
 		sellPrice = -1;
 		illegal = true;
@@ -1259,7 +1275,7 @@ class Skarb {
 	class nitroamine {
 		variable = "nitroamine";
 		displayName = "STR_Item_nitroamine";
-		weight = 8;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -1270,8 +1286,8 @@ class Skarb {
 	class C4 {
 		variable = "C4";
 		displayName = "STR_Item_C4";
-		weight = 6;
-		buyPrice = -1;
+		weight = 5;
+		buyPrice = 50000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -1347,25 +1363,44 @@ class Skarb {
 	class beer {
 		variable = "beer";
 		displayName = "STR_Item_beer";
-		weight = 5;
-		buyPrice = 7025;
-		sellPrice = 1200;
+		weight = 3;
+		buyPrice = 10025;
+		sellPrice = -1;
 		illegal = false;
-		edible = 100;
+		edible = -1;
 		icon = "icons\ico_beer.paa";
 	};
-
+class beer_1 {
+		variable = "beer_1";
+		displayName = "STR_Item_beer_1";
+		weight = 4;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\chmiel.paa";
+	}; 
+	
 	class whiskey {
 		variable = "whiskey";
 		displayName = "STR_Item_whiskey";
-		weight = 10;
+		weight = 5;
 		buyPrice = 10025;
-		sellPrice = 1275;
-		illegal = false;
-		edible = 100;
+		sellPrice = -1;
+		illegal = true;
+		edible = -1;
 		icon = "icons\ico_whiskey.paa";
 	};
-
+    class whiskey_1 {
+		variable = "whiskey_1";
+		displayName = "STR_Item_whiskey_1";
+		weight = 6;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\whiskey_1.paa";
+	};
 	class moonshine {
 		variable = "moonshine";
 		displayName = "STR_Item_moonshine";

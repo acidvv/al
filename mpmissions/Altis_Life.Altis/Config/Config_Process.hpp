@@ -53,7 +53,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"copper_refined",1}};
         	Text = "STR_Process_Copper";
         	//ScrollText = "Refine Copper";
-        	NoLicenseCost = 14250;
+        	NoLicenseCost = 64250;
 	};
 
 	class iron {
@@ -62,7 +62,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"iron_refined",1}};
         	Text = "STR_Process_Iron";
         	//ScrollText = "Refine Iron";
-        	NoLicenseCost = 24150;
+        	NoLicenseCost = 64150;
 	};
 
 	class sand {
@@ -71,7 +71,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"glass",1}};
         	Text = "STR_Process_Sand";
         	//ScrollText = "Melt Sand into Glass";
-        	NoLicenseCost = 13650;
+        	NoLicenseCost = 73650;
 	};
 
 	class salt {
@@ -80,7 +80,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"salt_refined",1}};
         	Text = "STR_Process_Salt";
         	//ScrollText = "Refine Salt";
-        	NoLicenseCost = 13500;
+        	NoLicenseCost = 73500;
 	};
 
 	class cocaine {
@@ -89,7 +89,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"cocaine_processed",1}};
 		Text = "STR_Process_Cocaine";
         	//ScrollText = "Process Cocaine";
-        	NoLicenseCost = 80000;
+        	NoLicenseCost = 280000;
 	};
 
 	class marijuana {
@@ -98,15 +98,32 @@ class ProcessAction {
 		MaterialsGive[] = {{"marijuana",1}};
         	Text = "STR_Process_Marijuana";
         	//ScrollText = "Harvest Marijuana";
-        	NoLicenseCost = 55500;
+        	NoLicenseCost = 285500;
 	};
-       class heba {
+       class whiskey {
+
+        	MaterialsReq[] = {{"whiskey_1",1}};
+		MaterialsGive[] = {{"whiskey",1}};
+        	Text = "STR_Process_whiskey";
+        	//ScrollText = "Przetwórnia whiskey";
+        	NoLicenseCost = 275500;
+	};
+	   class beer {
+
+        	MaterialsReq[] = {{"beer_1",1}};
+		MaterialsGive[] = {{"beer",1}};
+        	Text = "STR_Process_beer";
+        	//ScrollText = "Przetwórnia piwa";
+        	NoLicenseCost = 85500;
+	};
+	   
+	   class heba {
 
         	MaterialsReq[] = {{"cannabis",1},{"nitroamine",1}};
 		MaterialsGive[] = {{"heba",1}};
         	Text = "STR_Process_heba";
         	//ScrollText = "Tabsy Diabła";
-        	NoLicenseCost = 25500;
+        	NoLicenseCost = 285500;
 	};
 	class cement {
 
@@ -114,7 +131,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"cement",1}};
         	Text = "STR_Process_Cement";
         	//ScrollText = "Mix Cement";
-        	NoLicenseCost = 14500;
+        	NoLicenseCost = 84500;
 	};
 
 	class woodP {
@@ -123,7 +140,7 @@ class ProcessAction {
 					MaterialsGive[] = {{"plank",1}};
         	Text = "STR_Process_plank";
         	//ScrollText = "Mix Cement";
-        	NoLicenseCost = 16500;
+        	NoLicenseCost = 86500;
 	};
 
 	//Custom
@@ -134,7 +151,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"rubber",1}};
 					Text = "STR_Process_rubber";
 					//ScrollText = "Mix Cement";
-					NoLicenseCost = 15500;
+					NoLicenseCost = 85500;
 	};
 
 	class gunpowder {
@@ -143,7 +160,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"gunpowder",1}};
 					Text = "STR_Process_gunpowder";
 					//ScrollText = "Mix Cement";
-					NoLicenseCost = 36500;
+					NoLicenseCost = 86500;
 	};
 
 	class C4 {
@@ -152,7 +169,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"C4",1}};
 					Text = "STR_Process_C4";
 					//ScrollText = "Mix Cement";
-					NoLicenseCost = 111500;
+					NoLicenseCost = 81500;
 	};
     class Skarb {
 
@@ -168,7 +185,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"steelplate",1}};
 					Text = "STR_Process_steelplate";
 					//ScrollText = "Mix Cement";
-					NoLicenseCost = 27500;
+					NoLicenseCost = 97500;
 	};
 
 	class cloth {
@@ -177,7 +194,7 @@ class ProcessAction {
 		MaterialsGive[] = {{"cloth",1}};
 					Text = "STR_Process_cloth";
 					//ScrollText = "Mix Cement";
-					NoLicenseCost = 11500;
+					NoLicenseCost = 91500;
 	};
 
 };
