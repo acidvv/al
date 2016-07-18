@@ -246,6 +246,7 @@ class CarShops {
             { "O_MRAP_02_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", { "", "", -1 } },
+			{ "O_T_LSV_02_unarmed_F", { "", "", -1 } },
 			{ "I_Heli_light_03_unarmed_F", { "", "", -1 } },
 			{ "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
 			{ "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
@@ -367,7 +368,13 @@ class C_Offroad_02_unarmed_F {
 		assurPrice = 25000;
         textures[] = {};
     };
-    
+    class O_T_LSV_02_unarmed_F {
+        vItemSpace = 50;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price= 1505000;
+		assurPrice = 25000;
+        textures[] = {};
+    };
 class B_T_VTOL_01_vehicle_F {
         vItemSpace = 1200;
         licenses[] = { {"trucking"}, {"pilot"}, {""}, {""} };

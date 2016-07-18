@@ -136,6 +136,12 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "G_Bandanna_beast", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_blk", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_khk", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_oli", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_shades", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_sport", "", 8150, { "", "", -1 } }
             
         };
         goggles[] = {
@@ -161,11 +167,21 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "", 25, { "", "", -1 } },
-            { "U_B_SpecopsUniform_sgg", "", 25, { "life_coplevel", "SCALAR", 5 } },
+            { "U_C_Poloshirt_burgundy", "Superman", 275, { "", "", -1 } },
+            { "U_C_Poloshirt_tricolour", "Lacoste", 350, { "", "", -1 } },
+            { "U_C_Commoner1_1", "Joker", 1100, { "", "", -1 } },
+			{ "U_C_Commoner_shorts", "Pika", 1100, { "", "", -1 } },
+			{ "U_B_SpecopsUniform_sgg", "", 25, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_B_GEN_Commander_F", "", 71125, { "life_coplevel", "SCALAR", 5 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "G_Bandanna_beast", "", 150, { "", "", -1 } },
+            { "G_Bandanna_blk", "", 150, { "", "", -1 } },
+            { "G_Bandanna_khk", "", 150, { "", "", -1 } },
+            { "G_Bandanna_oli", "", 150, { "", "", -1 } },
+            { "G_Bandanna_shades", "", 150, { "", "", -1 } },
+            { "G_Bandanna_sport", "", 150, { "", "", -1 } },
             { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", -1 } },
 			{ "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
             { "H_HelmetB_light_desert", "", 11150, { "life_coplevel", "SCALAR", 5 } },

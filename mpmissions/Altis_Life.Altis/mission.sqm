@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10358.988,72.355072,21560.227};
-		dir[]={0.059619468,-0.63800406,0.76772988};
-		up[]={0.049397349,0.77002501,0.63609713};
-		aside[]={0.99700367,7.7361619e-008,-0.077424169};
+		pos[]={18923.795,224.1248,16993.193};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -19217,7 +19217,7 @@ class Mission
 					};
 					id=967;
 					type="C_man_polo_6_F";
-					atlOffset=0.7797699;
+					atlOffset=0.77977371;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30909,7 +30909,7 @@ class Mission
 			};
 			id=1497;
 			type="Land_LampAirport_F";
-			atlOffset=4.717001;
+			atlOffset=0.65945816;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -32538,7 +32538,7 @@ class Mission
 			};
 			id=1692;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.37129498;
+			atlOffset=0.37200069;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -32865,7 +32865,6 @@ class Mission
 			type="respawn_para";
 			colorName="ColorCIV";
 			id=1698;
-			atlOffset=0.37217331;
 		};
 		class Item635
 		{
@@ -77146,7 +77145,7 @@ class Mission
 		class Item2378
 		{
 			dataType="Marker";
-			position[]={23242.035,-4.2065318e-010,18714.279};
+			position[]={23187.674,0,18742.529};
 			name="civ_gar_1_5";
 			text="@STR_MAR_Helicopter_Garage";
 			type="o_service";
@@ -77166,11 +77165,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={23261.908,21.101439,18733.816};
+						position[]={23207.23,3.1914389,18754.264};
 						angles[]={0.0026529003,2.792649,6.2818413};
 					};
 					side="Civilian";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -77178,7 +77177,6 @@ class Mission
 					};
 					id=11059;
 					type="C_man_1";
-					atlOffset=17.91;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -77246,7 +77244,6 @@ class Mission
 			{
 			};
 			id=11058;
-			atlOffset=17.91;
 		};
 		class Item2380
 		{
@@ -78581,13 +78578,13 @@ class Mission
 		class Item2411
 		{
 			dataType="Marker";
-			position[]={17633.607,-8.9951402e-010,10259.052};
+			position[]={18914.539,0,17193.414};
 			name="chmiel_1";
 			text="@STR_MAR_beer_1";
 			type="loc_Tree";
 			colorName="ColorOrange";
 			id=11124;
-			atlOffset=-33.284859;
+			atlOffset=-32.977863;
 		};
 		class Item2412
 		{
