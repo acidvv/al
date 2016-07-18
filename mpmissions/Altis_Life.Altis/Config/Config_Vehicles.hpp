@@ -914,6 +914,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Hyperbeast", "civ", {
                 "textures\Civ\Vehicles\suvHYPER.paa"
             } },
+			  { "Taxi", "civ", {
+                "textures\Civ\Vehicles\SUV_Taxi.jpg"
+            } },
             { "Nyan", "civ", {
                 "textures\Civ\Vehicles\suvNYAN.jpg"
             } },
