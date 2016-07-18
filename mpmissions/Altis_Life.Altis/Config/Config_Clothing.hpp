@@ -216,8 +216,9 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_ViperLightHarness_khk_F", "", 13500, { "", "", -1 } },
-			 { "B_Carryall_cbr", "", 13500, { "", "", -1 } },
-		    { "B_UAV_01_backpack_F", "", 26500, { "life_coplevel", "SCALAR", 9 } }
+			{ "B_Carryall_khk", "", 22000, { "", "", -1 } },
+			{ "B_Carryall_ocamo", "", 22000, { "", "", -1 } },
+			  { "B_UAV_01_backpack_F", "", 26500, { "life_coplevel", "SCALAR", 9 } }
         };
     };
 
