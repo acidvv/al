@@ -760,6 +760,7 @@ class WeaponShops {
 			{ "srifle_GM6_F", "", 335500, -1 },
             { "LMG_Zafir_F", "", 55000, -1 },
 			{ "arifle_CTAR_GL_khk_F", "", 65000, -1 },
+			{ "arifle_MX_GL_Black_F", "", 65000, -1 },
 			{ "srifle_EBR_ACO_F", "", 65000, -1 },
 			{ "srifle_DMR_07_ghex_F", "", 65000, -1 },
             { "srifle_DMR_01_SOS_F", "", 85000, -1 },

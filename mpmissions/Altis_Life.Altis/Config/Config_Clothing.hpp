@@ -176,13 +176,6 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "G_Bandanna_beast", "", 150, { "", "", -1 } },
-            { "G_Bandanna_blk", "", 150, { "", "", -1 } },
-            { "G_Bandanna_khk", "", 150, { "", "", -1 } },
-            { "G_Bandanna_oli", "", 150, { "", "", -1 } },
-            { "G_Bandanna_shades", "", 150, { "", "", -1 } },
-            { "G_Bandanna_sport", "", 150, { "", "", -1 } },
-            { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", -1 } },
 			{ "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
             { "H_HelmetB_light_desert", "", 11150, { "life_coplevel", "SCALAR", 5 } },
 			{ "H_Beret_Colonel", "", 150, { "life_coplevel", "SCALAR", 8 } },
@@ -204,6 +197,14 @@ class Clothing {
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
+			{ "G_Bandanna_beast", "", 150, {  "", "", -1 } },
+            { "G_Bandanna_blk", "", 150, {  "", "", -1 } },
+            { "G_Bandanna_khk", "", 150, {  "", "", -1 } },
+            { "G_Bandanna_oli", "", 150, {  "", "", -1 } },
+            { "G_Bandanna_shades", "", 150, {  "", "", -1 } },
+            { "G_Bandanna_sport", "", 150, {  "", "", -1 } },
+            { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", -1 } },
+			{ "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
 			{ "G_Balaclava_blk", "", 22150, { "life_coplevel", "SCALAR", 5 } }
         };
         vests[] = {
