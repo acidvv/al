@@ -30,7 +30,7 @@ _pgText ctrlSetText format["NIe lękaj się psiarni nie ma w promieniu 5 metrów
 _progress progressSetPosition 0.01;
 _cP = 0.01;
 
-   _rndmrk = random(100);
+   _rndmrk = random(1000);
    _mrkstring = format ["wrgMarker_%1", _rndmrk];
    _Pos = position player;
    _marker = createMarker [_mrkstring, _Pos];
