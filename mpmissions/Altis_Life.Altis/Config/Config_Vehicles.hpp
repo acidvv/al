@@ -263,7 +263,6 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
-            { "C_SUV_01_F", { "", "", -1 } },
             { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 2 } }
         };
     };
