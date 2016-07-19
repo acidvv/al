@@ -549,7 +549,7 @@ class WeaponShops {
 			{ "200Rnd_556x45_Box_Red_F", "200rnd 5.56mm", 7325 },
 			{ "20Rnd_650x39_Cased_Mag_F", "20rnd 6.39mm", 8325 },
 			{ "30Rnd_545x39_Mag_Green_F", "30rnd 5.45mm", 4325 },	
-            { "30Rnd_556x45_Stanag_green", "30rnd 5.45mm", 5325 },
+            { "30Rnd_556x45_Stanag_green", "30rnd 5.56mm", 5325 },
 			{ "30Rnd_556x45_Stanag_Tracer_Red", "30rnd 5.80mm", 11325 },
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "30rnd 6.39mm", 11325 },
 			{ "30Rnd_762x39_Mag_Green_F", "30rnd 7.62mm", 41325 },
@@ -580,19 +580,24 @@ class WeaponShops {
           { "FirstAidKit", "Apteczka", 550, 65 },
           { "hgun_Rook40_F", "Rook 9mm", 9500, 500 },
           { "hgun_Pistol_heavy_02_F", "Heavy .45", 11850, -1 },
-          { "hgun_ACPC2_F", "ACP .45", 9500, -1 },
-          { "hgun_PDW2000_F", "PDW2000 9 mm", 15000, -1 },
-          { "SMG_02_F", "Sting 9 mm", 20000, -1 }
+          { "hgun_ACPC2_F", "ACP .45", 19500, -1 },
+          { "hgun_PDW2000_F", "PDW2000 9 mm", 25000, -1 },
+          { "SMG_02_F", "Sting 9 mm", 40000, -1 },
+		  { "arifle_TRG20_F", "TRG 5.56mm", 283000, 2500 },
+		  { "arifle_AKS_F", "AKS-74U 5.45", 230000, 7500 }
         };
         mags[] = {
-          { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
-          { "6Rnd_45ACP_Cylinder", "  6rnd .45", 50 },
-          { "9Rnd_45ACP_Mag", "  9rnd .45", 45 },
-          { "30Rnd_9x21_Mag", "  16rnd 9mm", 75 },
-          { "11Rnd_45ACP_Mag", "  11rnd .45", 60 }
+          { "16Rnd_9x21_Mag", "  16rnd 9mm", 125 },
+          { "6Rnd_45ACP_Cylinder", "  6rnd .45", 350 },
+          { "9Rnd_45ACP_Mag", "  9rnd .45", 545 },
+          { "30Rnd_9x21_Mag", "  16rnd 9mm", 675 },
+          { "11Rnd_45ACP_Mag", "  11rnd .45", 960 },
+		  { "30Rnd_556x45_Stanag_Tracer_Yellow", "  30rnd 5.56mm", 3225 },
+		  { "30Rnd_545x39_Mag_Green_F", "30rnd 5.45mm", 4325 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "Aco Smg", 950 }
+            { "optic_ACO_grn_smg", "Aco Smg", 950 },
+			 { "optic_MRCO", "Mrco", 44500 }
         };
     };
 

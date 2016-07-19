@@ -15,7 +15,7 @@ _InfoMenus lbAdd "Info"; lbSetValue [2300, (lbSize _InfoMenus)-1, 1];
 _InfoMenus lbAdd "Admini"; lbSetValue [2300, (lbSize _InfoMenus)-1, 2];
 _InfoMenus lbAdd "Klawisze"; lbSetValue [2300, (lbSize _InfoMenus)-1, 3];
 _InfoMenus lbAdd "Regulamin podstawy"; lbSetValue [2300, (lbSize _InfoMenus)-1, 4];
-_InfoMenus lbAdd "Praca"; lbSetValue [2300, (lbSize _InfoMenus)-1, 5];
+_InfoMenus lbAdd "Informacje o modzie ,surowce itp"; lbSetValue [2300, (lbSize _InfoMenus)-1, 5];
 _InfoMenus lbAdd "Zmiany"; lbSetValue [2300, (lbSize _InfoMenus)-1, 6];lbSetColor[2300,(lbSize _InfoMenus)-1,[1,0,0.082,1]];
 
 _InfoMenus lbSetCurSel 1;
@@ -245,6 +245,13 @@ Policja nie ma prawa wyłamywać zamków i przeszukiwać losowych posiadłości.
 
 if(_index isEqualTo 5) exitWith {
 "Szukasz pracy policjanta medyka zapraszamy na ts.<br/><br/>
+<t align='center' color='#0099ff'>W kryjówkach gangu można kupić bron bez licencji oraz przerabiać bez licencji nielegalki</t><br/><br/>
+<t align='center' color='#0099ff'>W każdej kryjówce inne ale to już gracze muszą dojsć co i jak :)</t><br/><br/>
+<t align='center' color='#0099ff'>Heba robi sie z lisci marichuany+dopalacze</t><br/><br/>
+<t align='center' color='#0099ff'>c4 z prochu+magnez+guma kauczukowa</t><br/><br/>
+<t align='center' color='#0099ff'>skrzynie robi się z diamentu+przerobione drzewo(2szt)+monety(2szt)</t><br/><br/>
+<t align='center' color='#0099ff'>whisky z pszenicy,piwo z chmielu ,ciuchy z bawełny</t><br/><br/>
+<t align='center' color='#0099ff'>reszte łatwo się domyśleć</t><br/><br/>
 ";
 };
 

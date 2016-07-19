@@ -691,13 +691,13 @@ class O_T_LSV_02_armed_F {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
             } },
-            { "Taxi", "civ", {
+            { "Taxi", "cop", {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             } },
             { "Trump", "civ", {
                 "textures\Civ\Vehicles\OffTRUMP.jpg"
             } },
-            { "Shrek", "civ", {
+            { "Shrek", "cop", {
                 "textures\Civ\Vehicles\OffSHREK.jpg"
             } },
             { "Police", "cop", {
@@ -1073,7 +1073,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Light_01_F {
         vItemSpace = 90;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-        price = 1250000;
+        price = 1650000;
 		assurPrice = 45000;
         textures[] = {
             { "Police", "cop", {

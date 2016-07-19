@@ -281,7 +281,14 @@ class Clothing {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, { "", "", -1 } }
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Bandanna_beast", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_blk", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_khk", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_oli", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_shades", "", 8150, { "", "", -1 } },
+            { "G_Bandanna_sport", "", 8150, { "", "", -1 } },
+             { "G_Lady_Blue", "", 150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },

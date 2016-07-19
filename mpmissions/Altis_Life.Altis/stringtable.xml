@@ -6772,6 +6772,9 @@
 			<Key ID="STR_Process_whiskey_1">
 			<Original>Przetwórnia Whiskey</Original>
 		</Key>
+			<Key ID="STR_Process_whiskey">
+			<Original>Przetwórnia Whiskey</Original>
+		</Key>
 		<Key ID="STR_Item_beer">
 			<Original>Piwo</Original>
 		</Key>
