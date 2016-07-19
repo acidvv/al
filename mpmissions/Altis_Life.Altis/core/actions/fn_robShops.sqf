@@ -16,7 +16,7 @@ if (currentWeapon _robber isEqualTo "") exitWith { hint "Nie można okraść pon
 
 if !(alive _robber) exitWith {};
 
-_kassa = 30000 + round(random 20000);
+_kassa = 40000 + round(random 30000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
@@ -30,7 +30,7 @@ _pgText ctrlSetText format["NIe lękaj się psiarni nie ma w promieniu 5 metrów
 _progress progressSetPosition 0.01;
 _cP = 0.01;
 
-   _rndmrk = random(1000);
+   _rndmrk = random(100);
    _mrkstring = format ["wrgMarker_%1", _rndmrk];
    _Pos = position player;
    _marker = createMarker [_mrkstring, _Pos];
@@ -66,7 +66,7 @@ while{true} do
    [] call life_fnc_hudSetup;
 
    _rip = false;
-	sleep (30 + random(180)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery.
+	sleep (30 + random(30)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery.
 	life_use_atm = true; // Robber can not use the ATM at this point.
 	playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", player];
 	if!(alive _robber) exitWith {};

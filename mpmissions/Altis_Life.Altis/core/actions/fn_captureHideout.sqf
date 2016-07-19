@@ -85,5 +85,23 @@ _flagTexture = [
 	] call BIS_fnc_selectRandom;
 _this select 0 setFlagTexture _flagTexture;
 [[0,1],"STR_GNOTF_CaptureSuccess",true,[name player,(group player) getVariable "gang_name"]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+// CREATE MARKER AT MAP BY Pictureclass
+ 
+_markername = str(getPos _hideout);
+_gangname2 = formatText["Przejęta przez: %1",(group player) getVariable "gang_name"];
+if (getMarkerColor _markername == "") then 
+{
+	gang_owner_marker = createMarker [_markername, position player]; 
+	_markername setMarkerShape "ICON"; 
+	_markername setMarkerType "hd_warning"; 
+	_markername setMarkerColor "ColorBlue"; 
+	_markername setMarkerText str(_gangname2);
+	gang_owner_marker = "";
+}
+else 
+{
+	_markername setMarkerText str(_gangname2);
+};
+
 _hideout SVAR ["inCapture",false,true];
 _hideout SVAR ["gangOwner",grpPlayer,true];
