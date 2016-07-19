@@ -21,6 +21,8 @@ player SVAR ["restrained",false,true];
 player SVAR ["Escorting",false,true];
 player SVAR ["masked",false,true];
 player SVAR ["transporting",false,true];
+player SVAR ["taxi",false,true];
+player SVAR ["vehicle",false,true];
 
 titleText[localize "STR_Jail_Warn","PLAIN"];
 hint localize "STR_Jail_LicenseNOTF";
