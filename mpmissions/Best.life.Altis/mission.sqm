@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3658.6455,12.226756,13106.119};
-		dir[]={-0.74212706,-0.14352269,0.65489382};
-		up[]={-0.10771923,0.98961389,0.095054492};
-		aside[]={0.66172975,1.2019154e-006,0.74987781};
+		pos[]={3669.9675,14.542177,13107.002};
+		dir[]={-0.88933533,-0.27971706,0.36204904};
+		up[]={-0.25918067,0.96003491,0.10551029};
+		aside[]={0.37708879,8.0469908e-007,0.92628682};
 	};
 };
 binarizationWanted=0;
@@ -106,7 +106,6 @@ addons[]=
 	"A3_Structures_F_Households_Stone_Shed",
 	"A3_Structures_F_Households_Stone_Small",
 	"A3_Structures_F_Kart_Civ_SportsGrounds",
-	"A3_Structures_F_Exp_Civilian_Accessories",
 	"A3_Structures_F_Heli_Items_Electronics",
 	"A3_Structures_F_EPB_Civ_Accessories"
 };
@@ -114,7 +113,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=22;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -266,13 +265,6 @@ class AddonsMetaData
 		{
 			className="A3_Structures_F_Kart";
 			name="Arma 3 Karts - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item22
-		{
-			className="A3_Structures_F_Exp_Civilian";
-			name="Arma 3 Apex - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -590,7 +582,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2444;
+		items=2443;
 		class Item0
 		{
 			dataType="Marker";
@@ -51225,6 +51217,7 @@ class Mission
 			};
 			id=9613;
 			type="Campfire_burning_F";
+			atlOffset=3.3378601e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -51360,6 +51353,7 @@ class Mission
 			};
 			id=9621;
 			type="Land_CampingChair_V1_F";
+			atlOffset=-0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -51437,6 +51431,7 @@ class Mission
 			};
 			id=9622;
 			type="Land_CampingChair_V1_F";
+			atlOffset=-3.1471252e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -79124,6 +79119,7 @@ class Mission
 			};
 			id=11163;
 			type="Land_CampingChair_V2_F";
+			atlOffset=-8.5830688e-006;
 		};
 		class Item2434
 		{
@@ -79162,22 +79158,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3664.0767,10.751072,13117.611};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=11166;
-			type="Land_Bench_04_F";
-			atlOffset=-0.00014591217;
-		};
-		class Item2437
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={3660.8135,11.354414,13098.073};
 				angles[]={0,1.5469856,0};
 			};
@@ -79190,7 +79170,7 @@ class Mission
 			type="Land_GymRack_02_F";
 			atlOffset=0.0078134537;
 		};
-		class Item2438
+		class Item2437
 		{
 			dataType="Object";
 			class PositionInfo
@@ -79206,7 +79186,7 @@ class Mission
 			type="Land_GymBench_01_F";
 			atlOffset=0.0078125;
 		};
-		class Item2439
+		class Item2438
 		{
 			dataType="Object";
 			class PositionInfo
@@ -79220,9 +79200,9 @@ class Mission
 			};
 			id=11170;
 			type="Land_GymRack_01_F";
-			atlOffset=0.0078134537;
+			atlOffset=0.0078144073;
 		};
-		class Item2440
+		class Item2439
 		{
 			dataType="Object";
 			class PositionInfo
@@ -79239,7 +79219,7 @@ class Mission
 			type="Fridge_01_open_F";
 			atlOffset=0.0078144073;
 		};
-		class Item2441
+		class Item2440
 		{
 			dataType="Object";
 			class PositionInfo
@@ -79256,7 +79236,7 @@ class Mission
 			type="Land_PhoneBooth_01_F";
 			atlOffset=-0.00034999847;
 		};
-		class Item2442
+		class Item2441
 		{
 			dataType="Object";
 			class PositionInfo
@@ -79270,8 +79250,9 @@ class Mission
 			};
 			id=11174;
 			type="Land_BellTower_02_V1_F";
+			atlOffset=-9.5367432e-007;
 		};
-		class Item2443
+		class Item2442
 		{
 			dataType="Object";
 			class PositionInfo
