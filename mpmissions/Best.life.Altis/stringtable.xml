@@ -8478,7 +8478,7 @@
 			<French>Envoi de la requête au serveur pour obtenir des informations lecteur UID [%1]</French>
 			<Italian>Invio richiesta al server per le informazioni del giocatore UID [%1]</Italian>
 			<Portuguese>Obtendo informações do UID [%1] no servidor</Portuguese>
-			<Polish>Wysyłam żądanie do serwera po informację o fraczu UID [%1]</Polish>
+			<Polish>Wysyłam żądanie do serwera po informację o Graczu UID [%1]</Polish>
 		</Key>
 		<Key ID="STR_Session_QueryFail">
 			<Original>The server didn't find any player information matching your UID, attempting to add player to system.</Original>
@@ -10273,9 +10273,10 @@
 		</Key>
 		<Key ID="STR_MAR_coronel_Weapon_Shop">
 			<Original>Broń Komendata</Original>
+			</Key>
 			<Key ID="STR_MAR_specpojazdy">
 			<Original>Broń Komendata</Original>
-			</Key>
+			
 		</Key>
 		<Key ID="STR_MAR_W_E_Vehicle Shop">
 			<Original>Vehicle Shop</Original>

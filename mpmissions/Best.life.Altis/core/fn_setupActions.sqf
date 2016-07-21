@@ -24,6 +24,7 @@ switch (playerSide) do {
 			//dokument
 		     life_actions = life_actions + [player addAction["Pokaż dokument",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man"']];
 		 	};
+		
 	case west:
 		{
 		life_actions pushBack [player addAction[localize "STR_pAct_DriverSeat",life_fnc_copEnter,"driver",200,false,false,"",'!isNull cursorObject && ((cursorObject isKindOf "Car")||(cursorObject isKindOf "Air")||(cursorObject isKindOf "Ship")) && (vehicle player isEqualTo player) && (locked cursorObject) != 0 && cursorObject distance player < 5']];
@@ -39,7 +40,7 @@ switch (playerSide) do {
 	    	// nano EMP Little Bird
 	   life_actions = life_actions + [player addAction["<t color='#FF0000'>EMP konsola</t>",life_fnc_openEmpMenu,[],8,false,false,"",'[_this] call life_fnc_isEmpOperator']];
 			};
-
+		
 case independent: 
  {
 	life_actions pushBack [player addAction[localize "STR_pAct_DriverSeat",life_fnc_medEnter,"driver",200,false,false,"",'!isNull cursorObject && ((cursorObject isKindOf "Car")||(cursorObject isKindOf "Air")||(cursorObject isKindOf "Ship")) && (vehicle player isEqualTo player) && (locked cursorObject) != 0 && cursorObject distance player < 5']];
@@ -47,9 +48,14 @@ case independent:
 	life_actions pushBack [player addAction[localize "STR_pAct_GoOut",life_fnc_medEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player) isEqualTo 2)']];			
 	//dokument  
 	        life_actions = life_actions + [player addAction["Pokaż dokument",life_fnc_Lizenzzeigen,"",1,false,true,"",'!isNull cursorTarget && cursorTarget isKindOf "Man"']];
+			//pasy
+		
      
 };
 };
+life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>zapnij pasy</t>", {life_seatbelt=true}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && !life_seatbelt']);
+life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>odepnij pasy</t>", {life_seatbelt=false}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && life_seatbelt']);
+
 //life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>Pasy On</t>", {life_imAuto = false;}, "", 3, true, true, "", 'vehicle player isKindOf "Car" && !life_imAuto']);
 //life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>Pasy Off</t>", {life_imAuto = true;}, "", 3, true, true, "", 'vehicle player isKindOf "Car" && life_imAuto']);
 //remove mask

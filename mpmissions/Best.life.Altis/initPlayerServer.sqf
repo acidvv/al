@@ -9,4 +9,4 @@
 */
 if(EQUAL(LIFE_SETTINGS(getNumber,"player_deathLog"),0)) exitWith {};
 
-_this select 0 addMPEventHandler ["MPKilled", {_this call fn_whoDoneit}];
+

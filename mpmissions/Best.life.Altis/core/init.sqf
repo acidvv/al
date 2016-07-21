@@ -166,6 +166,19 @@ if(life_HC_isActive) then {
 
 [] spawn life_fnc_autoSave;
 
+{
+	for "_i" from 0 to 1 step 0 do {
+		if (vehicle player isEqualTo player) then
+		{
+			if (life_seatwarn) then {
+				life_seatwarn = false;
+			};
+			if (life_seatbelt) then {
+				sleep 3;
+				life_seatbelt = false;
+			};
+			uiSleep 5;
+		};
 //WHEN PLAYER LOGS IN AND HAS HAD SALES WHILE OFF HE GETS MESSAGED THE TOTAL AND THEN DELETES THE ITEMS FROM THE DB
 waitUntil {vAH_loaded};
 private["_total","_uid","_toDel"];

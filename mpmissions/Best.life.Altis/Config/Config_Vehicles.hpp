@@ -898,7 +898,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 50500;
 		assurPrice = 5150;
         textures[] = {
-            { "Dark Red", "civ", {
+            { "Dark Red", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
             } },
             { "Silver", "civ", {

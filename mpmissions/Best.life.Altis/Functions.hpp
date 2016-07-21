@@ -94,6 +94,7 @@ class Life_Client_Core {
 		class unmask {};
 		class robShops {};
 		class ZipTieAction {};
+		class seatbelt {};
 		};
 
 	class vAH
