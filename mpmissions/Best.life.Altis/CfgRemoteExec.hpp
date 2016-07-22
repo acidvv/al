@@ -130,6 +130,9 @@ class CfgRemoteExec {
         F(TON_fnc_vAH_update,SERVER)
 		F(TON_fnc_getupdate,SERVER)
 		    F(TON_fnc_vAH_init,SERVER)
+			F(TON_fnc_playerLogged,SERVER)
+         F(TON_fnc_changePrice,SERVER)
+        
         
 		
 

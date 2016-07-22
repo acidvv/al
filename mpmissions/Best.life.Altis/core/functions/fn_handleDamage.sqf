@@ -93,9 +93,8 @@ if (vehicle _unit isEqualTo _unit) then {
 	};
 };
 
-if ((vehicle _unit) isKindOf "Car" && (isNull _source || _source isEqualTo _unit)) then
-{
-	_damage = if (life_seatbelt) then { _damage / 2 } else { _damage};
+if ((vehicle _unit) isKindOf "Car" && (isNull _source || _source isEqualTo _unit)) then {
+	if (life_seatbelt) then { _damage = _damage / 2 };
 };
 
 [] spawn life_fnc_hudUpdate;

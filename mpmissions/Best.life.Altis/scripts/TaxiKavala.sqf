@@ -26,10 +26,7 @@ if(player getVariable ["restrained",false]) exitWith {
 hint "Jesteś aresztowany lub związany!";
 closeDialog 0;
 };
-if(player getVariable ["life_is_arrested",false]) exitWith {
-hint "Jesteś aresztowany lub związany!";
-closeDialog 0;
-};
+
 closeDialog 0;
 sleep 2;
 hint parseText (_taxigerufen);
