@@ -6775,6 +6775,9 @@
 			<Key ID="STR_Process_whiskey">
 			<Original>Przetwórnia Whiskey</Original>
 		</Key>
+		<Key ID="STR_License_whiskey">
+			<Original>licencja  Whiskey</Original>
+		</Key>
 		<Key ID="STR_Item_beer">
 			<Original>Piwo</Original>
 		</Key>
@@ -7932,6 +7935,17 @@
 	</Package>
 	<Package name="Other_GUI_Stuff">
 		<Key ID="STR_GUI_Garage">
+			<Original>Garage</Original>
+			<Czech>Garáž</Czech>
+			<Spanish>Garaje</Spanish>
+			<Russian></Russian>
+			<German>Garage</German>
+			<French>Garage</French>
+			<Italian>Garage</Italian>
+			<Portuguese>Garagem</Portuguese>
+			<Polish>Garaż</Polish>
+		</Key>
+		<Key ID="STR_MAR_W_Car_Garage">
 			<Original>Garage</Original>
 			<Czech>Garáž</Czech>
 			<Spanish>Garaje</Spanish>
