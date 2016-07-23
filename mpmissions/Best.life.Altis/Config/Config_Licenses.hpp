@@ -136,9 +136,9 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-   class Woodcutting {
-        variable = "Woodcutting";
-        displayName = "STR_License_Woodcutting";
+   class drwal {
+        variable = "drwal";
+        displayName = "STR_License_drwal";
         price = 50000;
         illegal = false;
         side = "civ";

@@ -134,12 +134,12 @@ class ProcessAction {
         	NoLicenseCost = 84500;
 	};
 
-	class woodP {
+	class drwal {
 
         	MaterialsReq[] = {{"wood",1}};
 					MaterialsGive[] = {{"plank",1}};
-        	Text = "STR_Process_plank";
-        	//ScrollText = "Mix Cement";
+        	Text = "STR_Process_woodP";
+        	//ScrollText = "Cięte drzewo";
         	NoLicenseCost = 86500;
 	};
 

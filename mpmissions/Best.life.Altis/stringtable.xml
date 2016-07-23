@@ -6987,7 +6987,7 @@
 		<Key ID="STR_License_Swat">
 			<Original>Licencja AT</Original>
 		</Key>
-		<Key ID="STR_License_Woodcutting">
+		<Key ID="STR_License_drwal">
 			<Original>Cięcie drewna</Original>
 		</Key>
 		<Key ID="STR_License_Rebel">
@@ -7599,7 +7599,7 @@
 	 	 <Key ID="STR_Process_Partial">
 			 <Original>Tylko pewna część Twojego materiału zostało przetworzone ze względu na wagę.</Original>
 		 </Key>
-		 <Key ID="STR_Process_plank">
+		 <Key ID="STR_Process_woodP">
 			 <Original>Tartak</Original>
 		 </Key>
 		<Key ID="STR_Process_Diamond">
