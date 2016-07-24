@@ -59,5 +59,5 @@ life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t co
 //life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>Pasy On</t>", {life_imAuto = false;}, "", 3, true, true, "", 'vehicle player isKindOf "Car" && !life_imAuto']);
 //life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>Pasy Off</t>", {life_imAuto = true;}, "", 3, true, true, "", 'vehicle player isKindOf "Car" && life_imAuto']);
 //remove mask
-//life_actions = life_actions + [player addAction["<t color='#FFB124'>Zdejmij worek</t>",life_fnc_unmask,"",1,false,true,"",' playerSide isEqualTo west OR playerSide isEqualTo civilian && !isNull cursorTarget && cursorTarget getVariable "masked" && player distance cursorTarget < 3 && cursorTarget isKindOf "Man" ']];
+life_actions = life_actions + [player addAction["<t color='#FFB124'>Zdejmij worek</t>",life_fnc_unmask,"",1,false,true,"",' playerSide isEqualTo west OR playerSide isEqualTo civilian && !isNull cursorTarget && cursorTarget getVariable "masked" && player distance cursorTarget < 3 && cursorTarget isKindOf "Man" ']];
 //pasy

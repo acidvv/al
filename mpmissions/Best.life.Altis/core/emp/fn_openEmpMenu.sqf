@@ -1,6 +1,6 @@
 /*
 	File: openEmpMenu.sqf
-	Author: © 2014 nano2K - written for we-are-friendly.de
+	Author: Â© 2014 nano2K - written for we-are-friendly.de
 	
 	Description:
 	Opens the EMP operator menu

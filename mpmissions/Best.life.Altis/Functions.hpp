@@ -354,6 +354,7 @@ class Life_Client_Core {
 		class abortAction {};
 		class seizeObjects {};
 		class masked {};
+		class autoMessages {};
 	};
 
 	class Gangs	{

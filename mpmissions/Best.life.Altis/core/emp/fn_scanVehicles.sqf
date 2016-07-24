@@ -1,6 +1,6 @@
 /*
     File: scanVehicles.sqf
-    Author: © 2014 nano2K - written for we-are-friendly.de
+    Author: Â© 2014 nano2K - written for we-are-friendly.de
 */
 private["_display","_list","_objects"];
 disableSerialization;
