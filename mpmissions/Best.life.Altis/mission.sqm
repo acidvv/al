@@ -557,7 +557,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Altis Life Best v5 altisland.pl ts3:51.254.132.75";
+		briefingName="Life v2 altisland.pl ts3:51.254.132.75";
 		timeOfChanges=7200;
 		startWeather=0.044056315;
 		startFog=0.057789527;

@@ -1,8 +1,3 @@
-////////////////////////////////////////////////////////
-// ArmA.Network
-// R4thbone
-// Jeims
-////////////////////////////////////////////////////////
 class Life_key_management {
 idd = 2700;
 name= "life_key_chain";
@@ -36,7 +31,7 @@ onLoad = "[] spawn life_fnc_keyMenu;";
     	text = "icons\dropkeychain.paa";
     	x = -0.0625;
     	y = -0.3;
-    	w = 1.1375;
+    	w = 1.3500;
     	h = 1.5;
     };
     class RscPicture_1203: Life_RscPicture

@@ -84,6 +84,7 @@ class CfgRemoteExec {
         F(life_fnc_nitro,CLIENT)
         F(life_fnc_masked,CLIENT)
 		F(seizePlayerWeaponAction,CLIENT)
+			
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)
@@ -126,12 +127,12 @@ class CfgRemoteExec {
         F(TON_fnc_vehicleStore,SERVER)
         F(TON_fnc_vehicleUpdate,SERVER)
         F(DB_fnc_cellPhoneRequest,SERVER)
-		    F(DB_fnc_saveCellPhone,SERVER)
+		F(DB_fnc_saveCellPhone,SERVER)
         F(TON_fnc_vAH_update,SERVER)
-		F(TON_fnc_getupdate,SERVER)
-		    F(TON_fnc_vAH_init,SERVER)
-			F(TON_fnc_playerLogged,SERVER)
-         F(TON_fnc_changePrice,SERVER)
+		F(TON_fnc_vAH_init,SERVER)
+		F(TON_fnc_getUpdate,SERVER)
+		F(TON_fnc_changePrice,SERVER)
+        F(TON_fnc_playerLogged,SERVER)
         
         
 		

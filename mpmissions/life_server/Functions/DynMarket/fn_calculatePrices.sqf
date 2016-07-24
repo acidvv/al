@@ -125,4 +125,4 @@ DYNMARKET_Items_CurrentPriceArr = _tempArrayHolder;
 	} forEach DYNMARKET_sellarraycopy;
 } forEach DYNMARKET_Items_CurrentPriceArr;
 
-[1,DYNMARKET_sellarraycopy] remoteExec ["life_fnc_update"];
+[1,DYNMARKET_sellarraycopy] remoteExec ["life_fnc_update",-2];
