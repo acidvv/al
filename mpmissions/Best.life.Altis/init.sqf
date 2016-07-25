@@ -10,7 +10,7 @@ StartProgress = false;
 [] execVM "Custom\fn_statusBar.sqf";
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "core\functions\fn_autoMessages.sqf"; 
-[] execVM "IgiLoad\IgiLoadInit.sqf";
+
 
 disableRemoteSensors true;
 
