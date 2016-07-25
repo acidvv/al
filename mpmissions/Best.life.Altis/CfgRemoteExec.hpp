@@ -133,6 +133,7 @@ class CfgRemoteExec {
 		F(TON_fnc_getUpdate,SERVER)
 		F(TON_fnc_changePrice,SERVER)
         F(TON_fnc_playerLogged,SERVER)
+		F(bis_fnc_curatorrespawn,SERVER)
         
         
 		
@@ -190,6 +191,7 @@ class CfgRemoteExec {
         F(SPY_fnc_notifyAdmins,ANYONE)
         F(life_fnc_clientSound,ANYONE)
 		F(life_fnc_armageddon,ANYONE)
+		F(life_fnc_copmedicrequest,ANYONE)
     };
 
     class Commands {

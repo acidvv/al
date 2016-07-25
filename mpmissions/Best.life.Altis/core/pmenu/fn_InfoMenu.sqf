@@ -46,7 +46,7 @@ Restart<br/>
 };
 
 //Regeln
-if(_index isEqualTo 2) exitWith {"Admini Acid, Arek, Veyron<br/><a color='#0099ff' href='www.altisland.pl'>Rozączając się z serwera nieprzepisowo możesz stracić wszystko</a>"};
+if(_index isEqualTo 2) exitWith {"Admini Acid, Arek, Veyron Castle<br/><a color='#0099ff' href='www.altisland.pl'>Rozączając się z serwera nieprzepisowo możesz stracić wszystko</a>"};
 
 //Steuerung
 if(_index isEqualTo 3) exitWith {
@@ -252,15 +252,18 @@ if(_index isEqualTo 5) exitWith {
 <t align='center' color='#0099ff'>skrzynie robi się z diamentu+przerobione drzewo(2szt)+monety(2szt)</t><br/><br/>
 <t align='center' color='#0099ff'>whisky z pszenicy,piwo z chmielu ,ciuchy z bawełny</t><br/><br/>
 <t align='center' color='#0099ff'>reszte łatwo się domyśleć</t><br/><br/>
+<t align='center'><t size='1.7px' align='center' color='#FF0000'>Ceny licencji:</t><br/>
+Rebelka-6mln(dożywotnio) , bron-35000 , olej-30000 , diamenty-200000 ,sól-25000, kauczuk-22000,szkło-45000,żelazo-30000,miedż-25000,cement-31000,ciuchy-12000,drzewo-50000,magnez-58000,piwo-60000,skarb-400000!!!<br/><br/>
+<t align='center' color='#0099ff'>nielegalne---> proch-180000,kokaina-320000,whiskey-220000,heroina-300000,marycha-250000,heba-350000,C4-500000</t><br/><br/>
 ";
 };
 
 if(_index isEqualTo 6) exitWith {
 "<t size='1.2px' align='center' color='#0099ff'>Ważne!!!</t><br/>
-<t align='center' color='#0099ff'>Zginiesz poszukiwany tracisz licencje: gun, drive</t><br/><br/>
+<t align='center' color='#0099ff'>Zginiesz poszukiwany tracisz licencje: gun</t><br/><br/>
 
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Idąc do więzienia tracisz licencje:</t><br/>
-gun, driver, nielegalki, REBELKĘ!!!<br/><br/>
+gun, nielegalki, !!!<br/><br/>
 
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Sugestie</t><br/>
 Masz jakieś pomysły zapraszamy na TS i forum.";

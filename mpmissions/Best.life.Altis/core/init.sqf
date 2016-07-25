@@ -199,7 +199,7 @@ if (_total > 0) then
 	ADD(TTPBANK,_total);
 };
 DYNAMICMARKET_boughtItems = [];
- [getPlayerUID player] remoteExec ["TON_fnc_playerLogged",0];
+ [player] remoteExec ["TON_fnc_playerLogged",RSERV];
 
 [] call life_fnc_cellPhoneCheck;
 [1] call SOCK_fnc_updatePartial;

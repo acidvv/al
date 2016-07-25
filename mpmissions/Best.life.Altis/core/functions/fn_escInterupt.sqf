@@ -18,7 +18,7 @@ _escSync = {
 		disableSerialization;
 		private["_abortButton","_timeStamp"];
 		_abortButton = CONTROL(49,104);
-		_timeStamp = time + 10;
+		_timeStamp = time + 30;
 
 		waitUntil {
 			_abortButton ctrlSetText format[localize "STR_NOTF_AbortESC",[(_timeStamp - time),"SS.MS"] call BIS_fnc_secondsToString];
@@ -63,7 +63,7 @@ for "_i" from 0 to 1 step 0 do {
 	_usebleCtrl = call _canUseControls;
 	_usebleCtrl spawn _escSync;
 	if(_usebleCtrl) then {
-		_respawnButton ctrlEnable true; //Enable the button.
+		_respawnButton ctrlEnable false; //Enable the button.
 	};
 	waitUntil{isNull (findDisplay 49)};
 };
