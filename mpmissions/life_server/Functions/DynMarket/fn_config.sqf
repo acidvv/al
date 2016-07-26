@@ -14,7 +14,7 @@
 
 DYNMARKET_Serveruptime         = 04;     // La durée de fonctionnement jusqu'au prochain redémarrage du serveur en heures.
 DYNMARKET_UseExternalDatabase  = true;  // Si le script utilise une base de données externe ?
-DYNMARKET_PriceUpdateInterval  = 05;     // Après combien de minutes devrait être mis à jour le prix ?
+DYNMARKET_PriceUpdateInterval  = 04;     // Après combien de minutes devrait être mis à jour le prix ?
 DYNMARKET_CreateBackups        = false;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?
 DYNMARKET_CreateBackupInterval = 03;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
 DYNMARKET_UserNotification     = false;  // Est-ce que les joueurs devraient être informé par un message (hint) à chaque fois que la bourse est mise à jour ?
