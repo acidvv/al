@@ -9,7 +9,7 @@
 #################################################################
 */
 
-if (isNil "DYNMARKET_prices") then {[getPlayerUID player] remoteExec ["TON_fnc_playerLogged",2];hint "Ceny są aktualizowane .. może to potrwać do 2 minut...";sleep 1;};
+if (isNil "DYNMARKET_prices") then {[getPlayerUID player] remoteExec ["TON_fnc_playerLogged",2];hint "Ceny są aktualizowane .. może to potrwać do 5 minut...";sleep 1;};
 
 disableSerialization;
 _dialog = findDisplay 7100;

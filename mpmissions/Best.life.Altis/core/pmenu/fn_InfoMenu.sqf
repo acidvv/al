@@ -46,7 +46,7 @@ Restart<br/>
 };
 
 //Regeln
-if(_index isEqualTo 2) exitWith {"Admini Acid, Arek, Veyron Castle<br/><a color='#0099ff' href='www.altisland.pl'>Rozączając się z serwera nieprzepisowo możesz stracić wszystko</a>"};
+if(_index isEqualTo 2) exitWith {"Admini Acid, Arek, Veyron <br/><a color='#0099ff' href='www.altisland.pl'>Rozączając się z serwera nieprzepisowo możesz stracić wszystko</a>"};
 
 //Steuerung
 if(_index isEqualTo 3) exitWith {
