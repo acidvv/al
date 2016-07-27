@@ -200,6 +200,6 @@ if (_total > 0) then
 };
 DYNAMICMARKET_boughtItems = [];
  [player] remoteExec ["TON_fnc_playerLogged",RSERV];
-
+player addEventHandler ["Killed", {[player,_this select 1] spawn fn_whoDunnit;}];
 [] call life_fnc_cellPhoneCheck;
 [1] call SOCK_fnc_updatePartial;

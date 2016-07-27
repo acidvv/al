@@ -192,4 +192,3 @@ publicVariable "life_attachment_point";
 //market
 
 [] execVM "\life_server\Functions\DynMarket\fn_config.sqf";
-fn_whoDoneit = compile preprocessFileLineNumbers "\life_server\Functions\Systems\fn_whoDunnit.sqf";

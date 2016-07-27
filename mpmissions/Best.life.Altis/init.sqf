@@ -10,7 +10,7 @@ StartProgress = false;
 [] execVM "Custom\fn_statusBar.sqf";
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "core\functions\fn_autoMessages.sqf"; 
-
+fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
 disableRemoteSensors true;
 
 //no fog please
@@ -22,7 +22,7 @@ disableRemoteSensors true;
 	};
 };
 
-
+fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
 StartProgress = true;
 
 if(!isDedicated) exitWith{};
