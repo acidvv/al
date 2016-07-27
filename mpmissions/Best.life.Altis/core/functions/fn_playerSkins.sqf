@@ -41,6 +41,7 @@ switch(playerSide) do {
 			if(uniform player isEqualTo "U_C_Commoner_shorts") then {
 				player setObjectTextureGlobal [0, "textures\Civ\Clothing\pika.jpg"];
 			};
+			
 					
 		};
 		

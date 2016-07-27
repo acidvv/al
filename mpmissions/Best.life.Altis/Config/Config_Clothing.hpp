@@ -43,11 +43,7 @@ class Clothing {
 			           
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Bandanna_camo", "Camo Bandanna", 120, { "", "", -1 } },
-            { "H_Bandanna_surfer", "Surfer Bandanna", 130, { "", "", -1 } },
-            { "H_Bandanna_surfer", "", 135, { "", "", -1 } },
-            { "H_Bandanna_khk", "Khaki Bandanna", 145, { "", "", -1 } },
+            
             { "H_Cap_blu", "", 150, { "", "", -1 } },
             { "H_Cap_grn", "", 150, { "", "", -1 } },
             { "H_Cap_grn_BI", "", 150, { "", "", -1 } },
@@ -68,7 +64,12 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Shades_Black", "", 20, { "", "", -1 } },
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "H_Bandanna_camo", "Camo Bandanna", 120, { "", "", -1 } },
+            { "H_Bandanna_surfer", "Surfer Bandanna", 130, { "", "", -1 } },
+            { "H_Bandanna_surfer", "", 135, { "", "", -1 } },
+            { "H_Bandanna_khk", "Khaki Bandanna", 145, { "", "", -1 } },
+			{ "G_Shades_Black", "", 20, { "", "", -1 } },
             { "G_Shades_Blue", "", 20, { "", "", -1 } },
             { "G_Shades_Green", "", 20, { "", "", -1 } },
             { "G_Shades_Red", "", 20, { "", "", -1 } },
@@ -137,6 +138,7 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
 			
+			
             
         };
         goggles[] = {
@@ -147,7 +149,7 @@ class Clothing {
             { "G_Bandanna_oli", "", 8150, { "", "", -1 } },
             { "G_Bandanna_shades", "", 8150, { "", "", -1 } },
             { "G_Bandanna_sport", "", 8150, { "", "", -1 } },
-             { "G_Lady_Blue", "", 150, { "", "", -1 } }
+			{ "G_Lady_Blue", "", 150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } }

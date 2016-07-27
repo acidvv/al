@@ -11,7 +11,6 @@ StartProgress = false;
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "core\functions\fn_autoMessages.sqf"; 
 
-
 disableRemoteSensors true;
 
 //no fog please
