@@ -11,7 +11,7 @@ StartProgress = false;
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "core\functions\fn_autoMessages.sqf"; 
 fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
-Eject = compile PreProcessFileLineNumbers "Functions\spad.sqf";
+Eject = compile PreProcessFileLineNumbers "scripts\spad.sqf";
 disableRemoteSensors true;
 
 //no fog please
@@ -23,7 +23,7 @@ disableRemoteSensors true;
 	};
 };
 
-fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
+
 StartProgress = true;
 
 if(!isDedicated) exitWith{};
