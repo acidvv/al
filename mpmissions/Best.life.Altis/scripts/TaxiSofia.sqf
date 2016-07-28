@@ -2,7 +2,7 @@
 Description : Taxi Script to Sofia
 Author : Mahony
 */
-_price = 20000;
+_price = 13000;
 _taxigerufen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka została wezwana!</t>";
 _taxiangekommen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka powinna byc już na miejscu teraz masz 5 sec aby do niej wsiąść </t>";
 if ((life_atmbank) < _price + 25000) exitWith {
