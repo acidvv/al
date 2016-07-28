@@ -11,6 +11,7 @@ StartProgress = false;
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "core\functions\fn_autoMessages.sqf"; 
 fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
+Eject = compile PreProcessFileLineNumbers "Functions\spad.sqf";
 disableRemoteSensors true;
 
 //no fog please

@@ -10,7 +10,7 @@
 
    while {true} do
 
-	{private ['player','chute'];
+	{private ['_player','_chute'];
 
 		if ( (getPosATL player select 2 > 100) && (vehicle player IsEqualto player) && (alive player)) then
 
@@ -35,3 +35,4 @@
     };
 
 };
+player addEventHandler ["GetOut", spad];
