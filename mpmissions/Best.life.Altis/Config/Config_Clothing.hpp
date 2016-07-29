@@ -132,11 +132,29 @@ class Clothing {
 			{ "U_C_Man_casual_6_F", "dlc", 15500, { "", "", -1 } },
 			{ "U_C_man_sport_1_F", "dlc", 16500, { "", "", -1 } },
 			{ "U_C_man_sport_2_F", "dlc", 17500, { "", "", -1 } },
-			{ "U_C_man_sport_3_F", "dlc", 18500, { "", "", -1 } }
+			{ "U_C_man_sport_3_F", "dlc", 18500, { "", "", -1 } },
+            { "max_fire_uniform", "strażak", 18500, { "", "", -1 } },
+            { "pilot_bLACK_uniform", "ciuchy lotnicze", 18500, { "", "", -1 } },
+            { "pilot_blue_uniform", "ciuchy lotnicze", 18500, { "", "", -1 } },
+            { "pilot_green_uniform", "ciuchy lotnicze ", 18500, { "", "", -1 } },
+            { "pilot_red_uniform", "ciuchy lotnicze", 18500, { "", "", -1 } },
+            { "vip2_uniform_new", "garniturek", 28500, { "", "", -1 } },
+            { "vip1_uniform_new", "garniturek", 28500, { "", "", -1 } },
+            { "vip3_uniform_new", "garniturek", 28500, { "", "", -1 } },
+            { "Killer_uniform_new", "Miejski zabojca", 38500, { "", "", -1 } }, 
+            { "Robber_uniform_new", "miejski mafioso", 38500, { "", "", -1 } },
+            { "skull_gang", "miejski gangster", 38500, { "", "", -1 } },
+            { "druglord_uniform_new", "Handlarzyna prochów", 38500, { "", "", -1 } }
             
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, { "", "", -1 } }
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "max_fire_Helmet", "strażak", 8150, { "", "", -1 } },
+            { "pilot_black_helmet", "pilotka", 8150, { "", "", -1 } },
+            { "pilot_blue_helmet", "pilotka", 8150, { "", "", -1 } },
+            { "pilot_red_helmet", "pilotka", 8150, { "", "", -1 } },
+            { "police_pilot_Helmet", "kask", 8150, { "", "", -1 } },
+            { "fbi_officer_cap", "czapka", 8150, { "", "", -1 } }
 			
 			
             
@@ -149,6 +167,9 @@ class Clothing {
             { "G_Bandanna_oli", "", 8150, { "", "", -1 } },
             { "G_Bandanna_shades", "", 8150, { "", "", -1 } },
             { "G_Bandanna_sport", "", 8150, { "", "", -1 } },
+            { "G_Spectacles", "cosik", 8150, { "", "", -1 } },
+            { "G_Balaclava_blk", "na mordke", 18150, { "", "", -1 } },
+            { "H_Bandanna_gry", "być gangsterem?", 18150, { "", "", -1 } }, 
 			{ "G_Lady_Blue", "", 150, { "", "", -1 } }
         };
         vests[] = {
@@ -170,16 +191,23 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "", 25, { "", "", -1 } },
+            { "max_sheriff_uniform", "na motor", 14425, { "", "", -1 } },
+            { "special_agent_uniform_new", "tajniak", 14425, { "", "", -1 } },
+            { "fbi_rru_uniform", "tajniak", 14425, { "", "", -1 } },
             { "U_C_Poloshirt_burgundy", "Superman", 275, { "", "", -1 } },
             { "U_C_Poloshirt_tricolour", "Lacoste", 350, { "", "", -1 } },
             { "U_C_Commoner1_1", "Joker", 1100, { "", "", -1 } },
 			{ "U_C_Commoner_shorts", "Pika", 1100, { "", "", -1 } },
-			{ "U_B_SpecopsUniform_sgg", "", 25, { "life_coplevel", "SCALAR", 5 } },
+			{ "security_uniform", "oficer", 25, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_SpecopsUniform_sgg", "", 25, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_B_GEN_Commander_F", "", 71125, { "life_coplevel", "SCALAR", 5 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
+            { "max_biker_helmet", "kask", 1000, { "", "", -1 } },
+            { "fbi_rru_Helmet", "tajniak", 1000, { "", "", -1 } },
+			{ "security_cap", "oficerka", 150, { "life_coplevel", "SCALAR", 3 } },
+            { "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
             { "H_HelmetB_light_desert", "", 11150, { "life_coplevel", "SCALAR", 5 } },
 			{ "H_Beret_Colonel", "", 150, { "life_coplevel", "SCALAR", 8 } },
 			{ "H_Beret_Colonel", "", 200, { "life_coplevel", "SCALAR", 9 } }
@@ -187,6 +215,7 @@ class Clothing {
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
             { "G_Diving", "", 10, { "", "", -1 } }, 
+            { "G_Aviator", "na motor", 10, { "", "", -1 } }, 
             { "G_Squares", "", 10, { "", "", -1 } },
             { "G_Shades_Blue", "", 20, { "", "", -1 } },
             { "G_Sport_Blackred", "", 20, { "", "", -1 } },
@@ -201,6 +230,7 @@ class Clothing {
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
 			{ "G_Bandanna_beast", "", 150, {  "", "", -1 } },
+            { G_Bandanna_aviator", "", 150, {  "", "", -1 } },
             { "G_Bandanna_blk", "", 150, {  "", "", -1 } },
             { "G_Bandanna_khk", "", 150, {  "", "", -1 } },
             { "G_Bandanna_oli", "", 150, {  "", "", -1 } },
@@ -213,7 +243,10 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
+            { "police_belt_biker", "na motor", 1000, { "", "", -1 } },
+            { "fbi_rru_Vest", "tajniak", 1000, { "", "", -1 } },
             { "V_PlateCarrier1_blk", "", 3500, { "life_coplevel", "SCALAR", -1 } },
+            { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", -3 } },
 			{ "V_PlateCarrier2_rgr", "", 73500, { "life_coplevel", "SCALAR", 5 } },
             { "V_PlateCarrierGL_blk", "SWAT Vest", 6500, { "life_coplevel", "SCALAR", 9 } }
         };
@@ -307,11 +340,16 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_C_Scientist", "EMS Uniform", 50, { "", "", -1 } }
+            { "U_C_Scientist", "EMS Uniform", 50, { "", "", -1 } },
+            { "max_paramedic_uniform", "fartuszek", 50, { "", "", -1 } },
+            { "HEMS_pilot_uniform", "medyk pilot", 50, { "", "", -1 } }
+            
 			   };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Cap_blu", "", 10, { "", "", -1 } }
+            { "H_Cap_blu", "", 10, { "", "", -1 } },
+            { "max_paramedic_cap", "czapeczka", 10, { "", "", -1 } },
+            { "HEMS_pilot_Helmet", "kask pilota", 10, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },

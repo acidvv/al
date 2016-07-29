@@ -83,19 +83,7 @@ if (_projectile in ["mini_Grenade"]) then
 
 
 
-if (vehicle _unit isEqualTo _unit) then {
-	if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Boat" ) then	{
-	}else{
-		_isVehicle = vehicle _source;
-		if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Boat") then	{
-			_damage = 0.2;
-		};
-	};
-};
 
-if ((vehicle _unit) isKindOf "Car" && (isNull _source || _source isEqualTo _unit)) then {
-	if (life_seatbelt) then { _damage = _damage / 2 };
-};
 
 [] spawn life_fnc_hudUpdate;
 _damage;

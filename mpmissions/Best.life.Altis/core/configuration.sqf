@@ -37,7 +37,6 @@ tawvd_addon_disable = true;
 life_god = false;
 life_frozen = false;
 life_markers = false;
-life_seatbelt = false;
 life_seatwarn = false;
 life_save_gear = [];
 life_container_activeObj = ObjNull;

@@ -53,8 +53,8 @@ case independent:
      
 };
 };
-life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>zapnij pasy</t>", {life_seatbelt=true}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && !life_seatbelt && vehicle player != player']);
-life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>odepnij pasy</t>", {life_seatbelt=false}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && life_seatbelt && vehicle player != player']);
+//life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>zapnij pasy</t>", {life_seatbelt=true}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && !life_seatbelt && vehicle player != player']);
+//life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>odepnij pasy</t>", {life_seatbelt=false}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && life_seatbelt && vehicle player != player']);
 
 //life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>Pasy On</t>", {life_imAuto = false;}, "", 3, true, true, "", 'vehicle player isKindOf "Car" && !life_imAuto']);
 //life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>Pasy Off</t>", {life_imAuto = true;}, "", 3, true, true, "", 'vehicle player isKindOf "Car" && life_imAuto']);

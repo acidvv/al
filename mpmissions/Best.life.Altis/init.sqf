@@ -10,6 +10,7 @@ StartProgress = false;
 [] execVM "Custom\fn_statusBar.sqf";
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "core\functions\fn_autoMessages.sqf"; 
+[] execVM "core\actions\fn_seatbelt.sqf"; 
 fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
 Eject = compile PreProcessFileLineNumbers "scripts\spad.sqf";
 disableRemoteSensors true;

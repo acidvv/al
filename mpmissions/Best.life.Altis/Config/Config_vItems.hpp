@@ -223,7 +223,7 @@ class C4 {
 		variable = "C4";
 		displayName = "STR_Item_C4";
 		weight = 5;
-		buyPrice = 72025;
+		buyPrice = 172025;
 		sellPrice = 26000;
 		illegal = true;
 		edible = -1;
@@ -756,7 +756,7 @@ class VirtualItems {
 		variable = "diamondCut";
 		displayName = "STR_Item_DiamondC";
 		weight = 10;
-		buyPrice = 15000;
+		buyPrice = 85000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1232,7 +1232,7 @@ class Skarb {
     variable = "plank";
     displayName = "STR_Item_Plank";
     weight = 5;
-    buyPrice = 8000;
+    buyPrice = 58000;
     sellPrice = -1;
     illegal = false;
     edible = -1;
@@ -1254,7 +1254,7 @@ class Skarb {
 		variable = "rubber";
 		displayName = "STR_Item_rubber";
 		weight = 6;
-		buyPrice = 5225;
+		buyPrice = 55225;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1265,7 +1265,7 @@ class Skarb {
 		variable = "goldcoin";
 		displayName = "STR_Item_goldcoin";
 		weight = 5;
-		buyPrice = 18025;
+		buyPrice = 58025;
 		sellPrice = 1800;
 		illegal = false;
 		edible = -1;
@@ -1287,7 +1287,7 @@ class Skarb {
 		variable = "C4";
 		displayName = "STR_Item_C4";
 		weight = 5;
-		buyPrice = 50000;
+		buyPrice = 150000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -1309,7 +1309,7 @@ class Skarb {
 		variable = "steelplate";
 		displayName = "STR_Item_steelplate";
 		weight = 6;
-		buyPrice = 6000;
+		buyPrice = 56000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1353,7 +1353,7 @@ class Skarb {
 		variable = "gunpowder";
 		displayName = "STR_Item_gunpowder";
 		weight = 6;
-		buyPrice = 5600;
+		buyPrice = 55600;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1416,7 +1416,7 @@ class beer_1 {
         variable = "nitro";
         displayName = "STR_Item_Nitro";
         weight = 15;
-        buyPrice = 475000;
+        buyPrice = 95000;
         sellPrice = 20000;
         illegal = true;
         edible = -1;

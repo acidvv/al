@@ -23,6 +23,45 @@ class CarShops {
             { "C_Van_01_box_F", { "", "", -1 } },
 			{ "C_Van_01_transport_F", { "", "", -1 } },
 			{ "C_Offroad_02_unarmed_F", { "", "", -1 } },
+            { "max_bike", { "", "", -1 } },
+            { "max_bike1", { "", "", -1 } },
+            { "max_bike2", { "", "", -1 } },
+            { "max_bike3", { "", "", -1 } },
+            { "max_bike4", { "", "", -1 } },
+            { "max_BMW1", { "", "", -1 } },
+            { "max_BMW2", { "", "", -1 } },
+            { "max_BMW_M3_GTR3", { "", "", -1 } },
+            { "max_BMW_M3_GTR", { "", "", -1 } },
+            { "max_BMW_M3_GTR1", { "", "", -1 } },
+            { "max_BMW_M3_GTR2", { "", "", -1 } },
+            { "max_charger_black", { "", "", -1 } },
+            { "max_charger_blue", { "", "", -1 } },
+            { "max_charger_red", { "", "", -1 } },
+            { "max_H3_urbancamo", { "", "", -1 } },
+            { "max_H3_vegeta", { "", "", -1 } },
+            { "max_H3_yellow", { "", "", -1 } },
+            { "max_impala_black", { "", "", -1 } },
+            { "max_impala_blue", { "", "", -1 } },
+            { "max_impala_red", { "", "", -1 } },
+            { "max_impala_white", { "", "", -1 } },
+            { "max_lambo2", { "", "", -1 } },
+            { "max_lambo1", { "", "", -1 } },
+            { "max_lambo", { "", "", -1 } },
+            { "max_suv_black", { "", "", -1 } },
+            { "max_suv_blue", { "", "", -1 } },
+            { "max_suv_green", { "", "", -1 } },
+            { "max_suv_red", { "", "", -1 } },
+            { "max_jeep_black", { "", "", -1 } },
+            { "max_jeep_blue", { "", "", -1 } },
+            { "max_jeep_green", { "", "", -1 } },
+            { "max_jeep_red", { "", "", -1 } }, 
+            { "max_van_blue", { "", "", -1 } },
+            { "max_van_green", { "", "", -1 } },
+            { "max_van_Grey", { "", "", -1 } },
+            { "max_van_red", { "", "", -1 } },
+            { "max_van_white", { "", "", -1 } },
+            { "max_van_cola", { "", "", -1 } },
+            { "max_van_green", { "", "", -1 } },  
 			{ "C_Van_01_fuel_F", { "", "", -1 } }
         };
     };
@@ -263,7 +302,8 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
-            { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 2 } }
+            { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 2 } },
+            { "max_ambulance", { "life_medicLevel", "SCALAR", 2 } }
         };
     };
 
@@ -271,6 +311,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "life_medicLevel", "SCALAR", 1 } },
+            { "max_HEMS_heli", { "life_medicLevel", "SCALAR", 2 } },
             { "O_Heli_Light_02_unarmed_F", { "life_medicLevel", "SCALAR", 5 } }
         };
     };
@@ -282,11 +323,16 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
+            { "max_bike_police", { "life_coplevel", "SCALAR", 1 } },
+            { "max_CrownVic_sheriff", { "life_coplevel", "SCALAR", 2 } },
             { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 3 } },
 			{ "O_T_LSV_02_armed_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_G_Offroad_01_armed_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } },
 			{ "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
+            { "max_FBI_van", { "life_coplevel", "SCALAR", 3 } },
+            { "max_impala_security", { "life_coplevel", "SCALAR", 4 } },
+            { "max_H3_sheriff", { "life_coplevel", "SCALAR", 5 } },
             { "I_MRAP_03_gmg_F", { "life_coplevel", "SCALAR", 7 } }
         };
     };
@@ -296,6 +342,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
+            { "police_light_heli", { "life_coplevel", "SCALAR", 3 } },
             { "O_T_VTOL_02_vehicle_F", { "life_coplevel", "SCALAR", 7 } },
 			{ "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 7 } }
         };
@@ -716,6 +763,344 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 2500;
         textures[] = {};
     };
+    class max_bike {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 45000;
+		assurPrice = 2500;
+        textures[] = {};
+    };
+    class max_bike2 {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 45000;
+		assurPrice = 2500;
+        textures[] = {};
+    };
+    class max_bike3 {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 45000;
+		assurPrice = 2500;
+        textures[] = {};
+    };
+    class max_bike4 {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 45000;
+		assurPrice = 2500;
+        textures[] = {};
+    };
+ class max_bike1 {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 45000;
+		assurPrice = 2500;
+        textures[] = {};
+    };
+    class max_BMW {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 185000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_BMW_M3_GTR3 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 255000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_BMW_M3_GTR {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 255000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_BMW_M3_GTR1 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 255000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_BMW1 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 185000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_BMW2 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 185000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_BMW_M3_GTR2 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 255000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_charger_black {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 185000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_charger_blue {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 185000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_charger_red {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 185000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_H3_urbancamo {
+        vItemSpace = 130;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 255000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_H3_vegeta {
+        vItemSpace = 130;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 255000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+     class max_H3_yellow {
+        vItemSpace = 130;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 255000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+     class max_impala_black {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 135000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_impala_blue {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 135000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_impala_red {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 135000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_impala_white {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 135000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_jeep_black {
+        vItemSpace = 100;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 175000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_jeep_blue {
+        vItemSpace = 100;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 175000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_jeep_green {
+        vItemSpace = 100;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 175000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_jeep_red {
+        vItemSpace = 100;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 175000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+     class max_lambo2 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 405000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+     class max_lambo1 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 405000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+     class max_lambo {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 405000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_suv_black {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 115000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_suv_blue {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 115000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_suv_green {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 115000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_suv_red {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 115000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_suv_UC {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 115000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_van_blue {
+        vItemSpace = 260;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_van_green {
+        vItemSpace = 260;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_van_Grey {
+        vItemSpace = 260;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_van_red {
+        vItemSpace = 260;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_van_white {
+        vItemSpace = 260;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_van_cola {
+        vItemSpace = 260;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+     class max_ambulance {
+        vItemSpace = 260;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_HEMS_heli {
+        vItemSpace = 160;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 375000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+     class max_bike_police {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 115000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class police_light_heli {
+        vItemSpace = 50;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 315000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    class max_CrownVic_sheriff {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 215000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_H3_sheriff {
+        vItemSpace = 50;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 115000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_FBI_van {
+        vItemSpace = 150;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 215000;
+		assurPrice = 19500;
+        textures[] = {};
+    };
+    class max_impala_security {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 315000;
+		assurPrice = 29500;
+        textures[] = {};
+    };
+    
+
 /*
 To edit another information in this classes you can use this exemple.
 class C_Kart_01_Fuel_F : C_Kart_01_Blu_F{

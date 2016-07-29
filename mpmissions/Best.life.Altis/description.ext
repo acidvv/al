@@ -52,12 +52,7 @@ class CfgSounds {
 		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
 		titles[] = {};
 	};
-class seatbelt
-	{
-		name = "seatbelt";
-		sound[] = {"\sounds\seatbelt.ogg", 1, 1};
-		titles[] = {};
-	};
+
 	class seatwarn
 	{
 		name = "seatwarn";
