@@ -134,17 +134,17 @@ class Clothing {
 			{ "U_C_man_sport_2_F", "dlc", 17500, { "", "", -1 } },
 			{ "U_C_man_sport_3_F", "dlc", 18500, { "", "", -1 } },
             { "max_fire_uniform", "strażak", 18500, { "", "", -1 } },
-            { "pilot_bLACK_uniform", "ciuchy lotnicze", 18500, { "", "", -1 } },
-            { "pilot_blue_uniform", "ciuchy lotnicze", 18500, { "", "", -1 } },
-            { "pilot_green_uniform", "ciuchy lotnicze ", 18500, { "", "", -1 } },
-            { "pilot_red_uniform", "ciuchy lotnicze", 18500, { "", "", -1 } },
+            { "pilot_bLACK_uniform", "ciuchy ", 18500, { "", "", -1 } },
+            { "pilot_blue_uniform", "ciuchy ", 18500, { "", "", -1 } },
+            { "pilot_green_uniform", "ciuchy  ", 18500, { "", "", -1 } },
+            { "pilot_red_uniform", "ciuchy ", 18500, { "", "", -1 } },
             { "vip2_uniform_new", "garniturek", 28500, { "", "", -1 } },
             { "vip1_uniform_new", "garniturek", 28500, { "", "", -1 } },
             { "vip3_uniform_new", "garniturek", 28500, { "", "", -1 } },
-            { "Killer_uniform_new", "Miejski zabojca", 38500, { "", "", -1 } }, 
-            { "Robber_uniform_new", "miejski mafioso", 38500, { "", "", -1 } },
-            { "skull_gang", "miejski gangster", 38500, { "", "", -1 } },
-            { "druglord_uniform_new", "Handlarzyna prochów", 38500, { "", "", -1 } }
+            { "Killer_uniform_new", "garniak", 28500, { "", "", -1 } }, 
+            { "Robber_uniform_new", "garniak", 28500, { "", "", -1 } },
+            { "skull_gang", "miejski gangster", 28500, { "", "", -1 } },
+            { "druglord_uniform_new", "Handlarzyna prochów", 28500, { "", "", -1 } }
             
         };
         headgear[] = {
@@ -230,7 +230,7 @@ class Clothing {
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
 			{ "G_Bandanna_beast", "", 150, {  "", "", -1 } },
-            { G_Bandanna_aviator", "", 150, {  "", "", -1 } },
+            { "G_Bandanna_aviator", "", 150, {  "", "", -1 } },
             { "G_Bandanna_blk", "", 150, {  "", "", -1 } },
             { "G_Bandanna_khk", "", 150, {  "", "", -1 } },
             { "G_Bandanna_oli", "", 150, {  "", "", -1 } },
