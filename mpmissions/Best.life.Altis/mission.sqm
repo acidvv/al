@@ -299,7 +299,7 @@ class ScenarioData
 	wreckLimit=3;
 	wreckRemovalMinTime=60;
 	wreckRemovalMaxTime=240;
-	corpseLimit=15;
+	corpseLimit=7;
 	corpseRemovalMinTime=20;
 	corpseRemovalMaxTime=240;
 };

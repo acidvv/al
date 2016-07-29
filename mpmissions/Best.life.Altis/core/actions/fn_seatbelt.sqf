@@ -4,7 +4,7 @@ File: fn_seatbelt.sqf
 
 private ["_criticalSpeed","_veh","_speed","_vel","_pos"];
 
-_criticalSpeed = 50;
+_criticalSpeed = 90;
 while {!isDedicated} do
 {
 	waitUntil {vehicle player != player};
