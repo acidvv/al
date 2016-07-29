@@ -117,6 +117,7 @@ class Life_Client_Core {
         class Lizenzzeigen {};
 		class showLicenses {};
     };
+	
 	class CellPhone {
 		file = "core\cellphone";
 		class cellPhoneCheck {};

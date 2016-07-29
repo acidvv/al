@@ -194,6 +194,7 @@ CASH = 0;
 life_is_alive = false;
 
 [] call life_fnc_hudUpdate; //Get our HUD updated.
+[] call life_fn_statusBar
 [player,life_settings_enableSidechannel,playerSide] remoteExecCall ["TON_fnc_managesc",RSERV];
 
 [0] call SOCK_fnc_updatePartial;

@@ -33,7 +33,7 @@ hint "Displaying information";
 		case (vehicle _killer isKindOf "Car"):
 		{
 			diag_log format["Vehicle Death Message: %1 has obliterated %2 with a %3",_killer getVariable["realname",name _killer], _victim getVariable["realname",name _victim], _vehName];
-			_msg = format["Vehicle Death Message: %1 has obliterated %2 with a %3",_killer getVariable["realname",name _killer], _victim getVariable["realname",name _victim], _vehName];
+			_msg = format["Vehicle Death Message: %1 has obliterated %2 with a %3",_killer getVariable["realname",name _killer]];
 [0,_msg] remoteExec ["life_fnc_broadcast",0];
 		};
 		case (vehicle _killer isKindOf "Air"):
