@@ -27,7 +27,7 @@ hint "Displaying information";
 		case (_victim == _killer):
 		{
 			diag_log format ["Suicide Message: %1 has killed %2 (Possibly suicide or disconnect)",_killer getVariable["realname",name _killer], _victim getVariable["realname",name _victim]];
-			_msg = format["Ktoś umarł: %1 has killed %2 (MOżliwe że samobójstwo lub się rozłaczyl)",_killer getVariable["realname",name _killer]];
+			_msg = format["Suicide Message: %1 has killed %2 (Possibly suicide or disconnect)",_killer getVariable["realname",name _killer]];
 [0,_msg] remoteExec ["life_fnc_broadcast",0];
 		};
 		case (vehicle _killer isKindOf "Car"):
