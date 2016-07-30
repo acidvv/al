@@ -189,5 +189,10 @@ if (_total > 0) then
 DYNAMICMARKET_boughtItems = [];
  [player] remoteExec ["TON_fnc_playerLogged",RSERV];
 player addEventHandler ["Killed", {[player,_this select 1] spawn fn_whoDunnit;}];
+//Get Bounty
+[getplayerUid player, player] remoteExec ["life_fnc_getBounty",2];
+waitUntil{!isNil "myBounty"};
+life_first_wUpdate = true;
+[] spawn life_fnc_hudUpdateWanted;
 [] call life_fnc_cellPhoneCheck;
 [1] call SOCK_fnc_updatePartial;

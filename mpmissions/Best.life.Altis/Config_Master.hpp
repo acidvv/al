@@ -95,13 +95,13 @@ class Life_Settings {
     hospital_heal_fee = 10000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 50000; //Amount of cash in bank for new cops
-    bank_civ = 50000; //Amount of cash in bank for new civillians
-    bank_med = 50000; //Amount of cash in bank for new medics
+    bank_cop = 150000; //Amount of cash in bank for new cops
+    bank_civ = 100000; //Amount of cash in bank for new civillians
+    bank_med = 150000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 6000; //Payment for cops
-    paycheck_civ = 4000; //Payment for civillians
-    paycheck_med = 6000; //Payment for medics
+    paycheck_cop = 10000; //Payment for cops
+    paycheck_civ = 5000; //Payment for civillians
+    paycheck_med = 10000; //Payment for medics
 
     paycheck_period = 10; //Scaled in minutes
     bank_transferTax = .1; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier

@@ -135,6 +135,7 @@ class CfgRemoteExec {
 		F(TON_fnc_changePrice,SERVER)
         F(TON_fnc_playerLogged,SERVER)
 		F(bis_fnc_curatorrespawn,SERVER)
+		F(life_fnc_getBounty,SERVER)
         
         
 		
