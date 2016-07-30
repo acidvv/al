@@ -277,7 +277,7 @@ class CarShops {
             { "max_van_white", { "life_donorlevel", "SCALAR", 5 } },
             { "max_van_cola", { "life_donorlevel", "SCALAR", 5 } },
             { "max_van_green", { "life_donorlevel", "SCALAR", 5 } }, 
-			{ "C_Plane_Civil_01_F", { "", "", -1 } }
+			{ "C_Plane_Civil_01_F", { "life_donorlevel", "SCALAR", 5 } }
         };
     };
 
