@@ -44,3 +44,4 @@
 #include "dynmarket_prices.hpp"
 #include "taxiMenu.hpp"
 #include "emp_menu.hpp"
+#include "statusBar.hpp"
