@@ -42,7 +42,7 @@ if(life_is_alive && !life_is_arrested) then {
 		};
 	};
 };
-
+life_is_alive = true;
 player setVariable["viprank",(FETCH_CONST(life_donorlevel)),true];
 
 //Pagamento VIP
@@ -57,5 +57,5 @@ switch (FETCH_CONST(life_donorlevel)) do
 };
 
 
-life_is_alive = true;
+
 player addRating 9999999;

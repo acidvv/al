@@ -76,7 +76,7 @@ _slotNormal = 115;
 
 for "_i" from 0 to 1 step 0 do {
 	/* Thirst / Hunger adjustment that is time based */
-	if((time - _waterTime) > 850) then {[] call _fnc_water; _waterTime = time;};
+	if((time - _waterTime) > 900) then {[] call _fnc_water; _waterTime = time;};
 	if((time - _foodTime) > 1000) then {[] call _fnc_food; _foodTime = time;};
 
 	/* Adjustment of carrying capacity based on backpack changes --->plecak

@@ -41,7 +41,7 @@ switch(playerSide) do {
 			if(uniform player isEqualTo "U_C_Commoner_shorts") then {
 				player setObjectTextureGlobal [0, "textures\Civ\Clothing\pika.jpg"];
 			};
-			
+			};
 		
 		////////////////////////VIP INICIO/////////////////////////////////////////////////
 		if ((uniform player == "U_C_Commoner1_3") && (FETCH_CONST(life_donorlevel) == 0)) then
@@ -100,7 +100,6 @@ switch(playerSide) do {
 		};
 		
 		/////////////////////////VIP END///////////////////////////////////////////////////
-		
 		
 		
 		
