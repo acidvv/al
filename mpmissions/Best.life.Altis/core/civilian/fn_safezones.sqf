@@ -21,18 +21,18 @@ switch (playerSide) do
  {
  if (alive player) then
  { 
- if (((_zone1 distance player < _dis) || (_zone2 distance player < _dis) || (_zone3 distance player < _dis)) || (_zone4 distance player < _dis) && (!_inArea)) then //|| (_zone5 distance player < _dis))
+ if (((_zone1 distance player < _dis) || (_zone2 distance player < _dis) || (_zone3 distance player < _dis)) || (_zone4 distance player < _dis) || (_zone5 distance player < _dis) && (!_inArea)) then //|| (_zone5 distance player < _dis))
  { 
  _eh1 = player addEventHandler ["fired", {deleteVehicle (_this select 6);}];
  _inArea = true;
- hint parseText "<t color='#FF0000'><t size='2'><t align='center'>UWAGA<br/><br/><t align='center'><t size='1'><t color='#ffffff'> Zakaz strzelania, okradania, powalania i przejeżdżania innych graczy w zielonych strefach!";
+ hint parseText "<t color='#FF0000'><t size='2'><t align='center'>UWAGA<br/><br/><t align='center'><t size='1'><t color='#3399ff'><t size='2'><t align='center'>SafeZone<br/><br/><t size='1'><t color='#ffffff'> Zakaz strzelania, okradania, powalania i przejeżdżania innych graczy w zielonych strefach!";
  player allowDamage false;
  };
- if (((_zone1 distance player > _dis) && (_zone2 distance player > _dis) && (_zone3 distance player > _dis)) && (_zone4 distance player > _dis) && (_inArea)) then //&&(_zone5 distance player > _dis)
+ if (((_zone1 distance player > _dis) && (_zone2 distance player > _dis) && (_zone3 distance player > _dis)) && (_zone4 distance player > _dis) && (_zone5 distance player > _dis) && (_inArea)) then //&&(_zone5 distance player > _dis)
  { 
  player removeEventHandler ["fired", _eh1];
  _inArea = false;
- hint parseText "<t color='#FF0000'><t size='2'><t align='center'>UWAGA<br/><br/><t align='center'><t size='1'><t color='#ffffff'>Powodzenia może przeżyjesz!";
+ hint parseText "<t color='#FF0000'><t size='2'><t align='center'>UWAGA<br/><br/><t color='#3399ff'><t size='2'><t align='center'>Opuszczasz SafeZone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>Powodzenia może przeżyjesz!";
  player allowDamage true;
  };
  };

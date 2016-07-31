@@ -31378,8 +31378,8 @@ class Mission
 			type="ellipse";
 			colorName="ColorGUER";
 			alpha=0.46689603;
-			a=125;
-			b=125;
+			a=175;
+			b=175;
 			angle=172.04897;
 			id=1668;
 		};
@@ -31392,8 +31392,8 @@ class Mission
 			type="ellipse";
 			colorName="ColorGUER";
 			alpha=0.46689603;
-			a=130;
-			b=130;
+			a=175;
+			b=175;
 			angle=172.04897;
 			id=1669;
 			atlOffset=-3.8625851;
@@ -31407,8 +31407,8 @@ class Mission
 			type="ellipse";
 			colorName="ColorGUER";
 			alpha=0.46689603;
-			a=150;
-			b=150;
+			a=175;
+			b=175;
 			angle=172.04897;
 			id=1670;
 		};
@@ -49707,8 +49707,8 @@ class Mission
 			type="ellipse";
 			colorName="ColorGUER";
 			alpha=0.46689603;
-			a=150;
-			b=150;
+			a=175;
+			b=175;
 			angle=172.04897;
 			id=8917;
 			atlOffset=1.9073486e-006;
@@ -68637,8 +68637,8 @@ class Mission
 			type="ellipse";
 			colorName="ColorGUER";
 			alpha=0.47528014;
-			a=103.05452;
-			b=106.02724;
+			a=175;
+			b=175;
 			angle=172.04897;
 			id=10537;
 		};

@@ -34,7 +34,6 @@ class CarShops {
             { "Mrshounka_yamaha_p_j", { "", "", -1 } },
             { "Mrshounka_yamaha_p_noir", { "", "", -1 } },
             { "Mrshounka_yamaha_p_o", { "", "", -1 } },
-            { "Mrshounka_yamaha_p_rose", { "", "", -1 } },
             { "Mrshounka_yamaha_p_r", { "", "", -1 } },
             { "Mrshounka_yamaha_p_v", { "", "", -1 } },
             { "shounka_buggy", { "", "", -1 } },
@@ -43,7 +42,6 @@ class CarShops {
             { "shounka_buggy_jaune", { "", "", -1 } },
             { "shounka_buggy_noir", { "", "", -1 } },
             { "shounka_buggy_orange", { "", "", -1 } },
-            { "shounka_buggy_rose", { "", "", -1 } },
             { "shounka_buggy_rouge", { "", "", -1 } },
             { "shounka_buggy_violet", { "", "", -1 } },
             { "max_BMW", { "", "", -1 } },
@@ -72,26 +70,22 @@ class CarShops {
             { "Mr_Own_dodge15_civ_jaune", { "", "", -1 } },
             { "Mr_Own_dodge15_civ_noir", { "", "", -1 } },
             { "Mr_Own_dodge15_civ_orange", { "", "", -1 } },
-            { "Mr_Own_dodge15_civ_rose", { "", "", -1 } },
             { "Mr_Own_dodge15_civ_rouge", { "", "", -1 } },
             { "Mr_Own_dodge15_civ_violet", { "", "", -1 } },
             { "SIG_SuperBeeL", { "", "", -1 } },
             { "SIG_SuperBeeB", { "", "", -1 } },   
             { "SIG_SuperBeeG", { "", "", -1 } }, 
             { "SIG_SuperBeeM", { "", "", -1 } }, 
-            { "SIG_SuperBee", { "", "", -1 } }, 
             { "SIG_SuperBeeY", { "", "", -1 } }, 
             { "SIG_Magnums", { "", "", -1 } }, 
             { "SIG_Hubcaps", { "", "", -1 } }, 
             { "SIG_Hcode", { "", "", -1 } }, 
-            { "SIG_Roadrunner", { "", "", -1 } }, 
             { "shounka_f430_spider", { "", "", -1 } }, 
             { "shounka_f430_spider_bleufonce", { "", "", -1 } }, 
             { "shounka_f430_spider_grise", { "", "", -1 } }, 
             { "shounka_f430_spider_jaune", { "", "", -1 } }, 
             { "shounka_f430_spider_noir", { "", "", -1 } }, 
             { "shounka_f430_spider_orange", { "", "", -1 } }, 
-            { "shounka_f430_spider_rose", { "", "", -1 } },    
             { "shounka_f430_spider_rouge", { "", "", -1 } }, 
             { "shounka_f430_spider_violet", { "", "", -1 } }, 
             { "Mrshounka_lykan_c", { "", "", -1 } }, 
@@ -100,7 +94,6 @@ class CarShops {
             { "Mrshounka_lykan_c_jaune", { "", "", -1 } }, 
             { "Mrshounka_lykan_c_noir", { "", "", -1 } }, 
             { "Mrshounka_lykan_c_orange", { "", "", -1 } }, 
-            { "Mrshounka_lykan_c_rose", { "", "", -1 } }, 
             { "Mrshounka_lykan_c_rouge", { "", "", -1 } }, 
             { "Mrshounka_lykan_c_violet", { "", "", -1 } }, 
             { "Mrshounka_a3_308_civ", { "", "", -1 } }, 
@@ -109,7 +102,6 @@ class CarShops {
             { "Mrshounka_a3_308_civ_jaune", { "", "", -1 } }, 
             { "Mrshounka_a3_308_civ_noir", { "", "", -1 } }, 
             { "Mrshounka_a3_308_civ_orange", { "", "", -1 } }, 
-            { "Mrshounka_a3_308_civ_rose", { "", "", -1 } }, 
             { "Mrshounka_a3_308_civ_rouge", { "", "", -1 } }, 
             { "Mrshounka_a3_308_civ_violet", { "", "", -1 } }, 
             { "Mrshounka_corbillard_c", { "", "", -1 } },
@@ -117,9 +109,7 @@ class CarShops {
             { "Mrshounka_corbillard_c_grise", { "", "", -1 } },
             { "Mrshounka_corbillard_c_jaune", { "", "", -1 } },
             { "Mrshounka_corbillard_c_orange", { "", "", -1 } },
-            { "Mrshounka_corbillard_c_rose", { "", "", -1 } },
             { "Mrshounka_corbillard_c_rouge", { "", "", -1 } },
-            { "Mrshounka_corbillard_c_violet", { "", "", -1 } },
             { "max_suv_black", { "", "", -1 } },
             { "max_suv_blue", { "", "", -1 } },
             { "max_suv_green", { "", "", -1 } },
@@ -127,10 +117,8 @@ class CarShops {
             { "shounka_avalanche", { "", "", -1 } },
             { "shounka_avalanche_bleufonce", { "", "", -1 } },
             { "shounka_avalanche_grise", { "", "", -1 } },
-            { "shounka_avalanche_jaune", { "", "", -1 } },
             { "shounka_avalanche_noir", { "", "", -1 } },
             { "shounka_avalanche_orange", { "", "", -1 } },
-            { "shounka_avalanche_rose", { "", "", -1 } },  
             { "shounka_avalanche_rouge", { "", "", -1 } },
             { "shounka_avalanche_violet", { "", "", -1 } },  
             { "max_jeep_black", { "", "", -1 } },
@@ -148,7 +136,6 @@ class CarShops {
             { "Mrshounka_Vandura_civ_bleufonce", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_jaune", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_noir", { "", "", -1 } },
-            { "Mrshounka_Vandura_civ_rose", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_rouge", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_violet", { "", "", -1 } },  
 			{ "C_Van_01_fuel_F", { "", "", -1 } }
@@ -316,7 +303,6 @@ class CarShops {
             { "shounka_limo_civ_jaune", { "life_donorlevel", "SCALAR", 5 } },
             { "shounka_limo_civ_noir", { "life_donorlevel", "SCALAR", 5 } },
             { "shounka_limo_civ_orange", { "life_donorlevel", "SCALAR", 5 } },
-            { "shounka_limo_civ_rose", { "life_donorlevel", "SCALAR", 5 } },
             { "shounka_limo_civ_rouge", { "life_donorlevel", "SCALAR", 5 } },
             { "shounka_limo_civ_violet", { "life_donorlevel", "SCALAR", 5 } },
             { "B_MRAP_01_F", { "life_donorlevel", "SCALAR", 5 } }
@@ -404,7 +390,6 @@ class CarShops {
             { "B_Truck_01_fuel_F", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
             { "shounka_a3_dafxf_euro6_f", { "", "", -1 } },
-            { "Mrshounka_a3_iveco_f", { "", "", -1 } },
             { "shounka_ivceco_bleufonce", { "", "", -1 } },
             { "shounka_ivceco_grise", { "", "", -1 } },
             { "shounka_ivceco_noir", { "", "", -1 } },
@@ -412,7 +397,7 @@ class CarShops {
             { "shounka_ivceco_rose", { "", "", -1 } },
             { "shounka_ivceco_rouge", { "", "", -1 } },
             { "shounka_ivceco_violet", { "", "", -1 } },
-			{ "O_Truck_03_device_F",  { "", "", -1 } }
+           	{ "O_Truck_03_device_F",  { "", "", -1 } }
         };
     };
 
@@ -455,7 +440,6 @@ class CarShops {
             { "shounka_monsteur_jaune", { "", "", -1 } },
             { "shounka_monsteur_noir", { "", "", -1 } },
             { "shounka_monsteur_orange", { "", "", -1 } },
-            { "shounka_monsteur_rose", { "", "", -1 } },
             { "shounka_monsteur_rouge", { "", "", -1 } },
             { "shounka_monsteur_violet", { "", "", -1 } },
             { "Mr_Own_hummer_civ_bleufonce", { "", "", -1 } },
@@ -463,7 +447,6 @@ class CarShops {
             { "Mr_Own_hummer_civ_jaune", { "", "", -1 } },
             { "Mr_Own_hummer_civ_noir", { "", "", -1 } },
             { "Mr_Own_hummer_civ_orange", { "", "", -1 } },
-            { "Mr_Own_hummer_civ_rose", { "", "", -1 } },
             { "Mr_Own_hummer_civ_rouge", { "", "", -1 } },
             { "B_G_Offroad_01_F", { "", "", -1 } },
             { "O_MRAP_02_F", { "", "", -1 } },
@@ -782,7 +765,7 @@ class O_T_LSV_02_armed_F {
     };
 
     class Box_IND_Grenades_F {
-        vItemSpace = 550;
+        vItemSpace = 500;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = -1;
         textures[] = {};
@@ -854,59 +837,53 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 1135500;
         textures[] = { };
     };
-    class Mrshounka_a3_iveco_f {
-        vItemSpace = 1100;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 9450000;
-		assurPrice = 2435500;
-        textures[] = { };
-    };
+    
      class shounka_ivceco_bleufonce {
-        vItemSpace = 1000;
+        vItemSpace = 1400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 8450000;
+        price = 10450000;
 		assurPrice = 2335500;
         textures[] = { };
     };
      class shounka_ivceco_grise {
         vItemSpace = 1200;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 11450000;
+        price = 8000000;
 		assurPrice = 3135500;
         textures[] = { };
     };
      class shounka_ivceco_noir {
-        vItemSpace = 1050;
+        vItemSpace = 1200;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 9000000;
+        price = 8000000;
 		assurPrice = 2635500;
         textures[] = { };
     };
      class shounka_ivceco_orange {
-        vItemSpace = 1150;
+        vItemSpace = 1200;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 10450000;
+        price = 8000000;
 		assurPrice = 2835500;
         textures[] = { };
     };
      class shounka_ivceco_rose {
-        vItemSpace = 1000;
+        vItemSpace = 1400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 9000000;
+        price = 10450000;
 		assurPrice = 2435500;
         textures[] = { };
     };
      class shounka_ivceco_rouge {
-        vItemSpace = 850;
+        vItemSpace = 1400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 6050000;
+        price = 10450000;
 		assurPrice = 2135500;
         textures[] = { };
     };
     class shounka_ivceco_violet {
-        vItemSpace = 950;
+        vItemSpace = 1400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 7350000;
+        price = 10450000;
 		assurPrice = 2135500;
         textures[] = { };
     };
@@ -1600,13 +1577,7 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 52500;
         textures[] = {};
     };
-    class SIG_Roadrunner  {
-        vItemSpace = 100;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 295000;
-		assurPrice = 52500;
-        textures[] = {};
-    };
+   
     class SIG_SuperBeeL  {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1632,13 +1603,6 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 110;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 315000;
-		assurPrice = 52500;
-        textures[] = {};
-    };
-    class SIG_SuperBee  {
-        vItemSpace = 100;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 295000;
 		assurPrice = 52500;
         textures[] = {};
     };

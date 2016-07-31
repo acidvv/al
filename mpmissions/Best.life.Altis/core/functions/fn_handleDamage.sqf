@@ -46,33 +46,6 @@ if(!isNull _source) then {
 };
 
 
-if (safezone) then {
-	if (isNull _source) exitWith {_damage = 0;};
-	if (_projectile isEqualTo "Bo_Mk82") exitWith {};
-	if (_sourceCop || _sourceIsRebel) then {
-		// Player should take damage since he/she was shot by a cop, therefore, nothing is done
-
-	} else {
-
-		if (isPlayer _source) then {
-			//if (_sourceIsRebel) exitWith {_damage;};
-
-			//diag_log format["Took damage from a non rebel player, cancelling.. (%1)",str(_source)];
-			_damage = 0;
-} else {
-			//diag_log format["Took damage from something else than a player, cancelling.."];
-			// Player took damage from something else than a player, not taking damage.
-			_damage = 0;
-		};
-
-		if (_projectile isEqualTo "") exitWith {_damage = 0;};
-		/*
-		if (alive _source && _source getVariable ["rebel",false]) exitWith {
-			_damage;
-		};
-		*/
-	};
-};
 
 if (_projectile in ["mini_Grenade"]) then
 {
@@ -81,9 +54,11 @@ if (_projectile in ["mini_Grenade"]) then
 	[_projectile] spawn life_fnc_handleFlashbang;
 };
 
-
-
-
-
-[] spawn life_fnc_hudUpdate;
+//Pasy
+if ((vehicle _unit) isKindOf "Car" && (isNull _source || _source isEqualTo _unit)) then {
+	if (life_seatbelt) then { _damage = _damage / 2 };
+};
+[] call life_fnc_hudUpdate;
 _damage;
+
+

@@ -186,6 +186,45 @@ if (_total > 0) then
 	[0,format[localize "STR_AH_LogInRec",[_total]call life_fnc_numberText]] remoteExecCall ["life_fnc_broadcast",player];
 	ADD(TTPBANK,_total);
 };
+[] spawn
+{
+	for "_i" from 0 to 1 step 0 do {
+		if (vehicle player isEqualTo player) then
+		{
+			if (life_seatwarn) then {
+				life_seatwarn = false;
+			};
+			if (life_seatbelt) then {
+				sleep 3;
+				life_seatbelt = false;
+			};
+			uiSleep 5;
+		};
+		if (vehicle player != player && !(player getVariable ["Escorting", false]) && !(player getVariable ["restrained", false]) && (vehicle player isKindOf "LandVehicle")) then
+		{
+			if (speed vehicle player > 90 && !life_seatbelt) then
+			{
+				oldVehVelocity = velocity (vehicle player);
+				sleep 0.3;
+				if (speed vehicle player < 1) then
+				{
+					playSound "glassbreak";
+					moveOut player;
+					player setVelocity [(oldVehVelocity select 0) * 0.4,(oldVehVelocity select 1) * 0.4,((oldVehVelocity select 2) * 0.4) + 5];
+					sleep 2;
+					player switchmove "";
+				};
+			} else {
+				if (!life_seatwarn) then {
+					sleep 1;
+					playSound "seatwarn";
+					life_seatwarn = true;
+				};
+				uiSleep 1;
+			};
+		};
+	};
+};
 DYNAMICMARKET_boughtItems = [];
  [player] remoteExec ["TON_fnc_playerLogged",RSERV];
 player addEventHandler ["Killed", {[player,_this select 1] spawn fn_whoDunnit;}];

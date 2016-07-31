@@ -39,13 +39,25 @@ class CfgSounds {
 		sound[] = {"\sounds\seatwarn.ogg", 1, 1};
 		titles[] = {};
 	};
+	class seatbelt
+	{
+		name = "seatbelt";
+		sound[] = {"\sounds\seatbelt.ogg", 1, 1};
+		titles[] = {};
+	};
+	class glassbreak
+	{
+		name = "glassbreak";
+		sound[] = {"\sounds\glassbreak.ogg", 1, 1};
+		titles[] = {};
+	};
 	class purge
 	{
 		name = "purge";
 		sound[] = {"\sounds\purge.ogg", 0.8, 1};
 		titles[] = {};
 	};
-class taxi
+   class taxi
 	{
 		name = "taxi";
 		sound[] = {"\sounds\taxi.ogg", 1.5, 1};
