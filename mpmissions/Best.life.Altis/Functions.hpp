@@ -128,12 +128,7 @@ class Life_Client_Core {
 		class replyMessage {};
 	};
 
-	class statusbar
-	{
-			file = "Custom";
-			class statusBar {};
-	};
-
+	
 	class Slotmachine
   {
       file = "Custom\Slotmachine";

@@ -9,7 +9,7 @@ disableChannels[]={{0,true,true},{1,true,true},{2,true,true}};    // Disabled te
 
 class CfgServer {
 	DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
-	HeadlessMode = 0; //Enable/Disable headless client addon. Default: 0 (1 = Enabled / 0 = Disabled)
+	HeadlessMode = 1; //Enable/Disable headless client addon. Default: 0 (1 = Enabled / 0 = Disabled)
 	DebugMode = 0; //Enable many  server/hc debugging logs. Default: 0 (1 = Enabled / 0 = Disabled)
 };
 
@@ -18,27 +18,7 @@ class RscTitles {
 	#include "dialog\hud_nameTags.hpp"
 	#include "dialog\hud_stats.hpp"
 	#include "dialog\statusBar.hpp"
-	class wasted {
-	    idd = -1;
-	    duration = 17;
-	    class controls {
-	        class ExampleControl {
-	            idc = -1;
-	            type = 0;
-	            style = 2192;
-	            x = 0.125;
-	            y = 0.125;
-	            h = 0.75;
-	            w = 0.75;
-	            font = "EtelkaNarrowMediumPro";
-	            sizeEx = 0.05;
-	            colorBackground[] = {1,1,1,0};
-	            colorText[] = {1,1,1,1};
-	            text = "textures\wasted.paa";
-	            lineSpacing = 1;
-	        };
-	    };
-	};
+	#include "dialog\wasted.hpp"
 };
 
 class CfgFunctions {

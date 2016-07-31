@@ -84,7 +84,7 @@ if(life_removeWanted) then {
 };
 [0,"STR_NHS_Died",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 
-[] spawn life_fnc_statusBar;
+
 [] call SOCK_fnc_updateRequest;
 [] call life_fnc_hudUpdate; //Request update of hud.
 [] call life_fnc_playerSkins;
