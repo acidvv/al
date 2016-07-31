@@ -15,13 +15,7 @@ fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
 
 disableRemoteSensors true;
 
-//Access Points
-[
-    true, /* _useMissionTriggers */
-    true, /* _isTravelDelayEnabled */
-    10, /* _travelSpeed */
-    20 /* _maxTravelDuration */
-] execVM "core\ap\fn_init.sqf";
+
 // Clean Up Players
 [
 	10*60, // seconds to delete dead bodies (0 means don't delete) 
