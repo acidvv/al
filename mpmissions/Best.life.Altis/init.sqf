@@ -12,7 +12,7 @@ StartProgress = false;
 
 
 fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
-Eject = compile PreProcessFileLineNumbers "scripts\spad.sqf";
+
 disableRemoteSensors true;
 
 //Access Points
@@ -31,8 +31,9 @@ disableRemoteSensors true;
 	0 // seconds to delete dropped smokes/chemlights (0 means don't delete)
 ] execVM "scripts\repetitive_cleanup.sqf";
 
-StartProgress = true;
+
 
 if(!isDedicated) exitWith{};
 Tower2 setVariable ["TTP_terror", false, true];
+StartProgress = true;
 

@@ -70,8 +70,6 @@ class CarShops {
             { "Mr_Own_dodge15_civ_jaune", { "", "", -1 } },
             { "Mr_Own_dodge15_civ_noir", { "", "", -1 } },
             { "Mr_Own_dodge15_civ_orange", { "", "", -1 } },
-            { "Mr_Own_dodge15_civ_rouge", { "", "", -1 } },
-            { "Mr_Own_dodge15_civ_violet", { "", "", -1 } },
             { "SIG_SuperBeeL", { "", "", -1 } },
             { "SIG_SuperBeeB", { "", "", -1 } },   
             { "SIG_SuperBeeG", { "", "", -1 } }, 
@@ -1247,7 +1245,7 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 32500;
         textures[] = {};
     };
-    class sshounka_avalanche_rouge {
+    class shounka_avalanche_rouge {
         vItemSpace = 120;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 275000;
@@ -1599,7 +1597,7 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 52500;
         textures[] = {};
     };
-    class SSIG_SuperBeeM  {
+    class SIG_SuperBeeM  {
         vItemSpace = 110;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 315000;
