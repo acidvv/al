@@ -45,7 +45,7 @@ hint "Displaying information";
 		default
 		{
 			diag_log format ["Death Message: %1 has killed %2 with Weapon %3 from Distance %4 Meters",_killer getVariable["realname",name _killer], _victim getVariable["realname",name _victim], _killerWep, _distance];
-			_msg = format ["Death Message:  %1 has died from a vehicle explosion!",_killer getVariable["realname",name _killer], _victim getVariable["realname",name _victim], _killerWep, _distance];
+			_msg = format ["Death Message: %1 has killed %2 with Weapon %3 from Distance %4 Meters",_killer getVariable["realname",name _killer], _victim getVariable["realname",name _victim], _killerWep, _distance];
 [0,_msg] remoteExec ["life_fnc_broadcast",0];
 		};
 	};
