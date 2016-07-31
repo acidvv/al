@@ -3,7 +3,6 @@ StartProgress = false;
 [] execVM "scripts\nosidechat.sqf"; //Nosidechat Script
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
-[] execVM "Custom\safezone.sqf";
 [] execVM "Custom\gas\gasmask.sqf";
 [] execVM "Custom\gas\teargasGL.sqf";
 [] execVM "Custom\lift\init.sqf";
@@ -24,8 +23,8 @@ disableRemoteSensors true;
 ] execVM "core\ap\fn_init.sqf";
 // Clean Up Players
 [
-	5*60, // seconds to delete dead bodies (0 means don't delete) 
-	5*60, // seconds to delete dead vehicles (0 means don't delete)
+	10*60, // seconds to delete dead bodies (0 means don't delete) 
+	35*60, // seconds to delete dead vehicles (0 means don't delete)
 	0, // seconds to delete dropped weapons (0 means don't delete)
 	0, // seconds to deleted planted explosives (0 means don't delete)
 	0 // seconds to delete dropped smokes/chemlights (0 means don't delete)
