@@ -38,7 +38,7 @@ if(_index isEqualTo 1) exitWith {
 <t color='#0099ff'>IP:</t> 149.202.65.190<br/>
 <t color='#0099ff'>Port:</t>2352<br/><br/>
 <t color='#0099ff'>Linki</t><br/>
-<a href=''>Teamspeak 3: 51.254.132.75</a><br/>
+<a href=''>Teamspeak 3: ts3.altisland.pl</a><br/>
 <a href='http://www.altisland.pl'>Forum: altisland.pl</a><br/><br/>
 Restart<br/>
 <t color='#0099ff'>0:00, 04:00, 8:00, 12:00, 16:00, 20:00</t>
@@ -65,7 +65,7 @@ if(_index isEqualTo 3) exitWith {
 //Lizensen
 if(_index isEqualTo 4) exitWith {
 "<t color='#00ff00'>§1 
-Wchodząc na serwer, gracz jest zobligowany do przestrzegania ReGuLaMiN'u Ogólnego 
+Wchodząc na serwer, gracz jest zobligowany do przestrzegania Regulaminu Ogólnego 
 §2 
 Nieznajomość regulaminu, nie zwalnia z jego przestrzegania 
 §3 
