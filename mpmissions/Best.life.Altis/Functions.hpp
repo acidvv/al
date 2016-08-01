@@ -174,7 +174,7 @@ class Life_Client_Core {
 		class removeWeapons {};
 		class seizePlayerWeapon {};
 		class seizePlayerWeaponAction {};
-		class safezones {};
+		
 		
 	};
 
