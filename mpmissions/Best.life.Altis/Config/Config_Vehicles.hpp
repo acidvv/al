@@ -404,13 +404,7 @@ class CarShops {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
 			{ "I_Heli_light_03_unarmed_F", { "", "", -1 } },
-			{ "sab_camel_ind_pro", { "", "", -1 } },
-            { "sab_camel_red_pro", { "", "", -1 } },
-            { "sab_camel_blu_pro", { "", "", -1 } },
-            { "sab_camel_ind_B", { "", "", -1 } },
-            { "sab_camel_red_B", { "", "", -1 } },
-            { "sab_camel_blu_B", { "", "", -1 } },
-            { "C_Plane_Civil_01_F", { "", "", -1 } },
+			{ "C_Plane_Civil_01_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } }
 			
         };
@@ -451,12 +445,19 @@ class CarShops {
 			{ "O_T_LSV_02_unarmed_F", { "", "", -1 } },
 			{ "I_Heli_light_03_unarmed_F", { "", "", -1 } },
 			{ "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
-			{ "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
+   			{ "O_Heli_Transport_04_Box_F", { "", "", -1 } },
+            { "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
 			{ "O_Truck_02_box_F", { "", "", -1 } },
             { "O_Truck_02_covered_F", { "", "", -1 } },
 			{ "I_Truck_02_fuel_F",  { "", "", -1 } },
             { "B_Truck_01_fuel_F",  { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
+            { "sab_camel_ind_pro", { "", "", -1 } },
+            { "sab_camel_red_pro", { "", "", -1 } },
+            { "sab_camel_blu_pro", { "", "", -1 } },
+            { "sab_camel_ind_B", { "", "", -1 } },
+            { "sab_camel_red_B", { "", "", -1 } },
+            { "sab_camel_blu_B", { "", "", -1 } },
 			{ "O_Truck_03_device_F",  { "", "", -1 } }
 			 };
     };
@@ -2388,44 +2389,44 @@ will modify the virtual space and the price of the vehicle, but other informatio
    };
     class sab_camel_ind_pro {
        vItemSpace = 75;
-       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 2575000;
-	   assurPrice = 388500;
+       licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
+       price = 22575000;
+	   assurPrice = 988500;
        textures[] = {};
    };
    class sab_camel_red_pro {
        vItemSpace = 75;
-       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 2575000;
-	   assurPrice = 388500;
+       licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
+       price = 22575000;
+	   assurPrice = 988500;
        textures[] = {};
    };
    class sab_camel_blu_pro {
        vItemSpace = 75;
-       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 2575000;
+       licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
+       price = 22575000;
 	   assurPrice = 388500;
        textures[] = {};
    };
    class sab_camel_ind_B {
        vItemSpace = 75;
-       licenses[] = { {"pilot"}, {""}, {""}, {""} };
+       licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
        price = 2575000;
-	   assurPrice = 388500;
+	   assurPrice = 988500;
        textures[] = {};
    };
    class sab_camel_red_B {
        vItemSpace = 75;
-       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 2575000;
-	   assurPrice = 388500;
+       licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
+       price = 12575000;
+	   assurPrice = 988500;
        textures[] = {};
    };
    class sab_camel_blu_B {
        vItemSpace = 75;
-       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 2575000;
-	   assurPrice = 388500;
+       licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
+       price = 22575000;
+	   assurPrice = 988500;
        textures[] = {};
    };
       
@@ -2464,7 +2465,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
    class O_Heli_Transport_04_Box_F {
       vItemSpace = 500;
       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-      price = 6305000;
+      price = 7305000;
 	  assurPrice = 231500;
       textures[] = {};
     };
