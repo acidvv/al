@@ -191,13 +191,13 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "", 25, { "", "", -1 } },
-            { "max_sheriff_uniform", "na motor", 14425, { "", "", -1 } },
-            { "special_agent_uniform_new", "tajniak", 14425, { "", "", -1 } },
-            { "fbi_rru_uniform", "tajniak", 14425, { "", "", -1 } },
-            { "U_C_Poloshirt_burgundy", "Superman", 275, { "", "", -1 } },
-            { "U_C_Poloshirt_tricolour", "Lacoste", 350, { "", "", -1 } },
-            { "U_C_Commoner1_1", "Joker", 1100, { "", "", -1 } },
-			{ "U_C_Commoner_shorts", "Pika", 1100, { "", "", -1 } },
+            { "max_sheriff_uniform", "na motor", 14425, { "life_coplevel", "SCALAR", 4 } },
+            { "special_agent_uniform_new", "tajniak", 14425, { "life_coplevel", "SCALAR", 8 } },
+            { "fbi_rru_uniform", "tajniak", 14425, { "life_coplevel", "SCALAR", 7 } },
+            { "U_C_Poloshirt_burgundy", "Superman", 275, { "life_coplevel", "SCALAR", 7 } },
+            { "U_C_Poloshirt_tricolour", "Lacoste", 350, { "life_coplevel", "SCALAR", 7 } },
+            { "U_C_Commoner1_1", "Joker", 1100, { "life_coplevel", "SCALAR", 7 } },
+			{ "U_C_Commoner_shorts", "Pika", 1100, { "life_coplevel", "SCALAR", 7 } },
 			{ "security_uniform", "oficer", 25, { "life_coplevel", "SCALAR", 3 } },
             { "U_B_SpecopsUniform_sgg", "", 25, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_B_GEN_Commander_F", "", 71125, { "life_coplevel", "SCALAR", 5 } }
@@ -229,13 +229,13 @@ class Clothing {
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
-			{ "G_Bandanna_beast", "", 150, {  "", "", -1 } },
-            { "G_Bandanna_aviator", "", 150, {  "", "", -1 } },
-            { "G_Bandanna_blk", "", 150, {  "", "", -1 } },
-            { "G_Bandanna_khk", "", 150, {  "", "", -1 } },
-            { "G_Bandanna_oli", "", 150, {  "", "", -1 } },
-            { "G_Bandanna_shades", "", 150, {  "", "", -1 } },
-            { "G_Bandanna_sport", "", 150, {  "", "", -1 } },
+			{ "G_Bandanna_beast", "", 150, { "life_coplevel", "SCALAR", 5 } },
+            { "G_Bandanna_aviator", "", 150, { "life_coplevel", "SCALAR", 5 } },
+            { "G_Bandanna_blk", "", 150, { "life_coplevel", "SCALAR", 5 } },
+            { "G_Bandanna_khk", "", 150, { "life_coplevel", "SCALAR", 5 } },
+            { "G_Bandanna_oli", "", 150, { "life_coplevel", "SCALAR", 5 } },
+            { "G_Bandanna_shades", "", 150, { "life_coplevel", "SCALAR", 5 } },
+            { "G_Bandanna_sport", "", 150, { "life_coplevel", "SCALAR", 5 } },
             { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", -1 } },
 			{ "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
 			{ "G_Balaclava_blk", "", 22150, { "life_coplevel", "SCALAR", 5 } }
@@ -248,7 +248,7 @@ class Clothing {
             { "V_PlateCarrier1_blk", "", 3500, { "life_coplevel", "SCALAR", -1 } },
             { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", -3 } },
 			{ "V_PlateCarrier2_rgr", "", 73500, { "life_coplevel", "SCALAR", 5 } },
-            { "V_PlateCarrierGL_blk", "SWAT Vest", 6500, { "life_coplevel", "SCALAR", 9 } }
+            { "V_PlateCarrierGL_blk", "SWAT Vest", 6500, { "life_coplevel", "SCALAR", 7 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },

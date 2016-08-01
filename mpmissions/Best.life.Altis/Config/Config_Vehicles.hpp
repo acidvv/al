@@ -487,7 +487,7 @@ class CarShops {
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
             { "max_bike_police", { "life_coplevel", "SCALAR", 1 } },
-            { "max_CrownVic_sheriff", { "life_coplevel", "SCALAR", 2 } },
+            { "max_CrownVic_sheriff", { "life_coplevel", "SCALAR", 3 } },
             { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 5 } },
 			{ "O_T_LSV_02_armed_F", { "life_coplevel", "SCALAR", 6 } },
             { "B_G_Offroad_01_armed_F", { "life_coplevel", "SCALAR", 6 } },
