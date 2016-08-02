@@ -329,7 +329,21 @@ class WeaponShops {
 			{ "LMG_Zafir_F", "Zafir 7.62 mm", 471000, 7500 },
 			{ "srifle_DMR_06_olive_F", "Mk14 7.62mm", 376000, 7500 },
 			{ "srifle_DMR_03_khaki_F", "Mk-I EMR 7.62mm", 365000, 7500 },
-			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 254000, 7500 }
+			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 254000, 7500 },
+			{ "optic_ACO_grn", "Aco", 3000 },
+            { "optic_Holosight", "Holosight", 3000 },
+            { "optic_Hamr", "Hamr", 9500 },
+            { "optic_Holosight_smg", "Holosight Smg", 2000 },
+            { "optic_MRCO", "Mrco", 12500 },
+            { "optic_Arco", "Arco", 8500 },
+			{ "optic_DMS", "DMS", 28500 },
+			{ "optic_SOS", "SOS", 58500 },
+            { "acc_pointer_IR", "Laser", 1000 },
+            { "acc_flashlight", "Latarka", 8000 },
+			{ "muzzle_snds_Lt", "  9mm", 4750 },
+			{ "muzzle_snds_M", "  5.56mm", 6750 },
+			{ "muzzle_snds_B", "  7.62mm", 15750 },
+			{ "muzzle_snds_H", "  6.5mm", 9050 }
 			
         };
         mags[] = {
@@ -581,7 +595,19 @@ class WeaponShops {
 			{ "arifle_SPAR_01_GL_blk_F", "SPAR-16 GL 5.56 mm (Khaki)", 280000, 7500 },
 			{ "LMG_Zafir_pointer_F", "Zafur 7.62 mm", 550000, 7500 },
 			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 475000, 7500 },
-			{ "	launch_RPG32_F", "RPG-42 Alamut", 1075000, 7500 }
+			{ "	launch_RPG32_F", "RPG-42 Alamut", 1075000, 7500 },
+			{ "optic_ACO_grn", "Aco", 23500 },
+            { "optic_Holosight", "Holosight", 23600 },
+            { "optic_Hamr", "Hamr", 30500 },
+            { "optic_Holosight_smg", "Holosight Smg", 32500 },
+            { "optic_MRCO", "Mrco", 44500 },
+            { "optic_Arco", "Arco", 40500 },
+			{ "optic_LRPS", "LPRS", 40500 },
+			{ "muzzle_snds_M", " 5.56mm", 110750 },
+			{ "muzzle_snds_H", " 6.5mm", 115050 },
+			{ "muzzle_snds_B", "  7.62mm", 118750 },
+            { "acc_pointer_IR", "Laser", 11500 },
+            { "acc_flashlight", "Latarka", 11000 }
         };
         mags[] = {
 			{ "6Rnd_45ACP_Cylinder", "  9rnd .45", 1725 },
@@ -605,6 +631,18 @@ class WeaponShops {
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "30rnd 6.39mm", 11325 },
 			{ "30Rnd_762x39_Mag_Green_F", "30rnd 7.62mm", 41325 },
 			{ "RPG32_F", " RPG-42 Alamut", 1000820 },
+			{ "optic_ACO_grn", "Aco", 23500 },
+            { "optic_Holosight", "Holosight", 23600 },
+            { "optic_Hamr", "Hamr", 30500 },
+            { "optic_Holosight_smg", "Holosight Smg", 32500 },
+            { "optic_MRCO", "Mrco", 44500 },
+            { "optic_Arco", "Arco", 40500 },
+			{ "optic_LRPS", "LPRS", 40500 },
+			{ "muzzle_snds_M", " 5.56mm", 110750 },
+			{ "muzzle_snds_H", " 6.5mm", 115050 },
+			{ "muzzle_snds_B", "  7.62mm", 118750 },
+            { "acc_pointer_IR", "Laser", 11500 },
+            { "acc_flashlight", "Latarka", 11000 },
 			{ "optic_ACO_grn", "Aco", 23500 },
             { "optic_Holosight", "Holosight", 23600 },
             { "optic_Hamr", "Hamr", 30500 },
