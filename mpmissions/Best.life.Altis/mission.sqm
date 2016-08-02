@@ -302,8 +302,8 @@ class ScenarioData
 	saving=0;
 	respawnDialog=0;
 	disabledAI=1;
-	respawn=1;
-	respawnDelay=5;
+	respawn=2;
+	respawnDelay=3;
 	class Header
 	{
 		gameType="RPG";
