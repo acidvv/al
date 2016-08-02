@@ -757,7 +757,7 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "SMG_02_F", "Sting 9 mm", 15000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 13000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 13000, 750 },
             { "hgun_P07_snds_F", "Pistola Tazer", 200, 60 },
             { "hgun_P07_F", "P07 9mm", 750, 150 },
             { "NVGoggles", "Nokto", 200, 90 },
@@ -799,14 +799,8 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 2, "Musisz być żołnierzem!" };
         items[] = {
             
-			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 15000, 750 },
-			{ "SMG_05_F", "TRG-21 5.56 mm", 15000, 750 },
-			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 15000, 750 },
-			{ "arifle_Mk20_F", "Mk20 5.56 mm", 15000, 750 },
-			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 15000, 750 },
-			{ "arifle_SPAR_01_khk_F", "AKS-74U 5.45", 15000, 750 },
             { "SMG_02_F", "Sting 9 mm", 14000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 12000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 12000, 750 },
             { "hgun_P07_snds_F", "Tazer", 200, 60 },
             { "hgun_P07_F", "P07 9mm", 750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -847,7 +841,7 @@ class WeaponShops {
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 13000, 750 },
 			
             { "SMG_02_F", "Sting 9 mm", 11000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 10000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 10000, 750 },
             { "hgun_P07_snds_F", "Pistola Tazer", 2500, 60 },
             { "hgun_P07_F", "P07 9mm", 4750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -886,6 +880,12 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "Musisz być sierżantem Swat!" };
         items[] = {
             { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
+			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 15000, 750 },
+			{ "SMG_05_F", "TRG-21 5.56 mm", 15000, 750 },
+			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 15000, 750 },
+			{ "arifle_Mk20_F", "Mk20 5.56 mm", 15000, 750 },
+			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 15000, 750 },
+			{ "arifle_SPAR_01_khk_F", "AKS-74U 5.45", 15000, 750 },
 			{ "srifle_GM6_F", "", 335500, -1 },
             { "LMG_Zafir_F", "", 55000, -1 },
 			{ "arifle_CTAR_GL_khk_F", "", 65000, -1 },
@@ -925,7 +925,13 @@ class WeaponShops {
 			{ "20Rnd_650x39_Cased_Mag_F", "", 1140 },
 			{ "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
 			{ "20Rnd_762x51_Mag", "", 1140 },
-            { "10Rnd_762x54_Mag", "", 5300 }
+            { "10Rnd_762x54_Mag", "", 5300 },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Stun Magazine 30rnd", 45 },
+            { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
+			{ "30Rnd_9x21_Mag", "  30rnd 9mm", 25 },
+			{ "30Rnd_9x21_Mag_SMG_02", "  30rnd 9mm", 25 },
+			{ "150Rnd_556x45_Drum_Mag_F", "  150rnd 5.56mm", 25 },
+			{ "30Rnd_556x45_Stanag_Tracer_Green", "  30rnd 5.56mm", 25 }
         };
         accs[] = {
             { "optic_Arco", "", 250 },
@@ -951,7 +957,7 @@ class WeaponShops {
 			{ "arifle_Mk20_F", "Mk20 5.56 mm", 12000, 750 },
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 12000, 750 },
             { "SMG_02_F", "Sting 9 mm", 10000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 9000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 9000, 750 },
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -1007,7 +1013,7 @@ class WeaponShops {
 			{ "arifle_Mk20_F", "Mk20 5.56 mm", 11000, 750 },
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 11000, 750 },
             { "SMG_02_F", "Sting 9 mm", 9000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 9000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 9000, 750 },
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -1065,7 +1071,7 @@ class WeaponShops {
 			{ "arifle_Mk20_F", "Mk20 5.56 mm", 10000, 750 },
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 10000, 750 },
             { "SMG_02_F", "Sting 9 mm", 8000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 8000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 8000, 750 },
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -1124,7 +1130,7 @@ class WeaponShops {
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 9000, 750 },
             { "SMG_02_F", "Sting 9 mm", 7000, 750 },
 			{ "srifle_DMR_06_camo_F", "Mk14 7.62mm", 65000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 7000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 7000, 750 },
             { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -1187,7 +1193,7 @@ class cop_tenente_coronel {
             { "SMG_02_F", "Sting 9 mm", 7000, 750 },
 			{ "srifle_DMR_03_F", "Mk-I EMR 7.62mm", 65000, 750 },
 			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 7000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 7000, 750 },
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -1251,7 +1257,7 @@ class cop_tenente_coronel {
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 9000, 750 },
             { "SMG_02_F", "Sting 9 mm", 7000, 750 },
 			{ "srifle_DMR_03_F", "Mk-I EMR 7.62mm", 65000, 750 },
-			{ "PDW2000 9 mm", "Submachine 9x21 mm", 7000, 750 },
+			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 7000, 750 },
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },

@@ -153,8 +153,8 @@ class Clothing {
             { "pilot_black_helmet", "pilotka", 8150, { "", "", -1 } },
             { "pilot_blue_helmet", "pilotka", 8150, { "", "", -1 } },
             { "pilot_red_helmet", "pilotka", 8150, { "", "", -1 } },
-            { "police_pilot_Helmet", "kask", 8150, { "", "", -1 } },
-            { "fbi_officer_cap", "czapka", 8150, { "", "", -1 } }
+            { "police_pilot_Helmet", "kask", 8150, { "", "", -1 } }
+            
 			
 			
             
@@ -210,6 +210,7 @@ class Clothing {
             { "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
             { "H_HelmetB_light_desert", "", 11150, { "life_coplevel", "SCALAR", 5 } },
 			{ "H_Beret_Colonel", "", 150, { "life_coplevel", "SCALAR", 8 } },
+			{ "fbi_officer_cap", "czapka", 8150, { "life_coplevel", "SCALAR", 5 } },
 			{ "H_Beret_Colonel", "", 200, { "life_coplevel", "SCALAR", 9 } }
         };
         goggles[] = {
@@ -244,7 +245,7 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
             { "police_belt_biker", "na motor", 1000, { "", "", -1 } },
-            { "fbi_rru_Vest", "tajniak", 1000, { "", "", -1 } },
+            { "fbi_rru_Vest", "tajniak", 1000, { "life_coplevel", "SCALAR", 5 } },
             { "V_PlateCarrier1_blk", "", 3500, { "life_coplevel", "SCALAR", -1 } },
             { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", -3 } },
 			{ "V_PlateCarrier2_rgr", "", 73500, { "life_coplevel", "SCALAR", 5 } },
