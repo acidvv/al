@@ -354,6 +354,7 @@ class Life_Client_Core {
 		class seizeObjects {};
 		class masked {};
 		class autoMessages {};
+		class hudUpdateWanted {};
 	};
 
 	class Gangs	{
