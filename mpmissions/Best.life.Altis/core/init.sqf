@@ -232,7 +232,6 @@ player addEventHandler ["Killed", {[player,_this select 1] spawn fn_whoDunnit;}]
 [getplayerUid player, player] remoteExec ["life_fnc_getBounty",2];
 waitUntil{!isNil "myBounty"};
 life_first_wUpdate = true;
-[]execVM "custom\safezone.sqf"
 [] spawn life_fnc_hudUpdateWanted;
 [] call life_fnc_cellPhoneCheck;
 [1] call SOCK_fnc_updatePartial;
