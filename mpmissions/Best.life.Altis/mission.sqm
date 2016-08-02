@@ -8,18 +8,18 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=11234;
+		nextID=11243;
 	};
 	class MarkerIDProvider
 	{
-		nextID=301;
+		nextID=302;
 	};
 	class Camera
 	{
-		pos[]={3628.5559,17.561649,13099.123};
-		dir[]={0.54947186,-0.7429989,0.38216704};
-		up[]={0.6099779,0.66928113,0.42424941};
-		aside[]={0.5709942,2.712477e-007,-0.8209644};
+		pos[]={4629.4819,87.582123,13007.442};
+		dir[]={-0.2079518,-0.31033057,0.92760682};
+		up[]={-0.06788554,0.9506287,0.30281582};
+		aside[]={0.97578388,1.5352271e-009,0.21875185};
 	};
 };
 binarizationWanted=0;
@@ -111,7 +111,8 @@ addons[]=
 	"A3_Structures_F_EPB_Civ_Accessories",
 	"A3_Modules_F_Curator_Curator",
 	"Mrshounka_buggy_p",
-	"max_bike"
+	"max_bike",
+	"A3_Structures_F_Ind_PowerLines"
 };
 class AddonsMetaData
 {
@@ -610,7 +611,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2432;
+		items=2441;
 		class Item0
 		{
 			dataType="Marker";
@@ -8839,7 +8840,7 @@ class Mission
 			};
 			id=668;
 			type="Land_WoodenTable_large_F";
-			atlOffset=3.0674;
+			atlOffset=3.0669041;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8881,7 +8882,7 @@ class Mission
 			};
 			id=669;
 			type="Land_Sink_F";
-			atlOffset=2.9951439;
+			atlOffset=2.9938736;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8964,7 +8965,7 @@ class Mission
 			};
 			id=671;
 			type="Land_WoodenTable_small_F";
-			atlOffset=3.0877533;
+			atlOffset=3.0877323;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9457,7 +9458,7 @@ class Mission
 			};
 			id=683;
 			type="Land_Portable_generator_F";
-			atlOffset=3.0999813;
+			atlOffset=3.0999794;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9498,7 +9499,7 @@ class Mission
 			};
 			id=684;
 			type="Land_MetalBarrel_F";
-			atlOffset=2.9337997;
+			atlOffset=2.9329319;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9539,7 +9540,7 @@ class Mission
 			};
 			id=685;
 			type="Land_ExtensionCord_F";
-			atlOffset=3.1081429;
+			atlOffset=3.1081409;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9954,7 +9955,7 @@ class Mission
 			};
 			id=695;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.039060593;
+			atlOffset=0.038211823;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10077,7 +10078,7 @@ class Mission
 			};
 			id=698;
 			type="Land_WoodenTable_large_F";
-			atlOffset=3.2618675;
+			atlOffset=3.2618599;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10119,7 +10120,7 @@ class Mission
 			};
 			id=699;
 			type="Land_Sink_F";
-			atlOffset=3.1007195;
+			atlOffset=3.100647;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10202,7 +10203,7 @@ class Mission
 			};
 			id=701;
 			type="Land_WoodenTable_small_F";
-			atlOffset=3.1140862;
+			atlOffset=3.1140518;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10243,7 +10244,7 @@ class Mission
 			};
 			id=702;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.59646606;
+			atlOffset=0.59643936;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10407,7 +10408,7 @@ class Mission
 			};
 			id=706;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.59325027;
+			atlOffset=0.59323311;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10489,7 +10490,7 @@ class Mission
 			};
 			id=708;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.59501457;
+			atlOffset=0.59498787;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10571,7 +10572,7 @@ class Mission
 			};
 			id=710;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.58858871;
+			atlOffset=0.58853722;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10695,7 +10696,7 @@ class Mission
 			};
 			id=713;
 			type="Land_Portable_generator_F";
-			atlOffset=3.115366;
+			atlOffset=3.1153374;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10736,7 +10737,7 @@ class Mission
 			};
 			id=714;
 			type="Land_MetalBarrel_F";
-			atlOffset=3.1282654;
+			atlOffset=3.1282597;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10777,7 +10778,7 @@ class Mission
 			};
 			id=715;
 			type="Land_ExtensionCord_F";
-			atlOffset=3.1301765;
+			atlOffset=3.1301689;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11191,7 +11192,7 @@ class Mission
 			};
 			id=725;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.53438187;
+			atlOffset=0.53439522;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12103,13 +12104,13 @@ class Mission
 				angles[]={0,2.7419298,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
 			};
 			id=747;
 			type="Land_CashDesk_F";
-			atlOffset=0.56286049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12263,13 +12264,13 @@ class Mission
 				angles[]={0,6.0063586,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
 			};
 			id=751;
 			type="Land_CashDesk_F";
-			atlOffset=0.3939209;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12310,7 +12311,6 @@ class Mission
 			};
 			id=752;
 			type="Land_CashDesk_F";
-			atlOffset=0.18852997;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12553,7 +12553,6 @@ class Mission
 			};
 			id=758;
 			type="Land_CashDesk_F";
-			atlOffset=0.19405365;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21861,6 +21860,7 @@ class Mission
 						angles[]={0,0.53849125,6.2823396};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -21868,7 +21868,7 @@ class Mission
 					};
 					id=1020;
 					type="C_man_1";
-					atlOffset=0.5116539;
+					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24284,6 +24284,7 @@ class Mission
 						angles[]={0,6.1261058,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						init="this enableSimulation false; this allowDamage false; this addAction[""Rob Shop"",life_fnc_robShops,"""",0,false,false,"""",'playerSide == civilian && vehicle player == player && player distance _target < 4']; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
@@ -24291,7 +24292,7 @@ class Mission
 					};
 					id=1067;
 					type="C_Nikos_aged";
-					atlOffset=0.57195091;
+					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24526,6 +24527,7 @@ class Mission
 						angles[]={0,2.8397205,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						init="this enableSimulation false; this allowDamage false; this addAction[""Rob Shop"",life_fnc_robShops,"""",0,false,false,"""",'playerSide == civilian && vehicle player == player && player distance _target < 4']; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
@@ -24533,7 +24535,6 @@ class Mission
 					};
 					id=1075;
 					type="C_Nikos_aged";
-					atlOffset=0.42167664;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24594,7 +24595,6 @@ class Mission
 					};
 					id=1077;
 					type="C_Nikos_aged";
-					atlOffset=0.19090271;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24958,7 +24958,6 @@ class Mission
 					};
 					id=1089;
 					type="C_Nikos_aged";
-					atlOffset=0.20879364;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27289,7 +27288,7 @@ class Mission
 			};
 			id=1226;
 			type="MapBoard_altis_F";
-			atlOffset=-9.5367432e-007;
+			atlOffset=9.4413757e-005;
 		};
 		class Item522
 		{
@@ -31781,14 +31780,13 @@ class Mission
 				angles[]={0,0.91540778,6.2826962};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false;  this addAction[""Sky Dive (30.000$)"",life_fnc_skyDive];";
 			};
 			id=1692;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.0002412796;
+			atlOffset=0.37200069;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -73096,7 +73094,7 @@ class Mission
 			};
 			id=10888;
 			type="RoadCone_L_F";
-			atlOffset=0.62102127;
+			atlOffset=0.72298431;
 		};
 		class Item2176
 		{
@@ -78805,7 +78803,7 @@ class Mission
 			position[]={3708.342,2.1239096e+029,13150.237};
 			name="car_g_9";
 			type="Empty";
-			angle=178.70879;
+			angle=178.70876;
 			id=11215;
 			atlOffset=2.1239096e+029;
 		};
@@ -79107,6 +79105,173 @@ class Mission
 			id=11232;
 			type="max_bike2";
 			atlOffset=0.074176788;
+		};
+		class Item2432
+		{
+			dataType="Trigger";
+			position[]={3649.0481,10.203247,13112.314};
+			class Attributes
+			{
+				name="safe_zone_kav";
+				condition="(vehicle player) in thislist";
+				onActivation="_nil = [] execVM 'scripts\zone_safe_enter.sqf'";
+				onDeactivation="_nil = [] execVM 'scripts\zone_safe_exit.sqf' ";
+				sizeA=175;
+				sizeB=175;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+			};
+			id=11234;
+			type="EmptyDetector";
+			atlOffset=-0.028475761;
+		};
+		class Item2433
+		{
+			dataType="Trigger";
+			position[]={11594.787,23.592285,11990.184};
+			class Attributes
+			{
+				name="safe_zone_kav_1";
+				condition="(vehicle player) in thislist";
+				onActivation="_nil = [] execVM 'scripts\zone_safe_enter.sqf'";
+				onDeactivation="_nil = [] execVM 'scripts\zone_safe_exit.sqf'";
+				sizeA=175;
+				sizeB=175;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+			};
+			id=11235;
+			type="EmptyDetector";
+			atlOffset=-0.0010852814;
+		};
+		class Item2434
+		{
+			dataType="Trigger";
+			position[]={14023.056,26.434681,18724.516};
+			class Attributes
+			{
+				name="safe_zone_ath";
+				condition="(vehicle player) in thislist";
+				onActivation="_nil = [] execVM 'scripts\zone_safe_enter.sqf'";
+				onDeactivation="_nil = [] execVM 'scripts\zone_safe_exit.sqf'";
+				sizeA=175;
+				sizeB=175;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+			};
+			id=11236;
+			type="EmptyDetector";
+		};
+		class Item2435
+		{
+			dataType="Trigger";
+			position[]={25736.371,20.610897,21371.359};
+			class Attributes
+			{
+				name="safe_zone_sof";
+				condition="(vehicle player) in thislist";
+				onActivation="_nil = [] execVM 'scripts\zone_safe_enter.sqf'";
+				onDeactivation="_nil = [] execVM 'scripts\zone_safe_exit.sqf'";
+				sizeA=175;
+				sizeB=175;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+			};
+			id=11237;
+			type="EmptyDetector";
+			atlOffset=1.9073486e-006;
+		};
+		class Item2436
+		{
+			dataType="Trigger";
+			position[]={16896.188,19.670532,12659.613};
+			class Attributes
+			{
+				name="safe_zone_phy";
+				condition="(vehicle player) in thislist";
+				onActivation="_nil = [] execVM 'scripts\zone_safe_enter.sqf'";
+				onDeactivation="_nil = [] execVM 'scripts\zone_safe_exit.sqf'";
+				sizeA=175;
+				sizeB=175;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+			};
+			id=11238;
+			type="EmptyDetector";
+			atlOffset=-0.32610893;
+		};
+		class Item2437
+		{
+			dataType="Trigger";
+			position[]={4629.3477,54.889893,13053.003};
+			class Attributes
+			{
+				onActivation="""M1"" setMarkerColor ""ColorRed""; hint ""MIASTO KORE PRZEJĘTE PRZEZ REBELKE CZERWONA STREFA"";";
+				sizeA=10;
+				sizeB=10;
+				timeout[]={5,5,5};
+				interuptable=1;
+				repeatable=1;
+				activationType="CIV D";
+				activationBy="CIV";
+			};
+			id=11239;
+			type="EmptyDetector";
+			atlOffset=0.020950317;
+		};
+		class Item2438
+		{
+			dataType="Trigger";
+			position[]={4629.2393,54.228516,13052.86};
+			class Attributes
+			{
+				onActivation="""M1"" setMarkerColor ""ColorGreen""; hint ""MIASTO KORE ZNÓW WOLNE OD RABUSIÓW"";";
+				sizeA=10;
+				sizeB=10;
+				timeout[]={5,5,5};
+				interuptable=1;
+				repeatable=1;
+				activationBy="WEST SEIZED";
+				type="WEST G";
+			};
+			id=11240;
+			type="EmptyDetector";
+			atlOffset=-0.54931641;
+		};
+		class Item2439
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4629.2319,59.069874,13052.429};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=11241;
+			type="Land_PowerLine_part_F";
+			atlOffset=-0.86484528;
+		};
+		class Item2440
+		{
+			dataType="Marker";
+			position[]={4628.7534,4.7978179e+036,13052.395};
+			name="m1";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorGrey";
+			fillName="DiagGrid";
+			a=50;
+			b=50;
+			id=11242;
+			atlOffset=4.7978179e+036;
 		};
 	};
 };
