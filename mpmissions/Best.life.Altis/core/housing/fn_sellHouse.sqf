@@ -40,7 +40,7 @@ if(_action) then {
 	_house SVAR ["locked",false,true];
 	deleteMarkerLocal format["house_%1",_house GVAR "uid"];
 	_house SVAR ["uid",nil,true];
-
+    _house setVariable ["alarme",false,true]; 
 	TTPBANK = TTPBANK + (round((_houseCfg select 0)/2));
 	[1] call SOCK_fnc_updatePartial;
 	_index = life_vehicles find _house;

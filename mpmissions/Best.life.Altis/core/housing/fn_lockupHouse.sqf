@@ -24,3 +24,4 @@ for "_i" from 1 to _numberOfDoors do {
 
 _house SVAR ["locked",true,true];
 titleText[localize "STR_House_LockedUp","PLAIN"];
+_house setVariable ["alarme",true,true];

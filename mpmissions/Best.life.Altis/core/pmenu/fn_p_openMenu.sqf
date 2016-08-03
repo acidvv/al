@@ -51,8 +51,7 @@ switch(playerSide) do {
 		ctrlShow[2402,false];//Terror Button
 		ctrlShow[1219,false];//Backup Icon
 		ctrlShow[2419,false];//Backup Button
-		ctrlShow[1210,false];//Wanted Menu
- 		ctrlShow[2008,false];//Wanted Boutton
+		
 	};
 
 	case independent: {

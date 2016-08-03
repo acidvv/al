@@ -12,6 +12,9 @@ if(life_houses isEqualTo []) exitWith {}; //Nothing to do.
 	_house = nearestObject [_position, "House"];
 	_house setVariable["uid",round(random 99999),true];
 	_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
+	 _house setVariable ["locked",true,true]; //Lock up all the stuff.
+        _house setVariable ["alarme",true,true]; // Código adicionado
+ 
 
 	_marker = createMarkerLocal [format["house_%1",(_house getVariable "uid")],_position];
 	_marker setMarkerTextLocal _houseName;

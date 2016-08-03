@@ -36,7 +36,11 @@ if((nearestObject [[6620.5,15660.9,0],"Land_Dome_Small_F"]) == _building OR (nea
 } else {
 	[0,"STR_ISTR_Bolt_AlertHouse",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 };
-
+if ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _building || (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _building) then {
+    [[1,2],"STR_ISTR_Bolt_AlertFed",true,[]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+} else {
+    [0,"STR_ISTR_Bolt_AlertHouse",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+};
 life_action_inUse = true;
 //Setup the progress bar
 disableSerialization;

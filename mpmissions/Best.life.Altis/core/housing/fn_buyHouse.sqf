@@ -51,7 +51,8 @@ if(_action) then {
 	_house SVAR ["locked",true,true];
 	_house SVAR ["containers",[],true];
 	_house SVAR ["uid",floor(random 99999),true];
-
+     
+    _house setVariable ["alarme",true,true]; 
 	life_vehicles pushBack _house;
 	life_houses pushBack [str(getPosATL _house),[]];
 	_marker = createMarkerLocal [format["house_%1",(_house GVAR "uid")],getPosATL _house];
