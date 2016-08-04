@@ -205,7 +205,8 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "max_biker_helmet", "kask", 1000, { "", "", -1 } },
-            { "fbi_rru_Helmet", "tajniak", 1000, { "", "", -1 } },
+			{ "H_Cap_police", "czapa", 1000, { "", "", -1 } },
+            { "fbi_rru_Helmet", "hełm", 1000, { "", "", -1 } },
 			{ "security_cap", "oficerka", 150, { "life_coplevel", "SCALAR", 3 } },
             { "H_Beret_02", "", 150, { "life_coplevel", "SCALAR", 5 } },
             { "H_HelmetB_light_desert", "", 11150, { "life_coplevel", "SCALAR", 6 } },
