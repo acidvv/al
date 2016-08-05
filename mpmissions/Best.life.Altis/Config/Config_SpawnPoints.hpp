@@ -61,16 +61,15 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 		};
-
-      /*  class RebelS {
-            displayName = "Rebelia PÓŁNOC";
-            spawnMarker = "Rebelop";
+	class RebelE {
+            displayName = "Rebelia ZADUPIE";
+            spawnMarker = "Rebelop_2";
             icon = "icons\civspawn.paa";
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
         };
 
-        class RebelN {
+      /*  class RebelN {
             displayName = "Rebelia POŁUDNIE";
             spawnMarker = "Rebelop_1";
             icon = "icons\civspawn.paa";
@@ -78,9 +77,9 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class RebelE {
-            displayName = "Rebelia ZADUPIE";
-            spawnMarker = "Rebelop_2";
+         class RebelS {
+            displayName = "Rebelia PÓŁNOC";
+            spawnMarker = "Rebelop";
             icon = "icons\civspawn.paa";
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
