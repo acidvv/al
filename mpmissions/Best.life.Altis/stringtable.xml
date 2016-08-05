@@ -4053,7 +4053,7 @@
 			<Russian></Russian>
 			<German>Du darfst keine Leichen durchsuchen</German>
 			<Portuguese>Você não está liberado para lootiar corpos mortos</Portuguese>
-			<Polish>Nie możesz przeszukiwać martwych ciał</Polish>
+			<Polish>Oszalałeś martwego okradasz?</Polish>
 		</Key>
 		<Key ID="STR_NOTF_Frozen">
 			<Original>You have been frozen by an administrator.</Original>
@@ -4067,7 +4067,7 @@
 			<Polish>Zostałeś zamrożony przez administratora</Polish>
 		</Key>
 		<Key ID="STR_NOTF_Teleport">
-			<Original>You have teleported to your selected position.</Original>
+			<Original>Teleportowałeś sie.</Original>
 			<Czech>Jste teleported do vašeho zvolené poloze.</Czech>
 			<French>Vous avez téléporté à votre position sélectionnée.</French>
 			<Spanish>Te has teletransportado a la posisción seleccionada.</Spanish>
@@ -4159,9 +4159,9 @@
 			<French>Impossible de donner cet article, peut-être vous ne disposez pas d'autant?</French>
 			<Spanish>No se pudo dar a que gran parte de ese elemento, tal vez usted no tiene esa cantidad?</Spanish>
 			<Italian>non poteva dare che gran parte di tale elemento, forse non si dispone di tale importo?</Italian>
-			<Polish>nie mógł dać, że wiele z tego elementu, może nie masz tej kwoty?</Polish>
+			<Polish>Nie możesz dać, może nie masz tej kwoty?</Polish>
 			<Portuguese>não poderia dar que muito desse item, talvez você não tem essa quantia?</Portuguese>
-			<Russian>Не могу дать, что большая часть этого пункта, может быть, у вас нет этой суммы?</Russian>
+			<Russian>Не могу дать, что больая часть этого пункта, может быть, у вас нет этой суммы?</Russian>
 			<German>Nicht geben konnte, dass dieser Artikel viel, vielleicht auch nicht, dass die Menge, die Sie tun?</German>
 		</Key>
 		<Key ID="STR_NOTF_youGaveItem">
@@ -4181,7 +4181,7 @@
 			<French>Vous n'avez pas autant sur vous!</French>
 			<Spanish>Usted no tiene mucho para dar!</Spanish>
 			<Italian>Non avete molto da dare!</Italian>
-			<Polish>Nie ma tego dużo dać!</Polish>
+			<Polish>Nie masz tyle!</Polish>
 			<Portuguese>Você não tem muito para dar!</Portuguese>
 			<Russian>Вы не так много, чтобы дать!</Russian>
 			<German>Sie haben nicht so viel zu geben!</German>
@@ -4198,12 +4198,12 @@
 			<German>Sie gaben $%1 %2.</German>
 		</Key>
 		<Key ID="STR_NOTF_recentlyRobbedBank">
-			<Original>Borabowałeś bank musisz trochę doczekać.</Original>
+			<Original>Obrabowałeś bank musisz trochę poczekać.</Original>
 			<Czech>Nedávno jste vyloupil banku! Nemůžete dávat peníze pryč jen zatím.</Czech>
 			<French>Vous avez récemment volé la banque! Vous ne pouvez pas donner de l'argent pour l'instant.</French>
 			<Spanish>Recientemente has robado el banco! No se puede dar dinero por el momento.</Spanish>
 			<Italian>Recentemente hai rapinato la banca! Non si può dare via i soldi appena ancora.</Italian>
-			<Polish>Niedawno obrabował bank! Nie można dać pieniądze w błoto jeszcze.</Polish>
+			<Polish>Obrabowałeś bank musisz trochę poczekać.</Polish>
 			<Portuguese>Recentemente, você roubou o banco! Você não pode dar dinheiro fora ainda.</Portuguese>
 			<Russian>Вы недавно ограбили банк! Вы не можете отдавать деньги только пока.</Russian>
 			<German>Sie beraubt kürzlich die Bank! Sie können kein Geld geben nur noch weg.</German>
@@ -4236,7 +4236,7 @@
 			<French>Vous ne possédez pas de véhicules.</French>
 			<Spanish>Usted no posee ningún vehículo.</Spanish>
 			<Italian>Non possedete tutti i veicoli.</Italian>
-			<Polish>Nie posiada żadnych pojazdów.</Polish>
+			<Polish>Nie jesteś właścicieleem.</Polish>
 			<Portuguese>Você não possui quaisquer veículos.</Portuguese>
 			<Russian>Вы не являетесь владельцем каких-либо транспортных средств.</Russian>
 			<German>Sie besitzen keine Fahrzeuge.</German>
@@ -4269,7 +4269,7 @@
 			<French>Vous ne pouvez pas supprimer les clés de votre maison!</French>
 			<Spanish>No se puede quitar las llaves de su casa!</Spanish>
 			<Italian>Non è possibile rimuovere le chiavi a casa tua!</Italian>
-			<Polish>Nie można usunąć klucze do swojego domu!</Polish>
+			<Polish>Nie można usunąć kluczy do swojego domu!</Polish>
 			<Portuguese>Você não pode remover as chaves de sua casa!</Portuguese>
 			<Russian>Вы не можете удалить ключи к вашему дому!</Russian>
 			<German>Sie können nicht die Schlüssel zu Ihrem Haus zu entfernen!</German>
@@ -4280,7 +4280,7 @@
 			<French>Vous avez rien sélectionné à supprimer.</French>
 			<Spanish>No ha seleccionado nada que quitar.</Spanish>
 			<Italian>Non hai selezionato niente da rimuovere.</Italian>
-			<Polish>Nie zrobił nic, aby usunąć wybrać.</Polish>
+			<Polish>Nie wybrałeś nic do usunięcia.</Polish>
 			<Portuguese>Você não selecionou nada para remover.</Portuguese>
 			<Russian>Вы ничего удалить не выбрать.</Russian>
 			<German>Sie haben nichts auswählen zu entfernen.</German>
@@ -4417,7 +4417,7 @@
 			<French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nPermis de port d'arme\n LicenceRebel</French>
 			<Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
 			<Portuguese>Você perdeu as seguintes licenças por ter sido preso\n\nPorte de Armas\n\nTreinamento Rebelde</Portuguese>
-			<Polish>Z uwagi na aresztowanie straciłeś następujące licencje jeśli je posiadałeś \n\nPozwolenie na broń \nTrening Rebelianta</Polish>
+			<Polish>Z uwagi na aresztowanie straciłeś nielegalne licencje \n\nPozwolenie na broń \nTrening Rebelianta</Polish>
 		</Key>
 		<Key ID="STR_Jail_EscapeNOTF">
 			<Original>%1 has escaped from jail!</Original>
