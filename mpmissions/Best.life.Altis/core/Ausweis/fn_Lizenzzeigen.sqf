@@ -24,8 +24,8 @@ switch(playerSide)do{
  };
  case independent:{
   switch (call life_mediclevel) do{
-	case 1: { _rang = "Salowy"; };
-	case 2: { _rang = "Kaczkowy"; };
+	case 1: { _rang = "Kaczkowy"; };
+	case 2: { _rang = "Salowy"; };
 	case 3: { _rang = "Pielegniarz"; };
 	case 4: { _rang = "Lekarz"; };
 	case 5: { _rang = "Logistyk"; };
