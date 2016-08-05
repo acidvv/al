@@ -60,7 +60,7 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-		};
+		
 	class RebelE {
             displayName = "Rebelia ZADUPIE";
             spawnMarker = "Rebelop_2";
@@ -68,7 +68,7 @@ class CfgSpawnPoints {
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
         };
-
+	};
       /*  class RebelN {
             displayName = "Rebelia POŁUDNIE";
             spawnMarker = "Rebelop_1";
