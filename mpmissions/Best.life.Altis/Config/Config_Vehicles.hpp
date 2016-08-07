@@ -386,13 +386,6 @@ class CarShops {
             { "B_Truck_01_fuel_F", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
             { "shounka_a3_dafxf_euro6_f", { "", "", -1 } },
-            { "shounka_ivceco_bleufonce", { "", "", -1 } },
-            { "shounka_ivceco_grise", { "", "", -1 } },
-            { "shounka_ivceco_noir", { "", "", -1 } },
-            { "shounka_ivceco_orange", { "", "", -1 } },
-            { "shounka_ivceco_rose", { "", "", -1 } },
-            { "shounka_ivceco_rouge", { "", "", -1 } },
-            { "shounka_ivceco_violet", { "", "", -1 } },
            	{ "O_Truck_03_device_F",  { "", "", -1 } }
         };
     };
@@ -466,8 +459,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
-            { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 2 } },
-            { "max_ambulance", { "life_medicLevel", "SCALAR", 2 } }
+            { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 2 } }
         };
     };
 
@@ -885,10 +877,10 @@ class O_T_LSV_02_armed_F {
         textures[] = { };
     };
        class shounka_a3_dafxf_euro6_f {
-        vItemSpace = 630;
+        vItemSpace = 1230;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 3850000;
-		assurPrice = 1135500;
+        price = 10450000;
+		assurPrice = 2135500;
         textures[] = { };
     };
 	
