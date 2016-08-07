@@ -3,7 +3,7 @@ Description : Taxi Script to Pyrgos
 Author : Mahony
 */
 _price = 13000;
-_taxigerufen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka została wezwana!</t>";
+_taxigerufen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka została wezwana! Zakaz używania podczas wszelkich interakcji</t>";
 _taxiangekommen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka powinna byc już na miejscu teraz masz 5 sec aby do niej wsiąść </t>";
 if ((life_atmbank) < _price + 25000) exitWith {
 hint "Na Taxi trzeba mieć pieniądze ! !";
@@ -34,9 +34,10 @@ sleep 30;
 _taxiP = "C_Hatchback_01_yellow_F" createVehicle position player;
 _taxiP allowDamage false;
 hint parseText (_taxiangekommen);
-sleep 6;
+sleep 8;
 deleteVehicle _taxiP;
 waitUntil {vehicle player != player};
+
 sleep 1;
 player allowDamage true;
 titleText ["Jesteś w drodze do Pyrgos !", "BLACK FADED", 20];
