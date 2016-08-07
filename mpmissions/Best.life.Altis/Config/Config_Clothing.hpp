@@ -255,6 +255,7 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_ViperLightHarness_khk_F", "", 13500, { "", "", -1 } },
+			{ "Steerable_Parachute_F", "", 2000, { "", "", -1 } },
 			{ "B_Carryall_khk", "", 22000, { "", "", -1 } },
 			{ "B_Carryall_ocamo", "", 22000, { "", "", -1 } },
 			  { "B_UAV_01_backpack_F", "", 26500, { "life_coplevel", "SCALAR", 9 } }
@@ -998,6 +999,7 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 2000, { "", "", -1 } },
+			{ "Steerable_Parachute_F", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 4000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 4000, { "", "", -1 } },
