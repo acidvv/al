@@ -567,6 +567,14 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			{ "FirstAidKit", "Apteczka", 250, 65 },
+			{ "ItemGPS", "GPS", 1500, 45 },
+            { "ItemMap", "Mapa", 50, 35 },
+            { "ItemCompass", "Kompas", 50, 25 },
+            { "ItemWatch", "Zegaros", 50, -1 },
+            { "NVGoggles", "Nokto", 6000, 980 },
+            { "Chemlight_red", "", 300, -1 },
+            { "Chemlight_yellow", "", 300, 50 },
+            { "Chemlight_green", "", 300, 50 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 30500, 2500 },
 			{ "hgun_Rook40_FF", "Rook 9mm", 27500, 2500 },
             { "hgun_ACPC2_F", "ACP .45", 27250, 65 },
