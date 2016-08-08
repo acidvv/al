@@ -8,22 +8,22 @@ class EditorData
 	toggles=1034;
 	class ItemIDProvider
 	{
-		nextID=11392;
+		nextID=11398;
 	};
 	class MarkerIDProvider
 	{
-		nextID=308;
+		nextID=311;
 	};
 	class LayerIndexProvider
 	{
-		nextID=7;
+		nextID=8;
 	};
 	class Camera
 	{
-		pos[]={3685.9133,13.725073,11606.762};
-		dir[]={-0.03588298,-0.31062716,0.94995791};
-		up[]={-0.011725871,0.95050281,0.31048691};
-		aside[]={0.99939191,-9.2728806e-007,0.037746474};
+		pos[]={20782.881,45.022861,7203.9951};
+		dir[]={-0.55635589,-0.46087477,-0.69142783};
+		up[]={-0.28892425,0.88746291,-0.3590689};
+		aside[]={-0.77910286,-1.1269003e-007,0.62690449};
 	};
 };
 binarizationWanted=0;
@@ -117,13 +117,14 @@ addons[]=
 	"Mrshounka_buggy_p",
 	"max_bike",
 	"A3_Structures_F_Ind_Factory",
-	"A3_Structures_F_EPC_Civ_Tourism"
+	"A3_Structures_F_EPC_Civ_Tourism",
+	"A3_Ui_F_Exp"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=26;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -294,6 +295,13 @@ class AddonsMetaData
 		{
 			className="max_bike";
 			name="max_bike";
+		};
+		class Item25
+		{
+			className="A3_Ui_F_Exp";
+			name="Arma 3 Apex - User Interface";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
 		};
 	};
 };
@@ -616,7 +624,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2484;
+		items=2489;
 		class Item0
 		{
 			dataType="Marker";
@@ -77225,7 +77233,6 @@ class Mission
 					};
 					id=11129;
 					type="C_man_1";
-					atlOffset=0.23577118;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -77293,7 +77300,6 @@ class Mission
 			{
 			};
 			id=11128;
-			atlOffset=0.23577118;
 		};
 		class Item2351
 		{
@@ -79252,7 +79258,7 @@ class Mission
 			};
 			id=11239;
 			type="EmptyDetector";
-			atlOffset=14.653473;
+			atlOffset=14.652969;
 		};
 		class Item2438
 		{
@@ -79271,7 +79277,7 @@ class Mission
 			};
 			id=11240;
 			type="EmptyDetector";
-			atlOffset=19.08461;
+			atlOffset=19.084106;
 		};
 		class Item2439
 		{
@@ -79470,16 +79476,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20759.557,45.127995,7216.8345};
+				position[]={20759.557,45.128502,7216.834};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
+				name="Pun";
 			};
 			id=11286;
 			type="Land_TTowerBig_1_F";
-			atlOffset=-4.3404942;
+			atlOffset=-4.3400021;
 		};
 		class Item2452
 		{
@@ -79557,16 +79564,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20799.689,31.774851,7262.7676};
+				position[]={20832.197,32.863914,7238.2114};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 			};
 			id=11346;
 			type="Land_Research_HQ_F";
-			atlOffset=-0.012504578;
+			atlOffset=0.30843163;
 		};
 		class Item2458
 		{
@@ -80289,7 +80296,7 @@ class Mission
 			position[]={3554.5247,1.4507444e+034,11492.146};
 			name="civ_ship_9";
 			type="Empty";
-			angle=160.37895;
+			angle=160.37894;
 			id=11380;
 			atlOffset=1.4507444e+034;
 		};
@@ -80370,7 +80377,7 @@ class Mission
 			position[]={3689.9724,2.2273615e+038,11618.872};
 			name="car_g_10";
 			type="Empty";
-			angle=48.46299;
+			angle=48.462986;
 			id=11386;
 			atlOffset=2.2273615e+038;
 		};
@@ -80441,6 +80448,108 @@ class Mission
 			id=11390;
 			type="Land_HelipadCivil_F";
 			atlOffset=-0.10840249;
+		};
+		class Item2484
+		{
+			dataType="Marker";
+			position[]={20759.582,-6.5200798e-028,7216.8398};
+			name="marker_308";
+			text="Punkt przejęcia Półwyspu";
+			type="flag_CTRG";
+			colorName="ColorBlack";
+			id=11392;
+			atlOffset=-30.183113;
+		};
+		class Item2485
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20750.244,29.696781,7250.729};
+				angles[]={0,4.2151794,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' isNull objectParent player && player distance _target < 4 '];";
+			};
+			id=11393;
+			type="Land_Atm_02_F";
+			atlOffset=-0.0049972534;
+		};
+		class Item2486
+		{
+			dataType="Marker";
+			position[]={20749.193,-6.4194692e-028,7250.4312};
+			name="marker_309";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+			id=11394;
+			atlOffset=-28.425209;
+		};
+		class Item2487
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20768.137,30.474834,7181.3569};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide == civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide == civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide == civilian '];";
+					};
+					id=11396;
+					type="C_man_p_beggar_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11395;
+		};
+		class Item2488
+		{
+			dataType="Marker";
+			position[]={20768.492,-6.1210033e-033,7180.6089};
+			name="marker_310";
+			text="Sklep z bronią";
+			type="loc_Bunker";
+			colorName="ColorRed";
+			id=11397;
+			atlOffset=-30.469986;
 		};
 	};
 };
