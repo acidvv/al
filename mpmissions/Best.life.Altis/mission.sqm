@@ -8,7 +8,7 @@ class EditorData
 	toggles=1034;
 	class ItemIDProvider
 	{
-		nextID=11391;
+		nextID=11392;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={3654.6094,70.790291,11638.965};
-		dir[]={-0.85504943,-0.51862919,0.010067213};
-		up[]={-0.51863348,0.85497326,0.0061080009};
-		aside[]={0.011778205,-4.1668682e-007,1.0000299};
+		pos[]={3685.9133,13.725073,11606.762};
+		dir[]={-0.03588298,-0.31062716,0.94995791};
+		up[]={-0.011725871,0.95050281,0.31048691};
+		aside[]={0.99939191,-9.2728806e-007,0.037746474};
 	};
 };
 binarizationWanted=0;
@@ -80016,18 +80016,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3689.1809,12.225198,11598.595};
-				angles[]={0,2.2100525,0};
+				position[]={3689.1809,12.225258,11598.595};
+				angles[]={0,2.210058,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
-				init="this allowDamage false;  removeallWeapons this;  this enableSimulation false;  this addAction[localize""STR_MAR_Diving_Shop"",life_fnc_clothingMenu,""dive""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""displayName"")),[(getNumber(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dive"",0,false,false,"""",' !license_civ_dive && playerSide == civilian '];";
+				init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' isNull objectParent player && player distance _target < 4 '];";
 			};
 			id=11367;
 			type="Land_Atm_02_F";
-			atlOffset=0.10493946;
+			atlOffset=0.10499954;
 		};
 		class Item2470
 		{
@@ -80289,7 +80289,7 @@ class Mission
 			position[]={3554.5247,1.4507444e+034,11492.146};
 			name="civ_ship_9";
 			type="Empty";
-			angle=160.37898;
+			angle=160.37895;
 			id=11380;
 			atlOffset=1.4507444e+034;
 		};
@@ -80321,17 +80321,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3680.9722,12.408533,11630.564};
+						position[]={3680.9719,12.408357,11630.564};
 						angles[]={0,2.3415859,0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
+						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];}; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_10"";  }];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 					};
 					id=11385;
 					type="C_man_p_fugitive_F";
-					atlOffset=-0.0088396072;
+					atlOffset=-0.0089998245;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -80361,17 +80362,17 @@ class Mission
 			{
 			};
 			id=11384;
-			atlOffset=-0.0088396072;
+			atlOffset=-0.0089998245;
 		};
 		class Item2479
 		{
 			dataType="Marker";
-			position[]={3683.97,4831350,11613.27};
+			position[]={3689.9724,2.2273615e+038,11618.872};
 			name="car_g_10";
 			type="Empty";
-			angle=48.462997;
+			angle=48.46299;
 			id=11386;
-			atlOffset=4831339;
+			atlOffset=2.2273615e+038;
 		};
 		class Item2480
 		{
