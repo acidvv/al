@@ -86,8 +86,8 @@ _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction;
 
 if(FETCH_CONST(life_coplevel) < _seizeRank) then {_Btn8 ctrlEnable false;};
 
-Btn9 ctrlSetText localize "STR_pInAct_Breathalyzer";
-[player] remoteExec [""life_fnc_alkoholdrugtester"",life_pInact_curTarget];closeDialog 0";
+_Btn9 ctrlSetText localize "STR_pInAct_Breathalyzer";
+[player] remoteExec "[life_fnc_alkoholdrugtester,life_pInact_curTarget];closeDialog 0";
 
 //Check that you are near a place to jail them.
 if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_4") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30) OR (player distance (getMarkerPos "cop_spawn_6") < 30) OR (player distance (getMarkerPos "cop_spawn_7") < 30))) then  {
