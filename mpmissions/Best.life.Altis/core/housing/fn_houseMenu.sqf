@@ -127,7 +127,7 @@ if(!(_curTarget in life_vehicles) OR isNil {_curTarget GVAR "house_owner"}) then
 		_Btn3 ctrlShow true;
 	
 	if (_curTarget getVariable ["alarme",true]) then { 
-        _Btn4 ctrlSetText "Odłączenie Alarme";
+        _Btn4 ctrlSetText "Odłączenie alarmu";
         _Btn4 buttonSetAction "life_pInact_curTarget setVariable ['alarme',false,true]; closeDialog 0;";
         _Btn4 ctrlshow true;
         } else {

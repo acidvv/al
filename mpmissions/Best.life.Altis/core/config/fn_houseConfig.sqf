@@ -15,7 +15,7 @@ if(_house isEqualTo "") exitWith {[]};
 */
 switch (true) do {
 	case (_house in ["Land_i_House_Big_02_V1_F","Land_i_House_Big_02_V2_F","Land_i_House_Big_02_V3_F"]): {[7550000,3]};
-	case (_house in ["Land_i_House_Big_01_V1_F","Land_i_House_Big_01_V2_F","Land_i_House_Big_01_V3_F"]): {[1200000,4]};
+	case (_house in ["Land_i_House_Big_01_V1_F","Land_i_House_Big_01_V2_F","Land_i_House_Big_01_V3_F"]): {[11200000,4]};
 	case (_house in ["Land_i_Garage_V1_F","Land_i_Garage_V2_F"]): {[3500000,0]};
 	case (_house in ["Land_i_House_Small_01_V1_F","Land_i_House_Small_01_V2_F","Land_i_House_Small_01_V3_F"]): {[5550000,2]};
 	case (_house in ["Land_i_House_Small_02_V1_F","Land_i_House_Small_02_V2_F","Land_i_House_Small_02_V3_F"]): {[5500500,2]};
