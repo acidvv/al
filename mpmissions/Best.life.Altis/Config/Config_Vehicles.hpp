@@ -2403,14 +2403,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
    class sab_camel_ind_B {
        vItemSpace = 75;
        licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
-       price = 2575000;
+       price = 22575000;
 	   assurPrice = 988500;
        textures[] = {};
    };
    class sab_camel_red_B {
        vItemSpace = 75;
        licenses[] = { {"pilot"}, {"rebel"}, {""}, {""} };
-       price = 12575000;
+       price = 22575000;
 	   assurPrice = 988500;
        textures[] = {};
    };
