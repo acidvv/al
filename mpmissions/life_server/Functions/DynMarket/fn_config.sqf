@@ -12,7 +12,7 @@
 // █████████████████ CONFIGURATION DE BASE DE LA BOURSE ██████████████████
 // ███████████████████████████████████████████████████████████████████████
 
-DYNMARKET_Serveruptime         = 04;     // La durée de fonctionnement jusqu'au prochain redémarrage du serveur en heures.
+DYNMARKET_Serveruptime         = 02;     // La durée de fonctionnement jusqu'au prochain redémarrage du serveur en heures.
 DYNMARKET_UseExternalDatabase  = true;  // Si le script utilise une base de données externe ?
 DYNMARKET_PriceUpdateInterval  = 05;     // Après combien de minutes devrait être mis à jour le prix ?
 DYNMARKET_CreateBackups        = false;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?

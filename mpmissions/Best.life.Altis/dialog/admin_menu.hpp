@@ -150,14 +150,14 @@ class life_admin_menu {
 			h = (1 / 25);
 		};
 
-		//class Debug : Life_RscButtonMenu {
-			//idc = 2911;
-			//text = "$STR_Admin_Debug";
-			//onButtonClick = "[] call life_fnc_adminDebugCon;";
-			//x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-			//y = 0.885;
-			///w = (6.25 / 40);
-			//h = (1 / 25);
-		//};
+		class Debug : Life_RscButtonMenu {
+			idc = 2911;
+			text = "Ceny  marketu";
+			onButtonClick = "createDialog ""life_dynmarket_changeprice"";";
+			x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.885;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
 	};
 };

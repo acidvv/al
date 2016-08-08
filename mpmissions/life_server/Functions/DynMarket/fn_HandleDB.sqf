@@ -16,32 +16,32 @@ switch (_switch) do
 	case 0:
 	{
 		_query = format["UPDATE dynmarket SET prices = '%1' WHERE id=1;",DYNMARKET_Items_CurrentPriceArr];
-		
+		waitUntil {sleep (random 0.3); !DB_Async_Active};
 		_queryResult = [_query,1] call DB_fnc_asyncCall;
-		diag_log "### DYNMARKET >> SAUVEGARDE AVEC SUCCÈS DES PRIX COURANTS DANS LA BASE DE DONNÉES   ###";
+		diag_log "### DYNMARKET >> SUCCESSFULLY BACKUP'D CURRENT PRICES TO DATABASE! ###";
 	};
-	
+
 	case 1:
 	{
 		_query = format["SELECT prices FROM dynmarket WHERE id=1;"];
 
-		
+		waitUntil{sleep (random 0.3); !DB_Async_Active};
 		_tickTime = diag_tickTime;
 		_queryResult = [_query,2] call DB_fnc_asyncCall;
 		//DYNMARKET_Items_CurrentPriceArr = _queryResult select 0;
 		_pricearray = _queryResult select 0;
 		if (count _pricearray < 1) then {
-			diag_log "########################## BOURSE DYNAMIQUE ##########################";
-			diag_log "###        NE PEUT PAS CHARGER LES PRIX DAND LA BDD: ERREUR 01x    ###";
-			diag_log "###        LA REQUÊTE DES PRIX ÉTAIT EXCEPTIONNELEMENT VIDE!       ###";
-			diag_log "###        SI VOUS UTILISER LA BOURSE DYNAMIQUE POUR LA 1ÈRE FOIS, ###";
-			diag_log "###        SVP IGNOREZ CE MESSAGE!                                 ###";
-			diag_log "######################################################################";
+			diag_log "########################## DYNAMIC MARKET ##########################";
+			diag_log "### >> CAN'T LOAD PRICES FROM DATABASE: ERROR 01x                ###";
+			diag_log "###        THE REQUESTED PRICEARRAY WAS UNEXPECTEDLY EMPTY!      ###";
+			diag_log "###        IF YOU ARE RUNNING DYNMARKET FOR THE FIRST TIME,      ###";
+			diag_log "###        PLEASE IGNORE THIS ERROR!                             ###";
+			diag_log "####################################################################";
 		} else {
 			DYNMARKET_Items_CurrentPriceArr = _pricearray;
 			{
 				_itemName = _x select 0;
-				_itemNewPrice = _x select 1;		
+				_itemNewPrice = _x select 1;
 				_index = -1;
 				{
 					_index = _index + 1;
@@ -51,8 +51,8 @@ switch (_switch) do
 					};
 				} forEach DYNMARKET_sellarraycopy;
 			} forEach DYNMARKET_Items_CurrentPriceArr;
-			diag_log "########################## BOURSE DYNAMIQUE ########################";
-			diag_log "###  LES PRIX ONT ÉTÉ CHARGÉ AVEC SUCCÈS DANS LA BASE DE DONNÉES ###";
+			diag_log "########################## DYNAMIC MARKET ##########################";
+			diag_log "### >> SUCCESSFULLY LOADED PRICES FROM DATABASE!                 ###";
 			diag_log "####################################################################";
 		};
 	};

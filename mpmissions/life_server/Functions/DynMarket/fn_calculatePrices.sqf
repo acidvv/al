@@ -18,7 +18,7 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 	_itemPriceMax = 0;
 	_itemGroupName = "";
 	_itemFactorOfGroup = 0;
-	
+
 	_exit = false;
 	if (_itemAmountSold>0) then
 	{
@@ -43,9 +43,9 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 				} forEach _GROUPITEMSarray;
 			};
 		} forEach DYNMARKET_Items_Groups;
-		
+
 		//ADJUST THE PRICES
-		
+
 		{
 			_GROUParray = _x;
 			_GROUPNAME = _GROUParray select 0;
@@ -58,9 +58,9 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 					_curITEMpriceperunit = _ITEMSarray select 1;
 					_curITEMmin = _ITEMSarray select 2;
 					_curITEMmax = _ITEMSarray select 3;
-					if (_curITEMname==_itemName) then 
+					if (_curITEMname==_itemName) then
 					{
-						// Chercher l'ancien prix.
+						// Find old price
 						_curItemOldPrice = 0;
 						{
 							_curItemName2 = _x select 0;
@@ -70,8 +70,7 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 								_curItemOldPrice = _curItemPrice2;
 							};
 						} forEach DYNMARKET_Items_CurrentPriceArr;
-						
-						// Calculer le nouveau prix.
+						// Calculate new own price
 						_NEWPRICE = _curItemOldPrice-(_itemAmountSold*(_curItemOldPrice/2000)*_itemFactorOfGroup);
 						if (_NEWPRICE<_curITEMmin) then {_NEWPRICE=_curITEMmin};
 						if (_NEWPRICE>_curITEMmax) then {_NEWPRICE=_curITEMmax};
@@ -86,8 +85,7 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 							};
 						} forEach DYNMARKET_Items_CurrentPriceArr;
 					} else {
-					
-						// Calcule du nouveau prix.
+						// Calculate new price
 						_index = -1;
 						{
 							_index = _index + 1;
@@ -108,13 +106,14 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 	};
 } forEach DYNMARKET_Items_CurrentPriceArr;
 DYNMARKET_Items_CurrentPriceArr = _tempArrayHolder;
+//[1,DYNMARKET_Items_CurrentPriceArr] remoteExecCall ["life_fnc_update",2];
 
 // Translate to sell_array
 
 {
 	_itemName = _x select 0;
 	_itemNewPrice = _x select 1;
-	
+
 	_index = -1;
 	{
 		_index = _index + 1;
@@ -125,4 +124,4 @@ DYNMARKET_Items_CurrentPriceArr = _tempArrayHolder;
 	} forEach DYNMARKET_sellarraycopy;
 } forEach DYNMARKET_Items_CurrentPriceArr;
 
-[1,DYNMARKET_sellarraycopy] remoteExecCall ["life_fnc_update",2];
+[1,DYNMARKET_sellarraycopy] remoteExecCall ["life_fnc_update",-2];
