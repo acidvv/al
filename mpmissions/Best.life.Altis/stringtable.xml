@@ -5180,6 +5180,10 @@
     <Key ID="STR_MISC_AlreadyDrinking">
       <Original>Jesteś już pijany...</Original>
     </Key>
+	
+<Key ID="STR_pInAct_Breathalyzer">
+<Original>Alkohol-Narkotest</Original>
+</Key>
     <Key ID="STR_MISC_WestIndNoNo">
       <Original>Nie można pić na służbie!</Original>
     </Key>

@@ -260,6 +260,7 @@ class Life_Client_Core {
 		class copOpener {};
 		class seizePlayerWeapon {};
 		class seizePlayerWeaponAction {};
+		class alkoholdrugtester {};
 	};
 
 	class Dialog_Controls {
