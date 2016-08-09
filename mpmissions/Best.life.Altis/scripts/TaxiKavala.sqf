@@ -38,7 +38,7 @@ sleep 8;
 deleteVehicle _taxiK;
 waitUntil {vehicle player != player};
 
-sleep 1;
+
 player allowDamage true;
 titleText ["Jesteś w drodze do Kavala !", "BLACK FADED", 20];
 playSound "taxi";

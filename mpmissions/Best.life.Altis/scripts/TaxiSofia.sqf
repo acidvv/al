@@ -37,7 +37,7 @@ hint parseText (_taxiangekommen);
 sleep 8;
 deleteVehicle _taxiS;
 waitUntil {vehicle player != player};
-sleep 1;
+
 player allowDamage true;
 titleText ["Jesteś w drodze do Sofia !", "BLACK FADED", 20];
 playSound "taxi";

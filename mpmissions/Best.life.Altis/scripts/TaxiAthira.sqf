@@ -40,7 +40,7 @@ sleep 8;
 deleteVehicle _taxiA;
 waitUntil {vehicle player != player};
 
-sleep 1;
+
 player allowDamage true;
 titleText ["Jesteś w drodze do Athira !", "BLACK FADED", 20];
 playSound "taxi";
