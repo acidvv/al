@@ -21,7 +21,7 @@ if(life_inv_zipties < 1) then
 } else {
     life_inv_zipties = life_inv_zipties - 1;
     //Broadcast!
-    _unit say3D "ziptie";
+    [_unit,"ziptie"] remoteExec ["life_fnc_globalSound",0]; 
     _unit SVAR["civrestrained",true,true];
     hint "you have restrained the player";
 	[player] remoteExec [ "life_fnc_civRestrain", _unit];

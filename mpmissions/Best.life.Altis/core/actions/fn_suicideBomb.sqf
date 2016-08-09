@@ -9,7 +9,7 @@ if(life_isSuicide) exitWith {};
 if(life_knockout) exitWith {};
 if(safezone) exitWith {};
 life_isSuiciding = true;
-[player,"sVest"] remoteExec ["life_fnc_say3D",RANY];
+[player,"sVest"] remoteExec ["life_fnc_globalSound",0]; 
 sleep 3;
 
 if(vest player != "V_HarnessOGL_brn") exitWith {life_isSuiciding = false;};

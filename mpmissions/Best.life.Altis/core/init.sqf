@@ -208,7 +208,7 @@ if (_total > 0) then
 				sleep 0.3;
 				if (speed vehicle player < 1) then
 				{
-					playSound "glassbreak";
+					[player,"glassbreak"] remoteExec ["life_fnc_globalSound",0];
 					moveOut player;
 					player setVelocity [(oldVehVelocity select 0) * 0.4,(oldVehVelocity select 1) * 0.4,((oldVehVelocity select 2) * 0.4) + 5];
 					sleep 2;
@@ -217,7 +217,7 @@ if (_total > 0) then
 			} else {
 				if (!life_seatwarn) then {
 					sleep 1;
-					playSound "seatwarn";
+					[player,"seatwarn"] remoteExec ["life_fnc_globalSound",0]; 
 					life_seatwarn = true;
 				};
 				uiSleep 1;

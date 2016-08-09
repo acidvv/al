@@ -11,7 +11,7 @@ closeDialog 0;
 
 //Little hint then wait a litle before starting drugs effects
 hint "O shit its dat boi!";
-[player,"smokeweed"] call life_fnc_globalSound;
+[player,"smokeweed"] remoteExec ["life_fnc_globalSound",0]; 
 //player say3D "smokeweed";
 
 sleep 3;

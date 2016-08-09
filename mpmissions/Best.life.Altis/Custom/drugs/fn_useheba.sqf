@@ -8,7 +8,7 @@ sleep 5;
 player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
 
 player setVariable ["Druged", true, true];
-playsound "hebasound" call life_fnc_globalSound;
+[player,"hebasound"] remoteExec ["life_fnc_globalSound",0]; 
 //player say3D "heba_sound"intro";";
 
 [] spawn {
