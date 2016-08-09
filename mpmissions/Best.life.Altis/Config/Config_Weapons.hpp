@@ -615,7 +615,9 @@ class WeaponShops {
 			{ "muzzle_snds_H", " 6.5mm", 115050 },
 			{ "muzzle_snds_B", "  7.62mm", 118750 },
             { "acc_pointer_IR", "Laser", 11500 },
-            { "acc_flashlight", "Latarka", 11000 }
+            { "acc_flashlight", "Latarka", 11000 },
+            { "Skyline_C_Remote_Cam", "kontrola kamery", 1011000 }
+            
         };
         mags[] = {
 			{ "6Rnd_45ACP_Cylinder", "  9rnd .45", 1725 },
@@ -979,7 +981,9 @@ class WeaponShops {
 			{ "optic_DMS", "DMS", 275 },
 			{ "optic_Hamr", "Hamr", 275 },
 			{ "muzzle_snds_Lt", "  9mm", 750 },
-			{ "muzzle_snds_M", "  5.56mm", 750 }
+			{ "muzzle_snds_M", "  5.56mm", 750 },
+            { "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }
+
 			
         };
         mags[] = {
@@ -1217,7 +1221,8 @@ class cop_tenente_coronel {
 			{ "muzzle_snds_Lt", "  9mm", 750 },
 			{ "muzzle_snds_B", "  7.62mm", 750 },
 			{ "muzzle_snds_M", "  5.56mm", 750 },
-			{ "muzzle_snds_H", "  6.5mm", 750 }
+			{ "muzzle_snds_H", "  6.5mm", 750 },
+            { "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
