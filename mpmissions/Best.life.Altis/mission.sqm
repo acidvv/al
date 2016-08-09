@@ -8,7 +8,7 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=11493;
+		nextID=11496;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=21;
+		nextID=22;
 	};
 	class Camera
 	{
-		pos[]={20776.391,47.599712,13323.556};
-		dir[]={-0.97716236,-0.21126898,-0.023171214};
-		up[]={-0.21121496,0.97742599,-0.0050084796};
-		aside[]={-0.023706092,4.152389e-008,0.99972755};
+		pos[]={3670.6538,40.09623,11675.115};
+		dir[]={-0.32080716,-0.27422968,-0.90659589};
+		up[]={-0.091485292,0.96165937,-0.25853562};
+		aside[]={-0.9427368,-1.4185207e-007,0.33359626};
 	};
 };
 binarizationWanted=0;
@@ -631,7 +631,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2514;
+		items=2516;
 		class Item0
 		{
 			dataType="Marker";
@@ -81521,7 +81521,7 @@ class Mission
 				};
 			};
 			id=11457;
-			atlOffset=7.1171684;
+			atlOffset=7.1171875;
 		};
 		class Item2499
 		{
@@ -81538,7 +81538,7 @@ class Mission
 			};
 			id=11458;
 			type="Skyline_Security_Cam_01_F";
-			atlOffset=7.1171684;
+			atlOffset=7.1171875;
 		};
 		class Item2500
 		{
@@ -81592,7 +81592,7 @@ class Mission
 				};
 			};
 			id=11460;
-			atlOffset=0.32504654;
+			atlOffset=0.27487183;
 		};
 		class Item2501
 		{
@@ -81609,7 +81609,7 @@ class Mission
 			};
 			id=11461;
 			type="Skyline_Security_Cam_01_F";
-			atlOffset=0.32504654;
+			atlOffset=0.27487183;
 		};
 		class Item2502
 		{
@@ -82036,6 +82036,77 @@ class Mission
 			id=11491;
 			type="Skyline_Security_Cam_01_F";
 			atlOffset=3.8580208;
+		};
+		class Item2514
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3676.3708,16.82859,11630.354};
+						angles[]={0,4.3550158,0};
+					};
+					side="West";
+					flags=2;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=11495;
+					type="B_UAV_AI";
+					atlOffset=4.8246355;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=11495;
+						item1=11494;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=11493;
+			atlOffset=4.8246355;
+		};
+		class Item2515
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3676.2876,17.078781,11630.382};
+				angles[]={0,4.3550158,0};
+			};
+			side="West";
+			flags=2;
+			class Attributes
+			{
+			};
+			id=11494;
+			type="Skyline_Security_Cam_01_F";
+			atlOffset=4.8246355;
 		};
 	};
 };
