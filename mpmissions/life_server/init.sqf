@@ -82,7 +82,7 @@ master_group attachTo[bank_obj,[0,0,0]];
 	detach _var;
 } foreach ["hospital_2","hospital_3"];
 
-{
+/*{
 	if(!isPlayer _x) then {
 		_npc = _x;
 		{
@@ -91,7 +91,7 @@ master_group attachTo[bank_obj,[0,0,0]];
 			};
 		} foreach [primaryWeapon _npc,secondaryWeapon _npc,handgunWeapon _npc];
 	};
-} foreach allUnits;
+} foreach allUnits;*/
 
 [8,true,12] execFSM "\life_server\FSM\timeModule.fsm";
 

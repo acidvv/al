@@ -14,8 +14,8 @@
 
 DYNMARKET_Serveruptime         = 04;     // La durée de fonctionnement jusqu'au prochain redémarrage du serveur en heures.
 DYNMARKET_UseExternalDatabase  = true;  // Si le script utilise une base de données externe ?
-DYNMARKET_PriceUpdateInterval  = 02;     // Après combien de minutes devrait être mis à jour le prix ?
-DYNMARKET_CreateBackups        = false;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?
+DYNMARKET_PriceUpdateInterval  = 01;     // Après combien de minutes devrait être mis à jour le prix ?
+DYNMARKET_CreateBackups        = true;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?
 DYNMARKET_CreateBackupInterval = 03;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
 DYNMARKET_UserNotification     = false;  // Est-ce que les joueurs devraient être informé par un message (hint) à chaque fois que la bourse est mise à jour ?
 
@@ -41,7 +41,7 @@ DYNMARKET_Items_Groups =
 			["tuna_raw",-1,1300,1800],
 			["mullet_raw",-1,800,1200]
 			],
-		2
+		1.5
 	],
 	
 	["foods",
@@ -51,13 +51,13 @@ DYNMARKET_Items_Groups =
 			["sheep_raw",-1,900,1700],
 			["goat_raw",-1,1300,2500]
 			],
-		2
+		1.5
 	],
 	
 	["Ressources",
 		[
 			["oil_processed",-1,1500,5000],
-			["plank",-1,3000,7500],
+			["plank",-1,3000,6500],
 			["cloth",-1,800,2500],
 			["steelplate",-1,2200,5500],
 			["gunpowder",-1,2000,4500],
@@ -71,17 +71,17 @@ DYNMARKET_Items_Groups =
 			["beer",-1,3000,6500],
 			["cement",-1,1000,4000]
 			],		
-		2.5
+		2
 	],
 	
 	["Illegal", 
 		[
 			
-			["cocaine_processed",-1,5000,10000],
-			["heroin_processed",-1,5500,9500],
-			["whiskey",-1,4500,8000],
+			["cocaine_processed",-1,5000,9000],
+			["heroin_processed",-1,5500,8500],
+			["whiskey",-1,4500,7200],
 			["heba",-1,7000,12000],
-			["marijuana",-1,4000,8000],
+			["marijuana",-1,4000,7500],
 			["C4",-1,22000,57000],
 			["turtle_raw",-1,5000,7000]
 			],
@@ -126,13 +126,13 @@ DYNMARKET_Items_ToTrack        =
 	
 	
 		
-    ["heroin_processed",7000],
+    ["heroin_processed",6500],
 	["whiskey",5500],
 	["heba",8000],
 	["marijuana",5500],
-	["cocaine_processed",7700],
+	["cocaine_processed",7000],
 	["C4",37700],
-	["turtle_raw",6200]
+	["turtle_raw",5200]
 	
 ];
 
