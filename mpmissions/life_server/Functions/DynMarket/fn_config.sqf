@@ -71,7 +71,7 @@ DYNMARKET_Items_Groups =
 			["beer",-1,3000,6500],
 			["cement",-1,1000,4000]
 			],		
-		2
+		2.5
 	],
 	
 	["Illegal", 
@@ -109,27 +109,27 @@ DYNMARKET_Items_ToTrack        =
 	["goat_raw",3000],
 	
 	
-	["oil_processed",2500],
-	["plank",3500],
-	["cloth",1200],
-	["steelplate",3000],
-	["gunpowder",2500],
-	["rubber",2000],
-	["copper_refined",1700],
-	["salt_refined",1375],
-	["iron_refined",2200],
-	["glass",2045],
-	["cement",2000],
-	["diamond_cut",6000],
-	["Skarb",32000],
-	["Beer",4500],
+	["oil_processed",3800],
+	["plank",5200],
+	["cloth",1900],
+	["steelplate",4000],
+	["gunpowder",3400],
+	["rubber",3600],
+	["copper_refined",2300],
+	["salt_refined",2475],
+	["iron_refined",3200],
+	["glass",3045],
+	["cement",3200],
+	["diamond_cut",7500],
+	["Skarb",34000],
+	["Beer",5000],
 	
 	
 		
     ["heroin_processed",6500],
 	["whiskey",5500],
 	["heba",8000],
-	["marijuana",5500],
+	["marijuana",6000],
 	["cocaine_processed",7000],
 	["C4",37700],
 	["turtle_raw",5200]

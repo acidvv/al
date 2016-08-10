@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=29;
+		nextID=30;
 	};
 	class Camera
 	{
-		pos[]={23066.492,89.767555,19911.322};
-		dir[]={0.1670548,-0.4603456,0.87188429};
-		up[]={0.086627595,0.88773912,0.45212355};
-		aside[]={0.98213989,6.587652e-008,-0.18818052};
+		pos[]={20044.021,107.66171,6731.6392};
+		dir[]={0.66003221,-0.28137457,-0.69661343};
+		up[]={0.19353357,0.95959747,-0.20426089};
+		aside[]={-0.72594422,-3.4412369e-007,-0.68782407};
 	};
 };
 binarizationWanted=0;
@@ -49505,12 +49505,12 @@ class Mission
 		class Item1475
 		{
 			dataType="Marker";
-			position[]={20063.482,100.95331,6698.3896};
+			position[]={20050.742,100.78662,6723.1436};
 			name="car_g_6";
 			type="Empty";
 			angle=124.16142;
 			id=8879;
-			atlOffset=1.8920517;
+			atlOffset=-0.29418182;
 		};
 		class Item1476
 		{
@@ -49524,7 +49524,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20084.279,100.95866,6709.9097};
+						position[]={20061.824,101.09544,6735.8491};
 						angles[]={0,6.055088,0};
 					};
 					side="Civilian";
@@ -49536,6 +49536,7 @@ class Mission
 					};
 					id=8882;
 					type="C_man_1";
+					atlOffset=-0.046127319;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -49584,6 +49585,7 @@ class Mission
 			{
 			};
 			id=8881;
+			atlOffset=-0.046127319;
 		};
 		class Item1477
 		{
@@ -81938,7 +81940,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3657.4968,27.991323,11691.321};
+						position[]={3657.4968,27.991322,11691.321};
 						angles[]={0,4.3550158,0};
 					};
 					side="West";
@@ -81949,7 +81951,7 @@ class Mission
 					};
 					id=11495;
 					type="B_UAV_AI";
-					atlOffset=14.912724;
+					atlOffset=14.912723;
 				};
 			};
 			class Attributes
@@ -81978,7 +81980,7 @@ class Mission
 				};
 			};
 			id=11493;
-			atlOffset=14.912724;
+			atlOffset=14.912624;
 		};
 		class Item2513
 		{
@@ -81995,7 +81997,7 @@ class Mission
 			};
 			id=11494;
 			type="Skyline_Security_Cam_01_F";
-			atlOffset=14.912724;
+			atlOffset=14.912624;
 		};
 		class Item2514
 		{

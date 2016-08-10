@@ -70,25 +70,6 @@ if(count _type == 0) exitWith {}; //Not our information being passed...
 //Is there a custom bounty being sent? Set that as the pricing.
 if(_customBounty != -1) then {_type set[1,_customBounty];};
 //Search the wanted list to make sure they are not on it.
-//My way of getting player via uid cus im not adding player to every wanted call parameter. - Panda
-_IFoundYou = ObjNull;
-
-{
-    if(getPlayerUid _x isEqualTo _uid) then
-    {
-        _IFoundYou = _x;
-    };
-} foreach allPlayers;
-
-if (_customBounty != -1) then 
-{
-    bountyToAdd = _customBounty;
-}
-else
-{
-    bountyToAdd = _type select 1;
-};
-
 (owner _IFoundYou) publicVariableClient "bountyToAdd";
 _query = format["SELECT wantedID FROM wanted WHERE wantedID='%1'",_uid];
 _queryResult = [_query,2,true] call DB_fnc_asyncCall;
