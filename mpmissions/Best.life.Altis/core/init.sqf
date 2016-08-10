@@ -119,7 +119,7 @@ waitUntil {!(isNull (findDisplay 46))};
 
 diag_log "Display 46 Found";
 (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call life_fnc_keyHandler"];
-//player addRating 99999999;
+player addRating 99999999;
 diag_log "------------------------------------------------------------------------------------------------------";
 diag_log format["                End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "------------------------------------------------------------------------------------------------------";
@@ -225,6 +225,7 @@ if (_total > 0) then
 		};
 	};
 };
+
 DYNAMICMARKET_boughtItems = [];
  [player] remoteExec ["TON_fnc_playerLogged",RSERV];
 player addEventHandler ["Killed", {[player,_this select 1] spawn fn_whoDunnit;}];

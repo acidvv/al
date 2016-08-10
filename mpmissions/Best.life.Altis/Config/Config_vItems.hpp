@@ -386,7 +386,7 @@ class turtle_raw {
 		variable = "boltCutter";
 		displayName = "STR_Item_BCutter";
 		weight = 5;
-		buyPrice = 17500;
+		buyPrice = 157500;
 		sellPrice = 5000;
 		illegal = true;
 		edible = -1;
@@ -397,7 +397,7 @@ class turtle_raw {
 		variable = "defuseKit";
 		displayName = "STR_Item_DefuseKit";
 		weight = 6;
-		buyPrice = 52500;
+		buyPrice = 152500;
 		sellPrice = 6000;
 		illegal = true;
 		edible = -1;
@@ -566,7 +566,7 @@ class VirtualItems {
 		variable = "boltCutter";
 		displayName = "STR_Item_BCutter";
 		weight = 7;
-		buyPrice = 17500;
+		buyPrice = 177500;
 		sellPrice = 1000;
 		illegal = true;
 		edible = -1;
@@ -577,7 +577,7 @@ class VirtualItems {
 		variable = "defuseKit";
 		displayName = "STR_Item_DefuseKit";
 		weight = 2;
-		buyPrice = 52500;
+		buyPrice = 152500;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;

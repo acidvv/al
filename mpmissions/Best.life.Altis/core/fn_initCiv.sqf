@@ -58,4 +58,4 @@ switch (FETCH_CONST(life_donorlevel)) do
 
 
 
-player addRating -999999999999;
+player addRating 9999999;

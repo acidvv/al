@@ -70,7 +70,7 @@ if(count _type == 0) exitWith {}; //Not our information being passed...
 //Is there a custom bounty being sent? Set that as the pricing.
 if(_customBounty != -1) then {_type set[1,_customBounty];};
 //Search the wanted list to make sure they are not on it.
-(owner _IFoundYou) publicVariableClient "bountyToAdd";
+
 _query = format["SELECT wantedID FROM wanted WHERE wantedID='%1'",_uid];
 _queryResult = [_query,2,true] call DB_fnc_asyncCall;
 _val = [(_type select 1)] call DB_fnc_numberSafe;
