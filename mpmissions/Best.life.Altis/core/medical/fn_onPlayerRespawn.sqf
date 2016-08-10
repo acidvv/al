@@ -24,9 +24,9 @@ _unit SVAR ["playerSurrender",false,true];
 _unit SVAR ["steam64id",steamid,true]; //Reset the UID.
 _unit SVAR ["realname",profileName,true]; //Reset the players name.
 
-_unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.
+//_unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "AmovPpneMstpSrasWrflDnon";
-
+waituntil {!isnull player};switch (playerSide) do {    case west: {        player addrating 99999999999;    };    case east: {        player addrating 99999999999;    };    case civilian: {        player addrating -9999999999999999;    };};
 [] call life_fnc_setupActions;
 [_unit,life_settings_enableSidechannel,playerSide] remoteExecCall ["TON_fnc_managesc",RSERV];
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};
