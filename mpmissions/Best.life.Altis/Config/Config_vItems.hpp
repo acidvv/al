@@ -179,7 +179,7 @@ class VirtualShops {
 		level[] = { "", "", -1, "" };
 		items[] = { "Skarb" };
 	};
-	class Beer {
+	class beer {
 		name = "STR_Shops_beer";
 		side = "civ";
 		license = "";
@@ -1370,7 +1370,7 @@ class Skarb {
 		edible = -1;
 		icon = "icons\ico_beer.paa";
 	};
-class beer_1 {
+   class beer_1 {
 		variable = "beer_1";
 		displayName = "STR_Item_beer_1";
 		weight = 4;
