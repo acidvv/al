@@ -60,32 +60,32 @@ DYNMARKET_Items_Groups =
 			["plank",-1,2800,5200],
 			["cloth",-1,1300,2500],
 			["steelplate",-1,2600,5000],
-			["gunpowder",-1,2200,4100],
+			["gunpowder",-1,2200,4600],
 			["rubber",-1,2300,4300],
-			["copper_refined",-1,1700,3200],
-			["iron_refined",-1,1650,3350],
-			["salt_refined",-1,1750,3450],
-			["glass",-1,1900,3800],
+			["copper_refined",-1,1700,4600],
+			["iron_refined",-1,1650,4550],
+			["salt_refined",-1,1750,4450],
+			["glass",-1,1900,4800],
 			["diamond_cut",-1,6100,8500],
 			["Skarb",-1,26000,47000],
 			["beer",-1,3000,5800],
-			["cement",-1,1700,3200]
+			["cement",-1,1700,4200]
 			],		
-		0.5
+		1.5
 	],
 	
 	["Illegal", 
 		[
 			
-			["cocaine_processed",-1,6500,9000],
-			["heroin_processed",-1,5700,8000],
-			["whiskey",-1,4500,6200],
-			["heba",-1,8200,12000],
-			["marijuana",-1,5000,7000],
+			["cocaine_processed",-1,6500,10000],
+			["heroin_processed",-1,5700,9000],
+			["whiskey",-1,4500,7200],
+			["heba",-1,8200,13000],
+			["marijuana",-1,5000,8000],
 			["C4",-1,28000,51000],
-			["turtle_raw",-1,5000,7200]
+			["turtle_raw",-1,5000,8200]
 			],
-		0.5
+		2.5
 	]
 ];
 
@@ -109,30 +109,30 @@ DYNMARKET_Items_ToTrack        =
 	["goat_raw",2000],
 	
 	
-	["oil_processed",3400],
-	["plank",4000],
-	["cloth",1800],
-	["steelplate",3700],
-	["gunpowder",3400],
-	["rubber",3000],
-	["copper_refined",2300],
-	["salt_refined",2475],
-	["iron_refined",2700],
-	["glass",2845],
-	["cement",2600],
+	["oil_processed",3700],
+	["plank",4300],
+	["cloth",2200],
+	["steelplate",4200],
+	["gunpowder",4100],
+	["rubber",3500],
+	["copper_refined",3800],
+	["salt_refined",3675],
+	["iron_refined",3900],
+	["glass",3945],
+	["cement",3700],
 	["diamond_cut",7000],
 	["Skarb",34000],
-	["Beer",4800],
+	["beer",4800],
 	
 	
 		
-    ["heroin_processed",6800],
-	["whiskey",5500],
+    ["heroin_processed",7800],
+	["whiskey",6500],
 	["heba",10000],
-	["marijuana",6000],
-	["cocaine_processed",7500],
+	["marijuana",6800],
+	["cocaine_processed",8500],
 	["C4",37700],
-	["turtle_raw",5200]
+	["turtle_raw",6200]
 	
 ];
 

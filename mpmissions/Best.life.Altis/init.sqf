@@ -16,14 +16,7 @@ fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
 disableRemoteSensors true;
 
 
-// Clean Up Players
-[
-	10*60, // seconds to delete dead bodies (0 means don't delete) 
-	35*60, // seconds to delete dead vehicles (0 means don't delete)
-	0, // seconds to delete dropped weapons (0 means don't delete)
-	0, // seconds to deleted planted explosives (0 means don't delete)
-	0 // seconds to delete dropped smokes/chemlights (0 means don't delete)
-] execVM "scripts\repetitive_cleanup.sqf";
+
 
 
 
