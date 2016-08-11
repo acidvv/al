@@ -2,7 +2,7 @@
 Description : Taxi Script to Kavala
 Author : Mahony
 */
-_price = 13000;
+_price = 9000;
 _taxigerufen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka została wezwana! Zakaz używania podczas wszelkich interakcji</t>";
 _taxiangekommen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka powinna byc już na miejscu masz 5 sec aby do niej wsiąść </t>";
 if ((life_atmbank) < _price + 25000) exitWith {
@@ -34,7 +34,7 @@ sleep 30;
 _taxiK = "C_Hatchback_01_yellow_F" createVehicle position player;
 _taxiK allowDamage false;
 hint parseText (_taxiangekommen);
-sleep 8;
+sleep 10;
 deleteVehicle _taxiK;
 waitUntil {vehicle player != player};
 
