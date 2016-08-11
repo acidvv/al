@@ -54,11 +54,11 @@ if(isServer) then
 		};
 		case (currentWeapon _killer != ""):
 		{
-			_message = format ["Weapon Death Message: %1 has killed %2 with Weapon %3 from Distance %4 Meters", _queryResult select 0, _queryResult select 1, _killerWep, _distance];
+			_message = format ["Message: %1 zabił %2 używając %3 z odległości %4 metrów", _queryResult select 0, _queryResult select 1, _killerWep, _distance];
 		};
 		default
 		{
-			_message = format ["Death Message: %1 has killed %2",_queryResult select 0, _queryResult select 1];
+			_message = format ["Message: %1 zabił %2",_queryResult select 0, _queryResult select 1];
 		};
 	};
 	"extDB" callExtension format["1:deathmessages:%1",_message];
