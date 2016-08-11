@@ -35,13 +35,13 @@ DYNMARKET_Items_Groups =
 		[    
 		    ["aplle",-1,100,200],
 			["peach",-1,100,200],
-			["salema_raw",-1,100,500],
-			["ornate_raw",-1,100,500],
-			["mackerel_raw",-1,300,700],
+			["salema_raw",-1,300,500],
+			["ornate_raw",-1,300,500],
+			["mackerel_raw",-1,380,700],
 			["tuna_raw",-1,1300,1800],
 			["mullet_raw",-1,800,1200]
 			],
-		1.5
+		0.5
 	],
 	
 	["foods",
@@ -51,41 +51,41 @@ DYNMARKET_Items_Groups =
 			["sheep_raw",-1,900,1700],
 			["goat_raw",-1,1300,2500]
 			],
-		1.5
+		0.5
 	],
 	
 	["Ressources",
 		[
-			["oil_processed",-1,1500,5000],
-			["plank",-1,3000,6500],
-			["cloth",-1,800,2500],
-			["steelplate",-1,2200,5500],
-			["gunpowder",-1,2000,4500],
-			["rubber",-1,1000,4500],
-			["copper_refined",-1,1000,3200],
-			["iron_refined",-1,1250,4250],
-			["salt_refined",-1,750,3050],
-			["glass",-1,1000,4000],
-			["diamond_cut",-1,3000,9000],
-			["Skarb",-1,20000,47000],
-			["beer",-1,3000,6500],
-			["cement",-1,1000,4000]
+			["oil_processed",-1,2500,4500],
+			["plank",-1,2800,5200],
+			["cloth",-1,1300,2500],
+			["steelplate",-1,2600,5000],
+			["gunpowder",-1,2200,4100],
+			["rubber",-1,2300,4300],
+			["copper_refined",-1,1700,3200],
+			["iron_refined",-1,1650,3350],
+			["salt_refined",-1,1750,3450],
+			["glass",-1,1900,3800],
+			["diamond_cut",-1,6100,8500],
+			["Skarb",-1,26000,47000],
+			["beer",-1,3000,5800],
+			["cement",-1,1700,3200]
 			],		
-		2.5
+		0.5
 	],
 	
 	["Illegal", 
 		[
 			
-			["cocaine_processed",-1,5000,9000],
-			["heroin_processed",-1,5500,8500],
-			["whiskey",-1,4500,7200],
-			["heba",-1,7000,12000],
-			["marijuana",-1,4000,7500],
-			["C4",-1,22000,57000],
-			["turtle_raw",-1,5000,7000]
+			["cocaine_processed",-1,6500,9000],
+			["heroin_processed",-1,5700,8000],
+			["whiskey",-1,4500,6200],
+			["heba",-1,8200,12000],
+			["marijuana",-1,5000,7000],
+			["C4",-1,28000,51000],
+			["turtle_raw",-1,5000,7200]
 			],
-		2.5
+		0.5
 	]
 ];
 
@@ -106,31 +106,31 @@ DYNMARKET_Items_ToTrack        =
 	["hen_raw",500],
 	["rooster_raw",700],
 	["sheep_raw",1100],
-	["goat_raw",3000],
+	["goat_raw",2000],
 	
 	
-	["oil_processed",3800],
-	["plank",5200],
-	["cloth",1900],
-	["steelplate",4000],
+	["oil_processed",3400],
+	["plank",4000],
+	["cloth",1800],
+	["steelplate",3700],
 	["gunpowder",3400],
-	["rubber",3600],
+	["rubber",3000],
 	["copper_refined",2300],
 	["salt_refined",2475],
-	["iron_refined",3200],
-	["glass",3045],
-	["cement",3200],
-	["diamond_cut",7500],
+	["iron_refined",2700],
+	["glass",2845],
+	["cement",2600],
+	["diamond_cut",7000],
 	["Skarb",34000],
-	["Beer",5000],
+	["Beer",4800],
 	
 	
 		
-    ["heroin_processed",6500],
+    ["heroin_processed",6800],
 	["whiskey",5500],
-	["heba",8000],
+	["heba",10000],
 	["marijuana",6000],
-	["cocaine_processed",7000],
+	["cocaine_processed",7500],
 	["C4",37700],
 	["turtle_raw",5200]
 	
