@@ -71,7 +71,7 @@ DYNMARKET_Items_Groups =
 			["beer",-1,3000,5800],
 			["cement",-1,1700,4200]
 			],		
-		1.5
+		2.0
 	],
 	
 	["Illegal", 
@@ -85,7 +85,7 @@ DYNMARKET_Items_Groups =
 			["C4",-1,28000,51000],
 			["turtle_raw",-1,5000,8200]
 			],
-		2.5
+		2.0
 	]
 ];
 
