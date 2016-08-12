@@ -51,7 +51,7 @@ DYNMARKET_Items_Groups =
 			["sheep_raw",-1,900,1700],
 			["goat_raw",-1,1300,2500]
 			],
-		0.5
+		1.0
 	],
 	
 	["Ressources",
