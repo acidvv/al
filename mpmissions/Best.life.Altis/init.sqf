@@ -24,3 +24,11 @@ if(!isDedicated) exitWith{};
 Tower2 setVariable ["TTP_terror", false, true];
 StartProgress = true;
 
+// Clean Up Players
+[
+	20*60, // seconds to delete dead bodies (0 means don't delete) 
+	35*60, // seconds to delete dead vehicles (0 means don't delete)
+	0, // seconds to delete dropped weapons (0 means don't delete)
+	0, // seconds to deleted planted explosives (0 means don't delete)
+	0 // seconds to delete dropped smokes/chemlights (0 means don't delete)
+] execVM "Custom\repetitive_cleanup.sqf";
