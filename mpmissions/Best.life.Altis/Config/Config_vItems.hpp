@@ -522,7 +522,7 @@ class VirtualItems {
 		variable = "lockpick";
 		displayName = "STR_Item_Lockpick";
 		weight = 10;
-		buyPrice = 80500;
+		buyPrice = 25500;
 		sellPrice = 5500;
 		illegal = true;
 		edible = -1;
@@ -566,7 +566,7 @@ class VirtualItems {
 		variable = "boltCutter";
 		displayName = "STR_Item_BCutter";
 		weight = 7;
-		buyPrice = 177500;
+		buyPrice = 97500;
 		sellPrice = 1000;
 		illegal = true;
 		edible = -1;
@@ -577,7 +577,7 @@ class VirtualItems {
 		variable = "defuseKit";
 		displayName = "STR_Item_DefuseKit";
 		weight = 2;
-		buyPrice = 152500;
+		buyPrice = 102500;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -589,7 +589,7 @@ class VirtualItems {
 		variable = "zipties";
 		displayName = "STR_Item_zipties";
 		weight = 8;
-		buyPrice = 100000;
+		buyPrice = 40000;
 		sellPrice = 5000;
 		illegal = true;
 		edible = -1;
