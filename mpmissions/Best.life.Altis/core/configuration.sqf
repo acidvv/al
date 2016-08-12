@@ -60,7 +60,7 @@ life_isSuicide = false;
 masked = false;
 life_request_timer = false;
 
-life_respawn_timer = 0.1;
+life_respawn_timer = 1;
 
 CHVD_allowNoGrass = true;
 CHVD_maxView = 4000;

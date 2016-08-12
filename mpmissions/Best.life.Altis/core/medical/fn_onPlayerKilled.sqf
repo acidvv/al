@@ -73,12 +73,12 @@ _unit spawn
 	disableSerialization;
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
-	_maxTime = time + (life_respawn_timer * 600);
+	_maxTime = time + (life_respawn_timer * 90);
 	_RespawnBtn ctrlEnable false;
 	waitUntil {_Timer ctrlSetText format["Nowe życie za: %1",[(_maxTime - time),"MM:SS"] call BIS_fnc_secondsToString];
 	round(_maxTime - time) <= 0 || isNull _this || life_request_timer};
 if (life_request_timer) then {
-_maxTime = time + (life_respawn_timer * 4800);
+_maxTime = time + (life_respawn_timer * 420);
 waitUntil {_Timer ctrlSetText format["Nowe życie za: %1",[(_maxTime - time),"MM:SS"] call BIS_fnc_secondsToString];
 round(_maxTime - time) <= 0 || isNull _this};
 };

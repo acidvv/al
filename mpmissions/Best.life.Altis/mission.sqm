@@ -337,9 +337,9 @@ class ScenarioData
 	wreckLimit=3;
 	wreckRemovalMinTime=60;
 	wreckRemovalMaxTime=240;
-	corpseLimit=7;
-	corpseRemovalMinTime=20;
-	corpseRemovalMaxTime=240;
+	corpseLimit=150;
+	corpseRemovalMinTime=999;
+	corpseRemovalMaxTime=9999;
 };
 class CustomAttributes
 {
