@@ -581,8 +581,8 @@ class C_Offroad_02_unarmed_F {
 class B_T_VTOL_01_vehicle_F {
         vItemSpace = 1200;
         licenses[] = { {"trucking"}, {"pilot"}, {""}, {""} };
-        price= 9105000;
-		assurPrice = 2135000;
+        price= 20105000;
+		assurPrice = 4135000;
         textures[] = {};
     };
     class O_Truck_03_medical_F {
@@ -625,9 +625,9 @@ class B_T_VTOL_01_vehicle_F {
     };
 
     class I_Heli_light_03_unarmed_F {
-        vItemSpace = 300;
+        vItemSpace = 350;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 3250000;
+        price = 3850000;
 		assurPrice = 475000;
         textures[] = {  };
     };
@@ -666,10 +666,10 @@ class O_T_LSV_02_armed_F {
             
     };
 	class O_T_VTOL_02_vehicle_F {
-        vItemSpace = 855;
+        vItemSpace = 900;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 4150000;
-		assurPrice = 925000;
+        price = 14150000;
+		assurPrice = 2925000;
         textures[] = {};
             
     };
@@ -2366,10 +2366,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_Heli_Transport_02_F {
-       vItemSpace = 425;
+       vItemSpace = 600;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 4805000;
-	   assurPrice = 308500;
+       price = 7905000;
+	   assurPrice = 1308500;
        textures[] = {};
    };
     class C_Plane_Civil_01_F {
@@ -2423,10 +2423,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
    };
       
    class B_Heli_Transport_03_unarmed_F {
-       vItemSpace = 600;
+       vItemSpace = 720;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 8135000;
-	   assurPrice = 361300;
+       price = 9635000;
+	   assurPrice = 2361300;
        textures[] = {};
    };
    
@@ -2455,10 +2455,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
    };
 
    class O_Heli_Transport_04_Box_F {
-      vItemSpace = 500;
+      vItemSpace = 450;
       licenses[] = { {"pilot"}, {""}, {""}, {""} };
-      price = 7305000;
-	  assurPrice = 231500;
+      price = 6305000;
+	  assurPrice = 1231500;
       textures[] = {};
     };
 

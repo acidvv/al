@@ -3,7 +3,7 @@ private["_vehicle","_type","_time","_vehicleData","_upp","_ui","_progress","_pgT
 _vehicle = cursorTarget;
 _veh = typeOf _vehicle;
 
-if(!(_veh in["B_G_Offroad_01_armed_F","O_MRAP_02_hmg_F","B_Heli_Light_01_stripped_F","O_MRAP_02_F","B_Heli_Light_01_stripped_F"])) exitWith {hint "Nie można zniszczyć samochód, jeśli nie jest to niezgodne z prawem";};
+if(!(_veh in["B_G_Offroad_01_armed_F","O_MRAP_02_hmg_F","B_Heli_Light_01_stripped_F","O_MRAP_02_F","B_Heli_Light_01_stripped_F","shounka_monsteur","shounka_monsteur_bleufonce","shounka_monsteur_grise","shounka_monsteur_jaune","shounka_monsteur_noir", "shounka_monsteur_orange","shounka_monsteur_rouge","shounka_monsteur_violet","Mr_Own_hummer_civ_bleufonce","Mr_Own_hummer_civ_grise","Mr_Own_hummer_civ_jaune","Mr_Own_hummer_civ_noir","Mr_Own_hummer_civ_orange","Mr_Own_hummer_civ_rouge","sab_camel_ind_pro","sab_camel_red_pro","sab_camel_blu_pro","sab_camel_ind_B","sab_camel_red_B","sab_camel_blu_B"])) exitWith {hint "Nie można zniszczyć samochód, jeśli nie jest to niezgodne z prawem";};
 
 if(!((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf "Ship"))) exitWith {};
 if(player distance cursorTarget > 10) exitWith {};
