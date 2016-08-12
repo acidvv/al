@@ -613,7 +613,7 @@ class VirtualItems {
 		variable = "oilProcessed";
 		displayName = "STR_Item_OilP";
 		weight = 7;
-		buyPrice = 4000;
+		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -635,7 +635,7 @@ class VirtualItems {
 		variable = "copperRefined";
 		displayName = "STR_Item_CopperIngot";
 		weight = 6;
-		buyPrice = 4200;
+		buyPrice = 8200;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -657,7 +657,7 @@ class VirtualItems {
 		variable = "ironRefined";
 		displayName = "STR_Item_IronIngot";
 		weight = 6;
-		buyPrice = 4250;
+		buyPrice = 8250;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -679,7 +679,7 @@ class VirtualItems {
 		variable = "saltRefined";
 		displayName = "STR_Item_SaltR";
 		weight = 4;
-		buyPrice = 4050;
+		buyPrice = 8050;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -734,7 +734,7 @@ class VirtualItems {
 		variable = "glass";
 		displayName = "STR_Item_Glass";
 		weight = 5;
-		buyPrice = 5000;
+		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -787,7 +787,7 @@ class Skarb {
 		variable = "cement";
 		displayName = "STR_Item_CementBag";
 		weight = 8;
-		buyPrice = 5000;
+		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1199,7 +1199,7 @@ class Skarb {
 		variable = "goatRaw";
 		displayName = "STR_Item_GoatRaw";
 		weight = 4;
-		buyPrice = 2500;
+		buyPrice = 4500;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1331,7 +1331,7 @@ class Skarb {
 		variable = "cloth";
 		displayName = "STR_Item_cloth";
 		weight = 6;
-		buyPrice = 4000;
+		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1405,7 +1405,7 @@ class Skarb {
 		variable = "moonshine";
 		displayName = "STR_Item_moonshine";
 		weight = 7;
-		buyPrice = 4025;
+		buyPrice = 8025;
 		sellPrice = 2000;
 		illegal = false;
 		edible = 100;
@@ -1494,7 +1494,7 @@ class Skarb {
 			variable = "plans";
 			displayName = "STR_Item_Plans";
 			weight = 7;
-			buyPrice = 1460;
+			buyPrice = 8460;
 			sellPrice = -1;
 			illegal = false;
 			edible = -1;

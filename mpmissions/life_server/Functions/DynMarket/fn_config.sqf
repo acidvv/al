@@ -16,7 +16,7 @@ DYNMARKET_Serveruptime         = 04;     // La durée de fonctionnement jusqu'au
 DYNMARKET_UseExternalDatabase  = true;  // Si le script utilise une base de données externe ?
 DYNMARKET_PriceUpdateInterval  = 02;     // Après combien de minutes devrait être mis à jour le prix ?
 DYNMARKET_CreateBackups        = true;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?
-DYNMARKET_CreateBackupInterval = 25;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
+DYNMARKET_CreateBackupInterval = 30;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
 DYNMARKET_UserNotification     = false;  // Est-ce que les joueurs devraient être informé par un message (hint) à chaque fois que la bourse est mise à jour ?
 
 // █████████████████ TEXTES DE NOTIFICATION  █████████████████
@@ -77,11 +77,11 @@ DYNMARKET_Items_Groups =
 	["Illegal", 
 		[
 			
-			["cocaine_processed",-1,6500,9000],
-			["heroin_processed",-1,5700,8000],
-			["whiskey",-1,4500,6800],
+			["cocaine_processed",-1,6500,9500],
+			["heroin_processed",-1,5700,8500],
+			["whiskey",-1,4500,7300],
 			["heba",-1,8200,12000],
-			["marijuana",-1,5000,7300],
+			["marijuana",-1,5000,7800],
 			["C4",-1,28000,51000],
 			["turtle_raw",-1,5000,7200]
 			],
@@ -126,11 +126,11 @@ DYNMARKET_Items_ToTrack        =
 	
 	
 		
-    ["heroin_processed",7000],
-	["whiskey",6000],
+    ["heroin_processed",8200],
+	["whiskey",6200],
 	["heba",10000],
-	["marijuana",6100],
-	["cocaine_processed",8000],
+	["marijuana",6900],
+	["cocaine_processed",8300],
 	["C4",37700],
 	["turtle_raw",6200]
 	

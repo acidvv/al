@@ -136,7 +136,7 @@ class CfgRemoteExec {
         F(TON_fnc_playerLogged,SERVER)
 		F(bis_fnc_curatorrespawn,SERVER)
 		F(life_fnc_getBounty,SERVER)
-		F(life_fnc_globalsound,SERVER)
+		
         
         
 		
@@ -195,6 +195,7 @@ class CfgRemoteExec {
         F(life_fnc_clientSound,ANYONE)
 		F(life_fnc_armageddon,ANYONE)
 		F(life_fnc_copmedicrequest,ANYONE)
+        F(life_fnc_globalSound,ANYONE)
 		
     };
 

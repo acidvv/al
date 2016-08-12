@@ -2,7 +2,7 @@
 Description : Taxi Script to Sofia
 Author : Mahony
 */
-_price = 9000;
+_price = 5000;
 _taxigerufen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka została wezwana! Zakaz używania podczas wszelkich interakcji</t>";
 _taxiangekommen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka powinna byc już na miejscu teraz masz 5 sec aby do niej wsiąść </t>";
 if ((life_atmbank) < _price + 25000) exitWith {
@@ -41,7 +41,7 @@ waitUntil {vehicle player != player};
 player allowDamage true;
 titleText ["Jesteś w drodze do Sofia !", "BLACK FADED", 20];
 playSound "taxi";
-deleteVehicle _taxiS;
+
 sleep 28;
 titleText ["Jesteś na miejscu teraz się rozliczmy", "BLACK FADED", 1];
 life_atmbank = life_atmbank - _price;
