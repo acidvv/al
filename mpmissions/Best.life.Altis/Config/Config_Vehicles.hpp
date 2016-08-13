@@ -1844,7 +1844,7 @@ class O_T_LSV_02_armed_F {
     class max_van_white {
         vItemSpace = 230;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 255000;
+        price = 355000;
 		assurPrice = 59500;
         textures[] = {};
     };
@@ -2012,14 +2012,14 @@ class O_T_LSV_02_armed_F {
     class max_van_cola {
         vItemSpace = 220;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 235000;
+        price = 335000;
 		assurPrice = 59500;
         textures[] = {};
     };
      class max_ambulance {
         vItemSpace = 260;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 275000;
+        price = 375000;
 		assurPrice = 59500;
         textures[] = {};
     };
