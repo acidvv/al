@@ -626,7 +626,7 @@ class B_T_VTOL_01_vehicle_F {
     };
 
     class I_Heli_light_03_unarmed_F {
-        vItemSpace = 350;
+        vItemSpace = 300;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 4850000;
 		assurPrice = 475000;
@@ -2374,7 +2374,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_Heli_Transport_02_F {
-       vItemSpace = 600;
+       vItemSpace = 500;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
        price = 8905000;
 	   assurPrice = 1308500;
@@ -2431,9 +2431,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
    };
       
    class B_Heli_Transport_03_unarmed_F {
-       vItemSpace = 720;
+       vItemSpace = 600;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-       price = 10635000;
+       price = 11635000;
 	   assurPrice = 2361300;
        textures[] = {};
    };
@@ -2463,7 +2463,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
    };
 
    class O_Heli_Transport_04_Box_F {
-      vItemSpace = 450;
+      vItemSpace = 400;
       licenses[] = { {"pilot"}, {""}, {""}, {""} };
       price = 6305000;
 	  assurPrice = 1231500;
