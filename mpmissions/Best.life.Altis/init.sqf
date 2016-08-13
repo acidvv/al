@@ -15,7 +15,14 @@ fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
 
 disableRemoteSensors true;
 
-
+//no fog please
+[] spawn {
+	while{true} do {
+		sleep 20;
+		300 setFog 0;
+		sleep 600;
+	};
+};
 
 
 
