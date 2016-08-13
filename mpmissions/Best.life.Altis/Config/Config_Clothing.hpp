@@ -85,7 +85,8 @@ class Clothing {
             { "G_Combat", "", 125, { "", "", -1 } },
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } }
+            { "G_Lady_Blue", "", 150, { "", "", -1 } },
+			{ "G_Bandanna_khk", "", 2150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } }
@@ -196,15 +197,18 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-			{ "G_Bandanna_beast", "", 8150, { "", "", -1 } },
-            { "G_Bandanna_blk", "", 8150, { "", "", -1 } },
-            { "G_Bandanna_khk", "", 8150, { "", "", -1 } },
-            { "G_Bandanna_oli", "", 8150, { "", "", -1 } },
-            { "G_Bandanna_shades", "", 8150, { "", "", -1 } },
-            { "G_Bandanna_sport", "", 8150, { "", "", -1 } },
-            { "G_Spectacles", "cosik", 8150, { "", "", -1 } },
-            { "G_Balaclava_blk", "na mordke", 11000, { "", "", -1 } },
-            { "H_Bandanna_gry", "być gangsterem?", 11000, { "", "", -1 } }, 
+			{ "G_Bandanna_beast", "", 2150, { "", "", -1 } },
+            { "G_Bandanna_blk", "", 2150, { "", "", -1 } },
+            { "G_Bandanna_khk", "", 2150, { "", "", -1 } },
+            { "G_Bandanna_oli", "", 2150, { "", "", -1 } },
+            { "G_Bandanna_shades", "", 2150, { "", "", -1 } },
+            { "G_Bandanna_sport", "", 2150, { "", "", -1 } },
+            { "G_Spectacles", "cosik", 2150, { "", "", -1 } },
+            { "G_Balaclava_blk", "na mordke", 7000, { "", "", -1 } },
+            { "H_Bandanna_gry", "być gangsterem?", 7000, { "", "", -1 } },
+            { "Masque_Chirurgical", "chirurg?", 11000, { "", "", -1 } },	
+            { "Masque_Solitaire", "zorro", 11000, { "", "", -1 } },	
+            { "Payday_Cagoule", "kibic", 11000, { "", "", -1 } },			
 			{ "G_Lady_Blue", "", 150, { "", "", -1 } }
         };
         vests[] = {
