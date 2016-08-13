@@ -756,7 +756,7 @@ class VirtualItems {
 		variable = "diamondCut";
 		displayName = "STR_Item_DiamondC";
 		weight = 10;
-		buyPrice = 85000;
+		buyPrice = 65000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -766,7 +766,7 @@ class Skarb {
 		variable = "Skarb";
 		displayName = "STR_Item_Skarb";
 		weight = 8;
-		buyPrice = 40000;
+		buyPrice = 98000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1416,7 +1416,7 @@ class Skarb {
         variable = "nitro";
         displayName = "STR_Item_Nitro";
         weight = 15;
-        buyPrice = 95000;
+        buyPrice = 45000;
         sellPrice = 20000;
         illegal = true;
         edible = -1;
