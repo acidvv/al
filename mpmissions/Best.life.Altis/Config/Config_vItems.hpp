@@ -794,7 +794,7 @@ class Skarb {
 		variable = "cement";
 		displayName = "STR_Item_CementBag";
 		weight = 8;
-		buyPrice = 8000;
+		buyPrice = 18000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -851,7 +851,7 @@ class Skarb {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
 		weight = 6;
-		buyPrice = 13000;
+		buyPrice = 14000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;

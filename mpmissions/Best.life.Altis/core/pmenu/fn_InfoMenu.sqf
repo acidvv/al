@@ -251,6 +251,7 @@ if(_index isEqualTo 5) exitWith {
 <t align='center' color='#0099ff'>c4 z prochu+magnez+guma kauczukowa</t><br/><br/>
 <t align='center' color='#0099ff'>skrzynie robi się z diamentu+przerobione drzewo(2szt)+monety(2szt)</t><br/><br/>
 <t align='center' color='#0099ff'>whisky z pszenicy,piwo z chmielu ,ciuchy z bawełny</t><br/><br/>
+<t align='center' color='#0099ff'>nitro z dopalacz(1),nieprzetworzony olej(1) nieprzetworzona sol(2)</t><br/><br/>
 <t align='center' color='#0099ff'>reszte łatwo się domyśleć</t><br/><br/>
 <t align='center'><t size='1.7px' align='center' color='#FF0000'>Ceny licencji:</t><br/>
 Rebelka-6mln(dożywotnio) , bron-35000 , olej-30000 , diamenty-200000 ,sól-25000, kauczuk-22000,szkło-45000,żelazo-30000,miedż-25000,cement-31000,ciuchy-12000,drzewo-50000,magnez-58000,piwo-60000,skarb-400000!!!<br/><br/>

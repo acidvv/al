@@ -68,7 +68,6 @@ DYNMARKET_Items_Groups =
 			["glass",-1,1900,4800],
 			["diamond_cut",-1,6100,8500],
 			["beer",-1,3000,5800],
-			["nitro",-1,18000,30800],
 			["cement",-1,1700,4200]
 			],		
 		2.5
@@ -82,7 +81,7 @@ DYNMARKET_Items_Groups =
 			["whiskey",-1,4500,7000],
 			["heba",-1,8200,12000],
 			["marijuana",-1,5000,7200],
-			["C4",-1,28000,51000],
+			["nitro",-1,18000,30800],
 			["turtle_raw",-1,5000,7200]
 			],
 		3.5
@@ -129,9 +128,8 @@ DYNMARKET_Items_ToTrack        =
 	["glass",3945],
 	["cement",3700],
 	["diamond_cut",7000],
-	["Skarb",34000],
 	["beer",4800],
-	["nitro",25800],
+	
 	
 	
 		
@@ -140,7 +138,10 @@ DYNMARKET_Items_ToTrack        =
 	["heba",10000],
 	["marijuana",6900],
 	["cocaine_processed",8300],
+	["nitro",25800],
 	["turtle_raw",6200] ,
+	
+	
 	
 	["Skarb",34000],
 	["C4",37700]
