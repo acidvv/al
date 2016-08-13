@@ -20,9 +20,9 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16904.123,44.016518,12597.973};
-		dir[]={0,-0.70710677,0.70710683};
-		up[]={0,0.70710677,0.70710671};
+		pos[]={1557.1355,25,13358.267};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
 		aside[]={0.99999994,0,-0};
 	};
 };
@@ -2134,7 +2134,7 @@ class Mission
 		class Item147
 		{
 			dataType="Marker";
-			position[]={13703.57,-0.011333466,10231.73};
+			position[]={28734.211,-0.011333466,18713.105};
 			name="turtle_1";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -2142,17 +2142,17 @@ class Mission
 			a=350;
 			b=350;
 			id=165;
-			atlOffset=119.01155;
+			atlOffset=185.28865;
 		};
 		class Item148
 		{
 			dataType="Marker";
-			position[]={13701.464,-0.10417938,10231.591};
+			position[]={28732.105,-0.10417938,18712.965};
 			name="turtle_1_name";
 			text="@STR_MAR_Turtle_Poaching";
 			type="mil_dot";
 			id=166;
-			atlOffset=119.01897;
+			atlOffset=185.2164;
 		};
 		class Item149
 		{
@@ -2170,12 +2170,12 @@ class Mission
 		class Item150
 		{
 			dataType="Marker";
-			position[]={5603.7759,0,9166.3965};
+			position[]={1940.8916,0,6702.2734};
 			name="turtle_1_name_1";
 			text="@STR_MAR_Turtle_Poaching";
 			type="mil_dot";
 			id=168;
-			atlOffset=127.0132;
+			atlOffset=185.97;
 		};
 		class Item151
 		{
@@ -2229,12 +2229,12 @@ class Mission
 		class Item156
 		{
 			dataType="Marker";
-			position[]={1557.1355,0,13383.267};
+			position[]={3655.5979,0,13116.247};
 			name="atm_marker";
 			type="loc_Tourism";
 			colorName="ColorGreen";
 			id=176;
-			atlOffset=191.22745;
+			atlOffset=-10.307266;
 		};
 		class Item157
 		{
