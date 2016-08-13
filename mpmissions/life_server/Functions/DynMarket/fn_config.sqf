@@ -16,7 +16,7 @@ DYNMARKET_Serveruptime         = 04;     // La durée de fonctionnement jusqu'au
 DYNMARKET_UseExternalDatabase  = true;  // Si le script utilise une base de données externe ?
 DYNMARKET_PriceUpdateInterval  = 02;     // Après combien de minutes devrait être mis à jour le prix ?
 DYNMARKET_CreateBackups        = true;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?
-DYNMARKET_CreateBackupInterval = 30;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
+DYNMARKET_CreateBackupInterval = 45;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
 DYNMARKET_UserNotification     = false;  // Est-ce que les joueurs devraient être informé par un message (hint) à chaque fois que la bourse est mise à jour ?
 
 // █████████████████ TEXTES DE NOTIFICATION  █████████████████
@@ -67,8 +67,8 @@ DYNMARKET_Items_Groups =
 			["salt_refined",-1,1750,4450],
 			["glass",-1,1900,4800],
 			["diamond_cut",-1,6100,8500],
-			["Skarb",-1,26000,47000],
 			["beer",-1,3000,5800],
+			["nitro",-1,18000,30800],
 			["cement",-1,1700,4200]
 			],		
 		2.5
@@ -77,15 +77,23 @@ DYNMARKET_Items_Groups =
 	["Illegal", 
 		[
 			
-			["cocaine_processed",-1,6500,9500],
-			["heroin_processed",-1,5700,8500],
-			["whiskey",-1,4500,7300],
+			["cocaine_processed",-1,6500,9200],
+			["heroin_processed",-1,5700,8200],
+			["whiskey",-1,4500,7000],
 			["heba",-1,8200,12000],
-			["marijuana",-1,5000,7800],
+			["marijuana",-1,5000,7200],
 			["C4",-1,28000,51000],
 			["turtle_raw",-1,5000,7200]
 			],
-		2.5
+		3.5
+	],
+	["drogie", 
+		[
+			["Skarb",-1,26000,42000],		
+			["C4",-1,28000,52000]
+			
+			],
+		4.5
 	]
 ];
 
@@ -123,6 +131,7 @@ DYNMARKET_Items_ToTrack        =
 	["diamond_cut",7000],
 	["Skarb",34000],
 	["beer",4800],
+	["nitro",25800],
 	
 	
 		
@@ -131,8 +140,10 @@ DYNMARKET_Items_ToTrack        =
 	["heba",10000],
 	["marijuana",6900],
 	["cocaine_processed",8300],
-	["C4",37700],
-	["turtle_raw",6200]
+	["turtle_raw",6200] ,
+	
+	["Skarb",34000],
+	["C4",37700]
 	
 ];
 

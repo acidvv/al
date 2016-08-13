@@ -13,7 +13,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "nitro" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
 	};
 
 	class plank {
@@ -178,6 +178,13 @@ class VirtualShops {
 		license = "";
 		level[] = { "", "", -1, "" };
 		items[] = { "Skarb" };
+	};
+	class nitro {
+		name = "STR_Shops_nitro";
+		side = "civ";
+		license = "";
+		level[] = { "", "", -1, "" };
+		items[] = { "nitro" };
 	};
 	class beer {
 		name = "STR_Shops_beer";
@@ -601,7 +608,7 @@ class VirtualItems {
 	class oil_unprocessed {
 		variable = "oilUnprocessed";
 		displayName = "STR_Item_OilU";
-		weight = 8;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -612,7 +619,7 @@ class VirtualItems {
 	class oil_processed {
 		variable = "oilProcessed";
 		displayName = "STR_Item_OilP";
-		weight = 7;
+		weight = 6;
 		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
@@ -667,7 +674,7 @@ class VirtualItems {
 	class salt_unrefined {
 		variable = "saltUnrefined";
 		displayName = "STR_Item_Salt";
-		weight = 5;
+		weight = 4;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -678,7 +685,7 @@ class VirtualItems {
 	class salt_refined {
 		variable = "saltRefined";
 		displayName = "STR_Item_SaltR";
-		weight = 4;
+		weight = 3;
 		buyPrice = 8050;
 		sellPrice = -1;
 		illegal = false;
@@ -1319,7 +1326,7 @@ class Skarb {
 	class wool {
 		variable = "wool";
 		displayName = "STR_Item_wool";
-		weight = 7;
+		weight = 4;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -1330,7 +1337,7 @@ class Skarb {
 	class cloth {
 		variable = "cloth";
 		displayName = "STR_Item_cloth";
-		weight = 6;
+		weight = 2;
 		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
@@ -1415,10 +1422,10 @@ class Skarb {
 	class nitro {
         variable = "nitro";
         displayName = "STR_Item_Nitro";
-        weight = 15;
-        buyPrice = 45000;
-        sellPrice = 20000;
-        illegal = true;
+        weight = 14;
+        buyPrice = 55000;
+        sellPrice = -1;
+        illegal = false;
         edible = -1;
         icon = "icons\nitro.paa";
 	};

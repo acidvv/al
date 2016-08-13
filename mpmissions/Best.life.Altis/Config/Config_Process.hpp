@@ -159,7 +159,7 @@ class ProcessAction {
 					MaterialsReq[] = {{"sulfur",1}};
 		MaterialsGive[] = {{"gunpowder",1}};
 					Text = "STR_Process_gunpowder";
-					//ScrollText = "Mix Cement";
+					//ScrollText = "proch";
 					NoLicenseCost = 86500;
 	};
 
@@ -168,8 +168,16 @@ class ProcessAction {
 					MaterialsReq[] = {{"steelplate",1},{"gunpowder",1},{"rubber",1}};
 		MaterialsGive[] = {{"C4",1}};
 					Text = "STR_Process_C4";
-					//ScrollText = "Mix Cement";
-					NoLicenseCost = 81500;
+					//ScrollText = "cement";
+					NoLicenseCost = 181500;
+	};
+	class nitro {
+
+					MaterialsReq[] = {{"nitroamine",1},{"salt_unrefined",2},{"oil_unprocessed",1}};
+		MaterialsGive[] = {{"Nitro",1}};
+					Text = "STR_Process_Nitro";
+					//ScrollText = "nitro";
+					NoLicenseCost = 181500;
 	};
     class Skarb {
 

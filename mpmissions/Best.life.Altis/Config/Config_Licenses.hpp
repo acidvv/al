@@ -219,6 +219,13 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
+	class Nitro {
+        variable = "nitro";
+        displayName = "STR_License_Nitro";
+        price = 400000;
+        illegal = true;
+        side = "civ";
+    };
 
     class rubber {
         variable = "rubber";

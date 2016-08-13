@@ -7720,6 +7720,15 @@
 		<Key ID="STR_Process_C4">
 			<Original>Konstruowanie C4</Original>
 		</Key>
+		<Key ID="STR_Process_Nitro">
+			<Original>Przetwarzanie nitro</Original>
+		</Key>
+		<Key ID="STR_License_Nitro">
+			<Original>Licencja na nitro</Original>
+		</Key>
+		<Key ID="STR_Shops_Nitro">
+			<Original>Skup nitro</Original>
+		</Key>
 		<Key ID="STR_Process_steelplate">
 			<Original>Przetwarzanie rudy magnezu</Original>
 		</Key>
