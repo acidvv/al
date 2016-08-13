@@ -134,6 +134,7 @@ class CarShops {
             { "Mrshounka_Vandura_civ_noir", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_rouge", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_violet", { "", "", -1 } },  
+			{ "max_FBI_tahoe", { "", "", -1 } }, 
 			{ "C_Van_01_fuel_F", { "", "", -1 } }
         };
     };
@@ -1808,28 +1809,35 @@ class O_T_LSV_02_armed_F {
     class max_van_blue {
         vItemSpace = 260;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 275000;
+        price = 375000;
+		assurPrice = 59500;
+        textures[] = {};
+    };
+	class max_FBI_tahoe {
+        vItemSpace = 300;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 775000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class max_van_green {
         vItemSpace = 210;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 225000;
+        price = 325000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class max_van_Grey {
         vItemSpace = 220;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 235000;
+        price = 335000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class max_van_red {
         vItemSpace = 240;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 265000;
+        price = 365000;
 		assurPrice = 59500;
         textures[] = {};
     };
@@ -1843,49 +1851,49 @@ class O_T_LSV_02_armed_F {
     class Mrshounka_Vandura_civ_bleufonce {
         vItemSpace = 290;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 335000;
+        price = 435000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class Mrshounka_Vandura_civ_noir {
         vItemSpace = 280;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 315000;
+        price = 415000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class Mrshounka_Vandura_civ_jaune {
         vItemSpace = 270;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 305000;
+        price = 405000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class Mrshounka_Vandura_civ_rose {
         vItemSpace = 260;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 295000;
+        price = 395000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class Mrshounka_Vandura_civ_rouge {
         vItemSpace = 300;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 345000;
+        price = 445000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class Mrshounka_Vandura_civ_violet {
         vItemSpace = 310;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 355000;
+        price = 455000;
 		assurPrice = 59500;
         textures[] = {};
     };
     class Mrshounka_Vandura_civ {
         vItemSpace = 270;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 295000;
+        price = 395000;
 		assurPrice = 59500;
         textures[] = {};
     };
