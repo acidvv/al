@@ -84,7 +84,7 @@ DYNMARKET_Items_Groups =
 			["nitro",-1,18000,30800],
 			["turtle_raw",-1,5000,7200]
 			],
-		3.5
+		3.0
 	],
 	["drogie", 
 		[
@@ -92,7 +92,7 @@ DYNMARKET_Items_Groups =
 			["C4",-1,28000,52000]
 			
 			],
-		4.5
+		4.0
 	]
 ];
 

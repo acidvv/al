@@ -2374,7 +2374,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_Heli_Transport_02_F {
-       vItemSpace = 500;
+       vItemSpace = 540;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
        price = 8905000;
 	   assurPrice = 1308500;
@@ -2431,7 +2431,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
    };
       
    class B_Heli_Transport_03_unarmed_F {
-       vItemSpace = 600;
+       vItemSpace = 650;
        licenses[] = { {"pilot"}, {""}, {""}, {""} };
        price = 11635000;
 	   assurPrice = 2361300;
@@ -2463,7 +2463,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
    };
 
    class O_Heli_Transport_04_Box_F {
-      vItemSpace = 400;
+      vItemSpace = 420;
       licenses[] = { {"pilot"}, {""}, {""}, {""} };
       price = 6305000;
 	  assurPrice = 1231500;
