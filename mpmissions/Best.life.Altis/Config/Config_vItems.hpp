@@ -37,7 +37,7 @@ class VirtualShops {
 		side = "civ";
 		license = "rebel";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "beer", "whiskey", "moonshine", "tbacon", "lockpick", "gpstracker", "blindfold", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "zipties", "knife", "pliers", "barrel", "butt", "kidney" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "beer", "moonshine", "tbacon", "lockpick", "gpstracker", "blindfold", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "zipties", "knife", "pliers", "barrel", "butt", "kidney" };
 	};
 
 	class gang {
@@ -221,9 +221,9 @@ class whiskey {
 		displayName = "STR_Item_whiskey";
 		weight = 6;
 		buyPrice = 10025;
-		sellPrice = 1275;
+		sellPrice = 6000;
 		illegal = true;
-		edible = 100;
+		edible = -1;
 		icon = "icons\ico_whiskey.paa";
 	};
 class C4 {
@@ -246,10 +246,21 @@ class turtle_raw {
 		edible = -1;
 		icon = "icons\ico_turtleRaw.paa";
 	};
+	class nitro {
+        variable = "nitro";
+        displayName = "STR_Item_Nitro";
+        weight = 10;
+        buyPrice = 55000;
+        sellPrice = 6000;
+        illegal = true;
+        edible = -1;
+        icon = "icons\nitro.paa";
+	};
+
 	class heroin_unprocessed {
 		variable = "heroinUnprocessed";
 		displayName = "STR_Item_HeroinU";
-		weight = 8;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = 6000;
 		illegal = true;
@@ -261,7 +272,7 @@ class turtle_raw {
 	class heroin_processed {
 		variable = "heroinProcessed";
 		displayName = "STR_Item_HeroinP";
-		weight = 7;
+		weight = 5;
 		buyPrice = 90000;
 		sellPrice = 6000;
 		illegal = true;
@@ -272,7 +283,7 @@ class turtle_raw {
 	class cannabis {
 		variable = "cannabis";
 		displayName = "STR_Item_Cannabis";
-		weight = 7;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = 6000;
 		illegal = true;
@@ -294,7 +305,7 @@ class turtle_raw {
 	class marijuana {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
-		weight = 6;
+		weight = 5;
 		buyPrice = 70000;
 		sellPrice = 6000;
 		illegal = true;
@@ -608,7 +619,7 @@ class VirtualItems {
 	class oil_unprocessed {
 		variable = "oilUnprocessed";
 		displayName = "STR_Item_OilU";
-		weight = 7;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -619,7 +630,7 @@ class VirtualItems {
 	class oil_processed {
 		variable = "oilProcessed";
 		displayName = "STR_Item_OilP";
-		weight = 6;
+		weight = 5;
 		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
@@ -630,7 +641,7 @@ class VirtualItems {
 	class copper_unrefined {
 		variable = "copperUnrefined";
 		displayName = "STR_Item_CopperOre";
-		weight = 7;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -641,7 +652,7 @@ class VirtualItems {
 	class copper_refined {
 		variable = "copperRefined";
 		displayName = "STR_Item_CopperIngot";
-		weight = 6;
+		weight = 5;
 		buyPrice = 8200;
 		sellPrice = -1;
 		illegal = false;
@@ -652,7 +663,7 @@ class VirtualItems {
 	class iron_unrefined {
 		variable = "ironUnrefined";
 		displayName = "STR_Item_IronOre";
-		weight = 7;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -663,7 +674,7 @@ class VirtualItems {
 	class iron_refined {
 		variable = "ironRefined";
 		displayName = "STR_Item_IronIngot";
-		weight = 6;
+		weight = 5;
 		buyPrice = 8250;
 		sellPrice = -1;
 		illegal = false;
@@ -751,7 +762,7 @@ class VirtualItems {
 	class diamond_uncut {
 		variable = "diamondUncut";
 		displayName = "STR_Item_DiamondU";
-		weight = 11;
+		weight = 8;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -762,7 +773,7 @@ class VirtualItems {
 	class diamond_cut {
 		variable = "diamondCut";
 		displayName = "STR_Item_DiamondC";
-		weight = 10;
+		weight = 7;
 		buyPrice = 65000;
 		sellPrice = -1;
 		illegal = false;
@@ -782,7 +793,7 @@ class Skarb {
 	class rock {
 		variable = "rock";
 		displayName = "STR_Item_Rock";
-		weight = 9;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -793,7 +804,7 @@ class Skarb {
 	class cement {
 		variable = "cement";
 		displayName = "STR_Item_CementBag";
-		weight = 8;
+		weight = 5;
 		buyPrice = 18000;
 		sellPrice = -1;
 		illegal = false;
@@ -805,7 +816,7 @@ class Skarb {
 	class heroin_unprocessed {
 		variable = "heroinUnprocessed";
 		displayName = "STR_Item_HeroinU";
-		weight = 8;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -817,8 +828,8 @@ class Skarb {
 	class heroin_processed {
 		variable = "heroinProcessed";
 		displayName = "STR_Item_HeroinP";
-		weight = 7;
-		buyPrice = 13000;
+		weight = 5;
+		buyPrice = 18000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -828,7 +839,7 @@ class Skarb {
 	class cannabis {
 		variable = "cannabis";
 		displayName = "STR_Item_Cannabis";
-		weight = 7;
+		weight = 5;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -839,8 +850,8 @@ class Skarb {
 	class heba {
 		variable = "heba";
 		displayName = "STR_Item_heba";
-		weight = 5;
-		buyPrice = 15000;
+		weight = 7;
+		buyPrice = 25000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -850,8 +861,8 @@ class Skarb {
 	class marijuana {
 		variable = "marijuana";
 		displayName = "STR_Item_Marijuana";
-		weight = 6;
-		buyPrice = 14000;
+		weight = 4;
+		buyPrice = 17000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -861,7 +872,7 @@ class Skarb {
 	class cocaine_unprocessed {
 		variable = "cocaineUnprocessed";
 		displayName = "STR_Item_CocaineU";
-		weight = 8;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -873,8 +884,8 @@ class Skarb {
 	class cocaine_processed {
 		variable = "cocaineProcessed";
 		displayName = "STR_Item_CocaineP";
-		weight = 7;
-		buyPrice = 14000;
+		weight = 6;
+		buyPrice = 19000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -1227,7 +1238,7 @@ class Skarb {
 	class wood {
     variable = "wood";
     displayName = "STR_Item_Wood";
-    weight = 7;
+    weight = 6;
     buyPrice = -1;
     sellPrice = -1;
     illegal = false;
@@ -1260,7 +1271,7 @@ class Skarb {
 	class rubber {
 		variable = "rubber";
 		displayName = "STR_Item_rubber";
-		weight = 6;
+		weight = 5;
 		buyPrice = 55225;
 		sellPrice = -1;
 		illegal = false;
@@ -1282,7 +1293,7 @@ class Skarb {
 	class nitroamine {
 		variable = "nitroamine";
 		displayName = "STR_Item_nitroamine";
-		weight = 7;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -1293,7 +1304,7 @@ class Skarb {
 	class C4 {
 		variable = "C4";
 		displayName = "STR_Item_C4";
-		weight = 5;
+		weight = 7;
 		buyPrice = 150000;
 		sellPrice = -1;
 		illegal = true;
@@ -1304,7 +1315,7 @@ class Skarb {
 	class steel {
 		variable = "steel";
 		displayName = "STR_Item_steel";
-		weight = 9;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -1315,7 +1326,7 @@ class Skarb {
 	class steelplate {
 		variable = "steelplate";
 		displayName = "STR_Item_steelplate";
-		weight = 6;
+		weight = 5;
 		buyPrice = 56000;
 		sellPrice = -1;
 		illegal = false;
@@ -1348,7 +1359,7 @@ class Skarb {
 	class sulfur {
 		variable = "sulfur";
 		displayName = "STR_Item_sulfur";
-		weight = 7;
+		weight = 6;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -1359,7 +1370,7 @@ class Skarb {
 	class gunpowder {
 		variable = "gunpowder";
 		displayName = "STR_Item_gunpowder";
-		weight = 6;
+		weight = 5;
 		buyPrice = 55600;
 		sellPrice = -1;
 		illegal = false;
@@ -1422,10 +1433,10 @@ class Skarb {
 	class nitro {
         variable = "nitro";
         displayName = "STR_Item_Nitro";
-        weight = 14;
+        weight = 10;
         buyPrice = 55000;
         sellPrice = -1;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\nitro.paa";
 	};
