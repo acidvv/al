@@ -221,7 +221,7 @@ class whiskey {
 		displayName = "STR_Item_whiskey";
 		weight = 6;
 		buyPrice = 10025;
-		sellPrice = 6000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_whiskey.paa";
@@ -241,7 +241,7 @@ class turtle_raw {
 		displayName = "STR_Item_TurtleRaw";
 		weight = 9;
 		buyPrice = 22000;
-		sellPrice = 6000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_turtleRaw.paa";
@@ -251,7 +251,7 @@ class turtle_raw {
         displayName = "STR_Item_Nitro";
         weight = 10;
         buyPrice = 55000;
-        sellPrice = 6000;
+        sellPrice = 8000;
         illegal = true;
         edible = -1;
         icon = "icons\nitro.paa";
@@ -261,8 +261,8 @@ class turtle_raw {
 		variable = "heroinUnprocessed";
 		displayName = "STR_Item_HeroinU";
 		weight = 6;
-		buyPrice = -1;
-		sellPrice = 6000;
+		buyPrice = 12000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_heroinUnprocessed.paa";
@@ -274,7 +274,7 @@ class turtle_raw {
 		displayName = "STR_Item_HeroinP";
 		weight = 5;
 		buyPrice = 90000;
-		sellPrice = 6000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_heroinProcessed.paa";
@@ -284,8 +284,8 @@ class turtle_raw {
 		variable = "cannabis";
 		displayName = "STR_Item_Cannabis";
 		weight = 6;
-		buyPrice = -1;
-		sellPrice = 6000;
+		buyPrice = -12000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_cannabis.paa";
@@ -296,7 +296,7 @@ class turtle_raw {
 		displayName = "STR_Item_heba";
 		weight = 7;
 		buyPrice = 90000;
-		sellPrice = 6000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\lsd.paa";
@@ -307,7 +307,7 @@ class turtle_raw {
 		displayName = "STR_Item_Marijuana";
 		weight = 5;
 		buyPrice = 70000;
-		sellPrice = 6000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_marijuana.paa";
@@ -317,8 +317,8 @@ class turtle_raw {
 		variable = "cocaineUnprocessed";
 		displayName = "STR_Item_CocaineU";
 		weight = 10;
-		buyPrice = -1;
-		sellPrice = 6000;
+		buyPrice = 12000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_cocaineUnprocessed.paa";
@@ -330,7 +330,7 @@ class turtle_raw {
 		displayName = "STR_Item_CocaineP";
 		weight = 9;
 		buyPrice = 80000;
-		sellPrice = 6000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\ico_cocaineProcessed.paa";
@@ -340,7 +340,7 @@ class turtle_raw {
 		displayName = "STR_Item_pliers";
 		weight = 5;
 		buyPrice = 8400;
-		sellPrice = 5000;
+		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
 		icon = "icons\pliers.paa";
