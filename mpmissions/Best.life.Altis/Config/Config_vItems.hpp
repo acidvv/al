@@ -219,7 +219,7 @@ class VirtualItemsc {
 class whiskey {
 		variable = "whiskey";
 		displayName = "STR_Item_whiskey";
-		weight = 6;
+		weight = 5;
 		buyPrice = 10025;
 		sellPrice = 7200;
 		illegal = true;
@@ -229,7 +229,7 @@ class whiskey {
 class C4 {
 		variable = "C4";
 		displayName = "STR_Item_C4";
-		weight = 5;
+		weight = 4;
 		buyPrice = 172025;
 		sellPrice = 26000;
 		illegal = true;
@@ -239,7 +239,7 @@ class C4 {
 class turtle_raw {
 		variable = "turtleRaw";
 		displayName = "STR_Item_TurtleRaw";
-		weight = 9;
+		weight = 7;
 		buyPrice = 22000;
 		sellPrice = 8000;
 		illegal = true;
@@ -506,7 +506,7 @@ class VirtualItems {
 		variable = "toolkit";
 		displayName = "STR_Item_Toolkit";
 		weight = 4;
-		buyPrice = 2500;
+		buyPrice = 1500;
 		sellPrice = 200;
 		illegal = false;
 		edible = -1;
@@ -539,8 +539,8 @@ class VirtualItems {
 	class lockpick {
 		variable = "lockpick";
 		displayName = "STR_Item_Lockpick";
-		weight = 10;
-		buyPrice = 25500;
+		weight = 5;
+		buyPrice = 15500;
 		sellPrice = 5500;
 		illegal = true;
 		edible = -1;
@@ -551,7 +551,7 @@ class VirtualItems {
 		variable = "gpstracker";
 		displayName = "STR_Item_gpstracker";
 		weight = 7;
-		buyPrice = 79500;
+		buyPrice = 49500;
 		sellPrice = 5500;
 		illegal = true;
 		edible = -1;
@@ -607,7 +607,7 @@ class VirtualItems {
 		variable = "zipties";
 		displayName = "STR_Item_zipties";
 		weight = 8;
-		buyPrice = 40000;
+		buyPrice = 10000;
 		sellPrice = 5000;
 		illegal = true;
 		edible = -1;
@@ -740,7 +740,7 @@ class VirtualItems {
 	class sand {
 		variable = "sand";
 		displayName = "STR_Item_Sand";
-		weight = 6;
+		weight = 5;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -751,7 +751,7 @@ class VirtualItems {
 	class glass {
 		variable = "glass";
 		displayName = "STR_Item_Glass";
-		weight = 5;
+		weight = 4;
 		buyPrice = 8000;
 		sellPrice = -1;
 		illegal = false;
@@ -762,7 +762,7 @@ class VirtualItems {
 	class diamond_uncut {
 		variable = "diamondUncut";
 		displayName = "STR_Item_DiamondU";
-		weight = 8;
+		weight = 7;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = false;
@@ -773,7 +773,7 @@ class VirtualItems {
 	class diamond_cut {
 		variable = "diamondCut";
 		displayName = "STR_Item_DiamondC";
-		weight = 7;
+		weight = 6;
 		buyPrice = 65000;
 		sellPrice = -1;
 		illegal = false;
@@ -918,7 +918,7 @@ class Skarb {
 	class waterBottle {
 		variable = "waterBottle";
 		displayName = "STR_Item_WaterBottle";
-		weight = 4;
+		weight = 3;
 		buyPrice = 600;
 		sellPrice = 5;
 		illegal = false;
@@ -930,7 +930,7 @@ class Skarb {
 	class apple {
 		variable = "apple";
 		displayName = "STR_Item_Apple";
-		weight = 4;
+		weight = 2;
 		buyPrice = 220;
 		sellPrice = -1;
 		illegal = false;
@@ -941,7 +941,7 @@ class Skarb {
 	class peach {
 		variable = "peach";
 		displayName = "STR_Item_Peach";
-		weight = 4;
+		weight = 2;
 		buyPrice = 220;
 		sellPrice = -1;
 		illegal = false;
@@ -952,7 +952,7 @@ class Skarb {
 	class tbacon {
 		variable = "tbacon";
 		displayName = "STR_Item_TBacon";
-		weight = 4;
+		weight = 2;
 		buyPrice = 750;
 		sellPrice = 25;
 		illegal = false;
@@ -963,7 +963,7 @@ class Skarb {
 	class donuts {
 		variable = "donuts";
 		displayName = "STR_Item_Donuts";
-		weight = 3;
+		weight = 2;
 		buyPrice = 120;
 		sellPrice = 40;
 		illegal = false;
@@ -974,7 +974,7 @@ class Skarb {
 	class rabbit_raw {
 		variable = "rabbitRaw";
 		displayName = "STR_Item_RabbitRaw";
-		weight = 6;
+		weight = 5;
 		buyPrice = -1;
 		sellPrice = 500;
 		illegal = false;
@@ -1445,7 +1445,7 @@ class Skarb {
         variable = "blindfold";
         displayName = "STR_Item_Blindfold";
         weight = 6;
-        buyPrice = 70000;
+        buyPrice = 10000;
         sellPrice = 1600;
         illegal = true;
         edible = -1;
