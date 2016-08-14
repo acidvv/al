@@ -616,7 +616,7 @@ class WeaponShops {
 			{ "muzzle_snds_B", "  7.62mm", 118750 },
             { "acc_pointer_IR", "Laser", 11500 },
             { "acc_flashlight", "Latarka", 11000 },
-            { "Skyline_C_Remote_Cam", "kontrola kamery", 1011000 }
+            { "Skyline_C_Remote_Cam", "kontrola kamery", 311000 }
             
         };
         mags[] = {
