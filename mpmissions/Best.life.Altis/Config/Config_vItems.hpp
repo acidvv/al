@@ -216,6 +216,16 @@ class VirtualShops {
 */
 class VirtualItemsc {
 //Drugs
+class nitroamine {
+		variable = "nitroamine";
+		displayName = "STR_Item_nitroamine";
+		weight = 6;
+		buyPrice = 15000;
+		sellPrice = 8000;
+		illegal = true;
+		edible = -1;
+		icon = "icons\nitroamine.paa";
+		};
 class whiskey {
 		variable = "whiskey";
 		displayName = "STR_Item_whiskey";
@@ -294,7 +304,7 @@ class turtle_raw {
 	class heba {
 		variable = "heba";
 		displayName = "STR_Item_heba";
-		weight = 7;
+		weight = 6;
 		buyPrice = 90000;
 		sellPrice = 12000;
 		illegal = true;
@@ -752,7 +762,7 @@ class VirtualItems {
 		variable = "glass";
 		displayName = "STR_Item_Glass";
 		weight = 4;
-		buyPrice = 8000;
+		buyPrice = 48000;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -850,7 +860,7 @@ class Skarb {
 	class heba {
 		variable = "heba";
 		displayName = "STR_Item_heba";
-		weight = 7;
+		weight = 6;
 		buyPrice = 25000;
 		sellPrice = -1;
 		illegal = true;
@@ -872,7 +882,7 @@ class Skarb {
 	class cocaine_unprocessed {
 		variable = "cocaineUnprocessed";
 		displayName = "STR_Item_CocaineU";
-		weight = 4;
+		weight = 5;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -884,7 +894,7 @@ class Skarb {
 	class cocaine_processed {
 		variable = "cocaineProcessed";
 		displayName = "STR_Item_CocaineP";
-		weight = 3;
+		weight = 4;
 		buyPrice = 19000;
 		sellPrice = -1;
 		illegal = true;
@@ -1282,7 +1292,7 @@ class Skarb {
 	class goldcoin {
 		variable = "goldcoin";
 		displayName = "STR_Item_goldcoin";
-		weight = 5;
+		weight = 4;
 		buyPrice = 58025;
 		sellPrice = 1800;
 		illegal = false;
@@ -1293,7 +1303,7 @@ class Skarb {
 	class nitroamine {
 		variable = "nitroamine";
 		displayName = "STR_Item_nitroamine";
-		weight = 6;
+		weight = 4;
 		buyPrice = -1;
 		sellPrice = -1;
 		illegal = true;
@@ -1433,7 +1443,7 @@ class Skarb {
 	class nitro {
         variable = "nitro";
         displayName = "STR_Item_Nitro";
-        weight = 10;
+        weight = 6;
         buyPrice = 55000;
         sellPrice = -1;
         illegal = true;

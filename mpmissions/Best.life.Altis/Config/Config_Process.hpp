@@ -181,7 +181,7 @@ class ProcessAction {
 	};
     class Skarb {
 
-					MaterialsReq[] = {{"diamond_cut",1},{"goldcoin",2},{"plank",2}};
+					MaterialsReq[] = {{"diamond_cut",1},{"glass",1},{"plank",1}};
 		MaterialsGive[] = {{"Skarb",1}};
 					Text = "STR_Process_Skarb";
 					//ScrollText = "Mix Cement";

@@ -26,8 +26,8 @@ switch (_state) do {
         missionNamespace setVariable [LICENSE_VARNAME("marijuana","civ"),false];
         missionNamespace setVariable [LICENSE_VARNAME("cocaine","civ"),false];
 		missionNamespace setVariable [LICENSE_VARNAME("whiskey","civ"),false];
-		missionNamespace setVariable [LICENSE_VARNAME("C4","civ"),false];
 		missionNamespace setVariable [LICENSE_VARNAME("gunpowder","civ"),false];
+		missionNamespace setVariable [LICENSE_VARNAME("nitro","civ"),false];
     };
 
     //Remove motor vehicle licenses
