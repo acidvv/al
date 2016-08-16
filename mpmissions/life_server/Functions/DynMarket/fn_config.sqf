@@ -65,8 +65,8 @@ DYNMARKET_Items_Groups =
 			["copper_refined",-1,1700,4600],
 			["iron_refined",-1,1650,4550],
 			["salt_refined",-1,1750,4450],
-			["glass",-1,1900,4800],
-			["diamond_cut",-1,6100,8500],
+			["glass",-1,2300,4800],
+			["diamond_cut",-1,4100,8500],
 			["beer",-1,3000,5800],
 			["cement",-1,1700,4200]
 			],		
@@ -76,12 +76,11 @@ DYNMARKET_Items_Groups =
 	["Illegal", 
 		[
 			
-			["cocaine_processed",-1,4500,9200],
-			["heroin_processed",-1,4700,8200],
-			["whiskey",-1,4000,7000],
-			["heba",-1,7200,12000],
-			["marijuana",-1,4000,7200],
-			["nitro",-1,12000,30800],
+			["cocaine_processed",-1,3500,9200],
+			["heroin_processed",-1,3700,8200],
+			["whiskey",-1,3000,7000],
+			["heba",-1,6200,12000],
+			["marijuana",-1,3000,7200],
 			["turtle_raw",-1,4000,7200]
 			],
 		3.0
@@ -89,6 +88,7 @@ DYNMARKET_Items_Groups =
 	["drogie", 
 		[
 			["Skarb",-1,22000,42000],		
+			["nitro",-1,12000,30800],
 			["C4",-1,28000,52000]
 			
 			],
@@ -138,12 +138,12 @@ DYNMARKET_Items_ToTrack        =
 	["heba",10000],
 	["marijuana",6900],
 	["cocaine_processed",8300],
-	["nitro",25800],
 	["turtle_raw",6200] ,
 	
 	
 	
 	["Skarb",34000],
+	["nitro",23800],
 	["C4",37700]
 	
 ];
