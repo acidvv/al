@@ -357,6 +357,7 @@ class Life_Client_Core {
 		class autoMessages {};
 		class hudUpdateWanted {};
 		class globalSound {};
+		class emptyFuel {};
 	};
 
 	class Gangs	{
