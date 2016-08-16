@@ -134,7 +134,6 @@ class CarShops {
             { "Mrshounka_Vandura_civ_noir", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_rouge", { "", "", -1 } },
             { "Mrshounka_Vandura_civ_violet", { "", "", -1 } },  
-			{ "max_FBI_tahoe", { "", "", -1 } }, 
 			{ "C_Van_01_fuel_F", { "", "", -1 } }
         };
     };
@@ -452,6 +451,7 @@ class CarShops {
             { "sab_camel_ind_B", { "", "", -1 } },
             { "sab_camel_red_B", { "", "", -1 } },
             { "sab_camel_blu_B", { "", "", -1 } },
+			{ "max_FBI_tahoe", { "", "", -1 } },
 			{ "O_Truck_03_device_F",  { "", "", -1 } }
 			 };
     };
@@ -1815,8 +1815,8 @@ class O_T_LSV_02_armed_F {
     };
 	class max_FBI_tahoe {
         vItemSpace = 300;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 775000;
+        licenses[] = { {"trucking"}, {"rebel"}, {""}, {""} };
+        price = 10775000;
 		assurPrice = 59500;
         textures[] = {};
     };
