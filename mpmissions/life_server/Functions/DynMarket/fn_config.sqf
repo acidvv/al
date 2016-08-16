@@ -142,8 +142,8 @@ DYNMARKET_Items_ToTrack        =
 	
 	
 	
-	["Skarb",34000],
-	["nitro",23800],
+	["Skarb",32000],
+	["nitro",20800],
 	["C4",37700]
 	
 ];
