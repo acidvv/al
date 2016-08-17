@@ -560,7 +560,90 @@ class WeaponShops {
             { "acc_flashlight", "", 1000 }
         };
     };
-
+ class rebel1 {
+        name = "Modularna bron";
+        side = "civ";
+        license = "rebel";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "arifle_KA_SKS_F", "m4", 104250, 7500 },
+		    { "KA_M4A1_M203_F", "m4", 164250, 7500 },
+            { "KA_M4A1_F", "m4", 165000, 7500 },
+			{ "KA_SCAR_H_EGLM", "scar", 565000, 7500 },
+			{ "KA_SCAR_H", "scar", 495000, 7500 },
+            { "KA_SKS_Silencer", "sks tlumik", 60000 },
+			{ "145_Inches_Barrel_Bayonet", "lufa145bagnet", 60000 },
+            { "103_Inches_Barrel_Silencer", "lufa103tlumik", 115000 },
+            { "103_Inches_Barrel_Silencer2", "lufa103tlumik2", 120000 },
+            { "103_Inches_Barrel_Flash_Hider", "lufa103", 6000 },
+            { "103_Inches_Barrel", "lufa103", 5000 },
+            { "145_Inches_Barrel", "lufa145", 7000 },
+            { "145_Inches_Barrel_Flash_Hider", "lufa145", 42000 },
+            { "145_Inches_Barrel_Silencer", "lufa145tlumik", 100000 },
+            { "145_Inches_Barrel_Silencer2", "lufa145tlumik2", 122025 },
+			{ "157_Inches_Barrel", "lufa157", 72025 },
+			{ "157_Inches_Barrel_Flash_Hider", "lufa157", 92025 },
+			{ "157_Inches_Barrel_Silencer", "lufa157tlumik", 122025 },
+			{ "197_Inches_Barrel", "lufa197", 142025 },
+			{ "197_Inches_Barrel_Flash_Hider", "lufa197", 162025 },
+			{ "197_Inches_Barrel_Silencer", "lufa197tlumik", 252025 },
+            { "MOE_Grip_MOE_Stock_Green", "Grip", 13025 },
+            { "MOE_Grip_MOE_Stock_Sand", "Grip", 14025 },
+            { "Original_Grip_M16_Stock", "Grip", 1445 },
+            { "Hand_Guard_Rail_Laser_Flashlight_Use_Sand", "Hand Guard", 3405 },
+            { "Hand_Guard_Rail_Laser_Flashlight_Use_Black", "Hand Guard", 5000 },
+			{ "Hand_Guard_Rail", "Hand Guard", 3500 },
+            { "Hand_Guard_Rail_Flashlight_Black", "Hand Guard", 3600 },
+            { "Hand_Guard_Rail_Flashlight_Sand", "Hand Guard", 3800 },
+            { "Hand_Guard_Rail_Laser_Black", "Hand Guard", 3500 },
+            { "Hand_Guard_Rail_Laser_Sand", "Hand Guard", 4500 },
+            { "Hand_Guard_Rail_Laser_Use_Flashlight_Black", "Hand Guard", 4500 },
+            { "MOE_Stock_Lightweight_Stock_Black", "Hand Guard", 4500 },
+            { "Hand_Guard_Rail_Laser_Use_Flashlight_Sand", "Hand Guard", 3500 },
+            { "Original_Grip_Original_Stock", "Grip", 3500 },
+			{ "Vertical_Grip_MOE_Grip_MOE_Stock_Black", "Grip", 3500 },
+            { "Vertical_Grip_Original_Grip_Original_Stock", "Grip", 12500 },
+			{ "AFG_Grip", "Grip", 12500 },
+			{ "KA_Bipod", "bipod", 12500 },
+			{ "MVG_Grip_Black", "Grip", 12500 },
+			{ "MVG_Grip_Green", "Grip", 12500 },
+			{ "MVG_Grip_Sand", "Grip", 12500 },
+			{ "Original_Grip", "Grip", 12500 },
+			{ "Vertical_Grip", "Grip", 12500 },
+			{ "Flashlight_Black", "Grip", 12500 },
+			{ "Rail_Covers", "Grip", 12500 },
+			{ "GL_Scope", "Grip", 12500 },
+			{ "Vertical_Grip_Original_Grip_Original_Stock", "Grip", 12500 },
+			{ "KA_Original_Sight_Flip_Up_Sight", "celownik", 12500 },
+            { "KA_Elcan_sand", "celownik", 28500 },
+            { "KA_Original_Sight_Carry_Handle", "celownik", 13500 },
+            { "KA_Rakurs", "celownik", 55500 },
+            { "KA_Elcan_black_Folding_Sight_45_Degree", "celownik", 51000 }
+        };
+        mags[] = {
+            { "KA_30Rnd_556x45_M855", "m4", 5025 },
+            { "KA_30Rnd_556x45_M855", "m4", 5025 },
+            { "KA_20Rnd_762x51_M80", "scar", 14025 },
+            { "10Rnd_M43_762x39_Ball", "sks", 2000 }
+        };
+        accs[] = {
+            { "optic_ACO_grn", "", 3500 },
+            { "optic_Holosight", "", 3600 },
+            { "optic_Hamr", "", 10500 },
+            { "optic_Holosight_smg", "", 2500 },
+            { "optic_MRCO", "", 14500 },
+            { "optic_Arco", "", 10500 },
+            { "optic_KHS_blk", "", 22500 },
+            { "optic_AMS", "", 23500 },
+            { "optic_DMS", "", 17500 },
+            { "optic_SOS", "", 22500 },
+            { "optic_NVS", "", 28500 },
+            { "optic_LRPS", "", 33500 },
+            { "acc_pointer_IR", "", 1500 },
+            { "acc_flashlight", "", 1000 }
+        };
+    };
+	
     class rebel {
         name = "Mohammed's Jihadi Shop";
         side = "civ";
@@ -577,12 +660,15 @@ class WeaponShops {
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
             { "hgun_Pistol_heavy_02_F", "ACP .45", 30500, 2500 },
+			{ "Hatchet", "katana", 50500, 2500 },
 			{ "hgun_Rook40_FF", "Rook 9mm", 27500, 2500 },
             { "hgun_ACPC2_F", "ACP .45", 27250, 65 },
             { "arifle_TRG20_F", "TRG 5.56mm", 145000, 2500 },
 			{ "AA12", "shotgun", 145000, 2500 },
+			{ "KA_M1014", "shotgun", 155000, 2500 },
 			{ "arifle_TRG21_F", "TRG 5.56mm", 145000, 2500 },
 			{ "arifle_AN94_F", "545x39", 195000, 2500 },
+			{ "AN94_MTK83", "545x39", 195000, 2500 },
             { "arifle_Katiba_F", "Katiba 6.5mm", 158000, 5000 },
             { "arifle_Katiba_C_F", "Katiba 6.5mm", 158000, 5000 },
             { "arifle_SDAR_F", "SDAR 5.56mm", 55000, 7500 },
@@ -608,13 +694,20 @@ class WeaponShops {
 			{ "LMG_Zafir_pointer_F", "Zafur 7.62 mm", 550000, 7500 },
 			{ "srifle_DMR_01_F", "Rahim 7.62 mm", 475000, 7500 },
 			{ "launch_RPG32_F", "RPG-42 Alamut", 1075000, 7500 },
+			{ "KA_Original_Sight_Flip_Up_Sight", "mechanik", 23500 },
 			{ "optic_ACO_grn", "Aco", 23500 },
             { "optic_Holosight", "Holosight", 23600 },
+			{ "AN94_kobra", "AN94_kobra", 23600 },
+			{ "AN94_1PN93", "AN94_1PN93", 23600 },
+			{ "KA_Eotech553", "Eotech553", 23600 },
             { "optic_Hamr", "Hamr", 30500 },
             { "optic_Holosight_smg", "Holosight Smg", 32500 },
             { "optic_MRCO", "Mrco", 44500 },
             { "optic_Arco", "Arco", 40500 },
-			{ "optic_LRPS", "LPRS", 40500 },
+		 { "KA_Elcan_sand_Folding_Sight_45_Degree", "Elcan", 60500 },
+			{ "AN94_PSO", "AN94_PSO", 80500 },
+			{ "optic_LRPS", "LPRS", 80500 },
+			{ "AN94_MUZZLE_ATG_545", " 5.45mm", 110750 },
 			{ "muzzle_snds_M", " 5.56mm", 110750 },
 			{ "muzzle_snds_H", " 6.5mm", 115050 },
 			{ "muzzle_snds_B", "  7.62mm", 118750 },
@@ -624,11 +717,13 @@ class WeaponShops {
             
         };
         mags[] = {
+			{ "Katana_swing", "  KATANA", 1725 },
 			{ "6Rnd_45ACP_Cylinder", "  9rnd .45", 1725 },
 			{ "30Rnd_9x21_Mag", "  30rnd 9mm", 1725 },
 			{ "11Rnd_45ACP_Mag", "  11rnd .45", 1725 },
 			{ "10Rnd_762x54_Mag", "  10rnd 7.62mm", 5725 },
             { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "  30rnd .45", 2750 },
+			{ "6Rnd_M1014_buck", "  6rnd BUCK", 2750 },
             { "10Rnd_50BW_Mag_F", "  50bw", 5950 },
 			{ "200Rnd_65x39_cased_Box_Tracer", "  200rnd 6.5mm", 5950 },
             { "30Rnd_65x39_caseless_green", "  30rnd 6.5mm", 10825 },
@@ -868,6 +963,7 @@ class WeaponShops {
             { "optic_Arco", "Arco", 250 },
             { "acc_pointer_IR", "Laser", 275 },
 			{ "optic_MRCO", "Mrco", 275 },
+			{ "optic_LRPS", "LPRS", 8500 },
 			{ "optic_Hamr", "Hamr", 275 }
         };
         mags[] = {
@@ -987,6 +1083,7 @@ class WeaponShops {
 			{ "optic_MRCO", "Mrco", 275 },
 			{ "optic_DMS", "DMS", 275 },
 			{ "optic_Hamr", "Hamr", 275 },
+			{ "optic_LRPS", "LPRS", 80500 },			
 			{ "muzzle_snds_Lt", "  9mm", 750 },
 			{ "muzzle_snds_M", "  5.56mm", 750 },
             { "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }

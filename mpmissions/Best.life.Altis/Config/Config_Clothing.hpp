@@ -270,6 +270,7 @@ class Clothing {
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
+			{ "KA_MCU", "gasmaska", 22150, { "", "", -1 } },
 			{ "G_Bandanna_beast", "", 150, { "life_coplevel", "SCALAR", 6 } },
             { "G_Bandanna_aviator", "", 150, { "life_coplevel", "SCALAR", 6 } },
             { "G_Bandanna_blk", "", 150, { "life_coplevel", "SCALAR", 6 } },
@@ -1055,7 +1056,8 @@ class Clothing {
             { "G_Bandanna_oli", "", 150, { "", "", -1 } },
             { "G_Bandanna_shades", "", 150, { "", "", -1 } },
             { "G_Bandanna_sport", "", 150, { "", "", -1 } },
-            { "G_Bandanna_tan", "", 150, { "", "", -1 } }
+            { "G_Bandanna_tan", "", 150, { "", "", -1 } },
+			{ "KA_MCU", "gasmaska", 77150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
