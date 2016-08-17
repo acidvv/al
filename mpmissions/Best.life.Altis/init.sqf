@@ -39,3 +39,7 @@ StartProgress = true;
 	0, // seconds to deleted planted explosives (0 means don't delete)
 	0 // seconds to delete dropped smokes/chemlights (0 means don't delete)
 ] execVM "Custom\repetitive_cleanup.sqf";
+
+
+```AR_SUPPORTED_VEHICLES_OVERRIDE = [ "I_Heli_Transport_02_F", "B_Heli_Transport_03_unarmed_F" ,"O_Heli_Transport_04_Box_F" ,"MV22" ]; ```
+```ASL_SUPPORTED_VEHICLES_OVERRIDE = [ "Air" ]; ```
