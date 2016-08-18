@@ -4,7 +4,7 @@ _feuerwerk attachTo[player,[0,1.2,0]];
 _feuerwerk setDir 90;
 _feuerwerk setVariable["item","feuerwerkDeployed",true];
 
-life_action_feuerwerkDeploy = player addAction["<t color='#0000FF'>Feuerwerk aufstellen</t>",{if(!isNull life_feuerwerk) then {detach life_feuerwerk; life_feuerwerk = ObjNull;}; player removeAction life_action_feuerwerkDeploy; life_action_feuerwerkDeploy = nil;},"",999,false,false,"",'!isNull life_feuerwerk'];
+life_action_feuerwerkDeploy = player addAction["<t color='#0000FF'>odpal sztuczne ognie</t>",{if(!isNull life_feuerwerk) then {detach life_feuerwerk; life_feuerwerk = ObjNull;}; player removeAction life_action_feuerwerkDeploy; life_action_feuerwerkDeploy = nil;},"",999,false,false,"",'!isNull life_feuerwerk'];
 life_feuerwerk = _feuerwerk;
 waitUntil {isNull life_feuerwerk};
 if(!isNil "life_action_feuerwerkDeploy") then {player removeAction life_action_feuerwerkDeploy;};
