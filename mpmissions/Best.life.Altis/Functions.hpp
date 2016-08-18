@@ -409,6 +409,12 @@ class Life_Client_Core {
 		class spikeStrip {};
 		class storageBox {};
 		class gpsTracker {};
+		class feuerwerkblue{};
+		class feuerwerkred{};
+		class feuerwerkgreen{};
+		class feuerwerkwhite{};
+		class feuerwerkrandom{};
+		
 	};
 
 	class Medical_System {
@@ -544,10 +550,10 @@ class Life_Client_Core {
 		class vehicleEmpd {};
 	};
 	
-	class armageddon
+	class FeuerwerkInit
 	{
-		file = "scripts\events\restart";
-		class armageddon {};
-		class earthquake {};
+		file = "scripts\feuerwerk\scripts";
+		class callFireworks {};
+		class fireworks {};
 	};
 };

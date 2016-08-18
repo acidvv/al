@@ -188,7 +188,40 @@ switch (true) do {
 			};
 		};
 	};
+case (EQUAL(_item,"feuerwerkrandom")): {
+		if(!isNull life_feuerwerk) exitWith {hint localize "STR_ISTR_feuerwerk"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+		[] spawn life_fnc_feuerwerkrandom;
+		};
+	};
 
+	case (EQUAL(_item,"feuerwerkred")): {
+		if(!isNull life_feuerwerk) exitWith {hint localize "STR_ISTR_feuerwerk"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_feuerwerkred;
+		};
+	};
+
+	case (EQUAL(_item,"feuerwerkblue")): {
+		if(!isNull life_feuerwerk) exitWith {hint localize "STR_ISTR_feuerwerk"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_feuerwerkblue;
+		};
+	};
+
+	case (EQUAL(_item,"feuerwerkgreen")): {
+		if(!isNull life_feuerwerk) exitWith {hint localize "STR_ISTR_feuerwerk"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_feuerwerkgreen;
+		};
+	};
+	
+	case (EQUAL(_item,"feuerwerkwhite")): {
+		if(!isNull life_feuerwerk) exitWith {hint localize "STR_ISTR_feuerwerk"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_feuerwerkwhite;
+		};
+	};
 	default {
 		hint localize "STR_ISTR_NotUsable";
 	};

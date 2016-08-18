@@ -90,6 +90,7 @@ class CfgRemoteExec {
         F(life_fnc_masked,CLIENT)
 		F(seizePlayerWeaponAction,CLIENT)
 		
+		
 			
 
         /* Server only functions */
@@ -201,6 +202,8 @@ class CfgRemoteExec {
 		F(life_fnc_armageddon,ANYONE)
 		F(life_fnc_copmedicrequest,ANYONE)
         F(life_fnc_globalSound,ANYONE)
+		F(life_fnc_callFireworks,ANYONE)
+		F(life_fnc_fireworks,ANYONE)
 		
     };
 

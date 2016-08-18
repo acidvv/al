@@ -13,7 +13,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "moonshine", "tbacon", "pickaxe", "woodaxe", "toolkit", "fuelFull", "peach", "goldcoin", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "feuerwerkrandom", "feuerwerkred", "feuerwerkblue", "feuerwerkgreen", "feuerwerkwhite" };
 	};
 
 	class plank {
@@ -1528,4 +1528,58 @@ class Skarb {
 			edible = -1;
 			icon = "icons\craft\plans.paa";
 	};
-};
+class feuerwerkrandom {
+		variable = "feuerwerkrandom";
+		displayName = "STR_Item_feuerwerkrandom";
+		weight = 5;
+		buyPrice = 42500;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\feuerwerkrandom.paa";
+	};
+	
+		class feuerwerkred {
+		variable = "feuerwerkred";
+		displayName = "STR_Item_feuerwerkred";
+		weight = 5;
+		buyPrice = 42500;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\feuerwerkred.paa";
+	};
+
+	class feuerwerkblue {
+		variable = "feuerwerkblue";
+		displayName = "STR_Item_feuerwerkblue";
+		weight = 5;
+		buyPrice = 42500;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\feuerwerkblue.paa";
+	};
+	
+	class feuerwerkgreen {
+		variable = "feuerwerkgreen";
+		displayName = "STR_Item_feuerwerkgreen";
+		weight = 5;
+		buyPrice = 42500;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\feuerwerkgreen.paa";
+	};
+	
+	class feuerwerkwhite {
+		variable = "feuerwerkwhite";
+		displayName = "STR_Item_feuerwerkwhite";
+		weight = 5;
+		buyPrice = 42500;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\feuerwerkwhite.paa";
+	};
+	};
