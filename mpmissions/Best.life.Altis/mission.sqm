@@ -8,22 +8,22 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=11945;
+		nextID=11949;
 	};
 	class MarkerIDProvider
 	{
-		nextID=313;
+		nextID=314;
 	};
 	class LayerIndexProvider
 	{
-		nextID=45;
+		nextID=46;
 	};
 	class Camera
 	{
-		pos[]={20769.934,54.120819,7271.3828};
-		dir[]={0.91296417,-0.25454992,-0.31898659};
-		up[]={0.24031763,0.96705621,-0.083966397};
-		aside[]={-0.32985106,-1.7201091e-007,-0.94406164};
+		pos[]={16554.65,11.546857,12472.772};
+		dir[]={-0.72735918,-0.41765895,-0.54454392};
+		up[]={-0.33434588,0.90860116,-0.25031161};
+		aside[]={-0.59931904,1.0686927e-007,0.8005209};
 	};
 };
 binarizationWanted=0;
@@ -655,7 +655,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2767;
+		items=2771;
 		class Item0
 		{
 			dataType="Marker";
@@ -975,7 +975,7 @@ class Mission
 			position[]={16917.9,16.343323,12477.716};
 			name="civ_car_2";
 			type="Empty";
-			angle=303.45029;
+			angle=303.45026;
 			id=42;
 			atlOffset=-3.2549896;
 		};
@@ -1448,12 +1448,13 @@ class Mission
 		class Item78
 		{
 			dataType="Marker";
-			position[]={25831.131,20.912157,21446.154};
+			position[]={25831.131,-3.8869611e-016,21446.154};
 			name="car1_1_1";
 			text="@STR_MAR_Car_Shop";
 			type="c_car";
-			colorName="ColorWhite";
+			colorName="ColorOrange";
 			id=90;
+			atlOffset=-20.912157;
 		};
 		class Item79
 		{
@@ -1663,22 +1664,24 @@ class Mission
 		class Item100
 		{
 			dataType="Marker";
-			position[]={25665.254,19.308283,21296.332};
+			position[]={25625.291,19.308289,21383.322};
 			name="Gen_3_4";
 			text="@STR_MAR_Bruce_Outfits";
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=116;
+			atlOffset=-1.5342598;
 		};
 		class Item101
 		{
 			dataType="Marker";
-			position[]={25573.17,19.70323,21312.16};
+			position[]={25707.58,19.703156,21391.123};
 			name="Gen_3_1_1_1";
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=117;
+			atlOffset=-0.95988083;
 		};
 		class Item102
 		{
@@ -2316,12 +2319,13 @@ class Mission
 		class Item163
 		{
 			dataType="Marker";
-			position[]={16885.555,20.481829,12646.81};
+			position[]={16756.953,20.481812,12614.877};
 			name="atm_marker_5";
 			type="loc_Tourism";
 			colorName="ColorGreen";
 			angle=287.28958;
 			id=183;
+			atlOffset=2.4729519;
 		};
 		class Item164
 		{
@@ -4418,8 +4422,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={16885.33,21.774281,12646.896};
-				angles[]={6.2674537,1.8589443,6.2621465};
+				position[]={16756.213,19.112513,12614.896};
+				angles[]={0,4.7371459,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4430,7 +4434,7 @@ class Mission
 			};
 			id=551;
 			type="Land_Atm_02_F";
-			atlOffset=0.0011310577;
+			atlOffset=0.029415131;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18771,8 +18775,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={25573.992,20.18375,21312.07};
-						angles[]={0.0029499636,0.94108629,6.2823396};
+						position[]={25708.33,20.677315,21390.725};
+						angles[]={0,2.4067843,0};
 					};
 					side="Civilian";
 					flags=4;
@@ -18783,7 +18787,7 @@ class Mission
 					};
 					id=973;
 					type="C_man_1";
-					atlOffset=3.8146973e-006;
+					atlOffset=0.018613815;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20047,10 +20051,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={25665.32,19.820276,21297.393};
-						angles[]={0,5.2737217,6.2823472};
+						position[]={25626.201,21.045385,21382.844};
+						angles[]={0,2.5636907,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -20058,7 +20063,7 @@ class Mission
 					};
 					id=996;
 					type="C_man_1";
-					atlOffset=0.51099968;
+					atlOffset=0.099737167;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -45505,7 +45510,7 @@ class Mission
 			};
 			id=3539;
 			type="ArrowDesk_R_F";
-			atlOffset=-0.020015717;
+			atlOffset=-0.02001667;
 		};
 		class Item1316
 		{
@@ -75710,8 +75715,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={25586.291,21.955612,21381.225};
-						angles[]={0,3.4435647,0};
+						position[]={25708.381,20.789537,21343.227};
+						angles[]={0,5.7312555,0};
 					};
 					side="Civilian";
 					flags=2;
@@ -75721,7 +75726,7 @@ class Mission
 					};
 					id=11116;
 					type="C_man_p_fugitive_F";
-					atlOffset=0.4390316;
+					atlOffset=0.39159584;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -75751,12 +75756,12 @@ class Mission
 			{
 			};
 			id=11115;
-			atlOffset=0.4390316;
+			atlOffset=0.39159584;
 		};
 		class Item2336
 		{
 			dataType="Marker";
-			position[]={25585.613,8.7987014e+027,21380.732};
+			position[]={25708.633,8.7987014e+027,21343.104};
 			name="Gen_8";
 			text="Exclusive-Butik";
 			type="c_unknown";
@@ -80349,7 +80354,7 @@ class Mission
 				};
 			};
 			id=11493;
-			atlOffset=4.798749;
+			atlOffset=4.8054514;
 		};
 		class Item2498
 		{
@@ -80366,7 +80371,7 @@ class Mission
 			};
 			id=11494;
 			type="Skyline_Security_Cam_01_F";
-			atlOffset=4.798749;
+			atlOffset=4.8054514;
 		};
 		class Item2499
 		{
@@ -87190,7 +87195,7 @@ class Mission
 			};
 			id=11912;
 			type="Land_LampDecor_F";
-			atlOffset=-0.0030002594;
+			atlOffset=-0.0030012131;
 		};
 		class Item2743
 		{
@@ -87326,7 +87331,7 @@ class Mission
 			};
 			id=11925;
 			type="Land_WoodenLog_F";
-			atlOffset=-9.727478e-005;
+			atlOffset=-9.1552734e-005;
 		};
 		class Item2751
 		{
@@ -87495,7 +87500,7 @@ class Mission
 			};
 			id=11935;
 			type="Flag_AAF_F";
-			atlOffset=0.053995132;
+			atlOffset=0.05399704;
 		};
 		class Item2761
 		{
@@ -87627,6 +87632,67 @@ class Mission
 			type="Empty";
 			id=11942;
 			atlOffset=-28.591951;
+		};
+		class Item2767
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16541.945,6.5224161,12464.974};
+				angles[]={0,4.0778141,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=11945;
+			type="Land_i_Shop_01_V3_F";
+			atlOffset=1.1525373;
+		};
+		class Item2768
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16540.738,4.2822371,12463.707};
+				angles[]={0,4.1450696,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this addAction [""Spin Slots"", {[] call life_fnc_slotmachine;}];";
+			};
+			id=11946;
+			type="Land_InfoStand_V2_F";
+			atlOffset=1.3955626;
+		};
+		class Item2769
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16546.412,4.5259809,12472.497};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=11947;
+			type="Land_LampDecor_F";
+			atlOffset=-0.0058350563;
+		};
+		class Item2770
+		{
+			dataType="Marker";
+			position[]={16544.121,-2.2024557e-014,12465.929};
+			name="marker_313";
+			text="Kasyno";
+			type="loc_Fountain";
+			colorName="ColorGreen";
+			id=11948;
+			atlOffset=-2.281239;
 		};
 	};
 };
