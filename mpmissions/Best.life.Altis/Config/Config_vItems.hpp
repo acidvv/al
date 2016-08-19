@@ -1532,7 +1532,7 @@ class feuerwerkrandom {
 		variable = "feuerwerkrandom";
 		displayName = "STR_Item_feuerwerkrandom";
 		weight = 5;
-		buyPrice = 42500;
+		buyPrice = 20500;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1543,7 +1543,7 @@ class feuerwerkrandom {
 		variable = "feuerwerkred";
 		displayName = "STR_Item_feuerwerkred";
 		weight = 5;
-		buyPrice = 42500;
+		buyPrice = 20500;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1554,7 +1554,7 @@ class feuerwerkrandom {
 		variable = "feuerwerkblue";
 		displayName = "STR_Item_feuerwerkblue";
 		weight = 5;
-		buyPrice = 42500;
+		buyPrice = 20500;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1565,7 +1565,7 @@ class feuerwerkrandom {
 		variable = "feuerwerkgreen";
 		displayName = "STR_Item_feuerwerkgreen";
 		weight = 5;
-		buyPrice = 42500;
+		buyPrice = 20500;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
@@ -1576,7 +1576,7 @@ class feuerwerkrandom {
 		variable = "feuerwerkwhite";
 		displayName = "STR_Item_feuerwerkwhite";
 		weight = 5;
-		buyPrice = 42500;
+		buyPrice = 20500;
 		sellPrice = -1;
 		illegal = false;
 		edible = -1;
