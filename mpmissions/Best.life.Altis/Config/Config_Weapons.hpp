@@ -800,10 +800,12 @@ class WeaponShops {
 		  { "arifle_TRG20_F", "TRG 5.56mm", 283000, 2500 },
 		  { "arifle_AKS_F", "AKS-74U 5.45", 230000, 7500 },
 		  { "optic_ACO_grn_smg", "Aco Smg", 950 },
+		  { "Hatchet", "katana", 80500, 2500 },
 		  { "optic_MRCO", "Mrco", 44500 }
         };
         mags[] = {
           { "16Rnd_9x21_Mag", "  16rnd 9mm", 125 },
+		  { "Katana_swing", "  KATANA", 8725 },
           { "6Rnd_45ACP_Cylinder", "  6rnd .45", 350 },
           { "9Rnd_45ACP_Mag", "  9rnd .45", 545 },
           { "30Rnd_9x21_Mag", "  16rnd 9mm", 675 },
@@ -870,8 +872,8 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "SMG_02_F", "Sting 9 mm", 15000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 13000, 750 },
-            { "hgun_P07_snds_F", "Pistola Tazer", 200, 60 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 13000, 750 },
+            { "hgun_P07_snds_F", "Tazer", 200, 60 },
             { "hgun_P07_F", "P07 9mm", 750, 150 },
             { "NVGoggles", "Nokto", 200, 90 },
 			{ "acc_pointer_IR", "Laser", 1660 },
@@ -909,11 +911,11 @@ class WeaponShops {
         name = "Altis Soldado Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "Musisz być żołnierzem!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Musisz mieć wyższą rangę!" };
         items[] = {
             
             { "SMG_02_F", "Sting 9 mm", 14000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 12000, 750 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 12000, 750 },
             { "hgun_P07_snds_F", "Tazer", 200, 60 },
             { "hgun_P07_F", "P07 9mm", 750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -944,7 +946,7 @@ class WeaponShops {
         name = "Altis Cabo Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "Musisz być ? żołnierzem!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Musisz mieć wyższą rangę!" };
         items[] = {
            
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 13000, 750 },
@@ -952,8 +954,8 @@ class WeaponShops {
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 50000, 750 },
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 13000, 750 },
 			{ "SMG_02_F", "Sting 9 mm", 11000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 10000, 750 },
-            { "hgun_P07_snds_F", "Pistola Tazer", 2500, 60 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 10000, 750 },
+            { "hgun_P07_snds_F", "Tazer", 2500, 60 },
             { "hgun_P07_F", "P07 9mm", 4750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "NVGoggles", "Nokto", 200, 90 },
@@ -989,9 +991,9 @@ class WeaponShops {
         name = "Altis SWAT Shop";
         side = "cop";
         license = "swat";
-        level[] = { "life_coplevel", "SCALAR", 3, "Musisz być sierżantem Swat!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Musisz być w AT!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 10000, 750 },
+            { "arifle_MXC_Black_F", "Mega Tazer", 10000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 15000, 750 },
 			{ "SMG_05_F", "TRG-21 5.56 mm", 15000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 15000, 750 },
@@ -1058,7 +1060,7 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "Musisz być Sierżantem!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 8000, 750 },
+            { "arifle_MXC_Black_F", "Mega Tazer", 8000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 12000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 12000, 750 },
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 48000, 750 },
@@ -1070,8 +1072,8 @@ class WeaponShops {
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 12000, 750 },
 			{ "LMG_Zafir_F", "negev", 112000, 750 },
             { "SMG_02_F", "Sting 9 mm", 10000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 9000, 750 },
-            { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 9000, 750 },
+            { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
@@ -1118,7 +1120,7 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "Musisz być Porucznikiem!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 80000, 750 },
+            { "arifle_MXC_Black_F", "Mega Tazer", 80000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 11000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 11000, 750 },
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 45000, 750 },
@@ -1130,8 +1132,8 @@ class WeaponShops {
 			{ "arifle_Mk20_F", "Mk20 5.56 mm", 11000, 750 },
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 11000, 750 },
             { "SMG_02_F", "Sting 9 mm", 9000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 9000, 750 },
-            { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 9000, 750 },
+            { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
@@ -1145,7 +1147,8 @@ class WeaponShops {
 			{ "optic_Hamr", "Hamr", 275 },
 			{ "muzzle_snds_Lt", "  9mm", 750 },
 			{ "muzzle_snds_M", "  5.56mm", 750 },
-			{ "muzzle_snds_H", "  6.5mm", 750 }
+			{ "muzzle_snds_H", "  6.5mm", 750 },
+			{ "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -1176,7 +1179,7 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 6, "Musisz być Kapitanem!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 8000, 750 },
+            { "arifle_MXC_Black_F", "Mega Tazer", 8000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 10000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 10000, 750 },
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 40000, 750 },
@@ -1188,9 +1191,10 @@ class WeaponShops {
 			{ "arifle_Mk20_F", "Mk20 5.56 mm", 10000, 750 },
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 10000, 750 },
             { "SMG_02_F", "Sting 9 mm", 8000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 8000, 750 },
-            { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 8000, 750 },
+            { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
+			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1203,7 +1207,8 @@ class WeaponShops {
 			{ "optic_Hamr", "Hamr", 275 },
 			{ "muzzle_snds_Lt", "  9mm", 750 },
 			{ "muzzle_snds_M", "  5.56mm", 750 },
-			{ "muzzle_snds_H", "  6.5mm", 750 }
+			{ "muzzle_snds_H", "  6.5mm", 750 },
+			{ "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -1212,7 +1217,8 @@ class WeaponShops {
 			{ "200Rnd_65x39_cased_Box_Tracer", "  200rnd 6.5mm", 25 },
 			{ "100Rnd_65x39_caseless_mag_Tracer", "  100rnd 6.5mm", 25 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 25 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 }
+            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
+			{ "M_Titan_AA", "  AA", 1000 }
         };
         accs[] = {
             { "acc_flashlight", "Latarka", 750 },
@@ -1234,7 +1240,7 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 7, "Musisz być Majorem!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 7000, 750 },
+            { "arifle_MXC_Black_F", "Mega Tazer", 7000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 9000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 9000, 750 },
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 35000, 750 },
@@ -1247,9 +1253,10 @@ class WeaponShops {
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 9000, 750 },
             { "SMG_02_F", "Sting 9 mm", 7000, 750 },
 			{ "srifle_DMR_06_camo_F", "Mk14 7.62mm", 65000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 7000, 750 },
-            { "hgun_P07_snds_F", "Pistola Tazer", 1500, 60 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 7000, 750 },
+            { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
+			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1263,7 +1270,8 @@ class WeaponShops {
 			{ "muzzle_snds_Lt", "  9mm", 750 },
 			{ "muzzle_snds_M", "  5.56mm", 750 },
 			{ "muzzle_snds_B", "  7.62mm", 750 },
-			{ "muzzle_snds_H", "  6.5mm", 750 }
+			{ "muzzle_snds_H", "  6.5mm", 750 },
+			{ "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -1272,7 +1280,8 @@ class WeaponShops {
 			{ "200Rnd_65x39_cased_Box_Tracer", "  200rnd 6.5mm", 25 },
 			{ "100Rnd_65x39_caseless_mag_Tracer", "  100rnd 6.5mm", 25 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 25 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 }
+            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
+			{ "M_Titan_AA", "  AA", 1000 }
         };
         accs[] = {
             { "acc_flashlight", "Latarka", 750 },
@@ -1293,9 +1302,9 @@ class cop_tenente_coronel {
         name = "Altis Major Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 8, "Musisz być Majorem!" };
+        level[] = { "life_coplevel", "SCALAR", 8, "Musisz mieć wyższą rangę!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 7000, 750 },
+            { "arifle_MXC_Black_F", "Mega Tazer", 7000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 9000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 9000, 750 },
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 35000, 750 },
@@ -1310,7 +1319,7 @@ class cop_tenente_coronel {
             { "SMG_02_F", "Sting 9 mm", 7000, 750 },
 			{ "srifle_DMR_03_F", "Mk-I EMR 7.62mm", 65000, 750 },
 			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 7000, 750 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 7000, 750 },
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
             { "FirstAidKit", "Apteczka", 50, 5 },
@@ -1358,9 +1367,9 @@ class cop_tenente_coronel {
         name = "Altis Major Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 9, "Musisz być Majorem!" };
+        level[] = { "life_coplevel", "SCALAR", 9, "Musisz mieć wyższą rangę!" };
         items[] = {
-            { "arifle_MXC_Black_F", "Rifle Tazer", 7000, 750 },
+            { "arifle_MXC_Black_F", "Mega Tazer", 7000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 9000, 750 },
 			{ "arifle_TRG20_F", "TRG-20 5.56 mm", 9000, 750 },
 			{ "LMG_Mk200_F", "Mk200 6.5 mm", 35000, 750 },
@@ -1375,9 +1384,10 @@ class cop_tenente_coronel {
 			{ "arifle_Mk20C_F", "Mk20C 5.56 mm", 9000, 750 },
             { "SMG_02_F", "Sting 9 mm", 7000, 750 },
 			{ "srifle_DMR_03_F", "Mk-I EMR 7.62mm", 65000, 750 },
-			{ "hgun_PDW2000_F", "Submachine 9x21 mm", 7000, 750 },
+			{ "hgun_PDW2000_F", "PDW 9x21 mm", 7000, 750 },
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
+			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1391,7 +1401,8 @@ class cop_tenente_coronel {
 			{ "muzzle_snds_Lt", "  9mm", 750 },
 			{ "muzzle_snds_B", "  7.62mm", 750 },
 			{ "muzzle_snds_M", "  5.56mm", 750 },
-			{ "muzzle_snds_H", "  6.5mm", 750 }
+			{ "muzzle_snds_H", "  6.5mm", 750 },
+			{ "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "  16rnd 9mm", 25 },
@@ -1400,7 +1411,8 @@ class cop_tenente_coronel {
 			{ "200Rnd_65x39_cased_Box_Tracer", "  200rnd 6.5mm", 25 },
 			{ "100Rnd_65x39_caseless_mag_Tracer", "  100rnd 6.5mm", 25 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 25 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 }
+            { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
+			{ "M_Titan_AA", "  AA", 1000 }
         };
         accs[] = {
             { "acc_flashlight", "Latarka", 750 },
