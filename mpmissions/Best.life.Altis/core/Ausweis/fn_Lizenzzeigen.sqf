@@ -11,12 +11,12 @@ switch(playerSide)do{
 	case 1: { _rang = "Praktykant"; };
 	case 2: { _rang = "Kadet"; };
 	case 3: { _rang = "Posterunkowy"; };
-	case 4: { _rang = "Komisarz"; };
-	case 5: { _rang = "Oficer"; };
-	case 6: { _rang = "Sierżant"; };
-	case 7: { _rang = "Porucznik"; };
-	case 8: { _rang = "Kapitan"; };
-	case 9: { _rang = "Komendant"; };
+	case 4: { _rang = "Sierżant"; };
+	case 5: { _rang = "Aspirant"; };
+	case 6: { _rang = "Starszy Aspirant"; };
+	case 7: { _rang = "Komisarz"; };
+	case 8: { _rang = "Inspektor"; };
+	case 9: { _rang = "Nadinspektor"; };
 	default { _rank =  "Error";};
   };
   _marke = "marke_cop";
@@ -40,11 +40,11 @@ switch(playerSide)do{
   if(playerSide == civilian)then{
    _rang = "Cywil";
    _marke = "marke_ziv";
-   _org = "Republik Altis";
+   _org = "Republika Best";
   }else{
    _rang = "Zivilist";
    _marke = "marke_abi";
-   _org = "Republik Altis";
+   _org = "Republika Best";
   };  
  };
 };
