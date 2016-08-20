@@ -866,7 +866,7 @@ class WeaponShops {
 
     //Cop Shops
     class cop_recruta {
-        name = "Altis Recruta Shop";
+        name = "Rekrut";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
@@ -908,7 +908,7 @@ class WeaponShops {
     };
 
     class cop_soldado {
-        name = "Altis Soldado Shop";
+        name = "Kadet";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "Musisz mieć wyższą rangę!" };
@@ -943,7 +943,7 @@ class WeaponShops {
     };
 
     class cop_cabo {
-        name = "Altis Cabo Officer Shop";
+        name = "Posterunkowy";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "Musisz mieć wyższą rangę!" };
@@ -988,7 +988,7 @@ class WeaponShops {
     };
 
     class cop_SWAT {
-        name = "Altis SWAT Shop";
+        name = "AT";
         side = "cop";
         license = "swat";
         level[] = { "life_coplevel", "SCALAR", 3, "Musisz być w AT!" };
@@ -1009,6 +1009,8 @@ class WeaponShops {
             { "srifle_DMR_01_SOS_F", "", 85000, -1 },
             { "launch_RPG32_F", "", 150000, -1 },
             { "HandGrenade_Stone", "Flashbang", 170, -1 },
+			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
+			{ "Titan_AA", "AA", 1000 },
             { "optic_MRCO", "", 1450 },
             { "optic_Arco", "", 1050 },
             { "optic_KHS_blk", "", 2250 },
@@ -1028,7 +1030,8 @@ class WeaponShops {
             { "RPG32_HE_F", "", 15000 },
 			{ "optic_Arco", "", 250 },
             { "optic_MRCO", "", 350, -1 },
-			{ "muzzle_snds_B", "", 275 }
+			{ "muzzle_snds_B", "", 275 },
+			{ "Skyline_B_Remote_Cam", "kontrola kamery", 44750 }
         };
         mags[] = {
             { "5Rnd_127x108_Mag", "", 100 },
@@ -1045,6 +1048,7 @@ class WeaponShops {
 			{ "30Rnd_9x21_Mag", "  30rnd 9mm", 25 },
 			{ "30Rnd_9x21_Mag_SMG_02", "  30rnd 9mm", 25 },
 			{ "150Rnd_556x45_Drum_Mag_F", "  150rnd 5.56mm", 25 },
+			{ "Titan_AA", "AA", 1000 },
 			{ "30Rnd_556x45_Stanag_Tracer_Green", "  30rnd 5.56mm", 25 }
         };
         accs[] = {
@@ -1055,10 +1059,10 @@ class WeaponShops {
     };
 
     class cop_sargento {
-        name = "Altis Sargento Shop";
+        name = "Sierżant";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "Musisz być Sierżantem!" };
+        level[] = { "life_coplevel", "SCALAR", 4, "Musisz mieć wyższą rangę!" };
         items[] = {
             { "arifle_MXC_Black_F", "Mega Tazer", 8000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 12000, 750 },
@@ -1075,6 +1079,7 @@ class WeaponShops {
 			{ "hgun_PDW2000_F", "PDW 9x21 mm", 9000, 750 },
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
+			{ "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1115,10 +1120,10 @@ class WeaponShops {
     };
 
     class cop_tenente {
-        name = "Altis Tenente Shop";
+        name = "Aspirant";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "Musisz być Porucznikiem!" };
+        level[] = { "life_coplevel", "SCALAR", 5, "Musisz mieć wyższą rangę!" };
         items[] = {
             { "arifle_MXC_Black_F", "Mega Tazer", 80000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 11000, 750 },
@@ -1135,6 +1140,7 @@ class WeaponShops {
 			{ "hgun_PDW2000_F", "PDW 9x21 mm", 9000, 750 },
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
+			{ "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1174,10 +1180,10 @@ class WeaponShops {
     };
 	
 	class cop_capitao {
-        name = "Altis Capitão Shop";
+        name = "Starszy Aspirant";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "Musisz być Kapitanem!" };
+        level[] = { "life_coplevel", "SCALAR", 6, "Musisz mieć wyższą rangę!" };
         items[] = {
             { "arifle_MXC_Black_F", "Mega Tazer", 8000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 10000, 750 },
@@ -1195,6 +1201,8 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
 			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
+			{ "Titan_AA", "  AA", 1000 },
+			{ "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1218,7 +1226,7 @@ class WeaponShops {
 			{ "100Rnd_65x39_caseless_mag_Tracer", "  100rnd 6.5mm", 25 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 25 },
             { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
-			{ "M_Titan_AA", "  AA", 1000 }
+			{ "Titan_AA", "  AA", 1000 }
         };
         accs[] = {
             { "acc_flashlight", "Latarka", 750 },
@@ -1235,10 +1243,10 @@ class WeaponShops {
     };
 	
 	class cop_major {
-        name = "Altis Major Shop";
+        name = "Komisarz";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "Musisz być Majorem!" };
+        level[] = { "life_coplevel", "SCALAR", 7, "Musisz mieć wyższą rangę!" };
         items[] = {
             { "arifle_MXC_Black_F", "Mega Tazer", 7000, 750 },
 			{ "arifle_TRG21_F", "TRG-21 5.56 mm", 9000, 750 },
@@ -1257,6 +1265,7 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
 			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
+			{ "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1281,7 +1290,7 @@ class WeaponShops {
 			{ "100Rnd_65x39_caseless_mag_Tracer", "  100rnd 6.5mm", 25 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 25 },
             { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
-			{ "M_Titan_AA", "  AA", 1000 }
+			{ "Titan_AA", "  AA", 1000 }
         };
         accs[] = {
             { "acc_flashlight", "Latarka", 750 },
@@ -1299,7 +1308,7 @@ class WeaponShops {
     };
 	
 class cop_tenente_coronel {
-        name = "Altis Major Shop";
+        name = "Inspektor";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 8, "Musisz mieć wyższą rangę!" };
@@ -1322,6 +1331,7 @@ class cop_tenente_coronel {
 			{ "hgun_PDW2000_F", "PDW 9x21 mm", 7000, 750 },
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
+			{ "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1346,7 +1356,7 @@ class cop_tenente_coronel {
 			{ "100Rnd_65x39_caseless_mag_Tracer", "  100rnd 6.5mm", 25 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 25 },
             { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
-			{ "M_Titan_AA", "  AA", 1000 }
+			{ "Titan_AA", "  AA", 1000 }
         };
         accs[] = {
             { "acc_flashlight", "Latarka", 750 },
@@ -1364,7 +1374,7 @@ class cop_tenente_coronel {
     };
 	
 	class cop_coronel {
-        name = "Altis Major Shop";
+        name = "Nadinspektor";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 9, "Musisz mieć wyższą rangę!" };
@@ -1388,6 +1398,7 @@ class cop_tenente_coronel {
             { "hgun_P07_snds_F", "Tazer", 1500, 60 },
             { "hgun_P07_F", "P07 9mm", 3750, 150 },
 			{ "launch_O_Titan_ghex_F", "Titan MPRL (Green Hex)mm", 165000, 750 },
+			{ "HandGrenade_Stone", "Flashbang", 170, -1 },
             { "FirstAidKit", "Apteczka", 50, 5 },
             { "Rangefinder", "Rangefinder", 12200, 90 },
 			{ "ItemMap", "Mapa", 50, 35 },
@@ -1412,7 +1423,7 @@ class cop_tenente_coronel {
 			{ "100Rnd_65x39_caseless_mag_Tracer", "  100rnd 6.5mm", 25 },
 			{ "20Rnd_762x51_Mag", "  20rnd 7.62mm", 25 },
             { "30Rnd_65x39_caseless_mag_Tracer", "  30rnd 6.5mm", 10 },
-			{ "M_Titan_AA", "  AA", 1000 }
+			{ "Titan_AA", "  AA", 1000 }
         };
         accs[] = {
             { "acc_flashlight", "Latarka", 750 },

@@ -134,7 +134,6 @@ class Clothing {
 			{ "U_C_man_sport_1_F", "dlc", 16500, { "", "", -1 } },
 			{ "U_C_man_sport_2_F", "dlc", 17500, { "", "", -1 } },
 			{ "U_C_man_sport_3_F", "dlc", 18500, { "", "", -1 } },
-            { "max_fire_uniform", "strażak", 18500, { "", "", -1 } },
             { "pilot_bLACK_uniform", "ciuchy ", 18500, { "", "", -1 } },
             { "pilot_blue_uniform", "ciuchy ", 18500, { "", "", -1 } },
             { "pilot_green_uniform", "ciuchy  ", 18500, { "", "", -1 } },
@@ -150,7 +149,6 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "max_fire_Helmet", "strażak", 8150, { "", "", -1 } },
             { "pilot_black_helmet", "pilotka", 8150, { "", "", -1 } },
             { "pilot_blue_helmet", "pilotka", 8150, { "", "", -1 } },
             { "pilot_red_helmet", "pilotka", 8150, { "", "", -1 } },
@@ -385,6 +383,7 @@ class Clothing {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_C_Scientist", "EMS Uniform", 50, { "", "", -1 } },
             { "max_paramedic_uniform", "fartuszek", 50, { "", "", -1 } },
+			{ "max_fire_uniform", "strażak", 500, { "", "", -1 } },
             { "HEMS_pilot_uniform", "medyk pilot", 50, { "", "", -1 } }
             
 			   };
@@ -392,6 +391,7 @@ class Clothing {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_blu", "", 10, { "", "", -1 } },
             { "max_paramedic_cap", "czapeczka", 10, { "", "", -1 } },
+			{ "max_fire_Helmet", "strażak", 50, { "", "", -1 } },
             { "HEMS_pilot_Helmet", "kask pilota", 10, { "", "", -1 } }
         };
         goggles[] = {
