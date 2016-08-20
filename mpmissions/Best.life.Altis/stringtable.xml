@@ -4417,7 +4417,7 @@
 			<French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nPermis de port d'arme\n LicenceRebel</French>
 			<Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
 			<Portuguese>Você perdeu as seguintes licenças por ter sido preso\n\nPorte de Armas\n\nTreinamento Rebelde</Portuguese>
-			<Polish>Z uwagi na aresztowanie straciłeś nielegalne licencje \n\nPozwolenie na broń \nTrening Rebelianta</Polish>
+			<Polish>Z uwagi na aresztowanie straciłeś nielegalne licencje \n\nPozwolenie na broń \n</Polish>
 		</Key>
 		<Key ID="STR_Jail_EscapeNOTF">
 			<Original>%1 has escaped from jail!</Original>
@@ -10248,10 +10248,10 @@
 			<Russian></Russian>
 			<German>Polizei Uniformen</German>
 			<Portuguese>Loja de Roupas da Polícia</Portuguese>
-			<Polish>Umundurowanie</Polish>
+			<Polish>Mundury</Polish>
 		</Key>
 		<Key ID="STR_MAR_recruta_Weapon_Shop">
-			<Original>Uzbrojenie rekruta</Original>
+			<Original>Broń rekruta</Original>
 		</Key>
 		<Key ID="STR_MAR_Cop_Weapon_Shop">
 			<Original>Cop Weapon Shop</Original>
@@ -10262,7 +10262,7 @@
 			<Russian></Russian>
 			<German>Polizei Waffenhändler</German>
 			<Portuguese>Armas de Soldado</Portuguese>
-			<Polish>Broń policji</Polish>
+			<Polish>Broń kadeta</Polish>
 		</Key>
 		<Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
 			<Original>Patrol Officer Weapon Shop</Original>
@@ -10272,7 +10272,7 @@
 			<Italian>Pattugliare Ufficiale Arma negozio</Italian>
 			<Russian></Russian>
 			<Portuguese>Armas de Cabo</Portuguese>
-			<Polish>Broń patrolowa</Polish>
+			<Polish>Broń posterunkowego</Polish>
 			<German>Streifenpolizist Waffenladen</German>
 		</Key>
 		<Key ID="STR_MAR_Sergeant_Weapon_Shop">
@@ -10287,19 +10287,19 @@
 			<German>Sergeant Waffenladen</German>
 		</Key>
 		<Key ID="STR_MAR_lieutenant_Weapon_Shop">
-			<Original>Broń porucznika</Original>
+			<Original>Broń aspiranta</Original>
 		</Key>
 		<Key ID="STR_MAR_captain_Weapon_Shop">
-			<Original>Broń kapitana</Original>
+			<Original>Broń st. aspitanta</Original>
 		</Key>
 		<Key ID="STR_MAR_SWAT_Weapon_Shop">
-			<Original>SWAT Sklep</Original>
+			<Original>AT</Original>
 		</Key>
 		<Key ID="STR_MAR_tencoronel_Weapon_Shop">
-			<Original>Broń Majora</Original>
+			<Original>Broń komisarza</Original>
 		</Key>
 		<Key ID="STR_MAR_coronel_Weapon_Shop">
-			<Original>Broń Komendata</Original>
+			<Original>Broń Inspektora</Original>
 			</Key>
 			<Key ID="STR_MAR_specpojazdy">
 			<Original>Broń Komendata</Original>
@@ -10585,7 +10585,7 @@
 			<Italian>Uso di stupefacenti in pubblico</Italian>
 		</Key>
 		<Key ID="STR_Crime_487">
-			<Original>Kradzież</Original>
+			<Original>Duża Kradzież</Original>
 			<Czech>velká loupež</Czech>
 			<French>Vol de voiture</French>
 			<Spanish>Robo Mayor</Spanish>
@@ -10755,7 +10755,7 @@
 			<Italian>Luci spente durante la notte</Italian>
 		</Key>
 		<Key ID="STR_Crime_6">
-			<Original>Jazda bez skorupy w gokardzie</Original>
+			<Original>Jazda bez kasku w gokardzie</Original>
 			<Czech>Hnací motokáru bez helmy</Czech>
 			<Spanish>Manejar un Kart sin casco</Spanish>
 			<Russian></Russian>
@@ -10826,7 +10826,7 @@
 			<Italian>Guida di velivolo su città abitata senza autorizzazione</Italian>
 		</Key>
 		<Key ID="STR_Crime_13">
-			<Original>Zamknięcie ulicy zez pozwolenia</Original>
+			<Original>Zamknięcie ulicy bez pozwolenia</Original>
 			<Czech>Uzavření ulici bez povolení</Czech>
 			<Spanish>Cerrar las calles sin autorización</Spanish>
 			<Russian></Russian>
