@@ -1875,7 +1875,7 @@ class O_T_LSV_02_armed_F {
 	class max_FBI_tahoe {
         vItemSpace = 300;
         licenses[] = { {"trucking"}, {""}, {""} };
-        price = 10775000;
+        price = 977500;
 		assurPrice = 59500;
         textures[] = {};
     };
