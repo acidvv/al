@@ -57,11 +57,11 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 					_x GVAR ["realname",name _x],
 					
 					switch ((_x GVAR "viprank")) do {
-						case 1: {"VIP Bronze"};
+						case 1: {"Mini VIP"};
 						case 2: {"VIP Silver"};
 						case 3: {"VIP Gold"};
 						case 4: {"VIP Platinum"};
-						case 5: {"VIP Diamante"};
+						case 5: {"VIP"};
 						
 						default {"Civil"};
 					}]};
@@ -85,11 +85,11 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 						case 2: {"Kadet"};
 						case 3: {"Posterunkowy"};
 						case 4: {"Sierżant"};
-						case 5: {"Pułkownik"};
-						case 6: {"Kapitan"};
-						case 7: {"Major"};
-						case 8: {"Zast. Komendanta"};
-						case 9: {"Komendant"};
+						case 5: {"Aspirant"};
+						case 6: {"Starszy aspirant"};
+						case 7: {"Komisarz"};
+						case 8: {"Inspektor"};
+						case 9: {"Starszy inspektor"};
 						
 						default {"Cop In Training"};
 					}]};
