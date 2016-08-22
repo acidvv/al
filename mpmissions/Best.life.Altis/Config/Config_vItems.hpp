@@ -450,7 +450,7 @@ class VirtualItems {
 		variable = "storageBig";
 		displayName = "STR_Item_StorageBL";
 		weight = 160;
-		buyPrice = 1250000;
+		buyPrice = 2250000;
 		sellPrice = 50000;
 		illegal = false;
 		edible = -1;
@@ -461,7 +461,7 @@ class VirtualItems {
 		variable = "storageSmall";
 		displayName = "STR_Item_StorageBS";
 		weight = 120;
-		buyPrice = 715000;
+		buyPrice = 1215000;
 		sellPrice = 25000;
 		illegal = false;
 		edible = -1;
