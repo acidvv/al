@@ -431,6 +431,7 @@ class CarShops {
             { "sab_FAAllegro", { "", "", -1 } },
             { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "MV22", { "", "", -1 } },
+			{ "mad_Heli_01_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } }
 			
         };
@@ -1070,6 +1071,13 @@ class O_T_LSV_02_armed_F {
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 550000;
 		assurPrice = 95500;
+        textures[] = { };
+    };
+	class mad_Heli_01_F {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1950000;
+		assurPrice = 595500;
         textures[] = { };
     };
 	class red_beetle_66_rubyred {
