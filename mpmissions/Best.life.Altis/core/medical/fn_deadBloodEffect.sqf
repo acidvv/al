@@ -37,7 +37,7 @@ life_bloodActionPlaying = true;
     //lower
     if((life_oldBleedRemaining > 5) && (life_oldBleedRemaining < 25)) then
     {
-        _texLower ctrlsetfade 0.2;	 //0 --changed
+        _texLower ctrlsetfade 0.2;	 
         _texLower ctrlcommit 0.2;
         waituntil {ctrlcommitted _texLower};
 		
@@ -51,8 +51,8 @@ life_bloodActionPlaying = true;
     //lower, 50% middle
     if ((life_oldBleedRemaining >= 25) && (life_oldBleedRemaining < 40)) then
     {
-        _texLower ctrlsetfade 0.2;	 //0 --changed
-        _texMiddle ctrlsetfade 0.85;  //0 --changed
+        _texLower ctrlsetfade 0.2;	 
+        _texMiddle ctrlsetfade 0.85;  
         
         _texLower ctrlcommit 0.2;
         _texMiddle ctrlcommit 0.2;
@@ -142,6 +142,6 @@ life_bloodActionPlaying = true;
 		sleep 0.5;
 		_texLower ctrlcommit 0.4;
     };    
-    waitUntil {(ctrlCommitted _texUpper && ctrlCommitted _texMiddle && ctrlCommitted _texLower)}; //Wait for the effects to be done!
+    waitUntil {(ctrlCommitted _texUpper && ctrlCommitted _texMiddle && ctrlCommitted _texLower)}; 
     life_bloodActionPlaying = false;
 };

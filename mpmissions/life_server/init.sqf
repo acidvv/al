@@ -57,7 +57,7 @@ if(isNil {GVAR_UINS "life_sql_id"}) then {
 	diag_log "extDB2: Still Connected to Database";
 };
 
-if(!(EQUAL(life_server_extDB_notLoaded,""))) exitWith {}; //extDB did not fully initialize so terminate the rest of the initialization process.
+if(!(EQUAL(life_server_extDB_notLoaded,""))) exitWith {};
 
 if(EQUAL(EXTDB_SETTING(getNumber,"HC_Enabled"),0)) then {
 	/* Run stored procedures for SQL side cleanup */

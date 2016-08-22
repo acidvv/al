@@ -12,8 +12,8 @@ _bool = [_this,1,false,[false]] call BIS_fnc_param;
 _ispack = [_this,2,false,[false]] call BIS_fnc_param;
 _ongun = [_this,3,false,[false]] call BIS_fnc_param;
 _override = [_this,4,false,[false]] call BIS_fnc_param;
-_toUniform = [_this,5,false,[false]] call BIS_fnc_param; //Manual override to send items specifically to a uniform.
-_toVest = [_this,6,false,[false]] call BIS_fnc_param; //Manual override to send items specifically to a vest
+_toUniform = [_this,5,false,[false]] call BIS_fnc_param;
+_toVest = [_this,6,false,[false]] call BIS_fnc_param; 
 _preview = [_this,7,false,[false]] call BIS_fnc_param;
 
 //Some checks
@@ -82,7 +82,7 @@ if(_bool) then {
 			};
 
 			if(_isgun) then {
-				if(!_ispack && _override) exitWith {}; //It was in the vest/uniform, try to close to prevent it overriding stuff... (Actual weapon and not an item)
+				if(!_ispack && _override) exitWith {}; 
 				if(EQUAL(_item,"MineDetector")) then {
 					player addItem _item;
 				} else {

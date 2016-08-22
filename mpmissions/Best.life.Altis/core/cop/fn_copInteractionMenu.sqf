@@ -24,9 +24,9 @@ _curTarget = param [0,objNull,[objNull]];
 _seizeRank = LIFE_SETTINGS(getNumber,"seize_minimum_rank");
 
 if(player GVAR ["Escorting", false]) then {
-	if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
-	if(!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; //Bad side check?
-	if(player distance _curTarget > 7 ) exitWith {closeDialog 0;}; // Prevents menu accessing from far distances.
+	if(isNull _curTarget) exitWith {closeDialog 0;}; 
+	if(!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; 
+	if(player distance _curTarget > 7 ) exitWith {closeDialog 0;}; 
 };
 
 if(!dialog) then {

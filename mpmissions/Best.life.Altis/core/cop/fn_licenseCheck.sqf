@@ -8,7 +8,7 @@
 */
 private["_cop","_licenses","_licensesConfigs"];
 _cop = param [0,ObjNull,[ObjNull]];
-if(isNull _cop) exitWith {}; //Bad entry
+if(isNull _cop) exitWith {}; 
 
 _licenses = "";
 

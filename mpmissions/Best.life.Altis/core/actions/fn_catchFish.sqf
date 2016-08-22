@@ -8,7 +8,7 @@
 */
 private["_fish","_type","_typeName"];
 _fish = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-if(isNull _fish) exitWith {}; //Object passed is null?
+if(isNull _fish) exitWith {}; 
 if(player distance _fish > 3.5) exitWith {};
 
 switch(true) do {

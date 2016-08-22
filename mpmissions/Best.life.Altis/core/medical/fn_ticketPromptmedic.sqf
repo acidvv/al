@@ -7,7 +7,7 @@
 	Prompts the player that he is being ticketed.
 */
 private["_cop","_val"];
-if(!isNull (findDisplay 2600)) exitwith {}; //Already at the ticket menu, block for abuse?
+if(!isNull (findDisplay 2600)) exitwith {}; 
 _cop = SEL(_this,0);
 if(isNull _cop) exitWith {};
 _val = SEL(_this,1);

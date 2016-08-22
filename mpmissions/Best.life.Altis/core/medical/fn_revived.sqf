@@ -11,7 +11,7 @@ _medic = param [0,"Unknown Medic",[""]];
 _reviveCost = LIFE_SETTINGS(getNumber,"revive_fee");
 
 [life_save_gear] spawn life_fnc_loadDeadGear;
-life_corpse SVAR ["realname",nil,true]; //Should correct the double name sinking into the ground.
+life_corpse SVAR ["realname",nil,true]; 
 [life_corpse] remoteExecCall ["life_fnc_corpse",RANY];
 
 _dir = getDir life_corpse;
@@ -42,7 +42,7 @@ player SVAR ["Revive",nil,TRUE];
 player SVAR ["name",nil,TRUE];
 player SVAR ["Reviving",nil,TRUE];
 [] call life_fnc_playerSkins;
-[] call life_fnc_hudUpdate; //Request update of hud.
+[] call life_fnc_hudUpdate; 
 [] call SOCK_fnc_updateRequest;
 
 life_nlrtimer_stop = true;

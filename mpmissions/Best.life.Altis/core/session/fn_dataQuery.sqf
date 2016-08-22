@@ -8,7 +8,7 @@
     the server to check for player information.
 */
 private["_uid","_side","_sender"];
-if (life_session_completed) exitWith {}; //Why did this get executed when the client already initialized? Fucking arma...
+if (life_session_completed) exitWith {};
 _sender = player;
 _uid = getPlayerUID _sender;
 _side = playerSide;

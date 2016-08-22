@@ -21,7 +21,7 @@ for "_i" from 1 to _doors do {
 		if(player distance _worldSpace < 7) exitWith {_door = _i;};
 };
 
-if(EQUAL(_door,0)) exitWith {hint localize "STR_Cop_NotaDoor"}; //Not near a door to be broken into.
+if(EQUAL(_door,0)) exitWith {hint localize "STR_Cop_NotaDoor"}; 
 _doorN = _building GVAR [format["bis_disabled_Door_%1",_door],0];
 if(EQUAL(_doorN,1)) exitWith {hint localize "STR_House_FedDoor_Locked"};
 life_action_inUse = true;
@@ -70,7 +70,7 @@ if(life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR
 life_action_inUse = false;
 
 _building animate [format["door_%1_rot",_door],0];
-_building SVAR [format["bis_disabled_Door_%1",_door],1,true]; //Lock the door.
+_building SVAR [format["bis_disabled_Door_%1",_door],1,true]; 
 
 _locked = true;
 for "_i" from 1 to _doors do {

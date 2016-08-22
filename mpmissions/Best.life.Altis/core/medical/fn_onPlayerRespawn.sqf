@@ -13,7 +13,7 @@ life_corpse = _corpse;
 
 //Comment this code out if you want them to keep the weapon on the ground.
 _containers = nearestObjects[getPosATL _corpse,["WeaponHolderSimulated"],5]; 
-{deleteVehicle _x;} forEach _containers; //Delete the containers.
+{deleteVehicle _x;} forEach _containers; 
 
 //Set some vars on our new body.
 _unit SVAR ["restrained",false,true];

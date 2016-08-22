@@ -14,12 +14,12 @@ _reviveCost = LIFE_SETTINGS(getNumber,"revive_fee");
 _revivable = _target GVAR ["Revive",FALSE];
 if(_revivable) exitWith {};
 if(_target GVAR ["Reviving",ObjNull] == player) exitWith {hint localize "STR_Medic_AlreadyReviving";};
-if(player distance _target > 5) exitWith {}; //Not close enough.
+if(player distance _target > 5) exitWith {}; 
 
 //Fetch their name so we can shout it.
 _targetName = _target GVAR ["name","Unknown"];
 _title = format[localize "STR_Medic_Progress",_targetName];
-life_action_inUse = true; //Lockout the controls.
+life_action_inUse = true; 
 
 _target SVAR ["Reviving",player,TRUE];
 //Setup our progress bar
@@ -45,8 +45,8 @@ for "_i" from 0 to 1 step 0 do {
 	_progressBar progressSetPosition _cP;
 	_titleText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_title];
 	if(_cP >= 1 OR !alive player) exitWith {};
-	if(life_istazed) exitWith {}; //Tazed
-	if(life_isknocked) exitWith {}; //Knocked
+	if(life_istazed) exitWith {}; 
+	if(life_isknocked) exitWith {}; 
 	if(life_interrupted) exitWith {};
 	if((player GVAR ["restrained",false])) exitWith {};
 	if(player distance _target > 4) exitWith {_badDistance = true;};

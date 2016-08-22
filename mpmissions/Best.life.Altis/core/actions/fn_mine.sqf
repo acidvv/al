@@ -23,7 +23,7 @@ _requiredItem = "";
 _zoneSize = (getNumber(missionConfigFile >> "CfgGather" >> "zoneSize"));
 
 _resourceCfg = missionConfigFile >> "CfgGather" >> "Minerals";
-_percent = (floor random 100) + 1; //Make sure it's not 0
+_percent = (floor random 100) + 1; 
 
 for "_i" from 0 to count(_resourceCfg)-1 do {
     _curConfig = (_resourceCfg select _i);
@@ -33,7 +33,7 @@ for "_i" from 0 to count(_resourceCfg)-1 do {
     _requiredItem = getText(_curConfig >> "item");
     _mined = "";
 
-    if (_resources isEqualTo []) exitWith {}; //Smart guy :O
+    if (_resources isEqualTo []) exitWith {}; 
     for "_i" from 0 to count (_resources) do {
 		if (EQUAL(count _resources, 1)) exitWith {
 			if (!((_resources select 0) isEqualType [])) then {

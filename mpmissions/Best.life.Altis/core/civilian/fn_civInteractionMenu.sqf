@@ -26,8 +26,8 @@ if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
 
-if(!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; //Bad side check?
-if(player distance _curTarget > 4 ) exitWith {closeDialog 0;}; // Prevents menu accessing from far distances.
+if(!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; 
+if(player distance _curTarget > 4 ) exitWith {closeDialog 0;};
 
 _display = findDisplay 37400;
 _Btn1 = _display displayCtrl Btn1;

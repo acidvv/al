@@ -10,7 +10,7 @@
 private["_curObject","_isWater","_CrateModelNames","_crate","_fish","_animal","_whatIsIt","_handle","_curTarget"];
 _curObject = cursorObject;
 _curTarget = cursorTarget;
-if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
+if(life_action_inUse) exitWith {}; 
 if(life_interrupted) exitWith {life_interrupted = false;};
 _isWater = surfaceIsWater (visiblePositionASL player);
 
@@ -43,7 +43,7 @@ if(isNull _curObject) exitWith {
 			private "_handle";
 			if(playerSide isEqualTo civilian && !life_action_gathering) then {
 	      _whatIsIt = [] call life_fnc_whereAmI;
-				if(life_action_gathering) exitWith {};				 //Action is in use, exit to prevent spamming.
+				if(life_action_gathering) exitWith {};				 
 				switch (_whatIsIt) do {
 					case "mine" : { _handle = [] spawn life_fnc_mine };
 					default { _handle = [] spawn life_fnc_gather };
@@ -66,8 +66,8 @@ if(_curObject isKindOf "House_F" && {player distance _curObject < 12} OR ((neare
 	[_curObject] call life_fnc_houseMenu;
 };
 
-if(dialog) exitWith {}; //Don't bother when a dialog is open.
-if(vehicle player != player) exitWith {}; //He's in a vehicle, cancel!
+if(dialog) exitWith {}; 
+if(vehicle player != player) exitWith {}; 
 life_action_inUse = true;
 
 //Temp fail safe.

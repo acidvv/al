@@ -9,8 +9,8 @@
 */
 private ["_vehicle","_trueorfalse"];
 _vehicle = param [0,ObjNull,[ObjNull]];
-if(isNull _vehicle) exitWith {}; //Bad entry!
-if(!(typeOf _vehicle in ["C_Offroad_01_F"])) exitWith {}; //Last chance check to prevent something from defying humanity and creating a monster.
+if(isNull _vehicle) exitWith {}; 
+if(!(typeOf _vehicle in ["C_Offroad_01_F"])) exitWith {}; 
 
 _trueorfalse = _vehicle GVAR ["lights",FALSE];
 

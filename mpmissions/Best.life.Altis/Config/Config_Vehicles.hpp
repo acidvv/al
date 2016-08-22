@@ -1076,8 +1076,8 @@ class O_T_LSV_02_armed_F {
 	class mad_Heli_01_F {
         vItemSpace = 200;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 1950000;
-		assurPrice = 595500;
+        price = 21950000;
+		assurPrice = 6595500;
         textures[] = { };
     };
 	class red_beetle_66_rubyred {

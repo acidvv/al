@@ -143,15 +143,15 @@ life_fnc_moveIn = compileFinal
 ";
 
 life_fnc_RequestClientId = player;
-publicVariableServer "life_fnc_RequestClientId"; //Variable OwnerID for HeadlessClient
+publicVariableServer "life_fnc_RequestClientId"; 
 
 [] spawn life_fnc_survival;
 
 [] spawn {
 	for "_i" from 0 to 1 step 0 do {
-		waitUntil{(!isNull (findDisplay 49)) && (!isNull (findDisplay 602))}; // Check if Inventory and ESC dialogs are open
-		(findDisplay 49) closeDisplay 2; // Close ESC dialog
-		(findDisplay 602) closeDisplay 2; // Close Inventory dialog
+		waitUntil{(!isNull (findDisplay 49)) && (!isNull (findDisplay 602))}; 
+		(findDisplay 49) closeDisplay 2; 
+		(findDisplay 602) closeDisplay 2; 
 	};
 };
 

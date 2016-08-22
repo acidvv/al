@@ -11,6 +11,6 @@ params [
 	["_callerName","Unknown Player",[""]]
 ];
 
-if(isNull _caller) exitWith {}; //Bad data
+if(isNull _caller) exitWith {}; 
 
 ["MedicalRequestEmerg",[format[localize "STR_Medic_Request",_callerName]]] call BIS_fnc_showNotification;

@@ -12,7 +12,7 @@ if(isNull _vehicle OR !(_vehicle isKindOf "Car" OR _vehicle isKindOf "Air" OR _v
 if((_vehicle getVariable ["trunk_in_use",false])) exitWith {hint localize "STR_MISC_VehInvUse"};
 _vehicle setVariable["trunk_in_use",true,true];
 _vehicle setVariable["trunk_in_use_by",player,true];
-if(!createDialog "TrunkMenu") exitWith {hint localize "STR_MISC_DialogError";}; //Couldn't create the menu?
+if(!createDialog "TrunkMenu") exitWith {hint localize "STR_MISC_DialogError";}; 
 disableSerialization;
 
 if(_vehicle isKindOf "Box_IND_Grenades_F" OR _vehicle isKindOf "B_supplyCrate_F") then {

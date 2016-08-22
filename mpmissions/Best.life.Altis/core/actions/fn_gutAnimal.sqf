@@ -8,10 +8,10 @@
 */
 private["_animalCorpse","_upp","_ui","_progress","_pgText","_cP","_displayName","_item"];
 _animalCorpse = param [0,ObjNull,[ObjNull]];
-if(isNull _animalCorpse) exitWith {}; //Object passed is null?
+if(isNull _animalCorpse) exitWith {}; 
 
 life_interrupted = false;
-if(player distance _animalCorpse > 3.5) exitWith {}; //WTF need check with nearest objects I love Arma
+if(player distance _animalCorpse > 3.5) exitWith {}; 
 life_action_inUse = true;
 
 switch(typeOf _animalCorpse) do {

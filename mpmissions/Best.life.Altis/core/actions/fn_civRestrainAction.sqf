@@ -8,7 +8,7 @@
 */
 private["_unit"];
 _unit = cursorTarget;
-if(isNull _unit) exitWith {}; //Not valid
+if(isNull _unit) exitWith {}; 
 if((player distance _unit > 3)) exitWith {};
 if((_unit GVAR "restrained")) exitWith {};
 if((_unit GVAR "civrestrained")) exitWith {};

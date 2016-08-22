@@ -9,7 +9,7 @@
 private["_type","_varName","_displayName","_sideFlag","_price"];
 _type = SEL(_this,3);
 
-if(!isClass (missionConfigFile >> "Licenses" >> _type)) exitWith {}; //Bad entry?
+if(!isClass (missionConfigFile >> "Licenses" >> _type)) exitWith {}; 
 _varName = M_CONFIG(getText,"Licenses",_type,"variable");
 _displayName = M_CONFIG(getText,"Licenses",_type,"displayName");
 _price = M_CONFIG(getNumber,"Licenses",_type,"price");

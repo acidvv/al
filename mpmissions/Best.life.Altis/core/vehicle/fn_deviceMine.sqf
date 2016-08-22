@@ -19,8 +19,8 @@ if(fuel _vehicle isEqualTo 0) exitWith {
 	titleText[localize "STR_NOTF_OutOfFuel","PLAIN"];
 };
 
-closeDialog 0; //Close the interaction menu.
-life_action_inUse = true; //Lock out the interaction menu for a bit..
+closeDialog 0; 
+life_action_inUse = true; 
 
 _weight = [_vehicle] call life_fnc_vehicleWeight;
 if((_weight select 1) >= (_weight select 0)) exitWith {
@@ -77,10 +77,10 @@ if(_zone isEqualTo "") exitWith {
 	life_action_inUse = false;
 };
 
-_vehicle SVAR ["mining",true,true]; //Lock the device
-_vehicle remoteExec ["life_fnc_soundDevice",RCLIENT]; //Broadcast the 'mining' sound of the device for Acid nearby units.
+_vehicle SVAR ["mining",true,true]; 
+_vehicle remoteExec ["life_fnc_soundDevice",RCLIENT]; 
 
-life_action_inUse = false; //Unlock it since it's going to do it's own thing...
+life_action_inUse = false; 
 
 for "_i" from 0 to 1 step 0 do {
 	if(!alive _vehicle || isNull _vehicle) exitWith {};
@@ -129,7 +129,7 @@ for "_i" from 0 to 1 step 0 do {
 	_itemIndex = [_resource,_inv] call TON_fnc_index;
 	_weight = [_vehicle] call life_fnc_vehicleWeight;
 	_random = 10 + round((random(10)));
-	_sum = [_resource,_random,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; // Get a sum base of the remaining weight..
+	_sum = [_resource,_random,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; 
 
 	if(_sum < 1) exitWith {
 		titleText[localize "STR_NOTF_DeviceFull","PLAIN"];
@@ -165,7 +165,7 @@ for "_i" from 0 to 1 step 0 do {
 	_itemWeight = ([_resource] call life_fnc_itemWeight) * _sum;
 	_vehicle SVAR["Trunk",[_inv,_space + _itemWeight],true];
 	_weight = [_vehicle] call life_fnc_vehicleWeight;
-	_sum = [_resource,_random,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; //Get a sum base of the remaining weight..
+	_sum = [_resource,_random,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; 
 
 	if(_sum < 1) exitWith {
 		_vehicle SVAR["mining",nil,true];

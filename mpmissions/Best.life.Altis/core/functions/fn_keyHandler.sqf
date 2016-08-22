@@ -61,7 +61,7 @@ switch (_code) do {
 		if(isNil "jumpActionTime") then {jumpActionTime = 0;};
 		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
 			jumpActionTime = time; //Update the time.
-			[player] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution
+			[player] remoteExec ["life_fnc_jumpFnc",RANY]; 
 			_handled = true;
 		};
 	};
@@ -410,7 +410,7 @@ case 19: {
 if (life_barrier_active) then {
     switch (_code) do
     {
-        case 57: //space key
+        case 57: 
         {
             [] spawn life_fnc_placeablesPlaceComplete;
         };

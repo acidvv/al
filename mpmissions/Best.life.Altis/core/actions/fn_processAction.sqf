@@ -13,7 +13,7 @@ _vendor = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _type = [_this,3,"",[""]] call BIS_fnc_param;
 //Error check
 if (isNull _vendor || _type isEqualTo "" || (player distance _vendor > 10)) exitWith {};
-life_action_inUse = true;//Lock out other actions during processing.
+life_action_inUse = true;
 
 if (isClass (missionConfigFile >> "ProcessAction" >> _type)) then {
     _filter = false;

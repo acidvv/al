@@ -63,12 +63,7 @@ if!(EQUAL(typeName _sp,typeName "")) then {
 if(count _nearVehicles > 0) exitWith {
 	serv_sv_use deleteAt _servIndex;
 	[_price,_unit_return] remoteExecCall ["life_fnc_garageRefund",_unit];
-	
-	if((_vInfo select 9)== 1) then {
-	[1,(localize "STR_Garage_SpawnPointError1")] remoteExecCall ["life_fnc_broadcast",_unit];
-	}else{
 	[1,(localize "STR_Garage_SpawnPointError")] remoteExecCall ["life_fnc_broadcast",_unit];
-	};
 };
 
 _query = format["UPDATE vehicles SET active='1', damage='""[]""' WHERE pid='%1' AND id='%2'",_pid,_vid];

@@ -11,7 +11,7 @@
 */
 private "_container";
 _container = param [1,ObjNull,[ObjNull]];
-if(isNull _container) exitWith {}; //MEH
+if(isNull _container) exitWith {}; 
 
 if((typeOf _container) in ["Box_IND_Grenades_F","B_supplyCrate_F"]) exitWith {
 

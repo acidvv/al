@@ -26,7 +26,7 @@ _ret = 0;
 
 _weaponArray = [primaryWeapon player, LAUNCHER, handgunWeapon player];
 {
-    if(!(_ret isEqualTo 0)) exitWith {}; //Make sure we exit the loop since there was already a match.
+    if(!(_ret isEqualTo 0)) exitWith {}; 
     if(!(_x isEqualTo "")) then
     {
         _weapon = _x;
@@ -59,7 +59,7 @@ _weaponArray = [primaryWeapon player, LAUNCHER, handgunWeapon player];
                     _ret = switch(_weapon) do {case (primaryWeapon player): {1};case (LAUNCHER) : {2};case (handgunWeapon player): {3};default {0};};
                 };
             } forEach _newItems;
-            if(!(_ret isEqualTo 0)) exitWith {}; //Make sure we exit the loop
+            if(!(_ret isEqualTo 0)) exitWith {}; 
         };
     };
 } forEach _weaponArray;

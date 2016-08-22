@@ -6,6 +6,6 @@
 */
 removeAllWeapons player;
 [] call life_fnc_civFetchGear;
-[] call life_fnc_sessionUpdate; //Should make weapon remove persistent
+[] call life_fnc_sessionUpdate; 
 [] call life_fnc_civLoadGear;
 titleText["Deine Waffen wurden beschlagnahmt.","PLAIN"];

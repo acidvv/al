@@ -12,9 +12,9 @@ params [
 	["_bad",false,[false]]
 ];
 
-if(isNull _unit) exitWith {}; //Dafuq?
-if(_unit != player) exitWith {}; //Dafuq?
-if(life_is_arrested) exitWith {}; //Dafuq i'm already arrested
+if(isNull _unit) exitWith {}; 
+if(_unit != player) exitWith {}; 
+if(life_is_arrested) exitWith {}; 
 _illegalItems = LIFE_SETTINGS(getArray,"jail_seize_vItems");
 
 player SVAR ["restrained",false,true];

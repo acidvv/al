@@ -14,7 +14,7 @@ if(player distance cursorObject > 10) exitWith {};
 if(_vehicle getVariable "NPC") exitWith {hint localize "STR_NPC_Protected"};
 
 _vehicleData = _vehicle GVAR ["vehicle_info_owners",[]];
-if(EQUAL((count _vehicleData),0)) exitWith {deleteVehicle _vehicle}; //Bad vehicle.
+if(EQUAL((count _vehicleData),0)) exitWith {deleteVehicle _vehicle}; 
 _vehicleName = FETCH_CONFIG2(getText,CONFIG_VEHICLES,(typeOf _vehicle),"displayName");
 _price = M_CONFIG(getNumber,CONFIG_LIFE_VEHICLES,(typeOf _vehicle),"price");
 [0,"STR_NOTF_BeingImpounded",true,[SEL(SEL(_vehicleData,0),1),_vehicleName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];

@@ -26,13 +26,13 @@ if((vehicle _unit) != _unit) then {
 
 //Set some vars
 _unit SVAR ["Revive",true,true];
-_unit SVAR ["name",profileName,true]; //Set my name so they can say my name.
+_unit SVAR ["name",profileName,true]; 
 _unit SVAR ["restrained",false,true];
 _unit SVAR ["Escorting",false,true];
 _unit SVAR ["masked",false,true];
 _unit SVAR ["transporting",false,true];
 _unit SVAR ["playerSurrender",false,true];
-_unit SVAR ["steam64id",(getPlayerUID player),true]; //Set the UID.
+_unit SVAR ["steam64id",(getPlayerUID player),true]; 
 
 //Setup our camera view
 life_deathCamera  = "CAMERA" camCreate (getPosATL _unit);

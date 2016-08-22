@@ -11,8 +11,7 @@ params [
 	["_unit",objNull,[objNull]],
 	["_cop",objNull,[objNull]]
 ];
-if(isNull _unit OR {_unit != life_ticket_unit}) exitWith {}; //NO
-if(isNull _cop OR {_cop != player}) exitWith {}; //Double NO
-
+if(isNull _unit OR {_unit != life_ticket_unit}) exitWith {}; 
+if(isNull _cop OR {_cop != player}) exitWith {}; 
 ADD(TTPBANK,_value);
 [1] call SOCK_fnc_updatePartial;
