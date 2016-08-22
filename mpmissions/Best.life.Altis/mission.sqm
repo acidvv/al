@@ -8,7 +8,7 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=12019;
+		nextID=12042;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=51;
+		nextID=56;
 	};
 	class Camera
 	{
-		pos[]={3657.0315,35.393425,13073.143};
-		dir[]={0,-0.70710677,0.70710683};
-		up[]={0,0.70710677,0.70710671};
-		aside[]={0.99999994,0,-0};
+		pos[]={5229.645,81.829636,14468.701};
+		dir[]={0.83274013,-0.31274131,0.45691356};
+		up[]={0.27419448,0.94982851,0.15044698};
+		aside[]={0.48104069,3.9287261e-007,-0.87671214};
 	};
 };
 binarizationWanted=0;
@@ -680,7 +680,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2805;
+		items=2821;
 		class Item0
 		{
 			dataType="Marker";
@@ -64772,11 +64772,12 @@ class Mission
 		class Item1903
 		{
 			dataType="Marker";
-			position[]={4171.2544,26.757727,13936.787};
+			position[]={4170.981,26.75769,13936.637};
 			name="civ_air_4";
 			type="Empty";
 			angle=273.54779;
 			id=10338;
+			atlOffset=-0.006521225;
 		};
 		class Item1904
 		{
@@ -74344,11 +74345,12 @@ class Mission
 		class Item2300
 		{
 			dataType="Marker";
-			position[]={16532.662,2.27,12549.917};
-			name="civ_air_5";
+			position[]={16532.662,-8.2749716e-007,12549.917};
+			name="civ_air_51";
 			type="Empty";
-			angle=273.54779;
+			angle=273.548;
 			id=11050;
+			atlOffset=-2.2700007;
 		};
 		class Item2301
 		{
@@ -74362,7 +74364,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16537.924,2.2714386,12518.973};
+						position[]={16537.924,2.2714388,12518.973};
 						angles[]={6.2662034,0.58475512,6.2542648};
 					};
 					side="Civilian";
@@ -74370,11 +74372,10 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_5"",""civ_air_6""],""civ"",""Carl's Airial Auto's""]]; this addAction[localize""STR_MAR_Helicopter_Garage"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetch9ng Vehicles....""];   life_garage_sp = ""air_g_10"";  }];   this addAction[localize""STR_MAR_ helico"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_51"",""civ_air_61""],""civ"",""Carl's Airial Auto's""]]; this addAction[localize""STR_MAR_Helicopter_Garage"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetch9ng Vehicles....""];   life_garage_sp = ""air_g_12"";  }];   this addAction[localize""STR_MAR_ helico"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 					};
 					id=11052;
 					type="C_man_w_worker_F";
-					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -74442,26 +74443,26 @@ class Mission
 			{
 			};
 			id=11051;
-			atlOffset=-2.3841858e-007;
 		};
 		class Item2302
 		{
 			dataType="Marker";
-			position[]={16526.408,2.27,12555.392};
-			name="civ_air_6";
+			position[]={16525.043,-8.2772635e-007,12558.226};
+			name="civ_air_61";
 			type="Empty";
-			angle=273.54779;
+			angle=273.548;
 			id=11053;
+			atlOffset=-2.2700007;
 		};
 		class Item2303
 		{
 			dataType="Marker";
-			position[]={16541.48,2.7231844e+026,12541.537};
-			name="air_g_10";
+			position[]={16541.48,-8.2772635e-007,12541.537};
+			name="air_g_12";
 			type="Empty";
 			angle=273.548;
 			id=11054;
-			atlOffset=2.7231844e+026;
+			atlOffset=-2.2700007;
 		};
 		class Item2304
 		{
@@ -75389,7 +75390,7 @@ class Mission
 						angles[]={0,1.9007334,0};
 					};
 					side="Civilian";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -75397,7 +75398,7 @@ class Mission
 					};
 					id=11099;
 					type="C_man_polo_3_F";
-					atlOffset=4.5209999;
+					atlOffset=0.00032615662;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -75484,7 +75485,7 @@ class Mission
 			{
 			};
 			id=11098;
-			atlOffset=4.5209999;
+			atlOffset=0.00032615662;
 		};
 		class Item2327
 		{
@@ -76688,7 +76689,7 @@ class Mission
 			};
 			id=11171;
 			type="Fridge_01_open_F";
-			atlOffset=0.46437359;
+			atlOffset=0.46418571;
 		};
 		class Item2377
 		{
@@ -87853,8 +87854,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3618.554,12.032469,13076.335};
-				angles[]={0,3.2728937,0};
+				position[]={3575.5442,11.447296,13080.162};
+				angles[]={0,2.8154578,0};
 			};
 			side="Empty";
 			flags=4;
@@ -87864,7 +87865,7 @@ class Mission
 			};
 			id=11966;
 			type="max_traffic_lights2";
-			atlOffset=-0.0189991;
+			atlOffset=0.088329315;
 		};
 		class Item2774
 		{
@@ -88520,6 +88521,407 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item2805
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3638.7363,10.532099,13165.969};
+				angles[]={0.0053377044,1.9229797,6.2525291};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=12019;
+			type="Land_Obstacle_Cross_F";
+			atlOffset=0.021440506;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="enableSimulation";
+					expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="enableStamina";
+					expression="_this enablestamina _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item2806
+		{
+			dataType="Marker";
+			position[]={3642.0483,10.192783,13157.225};
+			name="airshop_2";
+			text="@STR_MAR_Air_Shop";
+			type="mil_dot";
+			colorName="Color1_FD_F";
+			id=12020;
+			atlOffset=-0.015604019;
+		};
+		class Item2807
+		{
+			dataType="Marker";
+			position[]={3649.991,17785304,13159.99};
+			name="civ_air_71";
+			type="Empty";
+			angle=273.548;
+			id=12026;
+			atlOffset=17785294;
+		};
+		class Item2808
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3639.9614,10.159741,13155.27};
+						angles[]={6.2501459,1.4536847,6.2774782};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_71""],""civ"",""Carl's Airial Auto's""]]; this addAction[localize""STR_MAR_Helicopter_Garage"",  {   if(life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetch9ng Vehicles....""];   life_garage_sp = ""air_g_13"";  }];   this addAction[localize""STR_MAR_ helico"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+					};
+					id=12028;
+					type="C_man_w_worker_F";
+					atlOffset=0.015385628;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=12027;
+			atlOffset=0.015385628;
+		};
+		class Item2809
+		{
+			dataType="Marker";
+			position[]={3649.8779,17818072,13153.363};
+			name="air_g_13";
+			type="Empty";
+			angle=273.548;
+			id=12029;
+			atlOffset=17818062;
+		};
+		class Item2810
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3609.5771,12.10677,13077.811};
+				angles[]={0,3.0952966,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12031;
+			type="max_traffic_lights";
+			atlOffset=0.0043506622;
+		};
+		class Item2811
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3565.8765,10.850292,13091.282};
+				angles[]={0,4.8713689,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12032;
+			type="max_traffic_lights2";
+			atlOffset=-0.072210312;
+		};
+		class Item2812
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3741.7468,15.335043,13124.4};
+				angles[]={0,1.39282,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12033;
+			type="max_traffic_lights2";
+			atlOffset=0.052250862;
+		};
+		class Item2813
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3753.032,15.226183,13137.854};
+				angles[]={0,6.0625482,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12034;
+			type="max_traffic_lights2";
+			atlOffset=0.10636234;
+		};
+		class Item2814
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3551.1697,10.517536,13119.487};
+				angles[]={0,2.880275,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12035;
+			type="max_traffic_lights2";
+			atlOffset=-0.017313004;
+		};
+		class Item2815
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3534.3665,9.8840065,13126.755};
+				angles[]={0,4.5564713,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12036;
+			type="max_traffic_lights2";
+			atlOffset=0.023304939;
+		};
+		class Item2816
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3719.552,18.765614,13039.873};
+				angles[]={0,2.2781563,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12037;
+			type="max_traffic_lights2";
+			atlOffset=-0.38689995;
+		};
+		class Item2817
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3649.8901,14.331549,13028.218};
+				angles[]={0,2.9657302,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12038;
+			type="max_traffic_lights2";
+			atlOffset=-0.095386505;
+		};
+		class Item2818
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5194.8916,20.231901,14478.423};
+				angles[]={0,1.0356419,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12039;
+			type="max_traffic_lights2";
+			atlOffset=-0.16974449;
+		};
+		class Item2819
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5152.0796,19.345325,14486.896};
+				angles[]={0,4.5157347,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12040;
+			type="max_traffic_lights2";
+			atlOffset=0.016187668;
+		};
+		class Item2820
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5180.5493,20.308929,14454.079};
+				angles[]={0,3.404624,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=12041;
+			type="max_traffic_lights2";
+			atlOffset=-0.059940338;
 		};
 	};
 };

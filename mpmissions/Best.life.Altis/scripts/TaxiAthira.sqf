@@ -4,7 +4,7 @@ Author : Mahony
 */
 _price = 5000;
 _taxigerufen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka została wezwana! Zakaz używania podczas wszelkich interakcji</t>";
-_taxiangekommen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka powinna byc już na miejscu teraz musisz do niej wsiąść MASZ 5 SEK</t>";
+_taxiangekommen  = "<t color='#FFFF00' size='2' shadow='1' shadowColor='#000000' align='center'>Taksówka(wersja wodna) powinna byc już na miejscu teraz musisz do niej wsiąść MASZ 5 SEK</t>";
 if ((life_atmbank) < _price + 25000) exitWith {
 hint "Na Taxi trzeba mieć pieniądze !";
 closeDialog 0;
@@ -32,7 +32,7 @@ sleep 2;
 hint parseText (_taxigerufen);
 sleep 30;
 
-_taxiA = "C_Hatchback_01_yellow_F" createVehicle position player;
+_taxiA = "C_Rubberboat" createVehicle position player;
 _taxiA allowDamage false;
 
 hint parseText (_taxiangekommen);

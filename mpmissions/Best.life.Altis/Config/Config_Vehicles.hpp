@@ -492,6 +492,7 @@ class CarShops {
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
 			{ "max_firetruck", { "life_medicLevel", "SCALAR", 2 } },
+			{ "ivory_suburban_ems", { "life_medicLevel", "SCALAR", 2 } },
             { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 4 } }
         };
     };
@@ -501,6 +502,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "life_medicLevel", "SCALAR", 1 } },
             { "max_HEMS_heli", { "life_medicLevel", "SCALAR", 2 } },
+
             { "O_Heli_Light_02_unarmed_F", { "life_medicLevel", "SCALAR", 5 } }
         };
     };
@@ -516,7 +518,9 @@ class CarShops {
             { "max_bike_police", { "life_coplevel", "SCALAR", 2 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 2 } },
             { "max_CrownVic_sheriff", { "life_coplevel", "SCALAR", 3 } },
+			{ "ivory_suburban_slicktop", { "life_coplevel", "SCALAR", 3 } },
 			{ "max_FBI_tahoe", { "life_coplevel", "SCALAR", 5 } },
+			{ "ivory_rs4_slicktop", { "life_coplevel", "SCALAR", 5 } },
 			{ "O_T_LSV_02_armed_F", { "life_coplevel", "SCALAR", 6 } },
             { "B_G_Offroad_01_armed_F", { "life_coplevel", "SCALAR", 6 } },
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 6 } },
@@ -899,7 +903,28 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 935500;
         textures[] = { };
     };
-    class ivory_rs4 {
+    class ivory_suburban_ems {
+        vItemSpace = 100;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 955000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class ivory_suburban_slicktop {
+        vItemSpace = 100;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 955000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class ivory_rs4_slicktop {
+        vItemSpace = 100;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 955000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class ivory_rs4 {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 955000;
@@ -917,14 +942,14 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 2450000;
-		assurPrice = 235500;
+		assurPrice = 835500;
         textures[] = { };
     };
 	 class ivory_c {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1750000;
-		assurPrice = 235500;
+		assurPrice = 635500;
         textures[] = { };
     };
 	class ivory_e36 {
@@ -938,35 +963,35 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 550000;
-		assurPrice = 135500;
+		assurPrice = 95500;
         textures[] = { };
     };
 	class ivory_veyron {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1750000;
-		assurPrice = 435500;
+		assurPrice = 735500;
         textures[] = { };
     };
 	class ivory_suburban {
         vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 250000;
-		assurPrice = 75500;
+		assurPrice = 45500;
         textures[] = { };
     };
 	class ivory_isf {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 850000;
-		assurPrice = 135500;
+		assurPrice = 335500;
         textures[] = { };
     };
 	class ivory_lfa {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1850000;
-		assurPrice = 435500;
+		assurPrice = 735500;
         textures[] = { };
     };
 	
@@ -974,7 +999,7 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 4250000;
-		assurPrice = 1035500;
+		assurPrice = 935500;
         textures[] = { };
     };
 	class ivory_mp4 {
@@ -995,7 +1020,7 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 350000;
-		assurPrice = 635500;
+		assurPrice = 75500;
         textures[] = { };
     };
 	class ivory_r34 {
@@ -1016,28 +1041,28 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 950000;
-		assurPrice = 155500;
+		assurPrice = 245500;
         textures[] = { };
     };
 	class ivory_supra {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1950000;
-		assurPrice = 555500;
+		assurPrice = 655500;
         textures[] = { };
     };
 	class ivory_gti {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 350000;
-		assurPrice = 55500;
+		assurPrice = 105500;
         textures[] = { };
     };
 	class ivory_supra_topsecret {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 2550000;
-		assurPrice = 655500;
+		assurPrice = 855500;
         textures[] = { };
     };
 	class red_genesis_16_aqua {

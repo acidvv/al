@@ -78,7 +78,7 @@ switch (_code) do {
 		};
 	};
 
-	case 210:{	if(_shift) then {
+	case 25:{	if(_shift) then {
 		switch (player getVariable["Earplugs",0]) do {
 				case 0: {hintSilent "Ear Plugs 90%"; 1 fadeSound 0.1; player setVariable ["Earplugs", 10];
 				};
