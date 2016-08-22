@@ -45,28 +45,9 @@ life_deathCamera camSetFOV .5;
 life_deathCamera camSetFocus [50,0];
 life_deathCamera camCommit 0;
 
-(findDisplay 7300) displaySetEventHandler ["KeyDown","if((_this select 1) isEqualTo 1) then {true}"]; //Block the ESC menu
+(findDisplay 7300) displaySetEventHandler ["KeyDown","if((_this select 1) isEqualTo 1) then {true}"]; 
 
-//Create a thread for something?
-/*
-_unit spawn {
-	private["_maxTime","_RespawnBtn","_Timer"];
-	disableSerialization;
-	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
-	_Timer = ((findDisplay 7300) displayCtrl 7301);
 
-        if (LIFE_SETTINGS(getNumber,"respawn_timer") < 5) then {
-            _maxTime = time + 5;
-        } else {
-            _maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
-        };
-	_RespawnBtn ctrlEnable false;
-	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS"] call BIS_fnc_secondsToString];
-	round(_maxTime - time) <= 0 OR isNull _this};
-	_RespawnBtn ctrlEnable true;
-	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
-};
-*/
 _unit spawn
 {
 	private["_maxTime","_RespawnBtn","_Timer"];
@@ -101,34 +82,7 @@ waitUntil {!life_nlrtimer_running};
 	_unit = _this select 0;
 	waitUntil {if(speed _unit isEqualTo 0) exitWith {true}; life_deathCamera camSetTarget _unit; life_deathCamera camSetRelPos [0,3.5,4.5]; life_deathCamera camCommit 0;};
 };
-/*
-//Make the killer wanted
-if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _killer}) then {
-	if(vehicle _killer isKindOf "LandVehicle") then {
 
-		if(life_HC_isActive) then {
-			[getPlayerUID _killer,_killer GVAR ["realname",name _killer],"187V"] remoteExecCall ["HC_fnc_wantedAdd",HC_Life];
-		} else {
-			[getPlayerUID _killer,_killer GVAR ["realname",name _killer],"187V"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
-		};
-
-		//Get rid of this if you don't want automatic vehicle license removal.
-		if(!local _killer) then {
-			[2] remoteExecCall ["life_fnc_removeLicenses",_killer];
-		};
-	} else {
-
-		if(life_HC_isActive) then {
-			[getPlayerUID _killer,_killer GVAR ["realname",name _killer],"187"] remoteExecCall ["HC_fnc_wantedAdd",HC_Life];
-		} else {
-			[getPlayerUID _killer,_killer GVAR ["realname",name _killer],"187"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
-		};
-
-		if(!local _killer) then {
-			[3] remoteExecCall ["life_fnc_removeLicenses",_killer];
-		};
-	};
-};*/
 //Make the killer wanted
 if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _killer}) then {
 	if(vehicle _killer isKindOf "LandVehicle") then {
@@ -193,7 +147,7 @@ life_carryWeight = 0;
 CASH = 0;
 life_is_alive = false;
 
-[] call life_fnc_hudUpdate; //Get our HUD updated.
+[] call life_fnc_hudUpdate; 
 [player,life_settings_enableSidechannel,playerSide] remoteExecCall ["TON_fnc_managesc",RSERV];
 
 [0] call SOCK_fnc_updatePartial;

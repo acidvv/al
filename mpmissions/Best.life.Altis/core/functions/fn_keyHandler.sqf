@@ -78,7 +78,7 @@ switch (_code) do {
 		};
 	};
 
-	case 25:{	if(_shift) then {
+	case 210:{	if(_shift) then {
 		switch (player getVariable["Earplugs",0]) do {
 				case 0: {hintSilent "Ear Plugs 90%"; 1 fadeSound 0.1; player setVariable ["Earplugs", 10];
 				};
@@ -107,14 +107,7 @@ switch (_code) do {
 			case civilian: {if(!visibleMap) then {[] spawn life_fnc_civMarkers;}};
 		};
 	};
-    //EMP Konsole - End
-    case 207:
-    {
-        if (!_shift && !_alt && !_ctrlKey && (playerSide isEqualTo west) && (vehicle player != player && (typeOf vehicle player) in ["B_Heli_Transport_01_F","I_Heli_light_03_unarmed_F","O_Heli_Light_02_unarmed_F"])) then
-        {
-            [] call life_fnc_openEmpMenu; [_this] call life_fnc_isEmpOperator;
-        };
-    };
+
 	//Holster / recall weapon. (Shift + H)
 	case 35: {
 		if(_shift && !_ctrlKey && !(EQUAL(currentWeapon player,""))) then {
@@ -144,9 +137,9 @@ switch (_code) do {
 		};
 	};
 
-	case 15:
+	case 2:
 	{
-		cutText [format["Oh shit waddup!"], "PLAIN DOWN"];
+		cutText [format["Siemka"], "PLAIN DOWN"];
 		player playActionNow "gestureHi";
 	};
 
@@ -424,4 +417,5 @@ if (life_barrier_active) then {
     };
     true;
 };
+
 _handled;

@@ -17,7 +17,7 @@ class _backgroundMain: Life_RscText
 class _taxiPic: life_RscPicture
 {
 	idc = -1;
-	text = "icons\Taxi.paa";
+	text = "icons\Taxi1.paa";
 	x = 0.443281 * safezoneW + safezoneX;
 	y = 0.28 * safezoneH + safezoneY;
 	w = 0.0979687 * safezoneW;

@@ -12,7 +12,7 @@ _corpse = SEL(_this,1);
 life_corpse = _corpse;
 
 //Comment this code out if you want them to keep the weapon on the ground.
-_containers = nearestObjects[getPosATL _corpse,["WeaponHolderSimulated"],5]; //Fetch list of containers (Simulated = weapons)
+_containers = nearestObjects[getPosATL _corpse,["WeaponHolderSimulated"],5]; 
 {deleteVehicle _x;} forEach _containers; //Delete the containers.
 
 //Set some vars on our new body.
@@ -21,10 +21,10 @@ _unit SVAR ["Escorting",false,true];
 _unit SVAR ["transporting",false,true];
 _unit SVAR ["masked",false,true];
 _unit SVAR ["playerSurrender",false,true];
-_unit SVAR ["steam64id",steamid,true]; //Reset the UID.
-_unit SVAR ["realname",profileName,true]; //Reset the players name.
+_unit SVAR ["steam64id",steamid,true]; 
+_unit SVAR ["realname",profileName,true]; 
 
-_unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.
+_unit addRating 1e12;
 player playMoveNow "AmovPpneMstpSrasWrflDnon";
 
 [] call life_fnc_setupActions;

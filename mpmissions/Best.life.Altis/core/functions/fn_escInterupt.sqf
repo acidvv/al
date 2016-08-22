@@ -58,12 +58,12 @@ for "_i" from 0 to 1 step 0 do {
 	//Block off our buttons first.
 	_abortButton ctrlEnable false;
 	_respawnButton ctrlEnable false;
-	_fieldManual ctrlEnable false; //Never re-enable, blocks an old script executor.
+	_fieldManual ctrlEnable false; 
 
 	_usebleCtrl = call _canUseControls;
 	_usebleCtrl spawn _escSync;
 	if(_usebleCtrl) then {
-		_respawnButton ctrlEnable false; //Enable the button.
+		_respawnButton ctrlEnable false; 
 	};
 	waitUntil{isNull (findDisplay 49)};
 };

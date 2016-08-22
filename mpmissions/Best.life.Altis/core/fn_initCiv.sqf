@@ -33,8 +33,8 @@ if(life_is_alive && !life_is_arrested) then {
         [0] call SOCK_fnc_updatePartial;
 		};
 		[] call life_fnc_spawnMenu;
-		waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
-		waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
+		waitUntil{!isNull (findDisplay 38500)}; 
+		waitUntil{isNull (findDisplay 38500)}; 
 	} else {
 		if(life_is_arrested) then {
 			life_is_arrested = false;
@@ -48,11 +48,11 @@ player setVariable["viprank",(FETCH_CONST(life_donorlevel)),true];
 //Pagamento VIP
 switch (FETCH_CONST(life_donorlevel)) do
 {
-	case 1: { life_paycheck = life_paycheck + 1000; };  //Bronze
-    case 2: { life_paycheck = life_paycheck + 2000; }; //Silver
-    case 3: { life_paycheck = life_paycheck + 3000; }; //Gold
-    case 4: { life_paycheck = life_paycheck + 5000; }; //Platinum
-    case 5: { life_paycheck = life_paycheck + 7000; };//Diamante
+	case 1: { life_paycheck = life_paycheck + 1000; };  
+    case 2: { life_paycheck = life_paycheck + 2000; }; 
+    case 3: { life_paycheck = life_paycheck + 3000; }; 
+    case 4: { life_paycheck = life_paycheck + 5000; }; 
+    case 5: { life_paycheck = life_paycheck + 7000; };
 	default { life_paycheck = life_paycheck };
 };
 
