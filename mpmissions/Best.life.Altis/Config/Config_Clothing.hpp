@@ -228,7 +228,7 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "", 25, { "", "", -1 } },
-			{ "U_B_Wetsuit", "", 2000, { "life_coplevel", "SCALAR", 3 },
+			{ "U_B_Wetsuit", "", 2000, { "life_coplevel", "SCALAR", 3 } },
             { "max_sheriff_uniform", "na motor", 14425, { "life_coplevel", "SCALAR", 4 } },
             { "special_agent_uniform_new", "tajniak", 14425, { "life_coplevel", "SCALAR", 8 } },
             { "fbi_rru_uniform", "tajniak", 14425, { "life_coplevel", "SCALAR", 7 } },
@@ -286,7 +286,7 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
             { "police_belt_biker", "na motor", 1000, { "", "", -1 } },
-			{ "V_RebreatherB", "", 5000, { "life_coplevel", "SCALAR", 3 },
+			{ "V_RebreatherB", "", 5000, { "life_coplevel", "SCALAR", 3 } },
             { "fbi_rru_Vest", "tajniak", 1000, { "life_coplevel", "SCALAR", 5 } },
             { "V_PlateCarrier1_blk", "", 3500, { "life_coplevel", "SCALAR", -1 } },
             { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", -3 } },
