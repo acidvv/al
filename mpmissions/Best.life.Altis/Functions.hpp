@@ -199,7 +199,7 @@ class Life_Client_Core {
 		class weed {};
 		class addicted {};
 		class useheba {};
-	};
+		};
 
 	class gas
 	{
@@ -414,6 +414,7 @@ class Life_Client_Core {
 		class feuerwerkgreen{};
 		class feuerwerkwhite{};
 		class feuerwerkrandom{};
+		class evidenceBag {};
 		
 	};
 

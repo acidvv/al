@@ -16,6 +16,10 @@
 			<Original>Exclusive Butik</Original>
 			
 		</Key>
+		<Key ID="STR_Item_evidenceBag">
+			<Original>Worek na broń</Original>
+			
+		</Key>
 		<Key ID="STR_Shops_C_Police">
 			<Original>Altis Police Department Shop</Original>
 			<Czech>Altis policejní oddělení Shop</Czech>

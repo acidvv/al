@@ -28,7 +28,12 @@ switch (true) do {
 			};
 		};
 	};
-
+case (_item isEqualTo "evidencebag"):
+ {
+ if ([false,_item,1] call life_fnc_handleInv) then {
+ [] spawn life_fnc_evidenceBag;
+ };
+ };
 	case (EQUAL(_item,"boltcutter")): {
 		[cursorObject] spawn life_fnc_boltcutter;
 		closeDialog 0;

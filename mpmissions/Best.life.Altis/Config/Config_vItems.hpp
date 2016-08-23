@@ -198,7 +198,7 @@ class VirtualShops {
 		side = "cop";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "nitro", "defibrillator" };
+		items[] = { "donuts", "coffee", "spikeStrip", "gpstracker", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "evidencebag" ,"nitro", "defibrillator" };
 	};
 };
 
@@ -1458,7 +1458,7 @@ class Skarb {
         buyPrice = 10000;
         sellPrice = 1600;
         illegal = true;
-        edible = -1;
+        edible = 100;
         icon = "icons\blindfold.paa";
 	};
 
@@ -1528,6 +1528,16 @@ class Skarb {
 			edible = -1;
 			icon = "icons\craft\plans.paa";
 	};
+	class evidencebag {
+ variable = "evidencebag";
+ displayName = "STR_Item_evidencebag";
+ weight = 5;
+ buyPrice = 5;
+ sellPrice = -1;
+ illegal = false;
+ edible = 100;
+ icon = "icons\worek.paa";
+ };
 class feuerwerkrandom {
 		variable = "feuerwerkrandom";
 		displayName = "STR_Item_feuerwerkrandom";

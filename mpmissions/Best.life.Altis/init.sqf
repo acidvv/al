@@ -5,7 +5,6 @@ StartProgress = false;
 [] execVM "KRON_Strings.sqf";
 [] execVM "Custom\gas\gasmask.sqf";
 [] execVM "Custom\gas\teargasGL.sqf";
-[] execVM "Custom\lift\init.sqf";
 [] execVM "Custom\fn_statusBar.sqf";
 [] execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "core\functions\fn_autoMessages.sqf"; 
