@@ -1,7 +1,7 @@
 /*	File: fn_autoMessages.sqf	Author: BenjaminSansNom		Description:	Auto messages in game every X seconds*/
 [] spawn {	
 	_messages = [ 		"Restarty o 8,12,16,20,24,04 <br/> <t color='#e32828' size='1.5'>www.altisland.pl</t>",		
-	"TeamSpeak:<br/><t color='#e32828' size='1.5'>51.254.132.75</t>"	];	
+	"TeamSpeak:<br/><t color='#e32828' size='1.5'>89.163.209.84</t>"	];	
 	_refreshTime = 1200; 
 	_i = 0;	while {true} do {		
 	_count = count _messages;		

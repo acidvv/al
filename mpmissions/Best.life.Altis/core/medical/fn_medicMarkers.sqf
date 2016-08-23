@@ -14,6 +14,7 @@ _medics = [];
 sleep 0.25;
 if(visibleMap) then {
 	{if(side _x isEqualTo independent) then {_medics pushBack _x;}} forEach playableUnits; 
+	{
 		_name = _x getVariable "name";
 		_down = _x getVariable ["Revive",false];
 		if(!isNil "_name" && !_down) then {
