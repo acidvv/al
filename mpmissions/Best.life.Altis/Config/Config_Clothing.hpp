@@ -291,8 +291,8 @@ class Clothing {
             { "V_PlateCarrier1_blk", "l3", 3500, { "life_coplevel", "SCALAR", -1 } },
             { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", 3 } },
 			{ "V_PlateCarrier2_rgr", "l4", 63500, { "life_coplevel", "SCALAR", 5 } },
-			{ "V_PlateCarrierSpec_blk", "l4", 563500, { "life_coplevel", "SCALAR", 5 } },
-            { "V_PlateCarrierGL_blk", "na wybuchy", 6500, { "life_coplevel", "SCALAR", 6 } }
+			{ "V_PlateCarrierSpec_blk", "l5", 563500, { "life_coplevel", "SCALAR", 6 } },
+            { "V_PlateCarrierGL_blk", "na wybuchy", 76500, { "life_coplevel", "SCALAR", 6 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -1126,7 +1126,7 @@ class Clothing {
             { "V_BandollierB_cbr", "", 14500, { "", "", -1 } },
             { "V_TacVest_khk", "", 47500, { "", "", -1 } },
             { "V_Press_F", "l1", 57500, { "", "", -1 } },
-            { "V_PlateCarrierL_CTRG", "l3", 80000, { "", "", -1 } },
+            { "V_PlateCarrierL_CTRG", "l3", 300000, { "", "", -1 } },
 			{ "V_PlateCarrierSpec_rgr", "l5", 880000, { "", "", -1 } },
             { "V_HarnessOGL_brn", "Allah 3kk", 3000000, { "", "", -1 } }
         };
