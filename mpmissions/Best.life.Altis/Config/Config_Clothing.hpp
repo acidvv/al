@@ -286,12 +286,13 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
             { "police_belt_biker", "na motor", 1000, { "", "", -1 } },
-			{ "V_RebreatherB", "", 5000, { "life_coplevel", "SCALAR", 3 } },
+			{ "V_RebreatherB", "l1", 5000, { "life_coplevel", "SCALAR", 3 } },
             { "fbi_rru_Vest", "tajniak", 1000, { "life_coplevel", "SCALAR", 5 } },
-            { "V_PlateCarrier1_blk", "", 3500, { "life_coplevel", "SCALAR", -1 } },
-            { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", -3 } },
-			{ "V_PlateCarrier2_rgr", "", 73500, { "life_coplevel", "SCALAR", 5 } },
-            { "V_PlateCarrierGL_blk", "SWAT Vest", 6500, { "life_coplevel", "SCALAR", 7 } }
+            { "V_PlateCarrier1_blk", "l3", 3500, { "life_coplevel", "SCALAR", -1 } },
+            { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", 3 } },
+			{ "V_PlateCarrier2_rgr", "l4", 63500, { "life_coplevel", "SCALAR", 5 } },V_PlateCarrierSpec_blk
+			{ "V_PlateCarrierSpec_blk", "l4", 563500, { "life_coplevel", "SCALAR", 5 } },
+            { "V_PlateCarrierGL_blk", "na wybuchy", 6500, { "life_coplevel", "SCALAR", 6 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -299,7 +300,7 @@ class Clothing {
             { "B_parachute", "", 2000, { "", "", -1 } },
 			{ "B_Carryall_khk", "", 22000, { "", "", -1 } },
 			{ "B_Carryall_ocamo", "", 22000, { "", "", -1 } },
-			  { "B_UAV_01_backpack_F", "", 26500, { "life_coplevel", "SCALAR", 9 } }
+			 { "B_UAV_01_backpack_F", "", 26500, { "life_coplevel", "SCALAR", 9 } }
         };
     };
 
@@ -371,7 +372,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 1900, { "", "", -1 } }
+			{ "V_Press_F", "armor 2", 91900, { "", "", -1 } },
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } }
@@ -386,16 +387,17 @@ class Clothing {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_C_Scientist", "EMS Uniform", 50, { "", "", -1 } },
             { "max_paramedic_uniform", "fartuszek", 50, { "", "", -1 } },
-			{ "max_fire_uniform", "strażak", 500, { "", "", -1 } },
-            { "HEMS_pilot_uniform", "medyk pilot", 50, { "", "", -1 } }
+			{ "U_Competitor", "EMS Uniform", 50, { "life_medicLevel", "SCALAR", 2 } },
+			{ "max_fire_uniform", "strażak", 500, { "life_medicLevel", "SCALAR", 3 } },
+            { "HEMS_pilot_uniform", "medyk pilot", 50, { "life_medicLevel", "SCALAR", 4 } }
             
 			   };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_blu", "", 10, { "", "", -1 } },
             { "max_paramedic_cap", "czapeczka", 10, { "", "", -1 } },
-			{ "max_fire_Helmet", "strażak", 50, { "", "", -1 } },
-            { "HEMS_pilot_Helmet", "kask pilota", 10, { "", "", -1 } }
+			{ "max_fire_Helmet", "strażak", 50, { "life_medicLevel", "SCALAR", 3 } },,
+            { "HEMS_pilot_Helmet", "kask pilota", 10, { "life_medicLevel", "SCALAR", 4 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -1040,6 +1042,8 @@ class Clothing {
 			{ "Masque_Religieuse", "maska", 20150, { "", "", -1 } },
 			{ "Masque_Santa", "maska", 20150, { "", "", -1 } },
 			{ "Masque_Smiley", "maska", 20150, { "", "", -1 } },
+			{ "H_PilotHelmetFighter_B", "zajeb. hełm", 14150, { "", "", -1 } },
+			{ "H_CrewHelmetHeli_B", "zajeb. hełm", 14150, { "", "", -1 } },
 			{ "H_ShemagOpen_tan", "", 13500, { "", "", -1 } }
  
 		};
@@ -1067,10 +1071,11 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_BandollierB_cbr", "", 14500, { "", "", -1 } },
-            { "V_HarnessO_brn", "", 27500, { "", "", -1 } },
-            { "V_TacVest_khk", "", 42500, { "", "", -1 } },
-            { "V_PlateCarrierL_CTRG", "", 80000, { "", "", -1 } },
-            { "V_HarnessOGL_brn", "Allah", 3100000, { "", "", -1 } }
+            { "V_TacVest_khk", "", 47500, { "", "", -1 } },
+            { "V_Press_F", "l1", 57500, { "", "", -1 } },
+            { "V_PlateCarrierL_CTRG", "l3", 80000, { "", "", -1 } },
+			{ "V_PlateCarrierSpec_rgr", "l5", 880000, { "", "", -1 } },
+            { "V_HarnessOGL_brn", "Allah 3kk", 3000000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
