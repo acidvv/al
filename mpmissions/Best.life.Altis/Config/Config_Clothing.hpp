@@ -50,17 +50,18 @@ class Clothing {
             { "H_Cap_oli", "", 150, { "", "", -1 } },
             { "H_Cap_red", "", 150, { "", "", -1 } },
             { "H_Cap_tan", "", 150, { "", "", -1 } },
-            { "H_Bandanna_gry", "Grey Bandanna", 150, { "", "", -1 } },
-            { "H_Bandanna_sgg", "Sage Bandanna", 160, { "", "", -1 } },
-            { "H_Bandanna_cbr", "", 165, { "", "", -1 } },
-            { "H_StrawHat", "Straw Fedora", 225, { "", "", -1 } },
-            { "H_Hat_tan", "", 265, { "", "", -1 } },
-            { "H_Hat_brown", "", 276, { "", "", -1 } },
-            { "H_Hat_grey", "", 280, { "", "", -1 } },
-            { "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },
             { "H_Hat_blue", "", 310, { "", "", -1 } },
             { "H_Hat_checker", "", 340, { "", "", -1 } },
-            { "H_Booniehat_tan", "", 425, { "", "", -1 } }
+            { "H_Booniehat_tan", "", 425, { "", "", -1 } },
+			{ "DIS_German_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_Czech_Rep_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_Cobra_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_Canadian_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_Fresh_Meat_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_Flames_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_Cthulhu_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_Camo_Flames_Mask", "maska", 31000, { "", "", -1 } },
+			{ "DIS_BNW_Superman_Mask", "maska", 31000, { "", "", -1 } },
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -85,8 +86,7 @@ class Clothing {
             { "G_Combat", "", 125, { "", "", -1 } },
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } },
-			{ "G_Bandanna_khk", "", 2150, { "", "", -1 } }
+            { "G_Lady_Blue", "", 150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } }
@@ -122,7 +122,7 @@ class Clothing {
     };
     class acid {
         title = "Exclusive-Butik";
-        license = "";
+        license = "rebel";
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
@@ -904,6 +904,48 @@ class Clothing {
 			{ "H_Ajx_HorseMask_pnk", "", 11500, { "life_donorlevel", "SCALAR", 5 } },
 			{ "Casque_Moto", "", 11500, { "life_donorlevel", "SCALAR", 5 } },
 			{ "H_CrewHelmetHeli_I", "l2", 1500, { "life_donorlevel", "SCALAR", 5 } },
+			{ "H_Bandanna_gry", "Grey Bandanna", 150, { "", "", -1 } },
+            { "H_Bandanna_sgg", "Sage Bandanna", 160, { "", "", -1 } },
+            { "H_Bandanna_cbr", "", 165, { "", "", -1 } },
+            { "H_StrawHat", "Straw Fedora", 225, { "", "", -1 } },
+            { "H_Hat_tan", "", 265, { "", "", -1 } },
+            { "H_Hat_brown", "", 276, { "", "", -1 } },
+            { "H_Hat_grey", "", 280, { "", "", -1 } },
+            { "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },,
+			{ "DIS_UK_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Medic_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Russian_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_French_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Irish_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_German_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Czech_Rep_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Cobra_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Canadian_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Fresh_Meat_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Flames_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Cthulhu_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Camo_Flames_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_BNW_Superman_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_American_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Superman_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_American_Messy_Mask", "maska", 11000, { "", "", -1 } },
+			{ "DIS_Smiley_Mask", "maska", 11000, { "", "", -1 } },
+			{ "Masque_Alien1", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Anonymous", "maska", 28150, { "", "", -1 } },
+			{ "Masque_archNemesis", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Arnold", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Aubrey", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Bonnie", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Bush", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Chains", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Chuck", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Clinton", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Clover", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Dallas", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Mempo", "maska", 28150, { "", "", -1 } },
+			{ "Masque_speedRunner", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Unic", "maska", 28150, { "", "", -1 } },
+			{ "Masque_Wolfv2", "maska", 28150, { "", "", -1 } },
 			{ "H_ShemagOpen_tan", "", 1500, { "life_donorlevel", "SCALAR", 5 } }
 
         };
@@ -1068,6 +1110,15 @@ class Clothing {
             { "G_Bandanna_shades", "", 150, { "", "", -1 } },
             { "G_Bandanna_sport", "", 150, { "", "", -1 } },
             { "G_Bandanna_tan", "", 150, { "", "", -1 } },
+			{ "H_Bandanna_gry", "Grey Bandanna", 150, { "", "", -1 } },
+            { "H_Bandanna_sgg", "Sage Bandanna", 160, { "", "", -1 } },
+            { "H_Bandanna_cbr", "", 165, { "", "", -1 } },
+            { "H_StrawHat", "Straw Fedora", 225, { "", "", -1 } },
+            { "H_Hat_tan", "", 265, { "", "", -1 } },
+            { "H_Hat_brown", "", 276, { "", "", -1 } },
+            { "H_Hat_grey", "", 280, { "", "", -1 } },
+            { "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },
+			{ "G_Bandanna_khk", "", 2150, { "", "", -1 } },
 			{ "KA_MCU", "gasmaska", 77150, { "", "", -1 } }
         };
         vests[] = {
