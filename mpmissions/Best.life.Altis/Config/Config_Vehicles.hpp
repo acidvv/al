@@ -443,7 +443,8 @@ class CarShops {
             { "C_Rubberboat", { "", "", -1 } },
 			{ "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
-			{ "	I_Boat_Armed_01_minigun_F", { "", "", -1 } },
+			{ "I_Boat_Armed_01_minigun_F", { "", "", -1 } },
+			{ "C_Boat_Civil_01_rescue_F", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
@@ -759,7 +760,7 @@ class O_T_LSV_02_armed_F {
     };
 	class I_Boat_Armed_01_minigun_F {
         vItemSpace = 675;
-        licenses[] = { {"rebel"}, {"swat"}, {""}, {""} };
+        licenses[] = { {"rebel"}, {"boat"}, {""}, {""} };
         price = 14975000;
 		assurPrice = 1223000;
         textures[] = {};
@@ -842,6 +843,13 @@ class O_T_LSV_02_armed_F {
         vItemSpace = 120;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 25000;
+		assurPrice = 4000;
+        textures[] = { };
+    };
+	class C_Boat_Civil_01_rescue_F {
+        vItemSpace = 120;
+        licenses[] = { {""}, {"med"}, {""}, {""} };
+        price = 2500;
 		assurPrice = 4000;
         textures[] = { };
     };
