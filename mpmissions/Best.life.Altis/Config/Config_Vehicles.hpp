@@ -870,14 +870,14 @@ class O_T_LSV_02_armed_F {
         textures[] = { };
     };
      class SLB2k11_Scania_420_black {
-        vItemSpace = 650;
+        vItemSpace = 800;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 5800000;
 		assurPrice = 935500;
         textures[] = { };
     };
      class SLB2k11_Scania_420EU_orange {
-        vItemSpace = 600;
+        vItemSpace = 690;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 4800000;
 		assurPrice = 935500;
@@ -891,7 +891,7 @@ class O_T_LSV_02_armed_F {
         textures[] = { };
     };
      class SLB2k11_Scania_420EU_blau {
-        vItemSpace = 650;
+        vItemSpace = 800;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 5850000;
 		assurPrice = 935500;
