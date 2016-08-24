@@ -290,7 +290,7 @@ class Clothing {
             { "fbi_rru_Vest", "tajniak", 1000, { "life_coplevel", "SCALAR", 5 } },
             { "V_PlateCarrier1_blk", "l3", 3500, { "life_coplevel", "SCALAR", -1 } },
             { "Security_vest", "oficerski", 3500, { "life_coplevel", "SCALAR", 3 } },
-			{ "V_PlateCarrier2_rgr", "l4", 63500, { "life_coplevel", "SCALAR", 5 } },V_PlateCarrierSpec_blk
+			{ "V_PlateCarrier2_rgr", "l4", 63500, { "life_coplevel", "SCALAR", 5 } },
 			{ "V_PlateCarrierSpec_blk", "l4", 563500, { "life_coplevel", "SCALAR", 5 } },
             { "V_PlateCarrierGL_blk", "na wybuchy", 6500, { "life_coplevel", "SCALAR", 6 } }
         };
