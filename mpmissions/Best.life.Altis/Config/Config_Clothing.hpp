@@ -399,10 +399,12 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Diving", "", 500, { "", "", -1 } },
             { "G_Shades_Blue", "", 10, { "", "", -1 } }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, { "", "", -1 } }
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "V_RebreatherB", "", 5000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
