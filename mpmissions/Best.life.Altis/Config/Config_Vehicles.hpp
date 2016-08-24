@@ -759,9 +759,9 @@ class O_T_LSV_02_armed_F {
         textures[] = {};
     };
 	class I_Boat_Armed_01_minigun_F {
-        vItemSpace = 675;
+        vItemSpace = 775;
         licenses[] = { {"rebel"}, {"boat"}, {""}, {""} };
-        price = 14975000;
+        price = 34975000;
 		assurPrice = 1223000;
         textures[] = {};
     };

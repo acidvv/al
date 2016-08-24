@@ -903,6 +903,7 @@ class Clothing {
 			{ "H_Ajx_HorseMask_blk", "", 11500, { "life_donorlevel", "SCALAR", 5 } },
 			{ "H_Ajx_HorseMask_pnk", "", 11500, { "life_donorlevel", "SCALAR", 5 } },
 			{ "Casque_Moto", "", 11500, { "life_donorlevel", "SCALAR", 5 } },
+			{ "H_CrewHelmetHeli_I", "l2", 1500, { "life_donorlevel", "SCALAR", 5 } },
 			{ "H_ShemagOpen_tan", "", 1500, { "life_donorlevel", "SCALAR", 5 } }
 
         };
