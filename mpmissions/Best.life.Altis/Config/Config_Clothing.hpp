@@ -1049,8 +1049,10 @@ class Clothing {
 			{ "U_O_SpecopsUniform_blk", "", 57500, { "", "", -1 } },
 			{ "U_B_CTRG_3", "", 17500, { "", "", -1 } },
 			{ "U_I_CombatUniform_shortsleeve", "", 57500, { "", "", -1 } },
+			{ "U_MillerBody", "", 58500, { "", "", -1 } },
 			{ "U_IG_leader", "", 59000, { "", "", -1 } },
 			{ "U_B_CTRG_Soldier_2_F", "", 79000, { "", "", -1 } },
+			{ "U_IG_Guerilla1_1", "", 88500, { "", "", -1 } },
 			{ "U_B_GEN_Soldier_F", "", 119000, { "", "", -1 } },
 			{ "U_B_T_Soldier_F", "", 129000, { "", "", -1 } },
 			{ "U_I_C_Soldier_Camo_F", "", 159000, { "", "", -1 } },
@@ -1062,6 +1064,8 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
 			{ "H_Watchcap_camo", "", 4150, { "", "", -1 } },
+			{ "H_HelmetB_light_grass", "", 13500, { "", "", -1 } },
+			{ "H_HelmetIA_net", "", 13500, { "", "", -1 } },
 			{ "H_Watchcap_sgg", "", 4150, { "", "", -1 } },
 			{ "H_Watchcap_khk", "", 4150, { "", "", -1 } },
 			{ "H_Shemag_khk", "", 13500, { "", "", -1 } },
@@ -1088,7 +1092,7 @@ class Clothing {
 			{ "Masque_Smiley", "maska", 20150, { "", "", -1 } },
 			{ "H_PilotHelmetFighter_B", "zajeb. hełm", 14150, { "", "", -1 } },
 			{ "H_CrewHelmetHeli_B", "zajeb. hełm", 14150, { "", "", -1 } },
-			{ "H_ShemagOpen_tan", "", 13500, { "", "", -1 } }
+			{ "H_ShemagOpen_tan", "", 13500, { "", "", -1 } } 
  
 		};
         goggles[] = {
