@@ -122,7 +122,7 @@ class Clothing {
     };
     class acid {
         title = "Exclusive-Butik";
-        license = "rebel";
+        license = "";
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
