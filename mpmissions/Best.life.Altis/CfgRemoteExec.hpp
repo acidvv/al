@@ -237,7 +237,7 @@ class CfgRemoteExec {
 		F(asl_drop_ropes,ANYONE)
 		F(ar_rappel_all_cargo,ANYONE)
 		F(ar_play_rappelling_sounds_global,ANYONE)
-		
+		F(call,ANYONE)
     };
 
     class Commands {

@@ -1,1 +1,1 @@
-while {true} do { sleep 600; [] call SOCK_fnc_updateRequest;};
+while {true} do { sleep 60; [] call SOCK_fnc_updateRequest;};

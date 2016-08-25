@@ -768,7 +768,7 @@ class O_T_LSV_02_armed_F {
     class O_Truck_03_transport_F {
         vItemSpace = 400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 2000000;
+        price = 2500000;
 		assurPrice = 225000;
         textures[] = { };
     };
@@ -776,7 +776,7 @@ class O_T_LSV_02_armed_F {
     class O_Truck_03_device_F {
         vItemSpace = 475;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 3300000;
+        price = 3500000;
 		assurPrice = 350000;
         textures[] = { };
     };
@@ -784,7 +784,7 @@ class O_T_LSV_02_armed_F {
 	class B_Truck_01_covered_F {
         vItemSpace = 585;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 4509000;
+        price = 5509000;
 		assurPrice = 1353000;
         textures[] = { };
     };
@@ -880,35 +880,35 @@ class O_T_LSV_02_armed_F {
      class Jonzie_Flat_Bed {
         vItemSpace = 460;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 3200000;
-		assurPrice = 435500;
+        price = 3800000;
+		assurPrice = 735500;
         textures[] = { };
     };
      class SLB2k11_Scania_420_black {
         vItemSpace = 800;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 5800000;
+        price = 7200000;
 		assurPrice = 935500;
         textures[] = { };
     };
      class SLB2k11_Scania_420EU_orange {
         vItemSpace = 690;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 4800000;
-		assurPrice = 935500;
+        price = 5800000;
+		assurPrice = 735500;
         textures[] = { };
     };
     class B_Truck_01_box_F {
         vItemSpace = 900;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 7800000;
-		assurPrice = 1935500;
+		assurPrice = 935500;
         textures[] = { };
     };
      class SLB2k11_Scania_420EU_blau {
         vItemSpace = 800;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 5850000;
+        price = 7250000;
 		assurPrice = 935500;
         textures[] = { };
     };
@@ -1140,7 +1140,7 @@ class O_T_LSV_02_armed_F {
        class shounka_a3_dafxf_euro6_f {
         vItemSpace = 1230;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 10450000;
+        price = 12450000;
 		assurPrice = 2135500;
         textures[] = { };
     };
@@ -1156,7 +1156,7 @@ class O_T_LSV_02_armed_F {
 	class B_Truck_01_ammo_F	{
         vItemSpace = 710;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 7250000;
+        price = 6650000;
 		assurPrice = 775500;
         textures[] = { };
     };
