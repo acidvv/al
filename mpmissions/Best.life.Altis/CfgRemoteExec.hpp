@@ -220,7 +220,7 @@ class CfgRemoteExec {
 		F(sa_take_tow_ropes,ANYONE)
 		F(sa_drop_tow_ropes,ANYONE)
 		F(sa_attach_tow_ropes,ANYONE)
-		F(sa_sa_put_away_tow_ropes,ANYONE)
+		F(sa_put_away_tow_ropes,ANYONE)
 		F(sa_set_owner,ANYONE)
 		F(sa_simulate_towing,ANYONE)
 		F(asl_hide_object_global,ANYONE)
