@@ -38,7 +38,7 @@ StartProgress = true;
 	0, 
 	0 
 ] execVM "Custom\repetitive_cleanup.sqf";
-
+[] execVM "scripts\real_weather.sqf";
 
 AR_SUPPORTED_VEHICLES_OVERRIDE = [ "I_Heli_Transport_02_F", "B_Heli_Transport_03_unarmed_F" ,"O_Heli_Transport_04_Box_F" ,"MV22" ]; 
 ASL_SUPPORTED_VEHICLES_OVERRIDE = [ "Air" ]; 
