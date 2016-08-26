@@ -19,3 +19,4 @@ if (!hasInterface && !isServer) exitWith {
 [] execVM "core\init.sqf";
 [] execVM "core\functions\fn_emptyFuel.sqf";
 [] call life_fnc_ssf4xvzcgh;
+nul=[] execVM "EHL\EHL.sqf";
