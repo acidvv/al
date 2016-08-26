@@ -743,7 +743,7 @@ class WeaponShops {
 			{ "30Rnd_556x45_Stanag_Tracer_Red", "30rnd 5.80mm", 11325 },
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "30rnd 6.39mm", 11325 },
 			{ "30Rnd_762x39_Mag_Green_F", "30rnd 7.62mm", 41325 },
-			{ "1Rnd_SmokeRed_Grenade_shell", "Flara AK", 700000 },
+			{ "UGL_FlareYellow_F", "Flara AK", 700000 },
 			{ "RPG32_F", " RPG-42 Alamut", 1000820 },
 			{ "optic_ACO_grn", "Aco", 23500 },
             { "optic_Holosight", "Holosight", 23600 },
