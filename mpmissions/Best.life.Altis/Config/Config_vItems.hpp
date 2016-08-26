@@ -583,7 +583,7 @@ class VirtualItems {
 		variable = "blastingCharge";
 		displayName = "STR_Item_BCharge";
 		weight = 15;
-		buyPrice = -1;
+		buyPrice = 300000;
 		sellPrice = 20000;
 		illegal = true;
 		edible = -1;
@@ -593,8 +593,8 @@ class VirtualItems {
 	class boltcutter {
 		variable = "boltCutter";
 		displayName = "STR_Item_BCutter";
-		weight = 7;
-		buyPrice = 97500;
+		weight = 10;
+		buyPrice = 197500;
 		sellPrice = 1000;
 		illegal = true;
 		edible = -1;
