@@ -1132,7 +1132,7 @@ class Clothing {
             { "V_Press_F", "l1", 57500, { "", "", -1 } },
             { "V_PlateCarrierL_CTRG", "l3", 300000, { "", "", -1 } },
 			{ "V_PlateCarrierSpec_rgr", "l5", 880000, { "", "", -1 } },
-            { "V_HarnessOGL_brn", "Allah 3kk", 3000000, { "", "", -1 } }
+            { "V_HarnessOGL_brn", "Allah 3kk", 1000000, { "", "", -1 } }
         };
         backpacks[] = {
             { "B_OutdoorPack_blk", "", 2000, { "", "", -1 } },

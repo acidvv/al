@@ -2608,8 +2608,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_MRAP_01_F {
         vItemSpace = 65;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 100000;
-		assurPrice = 30000;
+        price = 480000;
+		assurPrice = 730000;
         textures[] = {
            { "Hunter VIP", "civ", {
 	                "textures\Vip\Vehicles\hunter\donator_hunter_front.paa",
