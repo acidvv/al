@@ -14,9 +14,9 @@
 
 DYNMARKET_Serveruptime         = 04;     // La durée de fonctionnement jusqu'au prochain redémarrage du serveur en heures.
 DYNMARKET_UseExternalDatabase  = true;  // Si le script utilise une base de données externe ?
-DYNMARKET_PriceUpdateInterval  = 02;     // Après combien de minutes devrait être mis à jour le prix ?
+DYNMARKET_PriceUpdateInterval  = 01;     // Après combien de minutes devrait être mis à jour le prix ?
 DYNMARKET_CreateBackups        = true;   // Si le serveur ne sauvegarde pas les prix régulièrement dans la base de données, il le fera lorsque le serveur de redémarre ?
-DYNMARKET_CreateBackupInterval = 60;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
+DYNMARKET_CreateBackupInterval = 120;     // Après combien de mises à jour de la bourse le serveur devrait-il sauvegarder les prix dans la base de données ?
 DYNMARKET_UserNotification     = false;  // Est-ce que les joueurs devraient être informé par un message (hint) à chaque fois que la bourse est mise à jour ?
 
 // █████████████████ TEXTES DE NOTIFICATION  █████████████████
@@ -74,23 +74,21 @@ DYNMARKET_Items_Groups =
 	],
 	
 	["Illegal", 
-		[
-			
+		[			
 			["cocaine_processed",-1,3500,9200],
 			["heroin_processed",-1,3700,8200],
 			["whiskey",-1,3000,7000],
-			["heba",-1,6200,12000],
-			["marijuana",-1,3000,7200],
-			["turtle_raw",-1,4000,7200]
+			["heba",-1,8000,16000],
+			["marijuana",-1,3000,7200]
 			],
 		3.0
 	],
 	["drogie", 
 		[
 			["Skarb",-1,22000,42000],		
-			["nitro",-1,12000,30800],
+			["nitro",-1,18000,30800],
+			["turtle_raw",-1,18000,27200],
 			["C4",-1,28000,52000]
-			
 			],
 		4.0
 	]
@@ -135,15 +133,16 @@ DYNMARKET_Items_ToTrack        =
 		
     ["heroin_processed",8200],
 	["whiskey",6200],
-	["heba",10000],
+	["heba",12000],
 	["marijuana",6900],
 	["cocaine_processed",8300],
-	["turtle_raw",6200] ,
+	
 	
 	
 	
 	["Skarb",32000],
-	["nitro",20800],
+	["nitro",22800],
+	["turtle_raw",23200] ,
 	["C4",37700]
 	
 ];
