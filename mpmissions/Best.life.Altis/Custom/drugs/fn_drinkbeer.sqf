@@ -10,6 +10,7 @@ sleep 4;
 "radialBlur" ppEffectEnable true;
 enableCamShake true;
 player setVariable["inDrink",true,true];
+[player,"psy"] remoteExec ["life_fnc_globalSound",0];
 
 for "_i" from 0 to 59 do{
     if(life_drink > 0.12) then {

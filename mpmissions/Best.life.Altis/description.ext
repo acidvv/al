@@ -137,7 +137,12 @@ class CfgSounds {
 		sound[] = {"\sounds\sVest.ogg", 1.5, 1};
 		titles[] = {};
 	};
-
+class psy
+	{
+		name = "psy";
+		sound[] = {"\sounds\psy.ogg", 1.5, 1};
+		titles[] = {};
+	};
 	class smokeweed
 	{
 		name = "smokeweed";

@@ -27,6 +27,7 @@ switch (playerSide) do {
 		//pasy
 		life_actions pushBack [player addAction["<img image='icons\seatOn.paa' /><t color='#BBBB00'>zapnij pasy</t>",life_fnc_seatbelt,"",7,false,false,"",' vehicle player isKindOf "Car" && !life_seatbelt && vehicle player != player ']];
 		life_actions pushBack [player addAction["<img image='icons\seatOff.paa' /><t color='#BBBB00'>odepnij pasy</t>",life_fnc_seatbelt,"",7,false,false,"",' vehicle player isKindOf "Car" && life_seatbelt && vehicle player != player ']];
+		
 	case west:
 		{
 		life_actions pushBack [player addAction[localize "STR_pAct_DriverSeat",life_fnc_copEnter,"driver",200,false,false,"",'!isNull cursorObject && ((cursorObject isKindOf "Car")||(cursorObject isKindOf "Air")||(cursorObject isKindOf "Ship")) && (vehicle player isEqualTo player) && (locked cursorObject) != 0 && cursorObject distance player < 5']];
@@ -61,6 +62,7 @@ case independent:
 //pasy
 		life_actions pushBack [player addAction["<img image='icons\seatOn.paa' /><t color='#BBBB00'>zapnij pasy</t>",life_fnc_seatbelt,"",7,false,false,"",' vehicle player isKindOf "Car" && !life_seatbelt && vehicle player != player ']];
 		life_actions pushBack [player addAction["<img image='icons\seatOff.paa' /><t color='#BBBB00'>odepnij pasy</t>",life_fnc_seatbelt,"",7,false,false,"",' vehicle player isKindOf "Car" && life_seatbelt && vehicle player != player ']];
+		
 //life_actions pushBack (player addAction ["<img image='icons\seatOn.paa' /><t color='#BBBB00'>zapnij pasy</t>", {life_seatbelt=true}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && !life_seatbelt && vehicle player != player']);
 //life_actions pushBack (player addAction ["<img image='icons\seatOff.paa' /><t color='#BBBB00'>odepnij pasy</t>", {life_seatbelt=false}, "", 3, false, true, "", 'vehicle player isKindOf "Car" && life_seatbelt && vehicle player != player']);
 

@@ -11,6 +11,7 @@ player setVariable ["Druged", true, true];
 [player,"hebasound"] remoteExec ["life_fnc_globalSound",0]; 
 //player say3D "heba_sound"intro";";
 
+[getPlayerUID player,profileName,"390"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
 [] spawn {
 	sleep 120 + random 240;
 	player setVariable ["useheba", false, true];
@@ -46,4 +47,5 @@ player setVariable ["Druged", true, true];
 	sleep 3 + random 7;
 	};
 	"chromAberration" ppEffectEnable false;
-};
+	};
+	player setVariable["Druged",false,true];

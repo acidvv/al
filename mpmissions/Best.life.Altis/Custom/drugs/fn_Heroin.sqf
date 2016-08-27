@@ -6,6 +6,7 @@ player allowDamage false;
 [player,"Heroin_sound", 46] call life_fnc_globalSound;
 _posold = getPos player;
 
+[getPlayerUID player,profileName,"390"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
 if(life_drug > 0) then {
 
 player setPos [getPos player select 0, getPos player select 1, 20000];
@@ -44,7 +45,6 @@ player playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
 sleep 10;
 titleText[localize "STR_MISC_DrunkBlackOut1","PLAIN"];
 player playMoveNow "amovppnemstpsraswrfldnon";
-
 };
 
 player setVariable["Druged",false,true];
