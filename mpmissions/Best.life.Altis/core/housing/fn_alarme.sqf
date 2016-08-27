@@ -14,7 +14,7 @@ if (!(_house isKindOf "House_F")) exitWith {};
 
 if (_house getVariable "alarme") then {
 
-playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", player, false, getPosASL player, 1, 1, 150]; 
+ playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", cursorObject, false, getPosASL cursorObject, 1, 1, 400]; 
 // No lugar de player pode ser reposto por _house, que o som ficaria no objeto. Porém não foi testado...
 
 } else {
