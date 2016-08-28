@@ -6997,6 +6997,9 @@
 			<Key ID="STR_Process_Skarb">
 			<Original>Tworzę skrzyznię ozdobną</Original>
 		</Key>
+			<Key ID="STR_Process_skarb1">
+			<Original>Twórz skrzyznię ozdobną</Original>
+		</Key>
 		<Key ID="STR_Shops_Skarb">
 			<Original>Skup skrzyni ozdobnej</Original>
 		</Key>

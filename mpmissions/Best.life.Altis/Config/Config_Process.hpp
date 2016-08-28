@@ -179,12 +179,12 @@ class ProcessAction {
 					//ScrollText = "nitro";
 					NoLicenseCost = 181500;
 	};
-    class Skarb {
+    class skarb {
 
 					MaterialsReq[] = {{"diamond_cut",1},{"glass",1},{"plank",1}};
-		MaterialsGive[] = {{"Skarb",1}};
+		MaterialsGive[] = {{"skarb",1}};
 					Text = "STR_Process_Skarb";
-					//ScrollText = "Mix Cement";
+					//ScrollText = "skarb";
 					NoLicenseCost = 111500;
 	};
 	class steelplate {

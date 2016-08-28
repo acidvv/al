@@ -43,7 +43,7 @@ switch (playerSide) do {
 	    	// nano EMP Little Bird
 	   life_actions pushBack [player addAction["<t color='#FF0000'>EMP konsola</t>",life_fnc_openEmpMenu,[],8,false,false,"",'[_this] call life_fnc_isEmpOperator']];
 	   life_actions pushBack [player addAction[ "Badanie Narkotyków i Alkoholu",life_fn_alkoholdrugtester,cursorTarget,0,false,true,"",' !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && animationState cursorTarget == "AmovPercMstpSnonWnonDnon_Ease" && (cursorTarget getVariable ["restrained",false]) && (side cursorTarget == civilian) && player distance cursorTarget < 2.5 && !(cursorTarget getVariable "Escorting") ']];
-	  	life_actions pushBack [player addAction["<t color='#FF0000'>Zneutralizuj kryjówkę gangu</t>",life_fnc_gangCapture,"",0,false,false,"",'  ((typeOf cursorTarget) == "Flag_Red_F")  ']];
+	  	life_actions pushBack [player addAction["<t color='#FF0000'>Zneutralizuj kryjówkę gangu</t>",life_fnc_captureHideout,"",0,false,false,"",'  ((typeOf cursorTarget) == "Flag_Red_F")  ']];
 			};
 		//pasy
 		life_actions pushBack [player addAction["<img image='icons\seatOn.paa' /><t color='#BBBB00'>zapnij pasy</t>",life_fnc_seatbelt,"",7,false,false,"",' vehicle player isKindOf "Car" && !life_seatbelt && vehicle player != player ']];

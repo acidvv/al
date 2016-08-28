@@ -235,8 +235,8 @@ class Licenses {
         side = "civ";
     };
 	
-	class Skarb {
-        variable = "Skarb";
+	class skarb {
+        variable = "skarb";
         displayName = "STR_License_Skarb";
         price = 400000;
         illegal = false;
