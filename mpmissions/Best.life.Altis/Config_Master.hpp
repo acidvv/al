@@ -52,6 +52,10 @@ class Life_Settings {
     enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWTTP = 30; //Static variable for the maximum weight allowed without having a backpack
     respawn_timer = 10; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
+  /* Channel 7 News Station Configurations */
+    news_broadcast_cost = 200000; //Cost for a player to send a news station broadcast.
+    news_broadcast_cooldown = 20; //Time in minutes that is required between news station broadcasts. (Default = 20 minutes)
+    news_broadcast_header_length = 100; //Number of characters that a header can consist of. Anything over this may clip. This depends on the font size and various other factors. Adjust with caution.
 
     /* Clothing System Configurations */
     civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
@@ -91,7 +95,7 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 20000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    revive_fee = 50000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
     hospital_heal_fee = 10000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */

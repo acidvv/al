@@ -96,6 +96,7 @@ class Life_Client_Core {
 		class robShops {};
 		class ZipTieAction {};
 		class seatbelt {};
+		class newsBroadcast {};
 		};
 
 	class vAH
@@ -355,9 +356,10 @@ class Life_Client_Core {
 		class seizeObjects {};
 		class masked {};
 		class autoMessages {};
-		class hudUpdateWanted {};
 		class globalSound {};
 		class emptyFuel {};
+		class postNewsBroadcast {};
+		class AAN {}
 	};
 
 	class Gangs	{

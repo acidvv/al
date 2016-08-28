@@ -68,6 +68,7 @@ CHVD_maxObj = 4000;
 
 //Settings
 life_settings_enableSidechannel = GVAR_PNAS["life_enableSidechannel",true];
+life_settings_enableNewsBroadcast = profileNamespace getVariable ["life_enableNewsBroadcast",true];
 life_settings_tagson = GVAR_PNAS["life_settings_tagson",true];
 life_settings_revealObjects = GVAR_PNAS["life_settings_revealObjects",false];
 life_settings_viewDistanceFoot = GVAR_PNAS["life_viewDistanceFoot",1000];

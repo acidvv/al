@@ -45,3 +45,4 @@
 #include "taxiMenu.hpp"
 #include "emp_menu.hpp"
 #include "statusBar.hpp"
+#include "newsStation.hpp"

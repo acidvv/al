@@ -5173,6 +5173,151 @@
 			<Russian>Не удалось получить преступления.</Russian>
 			<German>Fehlgeschlagen Verbrechen zu holen.</German>
 		</Key>
+		   </Package>
+     <Package name="News_Strings">
+         <Key ID="STR_News_AddAction">
+             <Original>Aktualności ,ogłoszenia</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_DialogTitle">
+             <Original>Szmatławiec News</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+		 <Key ID="STR_SM_BCSW">
+             <Original>Przełącz kanał</Original>
+             <Czech></Czech>
+             <French></French>
+             <Spanish></Spanish>
+             <Italian></Italian>
+             <Polish></Polish>
+             <Russian></Russian>
+             <Portuguese>Habilitar Transmissões</Portuguese>
+             <German></German>
+         </Key>
+ <Key ID="STR_GUI_BroadcastSwitch">
+           <Original>Switch player's broadcast mode, turn this off if you don't want to see any broadcast from other players.</Original>
+           <Czech></Czech>
+           <French></French>
+           <Spanish></Spanish>
+           <Italian></Italian>
+           <Polish></Polish>
+           <Russian></Russian>
+           <Portuguese>Habilita/Desabilita as transmissões dos jogadores, desabilite caso você não queira ver as transmissões dos outros jogadores.</Portuguese>
+           <German></German>
+         </Key>
+         <Key ID="STR_News_MsgHeader">
+             <Original>Nagłówek wiadomości:</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_MsgContent">
+             <Original>Treść wiadomości:</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_Broadcast">
+             <Original>Wiadomość</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_StructuredText">
+             <Original>Koszt: %1&lt;br /&gt;Następna wiadomość za: %2</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_HeaderLength">
+             <Original>wiadomośc moze zawierać %1 wyrazów</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_UnsupportedCharacter">
+             <Original>Zła wiadomość nie obsluguje!</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_Now">
+             <Original>teraz</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_NotEnough">
+             <Original>Musisz mieć $%1 aby wysłać wiadomość!</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
+         <Key ID="STR_News_BroadcastedBy">
+             <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Ogłoszeniodawca: %2</Original>
+             <Czech></Czech>
+             <Spanish></Spanish>
+             <Russian></Russian>
+             <German></German>
+             <French></French>
+             <Italian></Italian>
+             <Portuguese></Portuguese>
+             <Polish></Polish>
+         </Key>
 	</Package>
 	<Package name="MISC_Strings">
 		<Key ID="STR_MISC_DrunkBlackOut">
