@@ -1139,7 +1139,7 @@ class Skarb {
 		variable = "turtleRaw";
 		displayName = "STR_Item_TurtleRaw";
 		weight = 10;
-		buyPrice = 13000;
+		buyPrice = 43000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
