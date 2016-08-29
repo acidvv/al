@@ -250,7 +250,7 @@ class turtle_raw {
 		variable = "turtleRaw";
 		displayName = "STR_Item_TurtleRaw";
 		weight = 7;
-		buyPrice = 22000;
+		buyPrice = 42000;
 		sellPrice = 8000;
 		illegal = true;
 		edible = -1;
@@ -1139,7 +1139,7 @@ class Skarb {
 		variable = "turtleRaw";
 		displayName = "STR_Item_TurtleRaw";
 		weight = 10;
-		buyPrice = 43000;
+		buyPrice = 44000;
 		sellPrice = -1;
 		illegal = true;
 		edible = -1;
@@ -1150,7 +1150,7 @@ class Skarb {
 		variable = "turtleSoup";
 		displayName = "STR_Item_TurtleSoup";
 		weight = 8;
-		buyPrice = 7250;
+		buyPrice = 12250;
 		sellPrice = 4000;
 		illegal = false;
 		edible = 100;

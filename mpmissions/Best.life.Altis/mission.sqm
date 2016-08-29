@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=138;
+	toggles=10;
 	class ItemIDProvider
 	{
 		nextID=12322;
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=73;
+		nextID=74;
 	};
 	class Camera
 	{
-		pos[]={23712.688,28.190001,18468.637};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={20096.244,53.771755,20103.863};
+		dir[]={-0.68091893,-0.57146227,-0.45802918};
+		up[]={-0.47417137,0.82062626,-0.31895828};
+		aside[]={-0.5581432,-4.9447408e-008,0.82975006};
 	};
 };
 binarizationWanted=0;
@@ -2195,7 +2195,7 @@ class Mission
 		class Item147
 		{
 			dataType="Marker";
-			position[]={28974.938,-0.011322021,17759.957};
+			position[]={17598.814,-0.011322021,23565.477};
 			name="turtle_1";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -2203,22 +2203,22 @@ class Mission
 			a=350;
 			b=350;
 			id=165;
-			atlOffset=185.95868;
+			atlOffset=136.91354;
 		};
 		class Item148
 		{
 			dataType="Marker";
-			position[]={28972.832,-0.10417938,17759.816};
+			position[]={17598.195,-0.10417938,23563.613};
 			name="turtle_1_name";
 			text="@STR_MAR_Turtle_Poaching";
 			type="mil_dot";
 			id=166;
-			atlOffset=185.86581;
+			atlOffset=136.7037;
 		};
 		class Item149
 		{
 			dataType="Marker";
-			position[]={1703.8052,-0.064468384,4699.6689};
+			position[]={15846.271,-0.064468384,6577.3862};
 			name="turtle_2";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -2226,17 +2226,17 @@ class Mission
 			a=350;
 			b=350;
 			id=167;
-			atlOffset=185.90553;
+			atlOffset=182.19072;
 		};
 		class Item150
 		{
 			dataType="Marker";
-			position[]={1706.3206,0,4698.8687};
+			position[]={15848.479,0,6578.0835};
 			name="turtle_1_name_1";
 			text="@STR_MAR_Turtle_Poaching";
 			type="mil_dot";
 			id=168;
-			atlOffset=185.97;
+			atlOffset=182.44475;
 		};
 		class Item151
 		{
@@ -2662,14 +2662,14 @@ class Mission
 		class Item193
 		{
 			dataType="Marker";
-			position[]={3626.0569,12.716309,14563.858};
+			position[]={20083.09,12.716309,20083.521};
 			name="turle_dealer_1";
 			text="@STR_MAR_Turtle_Dealer";
 			type="mil_dot";
 			colorName="ColorRed";
 			angle=77.713181;
 			id=213;
-			atlOffset=2.4300976;
+			atlOffset=-10.029001;
 		};
 		class Item194
 		{
@@ -23454,10 +23454,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3630.4197,10.271833,14569.492};
-						angles[]={0,3.5520756,0};
+						position[]={20083.146,23.120224,20084.172};
+						angles[]={0,3.5520766,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -23465,7 +23466,7 @@ class Mission
 					};
 					id=1054;
 					type="C_man_1";
-					atlOffset=0.96201229;
+					atlOffset=0.069734573;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23506,7 +23507,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item96
@@ -73260,7 +73280,7 @@ class Mission
 		class Item2241
 		{
 			dataType="Marker";
-			position[]={3638.6162,10.040283,14545.15};
+			position[]={20099.027,10.040283,20106.475};
 			name="marker_300da_7";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -73269,7 +73289,7 @@ class Mission
 			a=262.03101;
 			b=235.092;
 			id=11029;
-			atlOffset=-2.1356316;
+			atlOffset=-17.769697;
 		};
 		class Item2242
 		{
@@ -74767,7 +74787,7 @@ class Mission
 						angles[]={0,1.9007334,0};
 					};
 					side="Civilian";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -74775,7 +74795,7 @@ class Mission
 					};
 					id=11099;
 					type="C_man_polo_3_F";
-					atlOffset=0.00032615662;
+					atlOffset=4.5209999;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -74862,7 +74882,7 @@ class Mission
 			{
 			};
 			id=11098;
-			atlOffset=0.00032615662;
+			atlOffset=4.5209999;
 		};
 		class Item2285
 		{
@@ -75359,6 +75379,7 @@ class Mission
 					};
 					id=11129;
 					type="C_man_1";
+					atlOffset=0.23577118;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -75426,6 +75447,7 @@ class Mission
 			{
 			};
 			id=11128;
+			atlOffset=0.23577118;
 		};
 		class Item2300
 		{
@@ -91350,7 +91372,7 @@ class Mission
 			text="@STR_MAR_Channel_News";
 			type="loc_Transmitter";
 			colorName="ColorWhite";
-			angle=306.00015;
+			angle=306.00012;
 			id=12304;
 			atlOffset=0.047897339;
 		};
