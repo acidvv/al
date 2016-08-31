@@ -68,6 +68,7 @@ class Life_Client_Core {
 		class postBail {};
 		class processAction {};
 		class pulloutAction {};
+		class pulloutActionc {};
 		class pushVehicle {};
 		class putInCar {};
 		class removeContainer {};
@@ -337,6 +338,7 @@ class Life_Client_Core {
 		class playerSkins {};
 		class playerTags {};
 		class pullOutVeh {};
+		class pullOutVehc {};
 		class pushObject {};
 		class receiveItem {};
 		class receiveMoney {};

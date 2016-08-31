@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=10;
+	toggles=138;
 	class ItemIDProvider
 	{
 		nextID=12322;
@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=74;
+		nextID=75;
 	};
 	class Camera
 	{
-		pos[]={20096.244,53.771755,20103.863};
+		pos[]={20052.721,38.158848,20087.104};
 		dir[]={-0.68091893,-0.57146227,-0.45802918};
 		up[]={-0.47417137,0.82062626,-0.31895828};
 		aside[]={-0.5581432,-4.9447408e-008,0.82975006};
@@ -2226,7 +2226,7 @@ class Mission
 			a=350;
 			b=350;
 			id=167;
-			atlOffset=182.19072;
+			atlOffset=182.19099;
 		};
 		class Item150
 		{
@@ -23466,7 +23466,7 @@ class Mission
 					};
 					id=1054;
 					type="C_man_1";
-					atlOffset=0.069734573;
+					atlOffset=0.070617676;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -84438,7 +84438,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
-						init="this enableSimulation false; this allowDamage false; this ";
+						init="this enableSimulation false; this allowDamage false; smoke = ""test_EmptyObjectForSmoke"" createVehicle position this; smoke attachTo[this,[0,1.5,-1]];";
 					};
 					id=11788;
 					type="C_man_1";
@@ -84533,7 +84533,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
-						init="this enableSimulation false; this allowDamage false; this ";
+						init="this enableSimulation false; this allowDamage false; ";
 					};
 					id=11794;
 					type="C_man_1";

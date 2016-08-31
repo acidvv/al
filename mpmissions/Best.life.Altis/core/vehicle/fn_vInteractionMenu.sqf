@@ -137,10 +137,11 @@ if(FETCH_CONST(life_coplevel) < _crushRank) then {_Btn7 ctrlEnable false;};
 if(playerSide isEqualTo civilian) then {
 
 _Btn4 ctrlSetText localize "STR_vInAct_PullOut";
-	_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
+	_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutActionc;";
 	if(crew _curTarget isEqualTo []) then {_Btn4 ctrlEnable false;};
-    
-};
+   };
+ 
+
 
 
 	_Btn4 ctrlShow false;
