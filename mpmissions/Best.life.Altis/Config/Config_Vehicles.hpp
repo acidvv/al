@@ -479,7 +479,7 @@ class CarShops {
             { "O_Truck_02_box_F", { "", "", -1 } },
             { "O_Truck_02_covered_F", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
-            { "GR_Littlebird_GAU19", { "", "", -1 } },
+            { "GR_Littlebird_Transport", { "", "", -1 } },
 			{ "sab_camel_ind_pro", { "", "", -1 } },
             { "sab_camel_red_pro", { "", "", -1 } },
             { "sab_camel_blu_pro", { "", "", -1 } },
@@ -496,6 +496,7 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
 			{ "max_firetruck", { "life_medicLevel", "SCALAR", 2 } },
 			{ "ivory_suburban_ems", { "life_medicLevel", "SCALAR", 2 } },
+			{ "Jonzie_Tow_truck", { "life_medicLevel", "SCALAR", 2 } },
             { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 4 } }
         };
     };
@@ -1130,10 +1131,10 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 4935500;
         textures[] = { };
     };
-	class GR_Littlebird_GAU19 {
-        vItemSpace = 100;
+	class GR_Littlebird_Transport {
+        vItemSpace = 150;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 41150000;
+        price = 1450000;
 		assurPrice = 235500;
         textures[] = { };
     };
@@ -1152,7 +1153,13 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 458300;
         textures[] = { };
     };
-	
+	class Jonzie_Tow_truck {
+        vItemSpace = 130;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 5410000;
+		assurPrice = 58300;
+        textures[] = { };
+    };
 	class B_Truck_01_ammo_F	{
         vItemSpace = 710;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };

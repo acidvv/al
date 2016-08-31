@@ -71,13 +71,9 @@ if((_curTarget GVAR ["restrained",false])) then
 
 //Button 3 - Set put in car button
 	_Btn3 ctrlSetText localize "STR_pInAct_PutInCar";
-	_Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;
-	closeDialog 0;";
-if((primaryWeapon player != "")) then { 
-	_Btn3 ctrlEnable true;
-} else {
-    _Btn3 ctrlEnable false;
-};
+	_Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;closeDialog 0;";
+	
+
 //Button 7 - Rouba
 _Btn7 ctrlSetText localize "STR_pAct_RobPerson";
 _Btn7 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_robAction; closeDialog 0;";
