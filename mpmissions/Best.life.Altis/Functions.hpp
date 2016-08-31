@@ -215,7 +215,13 @@ class Life_Client_Core {
 		class nitro {};
 		class activateNitro {};
 	};
-
+class blindfold
+	{
+		file = "core\blindfold";
+		class blindfoldAction {};
+		class blindfoldActionOff {};
+		class blindfoldOff {};
+	};
 	class CopPlaceables
 	{
 		file = "core\cop\roadblock";
@@ -419,6 +425,7 @@ class Life_Client_Core {
 		class feuerwerkwhite{};
 		class feuerwerkrandom{};
 		class evidenceBag {};
+		class blindfold {};
 		
 	};
 

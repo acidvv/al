@@ -90,19 +90,8 @@ case (_item isEqualTo "evidencebag"):
 	};
 
 	case (EQUAL(_item,"blindfold")): {
-		if(playerSide in [independent]) exitWith {hint "Nie można użyć tego elementu!"};
-		if(vehicle player != player) exitWith {hint "Nie można użyć tego elementu w pojezdzie!"};
-		_unit = cursorTarget;
-		if(isNull _unit) exitWith {};
-		if((player distance _unit > 3)) exitWith {hint "Jesteś za daleko!";};
-		if(!(_unit getVariable "civrestrained")) exitWith {hint "Ofiara musi mieć kajdanki!";};
-		if((_unit getVariable "masked")) exitWith {hint "Osoba jest już porwana!";};
-		if(player isEqualTo _unit) exitWith {};
-		if(!isPlayer _unit) exitWith {};
-		if(([false,_item,1]call life_fnc_handleInv)) then
-		{
-			[] spawn life_fnc_maskAction;
-		};
+	if (vehicle player != player) exitWith {hint "Jestes w pojezdzie";};
+		[cursorTarget] spawn life_fnc_blindfold;
 	};
 
 	case (EQUAL(_item,"beer")): {

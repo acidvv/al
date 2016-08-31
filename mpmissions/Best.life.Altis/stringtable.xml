@@ -20,6 +20,10 @@
 			<Original>Worek na broń</Original>
 			
 		</Key>
+		<Key ID="STR_pInAct_augenbinde">
+			<Original>sciagnij worek</Original>
+			
+		</Key>
 		<Key ID="STR_Shops_C_Police">
 			<Original>Altis Police Department Shop</Original>
 			<Czech>Altis policejní oddělení Shop</Czech>

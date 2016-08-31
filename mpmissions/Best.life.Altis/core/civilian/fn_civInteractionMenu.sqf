@@ -14,6 +14,7 @@
 #define Btn6 37455
 #define Btn7 37456
 #define Btn8 37457
+#define Btn9 37458
 #define Title 37401
 
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8"];
@@ -38,6 +39,7 @@ _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
 _Btn8 = _display displayCtrl Btn8;
+_Btn9 = _display displayCtrl Btn9;
 life_pInact_curTarget = _curTarget;
 
 //Set Unrestrain Button
@@ -112,6 +114,8 @@ if(life_inv_knife > 0) then
 //SeizeWeapons Button
 _Btn8 ctrlSetText localize "STR_pInAct_Seize";
 _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction; closeDialog 0;";
+_Btn9 ctrlSetText localize "STR_pInAct_augenbinde";
+_Btn9 buttonSetAction "[ES_pInact_curTarget] call ES_fnc_blindfoldoff; closeDialog 0;";
 /*
 //Button 7 - Rouba
 _Btn7 ctrlSetText localize "STR_pAct_RobPerson";
