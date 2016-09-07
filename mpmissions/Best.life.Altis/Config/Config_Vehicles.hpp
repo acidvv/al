@@ -431,7 +431,20 @@ class CarShops {
             { "sab_FAAllegro", { "", "", -1 } },
             { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "MV22", { "", "", -1 } },
-			{ "mad_Heli_01_F", { "", "", -1 } },
+			{ "sab_l19", { "", "", -1 } },
+			{ "sab_deperdussin", { "", "", -1 } },
+			{ "sab_santos", { "", "", -1 } },
+			{ "sab_taube", { "", "", -1 } },
+			{ "sab_geebee", { "", "", -1 } },
+			{ "sab_grob109", { "", "", -1 } },
+			{ "Sab_Sikorsky38", { "", "", -1 } },
+			{ "sab_stampe", { "", "", -1 } },
+			{ "sab_farman", { "", "", -1 } },
+			{ "Sab_737", { "", "", -1 } },
+			{ "Sab_an12", { "", "", -1 } },
+			{ "Sab_an22", { "", "", -1 } },
+			{ "sab_do228", { "", "", -1 } },
+			{ "sab_falcon", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } }
 			
         };
@@ -445,6 +458,8 @@ class CarShops {
             { "C_Boat_Civil_01_F", { "", "", -1 } },
 			{ "I_Boat_Armed_01_minigun_F", { "", "", -1 } },
 			{ "C_Boat_Civil_01_rescue_F", { "", "", -1 } },
+			{ "A3_Boat_Luxe_base_F", { "", "", -1 } },
+			{ "sab_l19_sea_1", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
@@ -495,6 +510,7 @@ class CarShops {
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
 			{ "max_firetruck", { "life_medicLevel", "SCALAR", 2 } },
+			{ "Jonzie_Ambulance", { "life_medicLevel", "SCALAR", 2 } },
 			{ "ivory_suburban_ems", { "life_medicLevel", "SCALAR", 2 } },
 			{ "Jonzie_Tow_truck", { "life_medicLevel", "SCALAR", 2 } },
             { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 4 } }
@@ -661,7 +677,13 @@ class C_Offroad_02_unarmed_F {
 		assurPrice = 7000;
         textures[] = { };
     };
-
+class A3_Boat_Luxe_base_F {
+        vItemSpace = 750;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 4215000;
+		assurPrice = 227000;
+        textures[] = { };
+    };
     class I_Heli_light_03_unarmed_F {
         vItemSpace = 300;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -779,6 +801,13 @@ class O_T_LSV_02_armed_F {
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 3500000;
 		assurPrice = 350000;
+        textures[] = { };
+    };
+	class Jonzie_Ambulance {
+        vItemSpace = 475;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 300000;
+		assurPrice = 50000;
         textures[] = { };
     };
 	
@@ -1115,6 +1144,104 @@ class O_T_LSV_02_armed_F {
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 4150000;
 		assurPrice = 935500;
+        textures[] = { };
+    };
+	class Sab_737 {
+        vItemSpace = 1400;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 14150000;
+		assurPrice = 3935500;
+        textures[] = { };
+    };class Sab_an12 {
+        vItemSpace = 1200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 11150000;
+		assurPrice = 2935500;
+        textures[] = { };
+    };class Sab_an22 {
+        vItemSpace = 900;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 9150000;
+		assurPrice = 1935500;
+        textures[] = { };
+    };class sab_do228 {
+        vItemSpace = 800;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 7150000;
+		assurPrice = 1035500;
+        textures[] = { };
+    };class sab_falcon {
+        vItemSpace = 400;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 17150000;
+		assurPrice = 4935500;
+        textures[] = { };
+    };class sab_l19_sea_1 {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 44150000;
+		assurPrice = 935500;
+        textures[] = { };
+    };class sab_l19 {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 4150000;
+		assurPrice = 935500;
+        textures[] = { };
+    };class sab_deperdussin {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 24150000;
+		assurPrice = 935500;
+        textures[] = { };
+    };
+	class sab_santos {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1150000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class sab_taube {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1750000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class sab_farman {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1850000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class sab_geebee {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1150000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class sab_grob109 {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1150000;
+		assurPrice = 135500;
+        textures[] = { };
+    };
+	class Sab_Sikorsky38 {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 2150000;
+		assurPrice = 435500;
+        textures[] = { };
+    };
+	class sab_stampe {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1750000;
+		assurPrice = 235500;
         textures[] = { };
     };
 	class sab_FAAllegro {

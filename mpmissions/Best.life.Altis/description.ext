@@ -36,19 +36,19 @@ class CfgSounds {
 	class seatwarn
 	{
 		name = "seatwarn";
-		sound[] = {"\sounds\seatwarn.ogg", 1.5, 1};
+		sound[] = {"\sounds\seatwarn.ogg", 0.8, 1};
 		titles[] = {};
 	};
 	class seatbelt
 	{
 		name = "seatbelt";
-		sound[] = {"\sounds\seatbelt.ogg", 1.5, 1};
+		sound[] = {"\sounds\seatbelt.ogg", 0.8, 1};
 		titles[] = {};
 	};
 	class glassbreak
 	{
 		name = "glassbreak";
-		sound[] = {"\sounds\glassbreak.ogg", 1.5, 1};
+		sound[] = {"\sounds\glassbreak.ogg", 0.8, 1};
 		titles[] = {};
 	};
 	class purge
@@ -60,7 +60,7 @@ class CfgSounds {
    class taxi
 	{
 		name = "taxi";
-		sound[] = {"\sounds\taxi.ogg", 1.5, 1};
+		sound[] = {"\sounds\taxi.ogg", 0.8, 1};
 		titles[] = {};
 	};
 	class drink
@@ -94,7 +94,7 @@ class CfgSounds {
 	class carAlarm
 	{
 		name = "carAlarm";
-		sound[] = {"\sounds\caralarm.ogg", 1.5, 1};
+		sound[] = {"\sounds\caralarm.ogg", 0.8, 1};
 		titles[] = {};
 	};
 
@@ -108,7 +108,7 @@ class CfgSounds {
 	class wasted
 {
     name = "wasted";
-    sound[] = {"\sounds\wasted.ogg", 1.2, 1};
+    sound[] = {"\sounds\wasted.ogg", 1.0, 1};
     titles[] = {};
 };
 
@@ -122,7 +122,7 @@ class CfgSounds {
 	class hebasound
 	{
 		name = "hebasound";
-		sound[] = {"\sounds\hebasound.ogg", 1.5, 1};
+		sound[] = {"\sounds\hebasound.ogg", 0.8, 1};
 		titles[] = {};
 	};
 	class cuff
@@ -134,13 +134,13 @@ class CfgSounds {
 	class sVest
 	{
 		name = "sVest";
-		sound[] = {"\sounds\sVest.ogg", 1.5, 1};
+		sound[] = {"\sounds\sVest.ogg", 0.8, 1};
 		titles[] = {};
 	};
 class psy
 	{
 		name = "psy";
-		sound[] = {"\sounds\psy.ogg", 1.5, 1};
+		sound[] = {"\sounds\psy.ogg", 0.8, 1};
 		titles[] = {};
 	};
 	class smokeweed
@@ -185,7 +185,7 @@ class psy
 
 	class ziptie {
 		name = "ziptie";
-		sound[] = {"\sounds\zip.ogg",1.5,1};
+		sound[] = {"\sounds\zip.ogg",0.8, 1};
 		titles[] = {};
 	};
 

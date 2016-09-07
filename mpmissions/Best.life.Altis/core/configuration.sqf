@@ -61,7 +61,8 @@ masked = false;
 life_request_timer = false;
 
 life_respawn_timer = 1;
-
+roentgen_in_progress = false;
+roentgen_request_accepted = false;
 CHVD_allowNoGrass = true;
 CHVD_maxView = 4000;
 CHVD_maxObj = 4000;

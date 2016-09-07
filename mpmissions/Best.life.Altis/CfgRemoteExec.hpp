@@ -89,6 +89,7 @@ class CfgRemoteExec {
         F(life_fnc_nitro,CLIENT)
         F(life_fnc_masked,CLIENT)
 		F(seizePlayerWeaponAction,CLIENT)
+		F(life_fnc_seizePlayerWeaponAction,CLIENT)
 		F(life_fnc_AAN,CLIENT)
 		
 		
@@ -214,7 +215,9 @@ class CfgRemoteExec {
 		F(aur_hint,ANYONE)
 		F(sa_pickup_tow_ropes,ANYONE)
 		F(fn_light_left2,ANYONE)
+		F(fn_light_left,ANYONE)
 		F(fn_light_right2,ANYONE)
+		F(fn_light_right,ANYONE)
 		F(crp_fnc_tapshoulder,ANYONE)
 		F(sa_hint,ANYONE)
 		F(super_fnc_m814,ANYONE)
@@ -238,7 +241,9 @@ class CfgRemoteExec {
 		F(asl_drop_ropes,ANYONE)
 		F(ar_rappel_all_cargo,ANYONE)
 		F(ar_play_rappelling_sounds_global,ANYONE)
-		F(call,ANYONE)
+		F(ka_fnc_disablesimulation,ANYONE)
+		F(ton_fnc_logit,ANYONE)
+		
     };
 
     class Commands {

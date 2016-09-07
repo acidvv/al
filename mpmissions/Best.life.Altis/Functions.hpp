@@ -455,6 +455,8 @@ class blindfold
 		class ticketPromptmedic {};
 		class ticketPaidmedic {};
 		class medEnter {};
+		class requestRoentgen {};
+        class startRoentgen {};
 	};
 
 	class Network {
