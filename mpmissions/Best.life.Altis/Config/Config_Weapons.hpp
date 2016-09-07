@@ -394,7 +394,7 @@ class WeaponShops {
     };
 
     class donator1 {
-        name = "Donator 1 Shop";
+        name = "ClubShop";
         side = "civ";
         license = "rebel";
         level[] = { "life_donorlevel", "SCALAR", 1, "You need to be a donator level 1 to access this shop, join our teamspeak for information." };
@@ -451,7 +451,7 @@ class WeaponShops {
     };
 
     class donator2 {
-        name = "Donator 2 Shop";
+        name = "ClubShop";
         side = "civ";
         license = "rebel";
         level[] = { "life_donorlevel", "SCALAR", 2, "You need to be a donator level 2 to access this shop, join our teamspeak for information." };
@@ -497,7 +497,7 @@ class WeaponShops {
     };
 
     class donator3 {
-        name = "Donator 3 Shop";
+        name = "ClubShop";
         side = "civ";
         license = "rebel";
         level[] = { "life_donorlevel", "SCALAR", 3, "You need to be a donator level 3 to access this shop, join our teamspeak for information." };

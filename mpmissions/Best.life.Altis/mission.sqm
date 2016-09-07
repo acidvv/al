@@ -8740,7 +8740,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this addAction [""Przejeliście kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
+				init="this allowDamage false; this addAction [""Przejmujesz kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
 				name="gang_flag_1";
 			};
 			id=664;
@@ -9978,7 +9978,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this addAction [""Przejeliście kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
+				init="this allowDamage false; this addAction [""Przejmujecie kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
 				name="gang_flag_2";
 			};
 			id=694;
@@ -11215,7 +11215,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this addAction [""Przejeliście kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
+				init="this allowDamage false; this addAction [""Przejmujecie kryjówkę"",life_fnc_captureHideout,"""",0,false,false,"""",' playerSide == civilian && !isNil {(group player) getVariable ""gang_owner""}'];";
 				name="gang_flag_3";
 			};
 			id=724;

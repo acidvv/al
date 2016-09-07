@@ -10285,13 +10285,13 @@
 			<Italian>Armeria della Guerriglia</Italian>
 		</Key>
 		<Key ID="STR_MAR_Donator1_Weapon_Shop">
-			<Original>Donator 1 Weapon Shop</Original>
+			<Original>Club 1 Weapon Shop</Original>
 		</Key>
 		<Key ID="STR_MAR_Donator2_Weapon_Shop">
-			<Original>Donator 2 Weapon Shop</Original>
+			<Original>Club 2 Weapon Shop</Original>
 		</Key>
 		<Key ID="STR_MAR_Donator3_Weapon_Shop">
-			<Original>Donator 3 Weapon Shop</Original>
+			<Original>Club 3 Weapon Shop</Original>
 		</Key>
 		<Key ID="STR_MAR_Helicopter_Shop">
 			<Original>Helicopter Shop</Original>
@@ -11419,7 +11419,7 @@
 		<Original>Please select a gang to wage war against</Original>
 	</Key>
 	<Key ID="STR_AH_AHBusy">
-		<Original>Auction house is busy at the moment, please try again in a short while!</Original>
+		<Original>Poczekaj chwile!</Original>
 	</Key>
 	<Key ID="STR_AH_SaleBusy">
 		<Original>Someone may be buying or retrieving this item as we speak!</Original>
