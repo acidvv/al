@@ -678,7 +678,7 @@ class C_Offroad_02_unarmed_F {
         textures[] = { };
     };
 class A3_Boat_Luxe_base_F {
-        vItemSpace = 750;
+        vItemSpace = 550;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 4215000;
 		assurPrice = 227000;
@@ -1177,9 +1177,9 @@ class O_T_LSV_02_armed_F {
 		assurPrice = 4935500;
         textures[] = { };
     };class sab_l19_sea_1 {
-        vItemSpace = 200;
+        vItemSpace = 500;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 44150000;
+        price = 7150000;
 		assurPrice = 935500;
         textures[] = { };
     };class sab_l19 {
