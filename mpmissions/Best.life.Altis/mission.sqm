@@ -8,7 +8,7 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=12515;
+		nextID=12508;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3635.4041,19.399403,13115.442};
-		dir[]={-0.070553519,-0.75951934,0.64665413};
-		up[]={-0.082378492,0.65048176,0.75504094};
-		aside[]={0.99410319,9.778887e-009,0.10846138};
+		pos[]={12191.724,16.163567,10611.674};
+		dir[]={-0.81431592,-0.32989895,-0.47764924};
+		up[]={-0.2845799,0.9440034,-0.16692485};
+		aside[]={-0.50597191,-4.1858584e-007,0.86260146};
 	};
 };
 binarizationWanted=0;
@@ -685,7 +685,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=3109;
+		items=3107;
 		class Item0
 		{
 			dataType="Marker";
@@ -92756,40 +92756,6 @@ class Mission
 			};
 			id=12177;
 			type="ArrowMarker_R_F";
-		};
-		class Item3107
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3633.8137,11.280265,13126.817};
-				angles[]={0,4.7099047,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12511;
-			type="Land_ToiletBox_F";
-			atlOffset=-0.00067138672;
-		};
-		class Item3108
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3639.3284,10.609457,13123.027};
-				angles[]={0.0039967569,0,0.0093286335};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12513;
-			type="Land_Sacks_goods_F";
-			atlOffset=-0.009970665;
 		};
 	};
 };
