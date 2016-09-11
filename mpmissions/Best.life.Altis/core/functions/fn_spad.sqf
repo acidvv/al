@@ -1,1 +1,0 @@
-para = createVehicle ["Steerable_Parachute_F", [0,0,0], [], 0, "FLY"];para setPos getPos player;vehicle player attachTo [para, [0, 0, 1.65] ];
